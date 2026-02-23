@@ -24,7 +24,7 @@
   --mono:'JetBrains Mono','SF Mono','Consolas',monospace;
   --tbl-fs:12px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Orbitron:wght@700;800;900&display=swap');
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:var(--font);background:var(--bg);color:var(--tx);overflow:hidden;height:100vh;-webkit-font-smoothing:antialiased}
 
@@ -43,21 +43,23 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);overflow:hidde
    ================================================================ */
 .titlebar{-webkit-app-region:drag;height:42px;background:var(--bg);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 110px 0 14px;z-index:1000;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 .tbar-left{display:flex;align-items:center;gap:0}
-.tbar-brand{display:inline-flex;align-items:center;gap:1px;text-decoration:none;-webkit-app-region:no-drag;cursor:pointer;padding:4px 10px 4px 4px;border-radius:8px;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
+.tbar-brand{display:inline-flex;align-items:center;gap:6px;text-decoration:none;-webkit-app-region:no-drag;cursor:pointer;padding:4px 10px 4px 4px;border-radius:8px;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
 .tbar-brand:hover{background:var(--acc-bg);transform:scale(1.04)}
 .tbar-brand:hover .tbar-s{text-shadow:0 0 18px var(--acc),0 0 40px var(--acc)}
 .tbar-brand:hover .tbar-brand-circle{filter:drop-shadow(0 0 6px var(--acc))}
 .tbar-brand:active{transform:scale(.98)}
 .tbar-brand-circle{transition:filter .3s}
-@keyframes orbit{0%{transform:translate(0,0)}25%{transform:translate(6px,-4px)}50%{transform:translate(0,-7px)}75%{transform:translate(-6px,-4px)}100%{transform:translate(0,0)}}
+@keyframes orbit-spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
 @keyframes ring-glow{0%{stroke:var(--acc);stroke-opacity:.6}33%{stroke:#67e8f9;stroke-opacity:1}66%{stroke:#a78bfa;stroke-opacity:1}100%{stroke:var(--acc);stroke-opacity:.6}}
-.tbar-dot{transition:transform .1s}
-.tbar-brand:hover .tbar-dot{animation:orbit .4s cubic-bezier(.4,0,.2,1) forwards}
+.tbar-orbit{transform-origin:16px 16px;animation:orbit-spin 3s linear infinite}
+.tbar-brand:hover .tbar-orbit{animation:none;transform:rotate(0deg)}
+.tbar-dot{transform:translateY(0);transition:transform .4s cubic-bezier(.4,0,.2,1),opacity .2s}
+.tbar-brand:hover .tbar-dot{transform:translateY(13px)}
 .tbar-ring{transition:stroke .3s}
 .tbar-brand:hover .tbar-ring{animation:ring-glow .4s ease forwards;stroke-width:2.5}
-.tbar-s{font-size:18px;font-weight:800;color:var(--acc);letter-spacing:-.03em;transition:text-shadow .3s,transform .4s cubic-bezier(.4,0,.2,1);display:inline-block}
+.tbar-s{font-family:'Orbitron',sans-serif;font-size:15px;font-weight:900;color:var(--acc);letter-spacing:-.03em;transition:text-shadow .3s,transform .4s cubic-bezier(.4,0,.2,1);display:inline-block}
 .tbar-brand:hover .tbar-s{transform:rotate(180deg)}
-.tbar-by{font-size:9.5px;color:var(--tx3);font-weight:400;margin-left:2px;letter-spacing:.02em;white-space:nowrap}
+.tbar-by{font-size:9.5px;color:var(--tx3);font-weight:400;margin-left:4px;letter-spacing:.02em;white-space:nowrap}
 .tbar-credit-name{font-weight:600;color:var(--tx2);transition:color .2s}
 .tbar-brand:hover .tbar-credit-name{color:var(--acc)}
 .tbar-right{display:flex;gap:6px;align-items:center;-webkit-app-region:no-drag}
@@ -144,11 +146,19 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);overflow:hidde
 .hint.on{display:block}
 .hint kbd{padding:1px 6px;border-radius:4px;background:var(--active);border:1px solid var(--border2);font-family:var(--mono);font-size:11px;color:var(--tx)}
 .crosshair .maplibregl-canvas{cursor:crosshair!important}
-.measure-panel{position:absolute;bottom:36px;right:12px;background:rgba(9,9,11,.88);backdrop-filter:blur(12px);border:1px solid var(--border2);border-radius:10px;padding:14px 20px;z-index:200;min-width:210px;display:none;font-size:14px}
+.measure-panel{position:absolute;bottom:36px;right:12px;background:rgba(9,9,11,.88);backdrop-filter:blur(12px);border:1px solid var(--border2);border-radius:10px;padding:14px 20px;z-index:200;min-width:210px;display:none;font-size:14px;transition:min-width .25s ease,padding .25s ease}
 .measure-panel.on{display:block}
-.measure-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--acc);margin-bottom:10px;cursor:pointer;transition:text-shadow .2s,opacity .2s;-webkit-user-select:none;user-select:none}
+.measure-panel.collapsed{min-width:0;padding:8px 12px}
+.measure-header{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.measure-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--acc);cursor:pointer;transition:text-shadow .2s,opacity .2s;-webkit-user-select:none;user-select:none}
 .measure-title:hover{text-shadow:0 0 10px var(--acc),0 0 20px var(--acc);opacity:.85}
 .measure-title:active{opacity:.6}
+.measure-toggle{display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--tx3);cursor:pointer;transition:all .2s;padding:0;flex-shrink:0}
+.measure-toggle:hover{color:var(--acc);border-color:var(--acc);background:var(--acc-bg)}
+.measure-toggle svg{transition:transform .25s ease}
+.measure-panel.collapsed .measure-toggle svg{transform:rotate(180deg)}
+.measure-body{margin-top:10px;overflow:hidden;max-height:300px;transition:max-height .3s ease,margin-top .3s ease,opacity .25s ease;opacity:1}
+.measure-panel.collapsed .measure-body{max-height:0;margin-top:0;opacity:0}
 .measure-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;color:var(--tx2)}
 .measure-row .m-label{font-size:14px;font-weight:600;color:var(--tx2)}
 .measure-row .m-val{font-family:var(--mono);font-size:15px;font-weight:700;color:var(--tx)}
@@ -445,7 +455,7 @@ body.light .hint kbd{background:#e4e4e7;border-color:#a1a1aa;color:#18181b}
 <div class="titlebar">
   <div class="tbar-left">
     <a class="tbar-brand" href="https://www.linkedin.com/in/parag-gupta-ptp-rsp1-29413214a" target="_blank" rel="noopener noreferrer">
-      <svg class="tbar-brand-circle" width="20" height="20" viewBox="0 0 32 32" fill="none"><circle class="tbar-ring" cx="16" cy="16" r="13" stroke="var(--acc)" stroke-width="2" fill="none" opacity=".6"/><circle class="tbar-dot" cx="16" cy="16" r="4.5" fill="var(--acc)" opacity=".85"/></svg>
+      <svg class="tbar-brand-circle" width="14" height="14" viewBox="0 0 32 32" fill="none"><circle class="tbar-ring" cx="16" cy="16" r="13" stroke="var(--acc)" stroke-width="2" fill="none" opacity=".6"/><g class="tbar-orbit"><circle class="tbar-dot" cx="16" cy="3" r="3.5" fill="var(--acc)" opacity=".85"/></g></svg>
       <span class="tbar-s">S</span>
       <span class="tbar-by">by <span class="tbar-credit-name">Parag Gupta</span></span>
     </a>
@@ -532,8 +542,11 @@ body.light .hint kbd{background:#e4e4e7;border-color:#a1a1aa;color:#18181b}
     <div id="map">
       <div class="hint" id="hint"></div>
       <div class="measure-panel" id="measure-panel">
-        <div class="measure-title" id="measure-title">Measurement</div>
-        <div id="measure-body"></div>
+        <div class="measure-header">
+          <div class="measure-title" id="measure-title">Measurement</div>
+          <button class="measure-toggle" id="measure-toggle" title="Minimize"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 15 12 9 18 15"/></svg></button>
+        </div>
+        <div class="measure-body" id="measure-body"></div>
       </div>
       <div class="layer-panel" id="layer-panel">
         <div class="layer-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#a1a1aa" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
@@ -3529,6 +3542,15 @@ var Boot = {
     Utils.el('ctx-sel').onclick  = function(e) { e.stopPropagation(); if (State.ctxFid != null) Selection.toggle(State.ctxFid); UI.hideCtx(); };
     Utils.el('ctx-copy').onclick = function(e) { e.stopPropagation(); if (State.ctxFid != null && State.features[State.ctxFid]) navigator.clipboard.writeText(State.features[State.ctxFid].properties.Name || '').catch(function(){}); UI.hideCtx(); };
     Utils.el('ctx-clr').onclick  = function(e) { e.stopPropagation(); Selection.clearAll(); UI.hideCtx(); };
+
+    // Measure panel minimize/maximize toggle
+    Utils.el('measure-toggle').onclick = function(e) {
+      e.stopPropagation();
+      var panel = Utils.el('measure-panel');
+      var btn = Utils.el('measure-toggle');
+      panel.classList.toggle('collapsed');
+      btn.title = panel.classList.contains('collapsed') ? 'Maximize' : 'Minimize';
+    };
 
     // County selector dropdown (portaled to body)
     var countyMenu = Utils.el('county-menu');
