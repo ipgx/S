@@ -59,9 +59,10 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);overflow:hidde
 .tbar-brand:hover .tbar-ring{animation:ring-glow .4s ease forwards;stroke-width:2.5}
 .tbar-s{font-family:'Orbitron',sans-serif;font-size:15px;font-weight:900;color:var(--acc);letter-spacing:-.03em;transition:text-shadow .3s,transform .4s cubic-bezier(.4,0,.2,1);display:inline-block}
 .tbar-brand:hover .tbar-s{transform:rotate(180deg)}
-.tbar-by{font-size:9.5px;color:var(--tx3);font-weight:400;margin-left:4px;letter-spacing:.02em;white-space:nowrap}
-.tbar-credit-name{font-weight:600;color:var(--tx2);transition:color .2s}
-.tbar-brand:hover .tbar-credit-name{color:var(--acc)}
+.tbar-by{font-size:9.5px;color:var(--tx3);font-weight:400;margin-left:4px;letter-spacing:.02em;white-space:nowrap;max-width:0;opacity:0;filter:blur(4px);transform:translateX(-4px);overflow:hidden;transition:max-width .4s cubic-bezier(.4,0,.2,1),opacity .35s cubic-bezier(.4,0,.2,1) .05s,filter .4s cubic-bezier(.4,0,.2,1) .05s,transform .4s cubic-bezier(.4,0,.2,1) .05s}
+.tbar-brand:hover .tbar-by{max-width:120px;opacity:1;filter:blur(0);transform:translateX(0)}
+.tbar-credit-name{font-weight:600;color:var(--tx2);transition:color .3s cubic-bezier(.4,0,.2,1);background:linear-gradient(90deg,var(--acc),#67e8f9);-webkit-background-clip:text;background-clip:text}
+.tbar-brand:hover .tbar-credit-name{color:transparent}
 .tbar-right{display:flex;gap:6px;align-items:center;-webkit-app-region:no-drag}
 .tbar-sep{width:1px;height:16px;background:var(--border);margin:0 2px;opacity:.6}
 .help-btn,.theme-toggle{display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--tx3);cursor:pointer;transition:all .2s cubic-bezier(.4,0,.2,1);padding:0}
@@ -206,7 +207,13 @@ body.light .hp-row .hp-sep{color:#d4d4d8}
    CSS MODULE: CC Classification Legend
    ================================================================ */
 .cc-legend{position:absolute;top:8px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:4px;background:rgba(15,15,20,.82);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:5px 10px;font-family:var(--font);font-size:11px;color:#d4d4d8;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.4);white-space:nowrap}
-.cc-legend-title{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#71717a;margin-right:4px}
+.cc-legend-title{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#71717a;margin-right:4px;cursor:pointer;padding:3px 8px;border-radius:10px;transition:all .25s cubic-bezier(.4,0,.2,1);user-select:none;display:inline-flex;align-items:center;gap:4px}
+.cc-legend-title:hover{background:rgba(255,255,255,.08);color:#a1a1aa}
+.cc-legend-title .cc-toggle-ind{width:5px;height:5px;border-radius:50%;background:#52525b;transition:all .3s cubic-bezier(.4,0,.2,1)}
+.cc-legend.cc-on .cc-legend-title{color:var(--acc)}
+.cc-legend.cc-on .cc-legend-title .cc-toggle-ind{background:var(--acc);box-shadow:0 0 6px var(--acc)}
+.cc-legend-items{display:flex;align-items:center;gap:4px;max-width:0;opacity:0;overflow:hidden;transition:max-width .4s cubic-bezier(.4,0,.2,1),opacity .3s cubic-bezier(.4,0,.2,1) .05s}
+.cc-legend.cc-on .cc-legend-items{max-width:800px;opacity:1}
 .cc-legend-item{display:inline-flex;align-items:center;gap:5px;padding:3px 8px;border-radius:12px;cursor:pointer;transition:opacity .15s,background .15s;user-select:none;-webkit-user-select:none}
 .cc-legend-item:hover{background:rgba(255,255,255,.08)}
 .cc-legend-item.off{opacity:.3}
@@ -216,6 +223,9 @@ body.light .hp-row .hp-sep{color:#d4d4d8}
 .cc-legend-count{font-family:var(--mono);font-size:9px;color:#71717a}
 body.light .cc-legend{background:rgba(255,255,255,.88);border:1px solid rgba(0,0,0,.08);color:#3f3f46;box-shadow:0 2px 12px rgba(0,0,0,.1)}
 body.light .cc-legend-title{color:#71717a}
+body.light .cc-legend-title:hover{background:rgba(0,0,0,.04);color:#52525b}
+body.light .cc-legend.cc-on .cc-legend-title{color:#E91E63}
+body.light .cc-legend.cc-on .cc-legend-title .cc-toggle-ind{background:#E91E63;box-shadow:0 0 6px #E91E63}
 body.light .cc-legend-item:hover{background:rgba(0,0,0,.04)}
 body.light .cc-legend-item.off .cc-legend-swatch{background:#d4d4d8!important}
 body.light .cc-legend-count{color:#a1a1aa}
@@ -572,10 +582,16 @@ body.light .hint kbd{background:#e4e4e7;border-color:#a1a1aa;color:#18181b}
             <div class="layer-swatch node-swatch" style="background:#facc15;border-radius:50%"></div>
             <span>Intersection Nodes</span>
           </div>
+          <div class="layer-row on" data-layers="sel-arrows-layer">
+            <div class="layer-cb"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div class="layer-swatch" style="background:#facc15;clip-path:polygon(0% 0%, 100% 50%, 0% 100%)"></div>
+            <span>Direction Arrows</span>
+          </div>
         </div>
       </div>
       <div class="cc-legend" id="cc-legend">
-        <div class="cc-legend-title">Classification</div>
+        <div class="cc-legend-title" id="cc-toggle"><span class="cc-toggle-ind"></span>Classification</div>
+        <div class="cc-legend-items" id="cc-legend-items"></div>
       </div>
     </div>
   </div>
@@ -1633,6 +1649,7 @@ var State = {
   selected: new Set(),        // Set<Number> — feature IDs
   features: {},               // id → GeoJSON feature
   hiddenCC: {},               // {ccValue: true} — hidden CC categories
+  ccActive: false,            // false = flat road color, true = CC classification colors
   tool: null,                 // null | 'circle' | 'rectangle' | 'lasso'
   viewMode: 'all',            // 'all' | 'selected'
   curBase: 'dark',
@@ -1662,7 +1679,8 @@ var State = {
     'sel-fill': true, 'sel-stroke': true,
     'lasso-ln-l': true, 'lasso-pt-l': true,
     'county-fill': true, 'county-line': true,
-    'nodes-circle': true
+    'nodes-circle': true,
+    'sel-arrows-layer': true
   },
 
   // UI state
@@ -1756,12 +1774,18 @@ var MapManager = {
     var c = Config.COLORS[bm] || Config.COLORS.dark;
     var sel = Utils.accentColor();
     var flash = '#00ffff';
-    var cc = Config.CC_COLORS;
-    var ccExpr = ['match', ['get','CC']];
-    Object.keys(cc).forEach(function(k) { ccExpr.push(k, cc[k]); });
-    ccExpr.push(c.road); // fallback
+    var baseColor;
+    if (State.ccActive) {
+      var cc = Config.CC_COLORS;
+      var ccExpr = ['match', ['get','CC']];
+      Object.keys(cc).forEach(function(k) { ccExpr.push(k, cc[k]); });
+      ccExpr.push(c.road);
+      baseColor = ccExpr;
+    } else {
+      baseColor = c.road;
+    }
     return {
-      'line-color': ['case', ['boolean',['feature-state','flash'],false], flash, ['boolean',['feature-state','sel'],false], sel, ['boolean',['feature-state','hov'],false], c.hover, ccExpr],
+      'line-color': ['case', ['boolean',['feature-state','flash'],false], flash, ['boolean',['feature-state','sel'],false], sel, ['boolean',['feature-state','hov'],false], c.hover, baseColor],
       'line-width': ['case', ['boolean',['feature-state','flash'],false], 7, ['boolean',['feature-state','sel'],false], 5, ['boolean',['feature-state','hov'],false], 3.5, 2.2],
       'line-opacity': ['case', ['boolean',['feature-state','flash'],false], 1, ['boolean',['feature-state','sel'],false], 1, 0.75]
     };
@@ -1873,6 +1897,8 @@ var MapManager = {
       State.map.addLayer({id:'roads-glow', type:'line', source:'roads', paint: MapManager.glowPaint()});
       State.map.addLayer({id:'roads-line', type:'line', source:'roads', paint: MapManager.roadPaint(State.curBase), layout:{'line-cap':'round','line-join':'round'}});
       try { State.map.addLayer({id:'roads-label', type:'symbol', source:'roads', layout: MapManager.labelLayout(), paint: MapManager.labelPaint()}); } catch(e) { console.warn('Label layer failed:', e); }
+      MapManager.createArrowImage();
+      MapManager.addArrowLayer();
       MapManager.bumpLayers();
 
       // Build and add intersection nodes layer
@@ -1987,8 +2013,8 @@ var MapManager = {
       var cc = f.properties.CC || 'Unknown';
       counts[cc] = (counts[cc] || 0) + 1;
     });
-    // Build legend items
-    var el = Utils.el('cc-legend');
+    // Build legend items into the items container
+    var container = Utils.el('cc-legend-items');
     var order = ['C2','C2T','C3C','C3R','C4','C5','C6','LA'];
     // Track hidden CC categories
     if (!State.hiddenCC) State.hiddenCC = {};
@@ -2006,8 +2032,25 @@ var MapManager = {
         State.hiddenCC[cc] = isOff;
         MapManager.applyCCFilter();
       };
-      el.appendChild(item);
+      container.appendChild(item);
     });
+    // Wire up the Classification toggle
+    Utils.el('cc-toggle').onclick = function() { MapManager.toggleCC(); };
+  },
+
+  toggleCC: function() {
+    State.ccActive = !State.ccActive;
+    var legend = Utils.el('cc-legend');
+    if (State.ccActive) {
+      legend.classList.add('cc-on');
+    } else {
+      legend.classList.remove('cc-on');
+    }
+    // Repaint the road layer
+    if (State.map && State.map.getLayer('roads-line')) {
+      var paint = MapManager.roadPaint(State.curBase);
+      State.map.setPaintProperty('roads-line', 'line-color', paint['line-color']);
+    }
   },
 
   applyCCFilter: function() {
@@ -2041,7 +2084,7 @@ var MapManager = {
   },
 
   bumpLayers: function() {
-    ['county-fill','county-line','roads-glow','roads-line','roads-label','sel-fill','sel-stroke','circ-rad-l','circ-center-l','circ-label-l','lasso-ln-l','lasso-pt-l','nodes-circle'].forEach(function(id) {
+    ['county-fill','county-line','roads-glow','roads-line','roads-label','sel-arrows-layer','sel-fill','sel-stroke','circ-rad-l','circ-center-l','circ-label-l','lasso-ln-l','lasso-pt-l','nodes-circle'].forEach(function(id) {
       if (State.map.getLayer(id)) State.map.moveLayer(id);
     });
   },
@@ -2054,6 +2097,93 @@ var MapManager = {
     if (labelSwatch) labelSwatch.style.background = acc;
     var nodeSwatch = document.querySelector('[data-layers="nodes-circle"] .layer-swatch');
     if (nodeSwatch) nodeSwatch.style.background = acc;
+    var arrowSwatch = document.querySelector('[data-layers="sel-arrows-layer"] .layer-swatch');
+    if (arrowSwatch) arrowSwatch.style.background = acc;
+  },
+
+  createArrowImage: function() {
+    var size = 24;
+    var canvas = document.createElement('canvas');
+    canvas.width = size;
+    canvas.height = size;
+    var ctx = canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.moveTo(4, 4);
+    ctx.lineTo(20, 12);
+    ctx.lineTo(4, 20);
+    ctx.closePath();
+    ctx.fillStyle = '#ffffff';
+    ctx.fill();
+    if (!State.map.hasImage('arrow-icon')) {
+      var imgData = ctx.getImageData(0, 0, size, size);
+      State.map.addImage('arrow-icon', { width: size, height: size, data: imgData.data }, { sdf: true });
+    }
+  },
+
+  addArrowLayer: function() {
+    if (State.map.getSource('sel-arrows')) return;
+    State.map.addSource('sel-arrows', {
+      type: 'geojson',
+      data: { type: 'FeatureCollection', features: [] }
+    });
+    var acc = Utils.accentColor();
+    State.map.addLayer({
+      id: 'sel-arrows-layer',
+      type: 'symbol',
+      source: 'sel-arrows',
+      layout: {
+        'symbol-placement': 'line',
+        'symbol-spacing': 60,
+        'icon-image': 'arrow-icon',
+        'icon-size': ['interpolate', ['linear'], ['zoom'], 10, 0.55, 14, 0.85, 18, 1.1],
+        'icon-rotation-alignment': 'map',
+        'icon-allow-overlap': true,
+        'icon-ignore-placement': true
+      },
+      paint: {
+        'icon-color': acc,
+        'icon-opacity': 0.9
+      }
+    });
+  },
+
+  updateArrows: function() {
+    if (!State.map || !State.map.getSource('sel-arrows')) return;
+    var PKDIR_BEARING = { 'NB': 0, 'SB': 180, 'EB': 90, 'WB': 270 };
+    var features = [];
+    State.selected.forEach(function(fid) {
+      var f = State.features[fid];
+      if (!f) return;
+      var dir = f.properties.PkDir;
+      if (!dir || dir === '—' || !PKDIR_BEARING.hasOwnProperty(dir)) return;
+      var geom = f.geometry;
+      var targetBearing = PKDIR_BEARING[dir];
+      var lines = [];
+      if (geom.type === 'LineString') {
+        lines.push(geom.coordinates);
+      } else if (geom.type === 'MultiLineString') {
+        lines = geom.coordinates;
+      }
+      for (var i = 0; i < lines.length; i++) {
+        var coords = lines[i];
+        if (coords.length < 2) continue;
+        var first = coords[0];
+        var last = coords[coords.length - 1];
+        var lineBearing = turf.bearing(turf.point(first), turf.point(last));
+        var diff = ((targetBearing - lineBearing) % 360 + 360) % 360;
+        if (diff > 180) diff = 360 - diff;
+        var finalCoords = diff > 90 ? coords.slice().reverse() : coords;
+        features.push({
+          type: 'Feature',
+          geometry: { type: 'LineString', coordinates: finalCoords },
+          properties: { PkDir: dir }
+        });
+      }
+    });
+    State.map.getSource('sel-arrows').setData({
+      type: 'FeatureCollection',
+      features: features
+    });
   },
 
   wireHover: function() {
@@ -2250,6 +2380,9 @@ var MapManager = {
         try { State.map.addLayer({id:'roads-label', type:'symbol', source:'roads', layout: MapManager.labelLayout(), paint: MapManager.labelPaint()}); } catch(e) { console.warn('Label layer failed:', e); }
         savedSel.forEach(function(id) { State.map.setFeatureState({source:'roads',id:id},{sel:true}); });
       }
+      MapManager.createArrowImage();
+      MapManager.addArrowLayer();
+      MapManager.updateArrows();
       MapManager.addOverlays();
       MapManager.addNodeLayers();
       MapManager.addCountyLayers();
@@ -2464,6 +2597,7 @@ var Selection = {
       State.map.setFeatureState({source:'roads',id:fid},{sel:true});
     }
     Selection.refreshUI();
+    MapManager.updateArrows();
   },
 
   bulkAdd: function(ids) {
@@ -2475,6 +2609,7 @@ var Selection = {
       }
     });
     Selection.refreshUI();
+    MapManager.updateArrows();
   },
 
   /**
@@ -2497,7 +2632,8 @@ var Selection = {
     }
     State.selected = new Set();
 
-    // Clear drawing state
+    // Clear arrows and drawing state
+    try { State.map.getSource('sel-arrows').setData({type:'FeatureCollection',features:[]}); } catch(e) {}
     try { State.map.getSource('sel-area').setData({type:'FeatureCollection',features:[]}); } catch(e) {}
     SpatialTools.resetDraw();
     SpatialTools.clearCircOverlay();
@@ -3488,6 +3624,7 @@ var Theme = {
         State.map.setPaintProperty('circ-label-l', 'text-halo-color', State.isDark ? 'rgba(9,9,11,.85)' : 'rgba(255,255,255,.9)');
         State.map.setPaintProperty('nodes-circle', 'circle-color', State.isDark ? '#fde047' : '#f43f5e');
         State.map.setPaintProperty('nodes-circle', 'circle-stroke-color', '#ffffff');
+        State.map.setPaintProperty('sel-arrows-layer', 'icon-color', drawColor);
       } catch(ex) {}
     }
 

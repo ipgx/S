@@ -1,6 +1,6 @@
 <div align="center">
 
-# S - Significance Test
+# S-Preview
 
 **Standalone GIS Road Segment Analyzer — Browser Preview**
 
