@@ -2236,7 +2236,7 @@ var MapManager = {
   },
 
   wireDblClick: function() {
-    State.map.on('dblclick', 'roads-line', function(e) {
+    State.map.on('contextmenu', 'roads-line', function(e) {
       if (State.tool) return;
       e.preventDefault();
       if (!e.features.length) return;
