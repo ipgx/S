@@ -1,0 +1,27 @@
+{
+  "name": "Hillsborough",
+  "region": "Hillsborough County, FL",
+  "total_input": 507,
+  "geocoded": 507,
+  "geocode_failed": 0,
+  "routed": 496,
+  "route_failed": 11,
+  "clipped": 10,
+  "total_route_points": 55450,
+  "oob_points": 35,
+  "oob_pct": 0.0631,
+  "statuses": {
+    "OK": 477,
+    "STRAIGHT_LINE": 11,
+    "HIGH_DETOUR:7.9x": 1,
+    "HIGH_DETOUR:8.0x": 1,
+    "CLIPPED": 10,
+    "HIGH_DETOUR:5.4x": 1,
+    "HIGH_DETOUR:8.7x": 1,
+    "HIGH_DETOUR:5.2x": 1,
+    "HIGH_DETOUR:6.0x": 1,
+    "HIGH_DETOUR:5.3x": 1,
+    "HIGH_DETOUR:13.9x": 1,
+    "HIGH_DETOUR:7.1x": 1
+  }
+}

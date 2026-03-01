@@ -1,0 +1,20 @@
+{
+  "name": "Polk",
+  "region": "Polk County, FL",
+  "total_input": 561,
+  "geocoded": 561,
+  "geocode_failed": 0,
+  "routed": 539,
+  "route_failed": 22,
+  "clipped": 14,
+  "total_route_points": 74760,
+  "oob_points": 18,
+  "oob_pct": 0.0241,
+  "statuses": {
+    "OK": 523,
+    "HIGH_DETOUR:7.3x": 1,
+    "CLIPPED": 14,
+    "STRAIGHT_LINE": 22,
+    "HIGH_DETOUR:6.3x": 1
+  }
+}

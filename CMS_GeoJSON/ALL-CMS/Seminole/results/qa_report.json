@@ -1,0 +1,23 @@
+{
+  "name": "Seminole",
+  "region": "Seminole County, FL",
+  "total_input": 488,
+  "geocoded": 488,
+  "geocode_failed": 0,
+  "routed": 475,
+  "route_failed": 13,
+  "clipped": 11,
+  "total_route_points": 25743,
+  "oob_points": 35,
+  "oob_pct": 0.136,
+  "statuses": {
+    "OK": 459,
+    "CLIPPED": 11,
+    "HIGH_DETOUR:15.6x": 1,
+    "HIGH_DETOUR:41.3x": 1,
+    "STRAIGHT_LINE": 13,
+    "HIGH_DETOUR:40.6x": 1,
+    "HIGH_DETOUR:11.1x": 1,
+    "HIGH_DETOUR:39.9x": 1
+  }
+}

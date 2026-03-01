@@ -1,0 +1,2988 @@
+{
+  "name": "StLucie",
+  "region": "St. Lucie County, FL",
+  "segments": [
+    {
+      "id": "601",
+      "road": "2ND ST",
+      "from": "CITRUS AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "602",
+      "road": "2ND ST",
+      "from": "ORANGE AVE",
+      "to": "AVENUE A"
+    },
+    {
+      "id": "519",
+      "road": "7TH ST",
+      "from": "SUNRISE BLVD",
+      "to": "GEORGIA AVE"
+    },
+    {
+      "id": "517",
+      "road": "7TH ST",
+      "from": "GEORGIA AVE",
+      "to": "DELAWARE AVE"
+    },
+    {
+      "id": "515",
+      "road": "7TH ST",
+      "from": "DELAWARE AVE",
+      "to": "CITRUS AVE"
+    },
+    {
+      "id": "515",
+      "road": "7TH ST",
+      "from": "CITRUS AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "603",
+      "road": "7TH ST",
+      "from": "ORANGE AVE",
+      "to": "AVENUE C"
+    },
+    {
+      "id": "603",
+      "road": "7TH ST",
+      "from": "AVENUE C",
+      "to": "AE BACKUS AVE"
+    },
+    {
+      "id": "603",
+      "road": "7TH ST",
+      "from": "AE BACKUS AVE",
+      "to": "AVENUE D"
+    },
+    {
+      "id": "604",
+      "road": "7TH ST",
+      "from": "AVENUE D",
+      "to": "AVENUE H"
+    },
+    {
+      "id": "605",
+      "road": "10TH ST",
+      "from": "DELAWARE AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "605",
+      "road": "10TH ST",
+      "from": "ORANGE AVE",
+      "to": "AVENUE C"
+    },
+    {
+      "id": "605",
+      "road": "10TH ST",
+      "from": "AVENUE C",
+      "to": "AVENUE D"
+    },
+    {
+      "id": "527",
+      "road": "13TH ST",
+      "from": "VIRGINIA AVE",
+      "to": "NEBRASKA AVE"
+    },
+    {
+      "id": "527",
+      "road": "13TH ST",
+      "from": "NEBRASKA AVE",
+      "to": "GEORGIA AVE"
+    },
+    {
+      "id": "525",
+      "road": "13TH ST",
+      "from": "GEORGIA AVE",
+      "to": "DELAWARE AVE"
+    },
+    {
+      "id": "523",
+      "road": "13TH ST",
+      "from": "DELAWARE AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "521",
+      "road": "13TH ST",
+      "from": "ORANGE AVE",
+      "to": "AVENUE B"
+    },
+    {
+      "id": "521",
+      "road": "13TH ST",
+      "from": "AVENUE B",
+      "to": "AVENUE D"
+    },
+    {
+      "id": "165",
+      "road": "13TH ST",
+      "from": "AVENUE D",
+      "to": "AVENUE H"
+    },
+    {
+      "id": "165",
+      "road": "13TH ST",
+      "from": "AVENUE H",
+      "to": "AVENUE I"
+    },
+    {
+      "id": "165",
+      "road": "13TH ST",
+      "from": "AVENUE I",
+      "to": "AVENUE O"
+    },
+    {
+      "id": "165",
+      "road": "13TH ST",
+      "from": "AVENUE O",
+      "to": "AVENUE Q"
+    },
+    {
+      "id": "606",
+      "road": "17TH ST",
+      "from": "GEORGIA AVE",
+      "to": "DELAWARE AVE"
+    },
+    {
+      "id": "607",
+      "road": "17TH ST",
+      "from": "DELAWARE AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "608",
+      "road": "17TH ST",
+      "from": "ORANGE AVE",
+      "to": "AVENUE D"
+    },
+    {
+      "id": "608",
+      "road": "17TH ST",
+      "from": "AVENUE D",
+      "to": "AVENUE Q"
+    },
+    {
+      "id": "940016",
+      "road": "25TH ST",
+      "from": "MIDWAY RD",
+      "to": "BELL AVE"
+    },
+    {
+      "id": "159",
+      "road": "25TH ST",
+      "from": "BELL AVE",
+      "to": "EDWARDS RD"
+    },
+    {
+      "id": "940021",
+      "road": "25TH ST",
+      "from": "EDWARDS RD",
+      "to": "CORTEZ BLVD"
+    },
+    {
+      "id": "529",
+      "road": "25TH ST",
+      "from": "CORTEZ BLVD",
+      "to": "VIRGINIA AVE"
+    },
+    {
+      "id": "940015",
+      "road": "25TH ST",
+      "from": "VIRIGINIA AVE",
+      "to": "NEBRASKA AVE"
+    },
+    {
+      "id": "940015",
+      "road": "25TH ST",
+      "from": "NEBRASKA AVE",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "609",
+      "road": "25TH ST",
+      "from": "OKEECHOBEE RD",
+      "to": "GEORGIA AVE"
+    },
+    {
+      "id": "609",
+      "road": "25TH ST",
+      "from": "GEORGIA AVE",
+      "to": "DELAWARE AVE"
+    },
+    {
+      "id": "940014",
+      "road": "25TH ST",
+      "from": "DELAWARE AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "610",
+      "road": "25TH ST",
+      "from": "ORANGE AVE",
+      "to": "AVENUE D"
+    },
+    {
+      "id": "940050",
+      "road": "25TH ST",
+      "from": "AVENUE D",
+      "to": "AVENUE Q"
+    },
+    {
+      "id": "945152",
+      "road": "25TH ST",
+      "from": "AVENUE Q",
+      "to": "JUANITA AVE"
+    },
+    {
+      "id": "940791",
+      "road": "25TH ST",
+      "from": "JUANITA AVE",
+      "to": "ST LUCIE BLVD"
+    },
+    {
+      "id": "945165",
+      "road": "25TH ST",
+      "from": "ST LUCIE BLVD",
+      "to": "US 1"
+    },
+    {
+      "id": "611",
+      "road": "33RD ST",
+      "from": "OKEECHOBEE RD",
+      "to": "DELAWARE AVE"
+    },
+    {
+      "id": "948507",
+      "road": "33RD ST",
+      "from": "DELAWARE AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "612",
+      "road": "35TH ST",
+      "from": "KIRBY LOOP RD",
+      "to": "CORTEZ BLVD"
+    },
+    {
+      "id": "612",
+      "road": "35TH ST",
+      "from": "CORTEZ BLVD",
+      "to": "VIRGINIA AVE"
+    },
+    {
+      "id": "613",
+      "road": "35TH ST",
+      "from": "VIRGINIA AVE",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "614",
+      "road": "53RD ST",
+      "from": "ANGLE RD",
+      "to": "JUANITA AVE"
+    },
+    {
+      "id": "632",
+      "road": "AE BACKUS AVE",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "303",
+      "road": "AIROSO BLVD",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "THORNHILL DR"
+    },
+    {
+      "id": "303",
+      "road": "AIROSO BLVD",
+      "from": "THORNHILL DR",
+      "to": "CROSSTOWN PKWY"
+    },
+    {
+      "id": "243",
+      "road": "AIROSO BLVD",
+      "from": "CROSSTOWN PKWY",
+      "to": "PRIMA VISTA BLVD"
+    },
+    {
+      "id": "101",
+      "road": "AIROSO BLVD",
+      "from": "PRIMA VISTA BLVD",
+      "to": "FLORESTA DR"
+    },
+    {
+      "id": "301",
+      "road": "AIROSO BLVD",
+      "from": "FLORESTA DR",
+      "to": "ST JAMES DR"
+    },
+    {
+      "id": "100",
+      "road": "ANGLE RD",
+      "from": "ORANGE AVE",
+      "to": "AVENUE D"
+    },
+    {
+      "id": "100",
+      "road": "ANGLE RD",
+      "from": "AVENUE D",
+      "to": "AVENUE Q"
+    },
+    {
+      "id": "615",
+      "road": "ANGLE RD",
+      "from": "AVENUE Q",
+      "to": "53RD ST"
+    },
+    {
+      "id": "616",
+      "road": "ANGLE RD",
+      "from": "53RD ST",
+      "to": "KEEN RD"
+    },
+    {
+      "id": "616",
+      "road": "ANGLE RD",
+      "from": "KEEN RD",
+      "to": "KINGS HWY"
+    },
+    {
+      "id": "617",
+      "road": "ANGLE RD",
+      "from": "KINGS HWY",
+      "to": "JOHNSTON RD"
+    },
+    {
+      "id": "948505",
+      "road": "ANGLE RD",
+      "from": "JOHNSTON RD",
+      "to": "FLORIDA'S TURNPIKE"
+    },
+    {
+      "id": "945034",
+      "road": "AVENUE A",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "945033",
+      "road": "AVENUE A",
+      "from": "US 1",
+      "to": "INDIAN RIVER DR"
+    },
+    {
+      "id": "164",
+      "road": "AVENUE D",
+      "from": "ANGLE RD",
+      "to": "29TH ST"
+    },
+    {
+      "id": "164",
+      "road": "AVENUE D",
+      "from": "29TH ST",
+      "to": "25TH ST"
+    },
+    {
+      "id": "163",
+      "road": "AVENUE D",
+      "from": "25TH ST",
+      "to": "17TH ST"
+    },
+    {
+      "id": "162",
+      "road": "AVENUE D",
+      "from": "17TH ST",
+      "to": "13TH ST"
+    },
+    {
+      "id": "161",
+      "road": "AVENUE D",
+      "from": "13TH ST",
+      "to": "10TH ST"
+    },
+    {
+      "id": "160",
+      "road": "AVENUE D",
+      "from": "10TH ST",
+      "to": "7TH ST"
+    },
+    {
+      "id": "160",
+      "road": "AVENUE D",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "620",
+      "road": "AVENUE I",
+      "from": "25TH ST",
+      "to": "17TH ST"
+    },
+    {
+      "id": "620",
+      "road": "AVENUE I",
+      "from": "17TH ST",
+      "to": "13TH ST"
+    },
+    {
+      "id": "618",
+      "road": "AVENUE H",
+      "from": "13TH ST",
+      "to": "7TH ST"
+    },
+    {
+      "id": "619",
+      "road": "AVENUE H",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "700",
+      "road": "AVENUE Q",
+      "from": "ANGLE RD",
+      "to": "25TH ST"
+    },
+    {
+      "id": "701",
+      "road": "AVENUE Q",
+      "from": "25TH ST",
+      "to": "17TH ST"
+    },
+    {
+      "id": "701",
+      "road": "AVENUE Q",
+      "from": "17TH ST",
+      "to": "13TH ST"
+    },
+    {
+      "id": "685",
+      "road": "AVENUE O",
+      "from": "13TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "631",
+      "road": "AVENUE C",
+      "from": "10TH ST",
+      "to": "7TH ST"
+    },
+    {
+      "id": "621",
+      "road": "BAYSHORE BLVD",
+      "from": "MOUNTWELL ST",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "309",
+      "road": "BAYSHORE BLVD",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "THORNHILL DR"
+    },
+    {
+      "id": "948508",
+      "road": "BAYSHORE BLVD",
+      "from": "THORNHILL DR",
+      "to": "CROSSTOWN PKWY"
+    },
+    {
+      "id": "307",
+      "road": "BAYSHORE BLVD",
+      "from": "CROSSTOWN PKWY",
+      "to": "PRIMA VISTA BLVD"
+    },
+    {
+      "id": "305",
+      "road": "BAYSHORE BLVD",
+      "from": "PRIMA VISTA BLVD",
+      "to": "FLORESTA DR"
+    },
+    {
+      "id": "622",
+      "road": "BAYSHORE BLVD",
+      "from": "FLORESTA DR",
+      "to": "SELVITZ RD"
+    },
+    {
+      "id": "622",
+      "road": "BAYSHORE BLVD",
+      "from": "SELVITZ RD",
+      "to": "ST JAMES DR"
+    },
+    {
+      "id": "623",
+      "road": "BEACH AVE",
+      "from": "OLEANDER AVE",
+      "to": "RIO MAR DR"
+    },
+    {
+      "id": "624",
+      "road": "BECKER RD",
+      "from": "VILLAGE PKWY",
+      "to": "I-95"
+    },
+    {
+      "id": "625",
+      "road": "BECKER RD",
+      "from": "I-95",
+      "to": "SAVONA BLVD"
+    },
+    {
+      "id": "626",
+      "road": "BECKER RD",
+      "from": "SAVONA BLVD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "302",
+      "road": "BECKER RD",
+      "from": "ALBACORE ST",
+      "to": "DARWIN BLVD"
+    },
+    {
+      "id": "302",
+      "road": "BECKER RD",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "ALBACORE ST"
+    },
+    {
+      "id": "627",
+      "road": "BECKER RD",
+      "from": "ATHENA DR",
+      "to": "FLORIDA'S TURNPIKE"
+    },
+    {
+      "id": "627",
+      "road": "BECKER RD",
+      "from": "DARWIN BLVD",
+      "to": "ATHENA DR"
+    },
+    {
+      "id": "628",
+      "road": "BECKER RD",
+      "from": "FLORIDA'S TURNPIKE",
+      "to": "SOUTHBEND BLVD"
+    },
+    {
+      "id": "629",
+      "road": "BECKER RD",
+      "from": "SOUTHBEND BLVD",
+      "to": "GILSON RD"
+    },
+    {
+      "id": "104",
+      "road": "BELL AVE",
+      "from": "25TH ST",
+      "to": "SUNRISE BLVD"
+    },
+    {
+      "id": "102",
+      "road": "BELL AVE",
+      "from": "SUNRISE BLVD",
+      "to": "OLEANDER AVE"
+    },
+    {
+      "id": "633",
+      "road": "CALIFORNIA BLVD",
+      "from": "CAMEO BLVD",
+      "to": "DEL RIO BLVD"
+    },
+    {
+      "id": "634",
+      "road": "CALIFORNIA BLVD",
+      "from": "DEL RIO BLVD",
+      "to": "SAVONA BLVD"
+    },
+    {
+      "id": "635",
+      "road": "CALIFORNIA BLVD",
+      "from": "SAVONA BLVD",
+      "to": "DEL RIO BLVD"
+    },
+    {
+      "id": "636",
+      "road": "CALIFORNIA BLVD",
+      "from": "DEL RIO BLVD",
+      "to": "CROSSTOWN PKWY"
+    },
+    {
+      "id": "234",
+      "road": "CALIFORNIA BLVD",
+      "from": "CROSSTOWN PKWY",
+      "to": "HEATHERWOOD BLVD"
+    },
+    {
+      "id": "234",
+      "road": "CALIFORNIA BLVD",
+      "from": "HEATHERWOOD BLVD",
+      "to": "ST LUCIE WEST BLVD"
+    },
+    {
+      "id": "233",
+      "road": "CALIFORNIA BLVD",
+      "from": "ST LUCIE WEST BLVD",
+      "to": "COUNTRY CLUB DR"
+    },
+    {
+      "id": "724",
+      "road": "CALIFORNIA BLVD",
+      "from": "COUNTRY CLUB DR",
+      "to": "UNIVERSITY BLVD"
+    },
+    {
+      "id": "724",
+      "road": "CALIFORNIA BLVD",
+      "from": "UNIVERSITY BLVD",
+      "to": "PEACOCK BLVD"
+    },
+    {
+      "id": "637",
+      "road": "CALIFORNIA BLVD",
+      "from": "PEACOCK BLVD",
+      "to": "TORINO PKWY"
+    },
+    {
+      "id": "638",
+      "road": "CAMEO BLVD",
+      "from": "PORT ST LUICE BLVD",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "639",
+      "road": "CAMEO BLVD",
+      "from": "CALIFORNIA BLVD",
+      "to": "CROSSTOWN PKWY"
+    },
+    {
+      "id": "640",
+      "road": "CAMPBELL RD",
+      "from": "PICOS RD",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "167",
+      "road": "CANE SLOUGH RD",
+      "from": "US 1",
+      "to": "LENNARD RD"
+    },
+    {
+      "id": "641",
+      "road": "CARLTON RD",
+      "from": "CARLTON RD (S)",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "676",
+      "road": "CASHMERE BLVD",
+      "from": "PEACOCK BLVD",
+      "to": "TORINO PKWY"
+    },
+    {
+      "id": "642",
+      "road": "CASHMERE BLVD",
+      "from": "DEL RIO BLVD",
+      "to": "CROSSTOWN PKWY"
+    },
+    {
+      "id": "232",
+      "road": "CASHMERE BLVD",
+      "from": "CROSSTOWN PKWY",
+      "to": "HEATHERWOOD BLVD"
+    },
+    {
+      "id": "232",
+      "road": "CASHMERE BLVD",
+      "from": "HEATHERWOOD BLVD",
+      "to": "ST LUCIE WEST BLVD"
+    },
+    {
+      "id": "231",
+      "road": "CASHMERE BLVD",
+      "from": "ST LUCIE WEST BLVD",
+      "to": "PEACOCK BLVD"
+    },
+    {
+      "id": "643",
+      "road": "CITRUS AVE",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "940160",
+      "road": "CITRUS AVE",
+      "from": "US 1",
+      "to": "2ND ST"
+    },
+    {
+      "id": "644",
+      "road": "CITRUS AVE",
+      "from": "2ND ST",
+      "to": "INDIAN RIVER DR"
+    },
+    {
+      "id": "735",
+      "road": "COMMUNITY BLVD",
+      "from": "DISCOVERY WAY",
+      "to": "TRADITION PKWY"
+    },
+    {
+      "id": "647",
+      "road": "COMMUNITY BLVD",
+      "from": "WESTCLIFFE LN",
+      "to": "TRADITION PKWY"
+    },
+    {
+      "id": "645",
+      "road": "COMMERCE CENTER DR",
+      "from": "CROSSTOWN PKWY",
+      "to": "ST LUCIE WEST BLVD"
+    },
+    {
+      "id": "646",
+      "road": "COMMERCE CENTER DR",
+      "from": "ST LUCIE WEST BLVD",
+      "to": "END OF 4 LANES"
+    },
+    {
+      "id": "732",
+      "road": "COMMERCE CENTER DR",
+      "from": "END OF 4 LANES",
+      "to": "GLADES CUT-OFF RD"
+    },
+    {
+      "id": "948500",
+      "road": "CORTEZ BLVD",
+      "from": "35TH ST",
+      "to": "25TH ST"
+    },
+    {
+      "id": "648",
+      "road": "CORTEZ BLVD",
+      "from": "25TH ST",
+      "to": "SUNRISE BLVD"
+    },
+    {
+      "id": "725",
+      "road": "COUNTRY CLUB DR",
+      "from": "ST LUCIE WEST BLVD",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "650",
+      "road": "CROSSTOWN PKWY",
+      "from": "COMMERCE CENTER DR",
+      "to": "I-95"
+    },
+    {
+      "id": "651",
+      "road": "CROSSTOWN PKWY",
+      "from": "I-95",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "652",
+      "road": "CROSSTOWN PKWY",
+      "from": "CALIFORNIA BLVD",
+      "to": "CASHMERE BLVD"
+    },
+    {
+      "id": "653",
+      "road": "CROSSTOWN PKWY",
+      "from": "CASHMERE BLVD",
+      "to": "CAMEO BLVD"
+    },
+    {
+      "id": "654",
+      "road": "CROSSTOWN PKWY",
+      "from": "CAMEO BLVD",
+      "to": "BAYSHORE BLVD"
+    },
+    {
+      "id": "655",
+      "road": "CROSSTOWN PKWY",
+      "from": "BAYSHORE BLVD",
+      "to": "AIROSO BLVD"
+    },
+    {
+      "id": "656",
+      "road": "CROSSTOWN PKWY",
+      "from": "AIROSO BLVD",
+      "to": "SANDIA DR"
+    },
+    {
+      "id": "657",
+      "road": "CROSSTOWN PKWY",
+      "from": "SANDIA DR",
+      "to": "MANTH LN"
+    },
+    {
+      "id": "66",
+      "road": "CROSSTOWN PKWY",
+      "from": "FLORESTA DR",
+      "to": "US 1"
+    },
+    {
+      "id": "649",
+      "road": "CROSSROADS PKWY",
+      "from": "OKEECHOBEE RD",
+      "to": "KINGS HWY"
+    },
+    {
+      "id": "733",
+      "road": "CROSSTOWN PKWY",
+      "from": "VILLAGE PKWY",
+      "to": "COMMERCE CENTER DR"
+    },
+    {
+      "id": "235",
+      "road": "DARWIN BLVD",
+      "from": "BECKER RD",
+      "to": "PAAR DR"
+    },
+    {
+      "id": "235",
+      "road": "DARWIN BLVD",
+      "from": "PAAR DR",
+      "to": "TULIP BLVD"
+    },
+    {
+      "id": "659",
+      "road": "DARWIN BLVD",
+      "from": "TULIP BLVD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "311",
+      "road": "DEL RIO BLVD",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "660",
+      "road": "DEL RIO BLVD",
+      "from": "CALIFORNIA BLVD",
+      "to": "CASHMERE BLVD"
+    },
+    {
+      "id": "661",
+      "road": "DEL RIO BLVD",
+      "from": "CASHMERE BLVD",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "662",
+      "road": "DELAWARE AVE",
+      "from": "HARTMAN RD",
+      "to": "33RD ST"
+    },
+    {
+      "id": "500",
+      "road": "DELAWARE AVE",
+      "from": "33RD ST",
+      "to": "25TH ST"
+    },
+    {
+      "id": "948526",
+      "road": "DELAWARE AVE",
+      "from": "25TH ST",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "663",
+      "road": "DELAWARE AVE",
+      "from": "OKEECHOBEE RD",
+      "to": "13TH ST"
+    },
+    {
+      "id": "664",
+      "road": "DELAWARE AVE",
+      "from": "13TH ST",
+      "to": "10TH ST"
+    },
+    {
+      "id": "664",
+      "road": "DELAWARE AVE",
+      "from": "10TH ST",
+      "to": "7TH ST"
+    },
+    {
+      "id": "665",
+      "road": "DELAWARE AVE",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "710",
+      "road": "EAST TORINO PKWY",
+      "from": "CASHMERE BLVD",
+      "to": "TORINO PKWY"
+    },
+    {
+      "id": "237",
+      "road": "EAST TORINO PKWY",
+      "from": "TORINO PKWY",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "106",
+      "road": "EASY ST",
+      "from": "US 1",
+      "to": "BUCHANAN DR"
+    },
+    {
+      "id": "106",
+      "road": "EASY ST",
+      "from": "BUCHANAN DR",
+      "to": "YUCCA DR"
+    },
+    {
+      "id": "174",
+      "road": "EDWARDS RD",
+      "from": "JENKINS RD",
+      "to": "MCNEIL RD"
+    },
+    {
+      "id": "174",
+      "road": "EDWARDS RD",
+      "from": "MCNEIL RD",
+      "to": "SELVITZ RD"
+    },
+    {
+      "id": "110",
+      "road": "EDWARDS RD",
+      "from": "SELVITZ RD",
+      "to": "25TH ST"
+    },
+    {
+      "id": "108",
+      "road": "EDWARDS RD",
+      "from": "25TH ST",
+      "to": "SUNRISE BLVD"
+    },
+    {
+      "id": "502",
+      "road": "EDWARDS RD",
+      "from": "SUNRISE BLVD",
+      "to": "OLEANDER AVE"
+    },
+    {
+      "id": "173",
+      "road": "EDWARDS RD",
+      "from": "OLEANDER AVE",
+      "to": "US 1"
+    },
+    {
+      "id": "112",
+      "road": "FARMER'S MARKET RD",
+      "from": "OLEANDER AVE",
+      "to": "US 1"
+    },
+    {
+      "id": "317",
+      "road": "FLORESTA DR",
+      "from": "OAKLYN ST",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "315",
+      "road": "FLORESTA DR",
+      "from": "THORNHILL DR",
+      "to": "CROSSTOWN PKWY"
+    },
+    {
+      "id": "315",
+      "road": "FLORESTA DR",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "THORNHILL DR"
+    },
+    {
+      "id": "109",
+      "road": "FLORESTA DR",
+      "from": "CROSSTOWN PKWY",
+      "to": "PRIMA VISTA BLVD"
+    },
+    {
+      "id": "107",
+      "road": "FLORESTA DR",
+      "from": "PRIMA VISTA BLVD",
+      "to": "AIROSO BLVD"
+    },
+    {
+      "id": "313",
+      "road": "FLORESTA DR",
+      "from": "SELVITZ RD",
+      "to": "BAYSHORE BLVD"
+    },
+    {
+      "id": "313",
+      "road": "FLORESTA DR",
+      "from": "AIROSO BLVD",
+      "to": "SELVITZ RD"
+    },
+    {
+      "id": "971960",
+      "road": "FLORIDA'S TURNPIKE",
+      "from": "BECKER RD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "979913",
+      "road": "FLORIDA'S TURNPIKE",
+      "from": "MARTIN C.L.",
+      "to": "BECKER RD"
+    },
+    {
+      "id": "971964",
+      "road": "FLORIDA'S TURNPIKE",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "971968",
+      "road": "FLORIDA'S TURNPIKE",
+      "from": "OKEECHOBEE RD",
+      "to": "INDIAN RIVER C.L."
+    },
+    {
+      "id": "226",
+      "road": "FT PIERCE BLVD",
+      "from": "INDRIO RD",
+      "to": "EMERSON AVE"
+    },
+    {
+      "id": "666",
+      "road": "GARDENIA AVE",
+      "from": "OLEANDER AVE",
+      "to": "US 1"
+    },
+    {
+      "id": "945075",
+      "road": "GATLIN BLVD",
+      "from": "W OF I-95",
+      "to": "E OF I-95"
+    },
+    {
+      "id": "945075",
+      "road": "GATLIN BLVD",
+      "from": "E OF I-95",
+      "to": "SAVAGE BLVD"
+    },
+    {
+      "id": "945075",
+      "road": "GATLIN BLVD",
+      "from": "SAVAGE BLVD",
+      "to": "ROSSER BLVD"
+    },
+    {
+      "id": "945075",
+      "road": "GATLIN BLVD",
+      "from": "ROSSER BLVD",
+      "to": "SAVONA BLVD"
+    },
+    {
+      "id": "945075",
+      "road": "GATLIN BLVD",
+      "from": "SAVONA BLVD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "667",
+      "road": "GEORGIA AVE",
+      "from": "25TH ST",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "667",
+      "road": "GEORGIA AVE",
+      "from": "OKEECHOBEE RD",
+      "to": "17TH ST"
+    },
+    {
+      "id": "508",
+      "road": "GEORGIA AVE",
+      "from": "17TH ST",
+      "to": "13TH ST"
+    },
+    {
+      "id": "506",
+      "road": "GEORGIA AVE",
+      "from": "13TH ST",
+      "to": "7TH ST"
+    },
+    {
+      "id": "504",
+      "road": "GEORGIA AVE",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "111",
+      "road": "GILSON RD",
+      "from": "MARTIN C.L.",
+      "to": "BECKER RD"
+    },
+    {
+      "id": "111",
+      "road": "GILSON RD",
+      "from": "BECKER RD",
+      "to": "LAKERIDGE DR"
+    },
+    {
+      "id": "668",
+      "road": "GLADES CUT-OFF RD",
+      "from": "RANGE LINE RD",
+      "to": "RESERVE BLVD"
+    },
+    {
+      "id": "119",
+      "road": "GLADES CUT-OFF RD",
+      "from": "RESERVE BLVD",
+      "to": "COMMERCE CENTER DR"
+    },
+    {
+      "id": "668",
+      "road": "GLADES CUT-OFF RD",
+      "from": "CARLTON RD",
+      "to": "RANGE LINE RD"
+    },
+    {
+      "id": "731",
+      "road": "GLADES CUT-OFF RD",
+      "from": "COMMERCE CENTER DR",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "115",
+      "road": "GLADES CUT-OFF RD",
+      "from": "MIDWAY RD",
+      "to": "JENKINS RD"
+    },
+    {
+      "id": "113",
+      "road": "GLADES CUT-OFF RD",
+      "from": "JENKINS RD",
+      "to": "SELVITZ RD"
+    },
+    {
+      "id": "669",
+      "road": "GRAHAM RD",
+      "from": "KINGS HWY",
+      "to": "JENKINS RD"
+    },
+    {
+      "id": "319",
+      "road": "GREEN RIVER PKWY",
+      "from": "MARTIN C.L.",
+      "to": "CHARLESTON DR"
+    },
+    {
+      "id": "319",
+      "road": "GREEN RIVER PKWY",
+      "from": "CHARLESTON DR",
+      "to": "MELALEUCA BLVD"
+    },
+    {
+      "id": "319",
+      "road": "GREEN RIVER PKWY",
+      "from": "MELALEUCA BLVD",
+      "to": "WALTON RD"
+    },
+    {
+      "id": "670",
+      "road": "HARTMAN RD",
+      "from": "OKEECHOBEE RD",
+      "to": "PETERSON RD"
+    },
+    {
+      "id": "670",
+      "road": "HARTMAN RD",
+      "from": "PETERSON RD",
+      "to": "DELAWARE AVE"
+    },
+    {
+      "id": "670",
+      "road": "HARTMAN RD",
+      "from": "DELAWARE AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "121",
+      "road": "HEADER CANAL RD",
+      "from": "OKEECHOBEE RD",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "671",
+      "road": "HILLMOOR DR",
+      "from": "US 1",
+      "to": "LENNARD RD"
+    },
+    {
+      "id": "890334",
+      "road": "I-95",
+      "from": "MARTIN C.L.",
+      "to": "GATLIN BLVD"
+    },
+    {
+      "id": "941901",
+      "road": "I-95",
+      "from": "GATLIN BLVD",
+      "to": "ST LUCIE WEST BLVD"
+    },
+    {
+      "id": "941904",
+      "road": "I-95",
+      "from": "ST LUCIE WEST BLVD",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "941902",
+      "road": "I-95",
+      "from": "MIDWAY RD",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "940260",
+      "road": "I-95",
+      "from": "OKEECHOBEE RD",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "941905",
+      "road": "I-95",
+      "from": "ORANGE AVE",
+      "to": "INDRIO RD"
+    },
+    {
+      "id": "882003",
+      "road": "I-95",
+      "from": "INDRIO RD",
+      "to": "INDIAN RIVER C.L."
+    },
+    {
+      "id": "945029",
+      "road": "INDIAN RIVER DR",
+      "from": "CITRUS AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "940003",
+      "road": "INDIAN RIVER DR",
+      "from": "ORANGE AVE",
+      "to": "AVENUE A"
+    },
+    {
+      "id": "940004",
+      "road": "INDIAN RIVER DR",
+      "from": "AVENUE D",
+      "to": "SEAWAY DR"
+    },
+    {
+      "id": "940004",
+      "road": "INDIAN RIVER DR",
+      "from": "AVENUE A",
+      "to": "AVENUE D"
+    },
+    {
+      "id": "940128",
+      "road": "INDRIO RD",
+      "from": "PRIVATE RD",
+      "to": "I-95 W RAMP"
+    },
+    {
+      "id": "940128",
+      "road": "INDRIO RD",
+      "from": "I-95 W RAMP",
+      "to": "I-95 E RAMP"
+    },
+    {
+      "id": "940038",
+      "road": "INDRIO RD",
+      "from": "I-95 E RAMP",
+      "to": "KOBLEGARD RD"
+    },
+    {
+      "id": "940038",
+      "road": "INDRIO RD",
+      "from": "KOBLEGARD RD",
+      "to": "JOHNSTON RD"
+    },
+    {
+      "id": "940038",
+      "road": "INDRIO RD",
+      "from": "JOHNSTON RD",
+      "to": "EMERSON AVE"
+    },
+    {
+      "id": "940281",
+      "road": "INDRIO RD",
+      "from": "EMERSON RD",
+      "to": "SEMINOLE RD"
+    },
+    {
+      "id": "940281",
+      "road": "INDRIO RD",
+      "from": "SEMINOLE RD",
+      "to": "KINGS HWY"
+    },
+    {
+      "id": "114",
+      "road": "INDRIO RD",
+      "from": "KINGS HWY",
+      "to": "SLASH PINE TRL"
+    },
+    {
+      "id": "114",
+      "road": "INDRIO RD",
+      "from": "SLASH PINE TRL",
+      "to": "US 1"
+    },
+    {
+      "id": "672",
+      "road": "INDRIO RD",
+      "from": "US 1",
+      "to": "OLD DIXIE HWY"
+    },
+    {
+      "id": "133",
+      "road": "JENKINS RD",
+      "from": "EDWARDS RD",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "131",
+      "road": "JENKINS RD",
+      "from": "OKEECHOBEE RD",
+      "to": "GRAHAM RD"
+    },
+    {
+      "id": "739",
+      "road": "JENKINS RD",
+      "from": "GRAHAM RD",
+      "to": "PETERSON RD"
+    },
+    {
+      "id": "739",
+      "road": "JENKINS RD",
+      "from": "PETERSON RD",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "673",
+      "road": "JENNINGS RD",
+      "from": "US 1",
+      "to": "LENNARD RD"
+    },
+    {
+      "id": "674",
+      "road": "JOHNSTON RD",
+      "from": "ANGLE RD",
+      "to": "L20"
+    },
+    {
+      "id": "675",
+      "road": "JOHNSTON RD",
+      "from": "L20",
+      "to": "MEADOWOOD DR"
+    },
+    {
+      "id": "675",
+      "road": "JOHNSTON RD",
+      "from": "MEADOWOOD DR",
+      "to": "OLD JOHNSTON RD"
+    },
+    {
+      "id": "675",
+      "road": "JOHNSTON RD",
+      "from": "OLD JOHNSTON RD",
+      "to": "INDRIO RD"
+    },
+    {
+      "id": "135",
+      "road": "JOHNSTON RD",
+      "from": "INDRIO RD",
+      "to": "RUSSOS RD"
+    },
+    {
+      "id": "135",
+      "road": "JOHNSTON RD",
+      "from": "RUSSOS RD",
+      "to": "INDIAN RIVER C.L."
+    },
+    {
+      "id": "122",
+      "road": "JUANITA AVE",
+      "from": "53RD ST",
+      "to": "25TH ST"
+    },
+    {
+      "id": "120",
+      "road": "JUANITA AVE",
+      "from": "25TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "129",
+      "road": "KEEN RD",
+      "from": "ANGLE RD",
+      "to": "JUANITA AVE"
+    },
+    {
+      "id": "129",
+      "road": "KEEN RD",
+      "from": "JUANITA AVE",
+      "to": "ST LUCIE BLVD"
+    },
+    {
+      "id": "940757",
+      "road": "KINGS HWY",
+      "from": "OKEECHOBEE RD",
+      "to": "CROSSROADS PKWY"
+    },
+    {
+      "id": "940757",
+      "road": "KINGS HWY",
+      "from": "CROSSROADS PKWY",
+      "to": "GRAHAM RD"
+    },
+    {
+      "id": "940076",
+      "road": "KINGS HWY",
+      "from": "GRAHAM RD",
+      "to": "PICOS RD"
+    },
+    {
+      "id": "940076",
+      "road": "KINGS HWY",
+      "from": "PICOS RD",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "940077",
+      "road": "KINGS HWY",
+      "from": "ORANGE AVE",
+      "to": "ANGLE RD"
+    },
+    {
+      "id": "940751",
+      "road": "KINGS HWY",
+      "from": "ANGLE RD",
+      "to": "ST LUCIE BLVD"
+    },
+    {
+      "id": "940006",
+      "road": "KINGS HWY",
+      "from": "ST LUCIE BLVD",
+      "to": "INDRIO RD"
+    },
+    {
+      "id": "677",
+      "road": "KIRBY LOOP RD",
+      "from": "EDWARDS RD",
+      "to": "35TH ST"
+    },
+    {
+      "id": "124",
+      "road": "KITTERMAN RD",
+      "from": "OLEANDER AVE",
+      "to": "US 1"
+    },
+    {
+      "id": "678",
+      "road": "KITTERMAN RD",
+      "from": "US 1",
+      "to": "LENNARD EXT"
+    },
+    {
+      "id": "325",
+      "road": "LENNARD RD",
+      "from": "US 1",
+      "to": "MARIPOSA AVE"
+    },
+    {
+      "id": "325",
+      "road": "LENNARD RD",
+      "from": "MARIPOSA AVE",
+      "to": "MELALEUCA BLVD"
+    },
+    {
+      "id": "325",
+      "road": "LENNARD RD",
+      "from": "MELALEUCA BLVD",
+      "to": "JENNINGS RD"
+    },
+    {
+      "id": "325",
+      "road": "LENNARD RD",
+      "from": "JENNINGS RD",
+      "to": "HILLMOOR DR"
+    },
+    {
+      "id": "325",
+      "road": "LENNARD RD",
+      "from": "HILLMOOR DR",
+      "to": "TIFFANY AVE"
+    },
+    {
+      "id": "323",
+      "road": "LENNARD RD",
+      "from": "TIFFANY AVE",
+      "to": "WALTON RD"
+    },
+    {
+      "id": "679",
+      "road": "LENNARD RD",
+      "from": "WALTON RD",
+      "to": "S OF SAVANNA CLUB BLVD"
+    },
+    {
+      "id": "306",
+      "road": "LYNGATE DR",
+      "from": "VETERANS MEMORIAL PKWY",
+      "to": "MORNINGSIDE BLVD"
+    },
+    {
+      "id": "306",
+      "road": "LYNGATE DR",
+      "from": "MORNINGSIDE BLVD",
+      "to": "US 1"
+    },
+    {
+      "id": "166",
+      "road": "MARIPOSA AVE",
+      "from": "LENNARD RD",
+      "to": "HALLAHAN ST"
+    },
+    {
+      "id": "680",
+      "road": "MCCARTY RD",
+      "from": "WILLIAMS RD",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "681",
+      "road": "MCCARTY RD",
+      "from": "MIDWAY RD",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "682",
+      "road": "MCNEIL RD",
+      "from": "OKEECHOBEE RD",
+      "to": "KIRBY LOOP RD"
+    },
+    {
+      "id": "682",
+      "road": "MCNEIL RD",
+      "from": "KIRBY LOOP RD",
+      "to": "EDWARDS RD"
+    },
+    {
+      "id": "683",
+      "road": "MELALEUCA BLVD",
+      "from": "LENNARD RD",
+      "to": "GREEN RIVER PKWY"
+    },
+    {
+      "id": "134",
+      "road": "MIDWAY RD",
+      "from": "EAST TORINO PKWY",
+      "to": "MILNER DR"
+    },
+    {
+      "id": "134",
+      "road": "MIDWAY RD",
+      "from": "MILNER DR",
+      "to": "W OF SELVITZ RD"
+    },
+    {
+      "id": "940732",
+      "road": "MIDWAY RD",
+      "from": "OKEECHOBEE RD",
+      "to": "SHINN RD"
+    },
+    {
+      "id": "940732",
+      "road": "MIDWAY RD",
+      "from": "SHINN RD",
+      "to": "MCCARTY RD"
+    },
+    {
+      "id": "940732",
+      "road": "MIDWAY RD",
+      "from": "MCCARTY RD",
+      "to": "I-95"
+    },
+    {
+      "id": "945140",
+      "road": "MIDWAY RD",
+      "from": "I-95",
+      "to": "GLADES CUT-OFF RD"
+    },
+    {
+      "id": "228",
+      "road": "MIDWAY RD",
+      "from": "GLADES CUT-OFF RD",
+      "to": "EAST TORINO PKWY"
+    },
+    {
+      "id": "134",
+      "road": "MIDWAY RD",
+      "from": "W OF SELVITZ RD",
+      "to": "SELVITZ RD"
+    },
+    {
+      "id": "132",
+      "road": "MIDWAY RD",
+      "from": "SELVITZ RD",
+      "to": "CHRISTENSEN RD"
+    },
+    {
+      "id": "132",
+      "road": "MIDWAY RD",
+      "from": "CHRISTENSEN RD",
+      "to": "25TH ST"
+    },
+    {
+      "id": "130",
+      "road": "MIDWAY RD",
+      "from": "25TH ST",
+      "to": "SUNRISE BLVD"
+    },
+    {
+      "id": "130",
+      "road": "MIDWAY RD",
+      "from": "SUNRISE BLVD",
+      "to": "OLEANDER AVE"
+    },
+    {
+      "id": "242",
+      "road": "MIDWAY RD",
+      "from": "OLEANDER AVE",
+      "to": "US 1"
+    },
+    {
+      "id": "940023",
+      "road": "MIDWAY RD",
+      "from": "US 1",
+      "to": "WALLACE ST"
+    },
+    {
+      "id": "940023",
+      "road": "MIDWAY RD",
+      "from": "WALLACE ST",
+      "to": "WEATHERBEE RD"
+    },
+    {
+      "id": "940023",
+      "road": "MIDWAY RD",
+      "from": "WEATHERBEE RD",
+      "to": "INDIAN RIVER DR"
+    },
+    {
+      "id": "333",
+      "road": "MORNINGSIDE BLVD",
+      "from": "WESTMORELAND BLVD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "331",
+      "road": "MORNINGSIDE BLVD",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "LYNGATE DR"
+    },
+    {
+      "id": "684",
+      "road": "NEBRASKA AVE",
+      "from": "25TH ST",
+      "to": "13TH ST"
+    },
+    {
+      "id": "621",
+      "road": "OAKRIDGE DR",
+      "from": "MOUNTWELL ST",
+      "to": "OAKLYN ST"
+    },
+    {
+      "id": "686",
+      "road": "OHIO AVE",
+      "from": "SUNRISE BLVD",
+      "to": "COLONIAL RD"
+    },
+    {
+      "id": "686",
+      "road": "OHIO AVE",
+      "from": "COLONIAL RD",
+      "to": "US 1"
+    },
+    {
+      "id": "687",
+      "road": "OKEECHOBEE RD",
+      "from": "OKEECHOBEE C.L.",
+      "to": "BLUEFIELD RD"
+    },
+    {
+      "id": "687",
+      "road": "OKEECHOBEE RD",
+      "from": "BLUEFIELD RD",
+      "to": "CARLTON RD"
+    },
+    {
+      "id": "940039",
+      "road": "OKEECHOBEE RD",
+      "from": "CARLTON RD",
+      "to": "SNEED RD"
+    },
+    {
+      "id": "940039",
+      "road": "OKEECHOBEE RD",
+      "from": "IDEAL HOLDING RD",
+      "to": "HEADER CANAL RD"
+    },
+    {
+      "id": "940039",
+      "road": "OKEECHOBEE RD",
+      "from": "SNEED RD",
+      "to": "IDEAL HOLDING RD"
+    },
+    {
+      "id": "940039",
+      "road": "OKEECHOBEE RD",
+      "from": "HEADER CANAL RD",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "940039",
+      "road": "OKEECHOBEE RD",
+      "from": "MIDWAY RD",
+      "to": "SHINN RD"
+    },
+    {
+      "id": "940195",
+      "road": "OKEECHOBEE RD",
+      "from": "SHINN RD",
+      "to": "MCCARTY RD"
+    },
+    {
+      "id": "940025",
+      "road": "OKEECHOBEE RD",
+      "from": "MCCARTY RD",
+      "to": "FLORIDA'S TURNPIKE"
+    },
+    {
+      "id": "940025",
+      "road": "OKEECHOBEE RD",
+      "from": "FLORIDA'S TURNPIKE",
+      "to": "KINGS HWY"
+    },
+    {
+      "id": "940748",
+      "road": "OKEECHOBEE RD",
+      "from": "KINGS HWY",
+      "to": "CROSSROADS PKWY"
+    },
+    {
+      "id": "940106",
+      "road": "OKEECHOBEE RD",
+      "from": "CROSSROADS PKWY",
+      "to": "I-95"
+    },
+    {
+      "id": "940029",
+      "road": "OKEECHOBEE RD",
+      "from": "I-95",
+      "to": "JENKINS RD"
+    },
+    {
+      "id": "940029",
+      "road": "OKEECHOBEE RD",
+      "from": "JENKINS RD",
+      "to": "MCNEIL RD"
+    },
+    {
+      "id": "940742",
+      "road": "OKEECHOBEE RD",
+      "from": "MCNEIL RD",
+      "to": "VIRGINIA AVE"
+    },
+    {
+      "id": "688",
+      "road": "OKEECHOBEE RD",
+      "from": "VIRGINIA AVE",
+      "to": "HARTMAN RD"
+    },
+    {
+      "id": "688",
+      "road": "OKEECHOBEE RD",
+      "from": "HARTMAN RD",
+      "to": "35TH ST"
+    },
+    {
+      "id": "689",
+      "road": "OKEECHOBEE RD",
+      "from": "35TH ST",
+      "to": "33RD ST"
+    },
+    {
+      "id": "689",
+      "road": "OKEECHOBEE RD",
+      "from": "33RD ST",
+      "to": "25TH ST"
+    },
+    {
+      "id": "690",
+      "road": "OKEECHOBEE RD",
+      "from": "25TH ST",
+      "to": "GEORGIA AVE"
+    },
+    {
+      "id": "690",
+      "road": "OKEECHOBEE RD",
+      "from": "GEORGIA AVE",
+      "to": "DELAWARE AVE"
+    },
+    {
+      "id": "691",
+      "road": "OLD DIXIE HWY",
+      "from": "US 1",
+      "to": "SR A1A NORTH"
+    },
+    {
+      "id": "948521",
+      "road": "OLD DIXIE HWY",
+      "from": "SR A1A NORTH",
+      "to": "ST LUCIE BLVD"
+    },
+    {
+      "id": "227",
+      "road": "OLD DIXIE HWY",
+      "from": "ST LUCIE BLVD",
+      "to": "INDRIO RD"
+    },
+    {
+      "id": "948523",
+      "road": "OLD DIXIE HWY",
+      "from": "INDRIO RD",
+      "to": "INDIAN RIVER C.L."
+    },
+    {
+      "id": "692",
+      "road": "OLEANDER AVE",
+      "from": "BEACH AVE",
+      "to": "KITTERMAN RD"
+    },
+    {
+      "id": "141",
+      "road": "OLEANDER AVE",
+      "from": "KITTERMAN RD",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "139",
+      "road": "OLEANDER AVE",
+      "from": "MIDWAY RD",
+      "to": "WEATHERBEE RD"
+    },
+    {
+      "id": "139",
+      "road": "OLEANDER AVE",
+      "from": "WEATHERBEE RD",
+      "to": "BELL AVE"
+    },
+    {
+      "id": "240",
+      "road": "OLEANDER AVE",
+      "from": "BELL AVE",
+      "to": "FARMER'S MARKET RD"
+    },
+    {
+      "id": "240",
+      "road": "OLEANDER AVE",
+      "from": "FARMER'S MARKET RD",
+      "to": "EDWARDS RD"
+    },
+    {
+      "id": "505",
+      "road": "OLEANDER AVE",
+      "from": "EDWARDS RD",
+      "to": "WISTERIA AVE"
+    },
+    {
+      "id": "505",
+      "road": "OLEANDER AVE",
+      "from": "WISTERIA AVE",
+      "to": "GARDENIA AVE"
+    },
+    {
+      "id": "505",
+      "road": "OLEANDER AVE",
+      "from": "GARDENIA AVE",
+      "to": "VIRGINIA AVE"
+    },
+    {
+      "id": "503",
+      "road": "OLEANDER AVE",
+      "from": "VIRGINIA AVE",
+      "to": "SUNRISE BLVD"
+    },
+    {
+      "id": "144",
+      "road": "ORANGE AVE",
+      "from": "OKEECHOBEE C.L.",
+      "to": "SNEED RD"
+    },
+    {
+      "id": "144",
+      "road": "ORANGE AVE",
+      "from": "SNEED RD",
+      "to": "HEADER CANAL RD"
+    },
+    {
+      "id": "144",
+      "road": "ORANGE AVE",
+      "from": "HEADER CANAL RD",
+      "to": "SHINN RD"
+    },
+    {
+      "id": "940144",
+      "road": "ORANGE AVE",
+      "from": "SHINN RD",
+      "to": "CAMPBELL RD"
+    },
+    {
+      "id": "940144",
+      "road": "ORANGE AVE",
+      "from": "CAMPBELL RD",
+      "to": "KINGS HWY"
+    },
+    {
+      "id": "940041",
+      "road": "ORANGE AVE",
+      "from": "KINGS HWY",
+      "to": "I-95"
+    },
+    {
+      "id": "940035",
+      "road": "ORANGE AVE",
+      "from": "I-95",
+      "to": "JENKINS RD"
+    },
+    {
+      "id": "940028",
+      "road": "ORANGE AVE",
+      "from": "JENKINS RD",
+      "to": "HARTMAN RD"
+    },
+    {
+      "id": "940028",
+      "road": "ORANGE AVE",
+      "from": "HARTMAN RD",
+      "to": "ANGLE RD"
+    },
+    {
+      "id": "940151",
+      "road": "ORANGE AVE",
+      "from": "ANGLE RD",
+      "to": "25TH ST"
+    },
+    {
+      "id": "945040",
+      "road": "ORANGE AVE",
+      "from": "25TH ST",
+      "to": "17TH ST"
+    },
+    {
+      "id": "945040",
+      "road": "ORANGE AVE",
+      "from": "17TH ST",
+      "to": "13TH ST"
+    },
+    {
+      "id": "945040",
+      "road": "ORANGE AVE",
+      "from": "13TH ST",
+      "to": "10TH ST"
+    },
+    {
+      "id": "940155",
+      "road": "ORANGE AVE",
+      "from": "10TH ST",
+      "to": "7TH ST"
+    },
+    {
+      "id": "945134",
+      "road": "ORANGE AVE",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "945133",
+      "road": "ORANGE AVE",
+      "from": "US 1",
+      "to": "2ND ST"
+    },
+    {
+      "id": "945133",
+      "road": "ORANGE AVE",
+      "from": "2ND ST",
+      "to": "INDIAN RIVER DR"
+    },
+    {
+      "id": "209",
+      "road": "PARR DR",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "DARWIN BLVD"
+    },
+    {
+      "id": "723",
+      "road": "PARR DR",
+      "from": "DARWIN BLVD",
+      "to": "TULIP BLVD"
+    },
+    {
+      "id": "209",
+      "road": "PARR DR",
+      "from": "SAVONA BLVD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "209",
+      "road": "PARR DR",
+      "from": "ROSSER BLVD",
+      "to": "SAVONA BLVD"
+    },
+    {
+      "id": "693",
+      "road": "PEACOCK BLVD",
+      "from": "CALIFORNIA BLVD",
+      "to": "CASHMERE BLVD"
+    },
+    {
+      "id": "694",
+      "road": "PEACOCK BLVD",
+      "from": "UNIVERSITY BLVD",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "948514",
+      "road": "PEACOCK BLVD",
+      "from": "ST LUCIE WEST BLVD",
+      "to": "UNIVERSITY BLVD"
+    },
+    {
+      "id": "695",
+      "road": "PETERSON RD",
+      "from": "BENT CREEK DR",
+      "to": "HARTMAN RD"
+    },
+    {
+      "id": "696",
+      "road": "PICOS RD",
+      "from": "CAMPBELL RD",
+      "to": "KINGS HWY"
+    },
+    {
+      "id": "948519",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "MARTIN C.L.",
+      "to": "BECKER RD"
+    },
+    {
+      "id": "948519",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "BECKER RD",
+      "to": "PAAR DR"
+    },
+    {
+      "id": "948519",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "PAAR DR",
+      "to": "TULIP BLVD"
+    },
+    {
+      "id": "948519",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "TULIP BLVD",
+      "to": "DARWIN BLVD"
+    },
+    {
+      "id": "697",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "DARWIN BLVD",
+      "to": "GATLIN BLVD"
+    },
+    {
+      "id": "698",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "GATLIN BLVD",
+      "to": "DEL RIO BLVD"
+    },
+    {
+      "id": "945074",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "DEL RIO BLVD",
+      "to": "CAMEO BLVD"
+    },
+    {
+      "id": "945074",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "CAMEO BLVD",
+      "to": "FLORIDA'S TURNPIKE"
+    },
+    {
+      "id": "945074",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "FLORIDA'S TURNPIKE",
+      "to": "BAYSHORE BLVD"
+    },
+    {
+      "id": "945073",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "BAYSHORE BLVD",
+      "to": "AIROSO BLVD"
+    },
+    {
+      "id": "940780",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "AIROSO BLVD",
+      "to": "FLORESTA DR"
+    },
+    {
+      "id": "940778",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "FLORESTA DR",
+      "to": "VETERANS MEMORIAL PKWY"
+    },
+    {
+      "id": "940776",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "VETERANS MEMORIAL PKWY",
+      "to": "MORNINGSIDE BLVD"
+    },
+    {
+      "id": "945072",
+      "road": "PORT ST LUCIE BLVD",
+      "from": "MORNINGSIDE BLVD",
+      "to": "US 1"
+    },
+    {
+      "id": "314",
+      "road": "PRIMA VISTA BLVD",
+      "from": "BAYSHORE BLVD",
+      "to": "AIROSO BLVD"
+    },
+    {
+      "id": "150",
+      "road": "PRIMA VISTA BLVD",
+      "from": "AIROSO BLVD",
+      "to": "FLORESTA DR"
+    },
+    {
+      "id": "148",
+      "road": "PRIMA VISTA BLVD",
+      "from": "FLORESTA DR",
+      "to": "NARANJA AVE"
+    },
+    {
+      "id": "148",
+      "road": "PRIMA VISTA BLVD",
+      "from": "NARANJA AVE",
+      "to": "RIO MAR DR"
+    },
+    {
+      "id": "146",
+      "road": "PRIMA VISTA BLVD",
+      "from": "RIO MAR DR",
+      "to": "US 1"
+    },
+    {
+      "id": "699",
+      "road": "PRIMA VISTA BLVD",
+      "from": "US 1",
+      "to": "LENNARD RD"
+    },
+    {
+      "id": "145",
+      "road": "RANGE LINE RD",
+      "from": "MARTIN C.L.",
+      "to": "BECKER RD"
+    },
+    {
+      "id": "738",
+      "road": "RANGE LINE RD",
+      "from": "BECKER RD",
+      "to": "DISCOVERY WAY"
+    },
+    {
+      "id": "737",
+      "road": "RANGE LINE RD",
+      "from": "DISCOVERY WAY",
+      "to": "CROSSTOWN PKWY"
+    },
+    {
+      "id": "736",
+      "road": "RANGE LINE RD",
+      "from": "CROSSTOWN PKWY",
+      "to": "GLADES CUT-OFF RD"
+    },
+    {
+      "id": "147",
+      "road": "RIO MAR DR",
+      "from": "PRIMA VISTA BLVD",
+      "to": "BEACH AVE"
+    },
+    {
+      "id": "147",
+      "road": "RIO MAR DR",
+      "from": "BEACH AVE",
+      "to": "US 1"
+    },
+    {
+      "id": "948510",
+      "road": "ROSSER BLVD",
+      "from": "APRICOT RD",
+      "to": "GATLIN BLVD"
+    },
+    {
+      "id": "948510",
+      "road": "ROSSER BLVD",
+      "from": "PAAR DR",
+      "to": "APRICOT RD"
+    },
+    {
+      "id": "168",
+      "road": "SAVAGE BLVD",
+      "from": "GATLIN BLVD",
+      "to": "GALIANO RD"
+    },
+    {
+      "id": "514",
+      "road": "SAVANNAH RD",
+      "from": "US 1",
+      "to": "INDIAN RIVER DR"
+    },
+    {
+      "id": "236",
+      "road": "SAVONA BLVD",
+      "from": "BECKER RD",
+      "to": "PAAR DR"
+    },
+    {
+      "id": "236",
+      "road": "SAVONA BLVD",
+      "from": "PAAR DR",
+      "to": "GATLIN BLVD"
+    },
+    {
+      "id": "702",
+      "road": "SAVONA BLVD",
+      "from": "GATLIN BLVD",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "948501",
+      "road": "SELVITZ RD",
+      "from": "BAYSHORE BLVD",
+      "to": "ST JAMES BLVD"
+    },
+    {
+      "id": "948501",
+      "road": "SELVITZ RD",
+      "from": "ST JAMES BLVD",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "703",
+      "road": "SELVITZ RD",
+      "from": "MIDWAY RD",
+      "to": "GLADES CUT-OFF RD"
+    },
+    {
+      "id": "704",
+      "road": "SELVITZ RD",
+      "from": "GLADES CUT-OFF RD",
+      "to": "EDWARDS RD"
+    },
+    {
+      "id": "705",
+      "road": "SHINN RD",
+      "from": "MIDWAY RD",
+      "to": "OKEECHOBEE RD"
+    },
+    {
+      "id": "149",
+      "road": "SHINN RD",
+      "from": "OKEECHOBEE RD",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "151",
+      "road": "SNEED RD",
+      "from": "OKEECHOBEE RD",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "337",
+      "road": "SOUTHBEND BLVD",
+      "from": "BECKER RD",
+      "to": "FLORESTA DR"
+    },
+    {
+      "id": "940709",
+      "road": "SR A1A NORTH",
+      "from": "US 1",
+      "to": "OLD DIXIE HWY"
+    },
+    {
+      "id": "706",
+      "road": "SR A1A NORTH",
+      "from": "OLD DIXIE HWY",
+      "to": "N HWY A1A"
+    },
+    {
+      "id": "940114",
+      "road": "SR A1A NORTH",
+      "from": "SHOREWINDS DR",
+      "to": "INDIAN RIVER C.L."
+    },
+    {
+      "id": "890157",
+      "road": "SR A1A SOUTH",
+      "from": "MARTIN C.L.",
+      "to": "NETTLES ISLAND"
+    },
+    {
+      "id": "940719",
+      "road": "SR A1A SOUTH",
+      "from": "NETTLES ISLAND",
+      "to": "FPL PLANT"
+    },
+    {
+      "id": "940116",
+      "road": "SR A1A SOUTH",
+      "from": "FPL PLANT",
+      "to": "BLUE HERON BLVD"
+    },
+    {
+      "id": "945016",
+      "road": "SR A1A SOUTH",
+      "from": "BLUE HERON BLVD",
+      "to": "SEAWAY DR"
+    },
+    {
+      "id": "940115",
+      "road": "SR A1A SOUTH",
+      "from": "OCEAN DR",
+      "to": "BINNEY DR"
+    },
+    {
+      "id": "940115",
+      "road": "SR A1A SOUTH",
+      "from": "BINNEY DR",
+      "to": "S CAUSEWAY PARK"
+    },
+    {
+      "id": "940711",
+      "road": "SR A1A SOUTH",
+      "from": "S CAUSEWAY PARK",
+      "to": "INDIAN RIVER DR"
+    },
+    {
+      "id": "940711",
+      "road": "SR A1A SOUTH",
+      "from": "INDIAN RIVER DR",
+      "to": "US 1"
+    },
+    {
+      "id": "172",
+      "road": "ST JAMES DR",
+      "from": "AIROSO BLVD",
+      "to": "ST JAMES BLVD"
+    },
+    {
+      "id": "239",
+      "road": "ST JAMES DR",
+      "from": "ST JAMES BLVD",
+      "to": "PEACHTREE BLVD"
+    },
+    {
+      "id": "172",
+      "road": "ST JAMES DR",
+      "from": "PEACHTREE BLVD",
+      "to": "TELFORD AVE"
+    },
+    {
+      "id": "345",
+      "road": "ST JAMES DR",
+      "from": "TELFORD AVE",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "707",
+      "road": "ST JAMES BLVD",
+      "from": "SELVITZ RD",
+      "to": "ST JAMES DR"
+    },
+    {
+      "id": "156",
+      "road": "ST LUCIE BLVD",
+      "from": "KINGS HWY",
+      "to": "KEEN RD"
+    },
+    {
+      "id": "156",
+      "road": "ST LUCIE BLVD",
+      "from": "KEEN RD",
+      "to": "25TH ST"
+    },
+    {
+      "id": "940270",
+      "road": "ST LUCIE BLVD",
+      "from": "25TH ST",
+      "to": "SENECA AVE"
+    },
+    {
+      "id": "940270",
+      "road": "ST LUCIE BLVD",
+      "from": "SENECA AVE",
+      "to": "US 1"
+    },
+    {
+      "id": "152",
+      "road": "ST LUCIE WEST BLVD",
+      "from": "COMMERCE CENTER DR",
+      "to": "W OF I-95"
+    },
+    {
+      "id": "318",
+      "road": "ST LUCIE WEST BLVD",
+      "from": "I-95",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "318",
+      "road": "ST LUCIE WEST BLVD",
+      "from": "CALIFORNIA BLVD",
+      "to": "COUNTRY CLUB DR"
+    },
+    {
+      "id": "318",
+      "road": "ST LUCIE WEST BLVD",
+      "from": "COUNTRY CLUB DR",
+      "to": "CASHMERE BLVD"
+    },
+    {
+      "id": "316",
+      "road": "ST LUCIE WEST BLVD",
+      "from": "CASHMERE BLVD",
+      "to": "BAYSHORE BLVD"
+    },
+    {
+      "id": "155",
+      "road": "SUNRISE BLVD",
+      "from": "MIDWAY RD",
+      "to": "BELL AVE"
+    },
+    {
+      "id": "153",
+      "road": "SUNRISE BLVD",
+      "from": "BELL AVE",
+      "to": "EDWARDS RD"
+    },
+    {
+      "id": "511",
+      "road": "SUNRISE BLVD",
+      "from": "EDWARDS RD",
+      "to": "CORTEZ BLVD"
+    },
+    {
+      "id": "511",
+      "road": "SUNRISE BLVD",
+      "from": "CORTEZ BLVD",
+      "to": "VIRGINIA AVE"
+    },
+    {
+      "id": "509",
+      "road": "SUNRISE BLVD",
+      "from": "VIRGINIA AVE",
+      "to": "OLEANDER AVE"
+    },
+    {
+      "id": "708",
+      "road": "SUNRISE BLVD",
+      "from": "OLEANDER AVE",
+      "to": "7TH ST"
+    },
+    {
+      "id": "708",
+      "road": "SUNRISE BLVD",
+      "from": "7TH ST",
+      "to": "US 1"
+    },
+    {
+      "id": "322",
+      "road": "TIFFANY AVE",
+      "from": "US 1",
+      "to": "HILLMOOR DR"
+    },
+    {
+      "id": "322",
+      "road": "TIFFANY AVE",
+      "from": "HILLMOOR DR",
+      "to": "VILLAGE GREEN DR"
+    },
+    {
+      "id": "320",
+      "road": "TIFFANY AVE",
+      "from": "VILLAGE GREEN DR",
+      "to": "LENNARD RD"
+    },
+    {
+      "id": "709",
+      "road": "TORINO PKWY",
+      "from": "CASHMERE BLVD",
+      "to": "CALIFORNIA BLVD"
+    },
+    {
+      "id": "238",
+      "road": "TORINO PKWY",
+      "from": "CALIFORNIA BLVD",
+      "to": "EAST TORINO PKWY"
+    },
+    {
+      "id": "711",
+      "road": "TRADITION PKWY",
+      "from": "COMMUNITY BLVD",
+      "to": "VILLAGE PKWY"
+    },
+    {
+      "id": "712",
+      "road": "TRADITION PKWY",
+      "from": "VILLAGE PKWY",
+      "to": "W OF I-95"
+    },
+    {
+      "id": "713",
+      "road": "TULIP BLVD",
+      "from": "DARWIN BLVD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "714",
+      "road": "TULIP BLVD",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "PAAR DR"
+    },
+    {
+      "id": "714",
+      "road": "TULIP BLVD",
+      "from": "PAAR DR",
+      "to": "DARWIN BLVD"
+    },
+    {
+      "id": "940078",
+      "road": "TURNPIKE FEEDER RD",
+      "from": "TURNPIKE FEEDER RD SB RAMP",
+      "to": "US 1"
+    },
+    {
+      "id": "940269",
+      "road": "TURNPIKE FEEDER RD",
+      "from": "INDIAN PINES BLVD",
+      "to": "TURNPIKE FEEDER RD SB R..."
+    },
+    {
+      "id": "940745",
+      "road": "TURNPIKE FEEDER RD",
+      "from": "INDRIO RD",
+      "to": "INDIAN PINES BLVD"
+    },
+    {
+      "id": "945071",
+      "road": "US 1",
+      "from": "MARTIN C.L.",
+      "to": "LENNARD RD"
+    },
+    {
+      "id": "945071",
+      "road": "US 1",
+      "from": "LENNARD RD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "945070",
+      "road": "US 1",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "JENNINGS RD"
+    },
+    {
+      "id": "945070",
+      "road": "US 1",
+      "from": "JENNINGS RD",
+      "to": "TIFFANY AVE"
+    },
+    {
+      "id": "945070",
+      "road": "US 1",
+      "from": "TIFFANY AVE",
+      "to": "WALTON RD"
+    },
+    {
+      "id": "945150",
+      "road": "US 1",
+      "from": "WALTON RD",
+      "to": "VILLAGE GREEN DR"
+    },
+    {
+      "id": "940265",
+      "road": "US 1",
+      "from": "VILLAGE GREEN DR",
+      "to": "SPANISH LAKES BLVD"
+    },
+    {
+      "id": "940265",
+      "road": "US 1",
+      "from": "SPANISH LAKES BLVD",
+      "to": "PRIMA VISTA BLVD"
+    },
+    {
+      "id": "940264",
+      "road": "US 1",
+      "from": "PRIMA VISTA BLVD",
+      "to": "RIO MAR DR"
+    },
+    {
+      "id": "940266",
+      "road": "US 1",
+      "from": "RIO MAR DR",
+      "to": "KITTERMAN RD"
+    },
+    {
+      "id": "940266",
+      "road": "US 1",
+      "from": "KITTERMAN RD",
+      "to": "S OF SAEGER AVE"
+    },
+    {
+      "id": "940266",
+      "road": "US 1",
+      "from": "S OF SAEGER AVE",
+      "to": "EASY ST"
+    },
+    {
+      "id": "945156",
+      "road": "US 1",
+      "from": "EASY ST",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "940012",
+      "road": "US 1",
+      "from": "MIDWAY RD",
+      "to": "WEATHERBEE RD"
+    },
+    {
+      "id": "940012",
+      "road": "US 1",
+      "from": "WEATHERBEE RD",
+      "to": "FARMER'S MARKET RD"
+    },
+    {
+      "id": "940012",
+      "road": "US 1",
+      "from": "FARMER'S MARKET RD",
+      "to": "EDWARDS RD"
+    },
+    {
+      "id": "945002",
+      "road": "US 1",
+      "from": "EDWARDS RD",
+      "to": "SAVANNAH RD"
+    },
+    {
+      "id": "945002",
+      "road": "US 1",
+      "from": "GARDENIA AVE",
+      "to": "VIRGINIA AVE"
+    },
+    {
+      "id": "945002",
+      "road": "US 1",
+      "from": "SAVANNAH RD",
+      "to": "GARDENIA AVE"
+    },
+    {
+      "id": "945003",
+      "road": "US 1",
+      "from": "VIRGINIA AVE",
+      "to": "OHIO AVE"
+    },
+    {
+      "id": "945003",
+      "road": "US 1",
+      "from": "OHIO AVE",
+      "to": "GEORGIA AVE"
+    },
+    {
+      "id": "945008",
+      "road": "US 1",
+      "from": "GEORGIA AVE",
+      "to": "DELAWARE AVE"
+    },
+    {
+      "id": "945014",
+      "road": "US 1",
+      "from": "DELAWARE AVE",
+      "to": "CITRUS AVE"
+    },
+    {
+      "id": "940118",
+      "road": "US 1",
+      "from": "CITRUS AVE",
+      "to": "ORANGE AVE"
+    },
+    {
+      "id": "945014",
+      "road": "US 1",
+      "from": "ORANGE AVE",
+      "to": "AVENUE A"
+    },
+    {
+      "id": "945014",
+      "road": "US 1",
+      "from": "AVENUE A",
+      "to": "AE BACKUS AVE"
+    },
+    {
+      "id": "945014",
+      "road": "US 1",
+      "from": "AE BACKUS AVE",
+      "to": "AVENUE D"
+    },
+    {
+      "id": "945014",
+      "road": "US 1",
+      "from": "AVENUE D",
+      "to": "SR A1A SOUTH"
+    },
+    {
+      "id": "715",
+      "road": "US 1",
+      "from": "SR A1A SOUTH",
+      "to": "AVENUE H"
+    },
+    {
+      "id": "715",
+      "road": "US 1",
+      "from": "AVENUE H",
+      "to": "OLD DIXIE HWY"
+    },
+    {
+      "id": "940123",
+      "road": "US 1",
+      "from": "OLD DIXIE HWY",
+      "to": "AVENUE O"
+    },
+    {
+      "id": "940123",
+      "road": "US 1",
+      "from": "AVENUE O",
+      "to": "SR A1A NORTH"
+    },
+    {
+      "id": "940010",
+      "road": "US 1",
+      "from": "SR A1A NORTH",
+      "to": "JUANITA AVE"
+    },
+    {
+      "id": "940010",
+      "road": "US 1",
+      "from": "JUANITA AVE",
+      "to": "ST LUCIE BLVD"
+    },
+    {
+      "id": "940009",
+      "road": "US 1",
+      "from": "ST LUCIE BLVD",
+      "to": "25TH ST"
+    },
+    {
+      "id": "940009",
+      "road": "US 1",
+      "from": "25TH ST",
+      "to": "INDRIO RD"
+    },
+    {
+      "id": "940107",
+      "road": "US 1",
+      "from": "INDRIO RD",
+      "to": "TURNPIKE FEEDER RD"
+    },
+    {
+      "id": "940107",
+      "road": "US 1",
+      "from": "TURNPIKE FEEDER RD",
+      "to": "INDIAN RIVER C.L."
+    },
+    {
+      "id": "329",
+      "road": "VETERANS MEMORIAL PKWY",
+      "from": "PORT ST LUCIE BLVD",
+      "to": "LYNGATE DR"
+    },
+    {
+      "id": "327",
+      "road": "VETERANS MEMORIAL PKWY",
+      "from": "LYNGATE DR",
+      "to": "US 1"
+    },
+    {
+      "id": "716",
+      "road": "VILLAGE GREEN DR",
+      "from": "US 1",
+      "to": "WALTON RD"
+    },
+    {
+      "id": "717",
+      "road": "VILLAGE GREEN DR",
+      "from": "WALTON RD",
+      "to": "TIFFANY AVE"
+    },
+    {
+      "id": "718",
+      "road": "VILLAGE PKWY",
+      "from": "DISCOVERY WAY",
+      "to": "TRADITION PKWY"
+    },
+    {
+      "id": "734",
+      "road": "VILLAGE PKWY",
+      "from": "BECKER RD",
+      "to": "DISCOVERY WAY"
+    },
+    {
+      "id": "719",
+      "road": "VILLAGE PKWY",
+      "from": "TRADITION PKWY",
+      "to": "WESTCLIFFE LN"
+    },
+    {
+      "id": "720",
+      "road": "VILLAGE PKWY",
+      "from": "WESTCLIFFE LN",
+      "to": "CROSSTOWN PKWY"
+    },
+    {
+      "id": "940032",
+      "road": "VIRGINIA AVE",
+      "from": "35TH ST",
+      "to": "25TH ST"
+    },
+    {
+      "id": "940030",
+      "road": "VIRGINIA AVE",
+      "from": "OKEECHOBEE RD",
+      "to": "HARTMAN RD"
+    },
+    {
+      "id": "940030",
+      "road": "VIRGINIA AVE",
+      "from": "HARTMAN RD",
+      "to": "35TH ST"
+    },
+    {
+      "id": "940033",
+      "road": "VIRGINIA AVE",
+      "from": "25TH ST",
+      "to": "13TH ST"
+    },
+    {
+      "id": "940794",
+      "road": "VIRGINIA AVE",
+      "from": "13TH ST",
+      "to": "11TH ST"
+    },
+    {
+      "id": "940794",
+      "road": "VIRGINIA AVE",
+      "from": "11TH ST",
+      "to": "SUNRISE BLVD"
+    },
+    {
+      "id": "940792",
+      "road": "VIRGINIA AVE",
+      "from": "SUNRISE BLVD",
+      "to": "OLEANDER AVE"
+    },
+    {
+      "id": "940034",
+      "road": "VIRGINIA AVE",
+      "from": "OLEANDER AVE",
+      "to": "COLONIAL RD"
+    },
+    {
+      "id": "940034",
+      "road": "VIRGINIA AVE",
+      "from": "COLONIAL RD",
+      "to": "US 1"
+    },
+    {
+      "id": "330",
+      "road": "WALTON RD",
+      "from": "US 1",
+      "to": "VILLAGE GREEN DR"
+    },
+    {
+      "id": "328",
+      "road": "WALTON RD",
+      "from": "VILLAGE GREEN DR",
+      "to": "LENNARD RD"
+    },
+    {
+      "id": "326",
+      "road": "WALTON RD",
+      "from": "LENNARD RD",
+      "to": "GREEN RIVER PKWY"
+    },
+    {
+      "id": "324",
+      "road": "WALTON RD",
+      "from": "GREEN RIVER PKWY",
+      "to": "INDIAN RIVER DR"
+    },
+    {
+      "id": "721",
+      "road": "WEATHERBEE RD",
+      "from": "OLEANDER AVE",
+      "to": "US 1"
+    },
+    {
+      "id": "158",
+      "road": "WEATHERBEE RD",
+      "from": "US 1",
+      "to": "MIDWAY RD"
+    },
+    {
+      "id": "722",
+      "road": "WESTCLIFFE LN",
+      "from": "TREMONTE AVE",
+      "to": "VILLAGE PKWY"
+    },
+    {
+      "id": "339",
+      "road": "WESTMORELAND BLVD",
+      "from": "MORNINGSIDE BLVD",
+      "to": "PORT ST LUCIE BLVD"
+    },
+    {
+      "id": "245",
+      "road": "WESTMORELAND BLVD",
+      "from": "MARTIN C.L.",
+      "to": "MORNINGSIDE BLVD"
+    }
+  ]
+}

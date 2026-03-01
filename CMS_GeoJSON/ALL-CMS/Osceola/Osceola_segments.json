@@ -1,0 +1,1482 @@
+{
+  "name": "Osceola",
+  "region": "Osceola County, FL",
+  "segments": [
+    {
+      "id": "1",
+      "road": "Bass Highway",
+      "from": "Pine Grove Rd",
+      "to": "End"
+    },
+    {
+      "id": "2",
+      "road": "Absher Rd",
+      "from": "Southern Terminus",
+      "to": "Cyrils Dr"
+    },
+    {
+      "id": "3",
+      "road": "Ball Park Rd",
+      "from": "John Young Pkwy",
+      "to": "Thacker Ave"
+    },
+    {
+      "id": "4",
+      "road": "Bass Road",
+      "from": "Yowell Rd",
+      "to": "US 192"
+    },
+    {
+      "id": "5",
+      "road": "Bella Citta Blvd",
+      "from": "Oasis Club Blvd",
+      "to": "Westside Blvd"
+    },
+    {
+      "id": "6",
+      "road": "Bella Citta Blvd",
+      "from": "Westside Blvd",
+      "to": "S Goodman Rd"
+    },
+    {
+      "id": "7",
+      "road": "Bill Beck Blvd",
+      "from": "US 192-441",
+      "to": "Fortune Rd"
+    },
+    {
+      "id": "8",
+      "road": "Bill Beck Blvd",
+      "from": "Osceola Pkwy",
+      "to": "Woodcrest Blvd"
+    },
+    {
+      "id": "9",
+      "road": "Boggy Creek Rd (East)",
+      "from": "Simpson Rd",
+      "to": "Austin Tyndell Park"
+    },
+    {
+      "id": "10",
+      "road": "Boggy Creek Rd (East)",
+      "from": "Austin Tyndell Park",
+      "to": "Narcoossee Rd (CR 15)"
+    },
+    {
+      "id": "11",
+      "road": "Botanica Blvd",
+      "from": "US 192-441",
+      "to": "Crispin Cir"
+    },
+    {
+      "id": "12",
+      "road": "Broad St",
+      "from": "US 17/92",
+      "to": "Old Tampa Hwy"
+    },
+    {
+      "id": "13",
+      "road": "Brown Chapel Rd",
+      "from": "US 192-441",
+      "to": "Lakeshore Blvd"
+    },
+    {
+      "id": "14",
+      "road": "Buenaventura Blvd",
+      "from": "Simpson Rd",
+      "to": "Florida Pkwy"
+    },
+    {
+      "id": "15",
+      "road": "Buenaventura Blvd",
+      "from": "Florida Pkwy",
+      "to": "Osceola Pkwy"
+    },
+    {
+      "id": "16",
+      "road": "Buenaventura Blvd",
+      "from": "Osceola Pkwy",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "17",
+      "road": "Canoe Creek Rd (CR 523)",
+      "from": "US 441/SR 15/Holopaw Rd",
+      "to": "Sullivan Dr"
+    },
+    {
+      "id": "18",
+      "road": "Canoe Creek Rd (CR 523)",
+      "from": "Sullivan Dr",
+      "to": "Deer Run Rd"
+    },
+    {
+      "id": "19",
+      "road": "Canoe Creek Rd (CR 523)",
+      "from": "Deer Run Rd",
+      "to": "Old Canoe Creek Rd"
+    },
+    {
+      "id": "20",
+      "road": "Canoe Creek Rd (CR 523)",
+      "from": "Old Canoe Creek Rd",
+      "to": "Nolte Rd"
+    },
+    {
+      "id": "21",
+      "road": "Canoe Creek Rd (CR 523)",
+      "from": "Nolte Rd",
+      "to": "US 192-441"
+    },
+    {
+      "id": "22",
+      "road": "Canoe Creek Rd (CR 523)",
+      "from": "Mildred Bass Rd",
+      "to": "Florida's Turnpike"
+    },
+    {
+      "id": "23",
+      "road": "Carroll St",
+      "from": "Columbia Ave",
+      "to": "Dyer Blvd"
+    },
+    {
+      "id": "24",
+      "road": "Carroll St",
+      "from": "Dyer Blvd",
+      "to": "Thacker Ave"
+    },
+    {
+      "id": "25",
+      "road": "Carroll St",
+      "from": "Thacker Ave",
+      "to": "John Young Pkwy"
+    },
+    {
+      "id": "26",
+      "road": "Carroll St",
+      "from": "John Young Pkwy",
+      "to": "Main St/US 441-17/92"
+    },
+    {
+      "id": "27",
+      "road": "Carroll St",
+      "from": "Main St/US 441-17/92",
+      "to": "Old Dixie Hwy"
+    },
+    {
+      "id": "28",
+      "road": "Carroll St",
+      "from": "Old Dixie Hwy",
+      "to": "Michigan Ave"
+    },
+    {
+      "id": "29",
+      "road": "Celebration Ave",
+      "from": "US 192",
+      "to": "Celebration Blvd"
+    },
+    {
+      "id": "30",
+      "road": "Celebration Blvd",
+      "from": "Celebration Pl",
+      "to": "World Dr"
+    },
+    {
+      "id": "31",
+      "road": "Champions Gate Blvd",
+      "from": "Polk County Line",
+      "to": "I-4"
+    },
+    {
+      "id": "32",
+      "road": "Clay St",
+      "from": "Jack Calhoun Dr",
+      "to": "Thacker Ave"
+    },
+    {
+      "id": "33",
+      "road": "Clay St",
+      "from": "Thacker Ave",
+      "to": "Randolph Ave"
+    },
+    {
+      "id": "34",
+      "road": "Creek Woods Dr",
+      "from": "Canoe Creek Rd",
+      "to": "Michigan Ave"
+    },
+    {
+      "id": "35",
+      "road": "Cross Prairie Pkwy",
+      "from": "Neptune Rd",
+      "to": "Partin Settlement Rd"
+    },
+    {
+      "id": "36",
+      "road": "Cross Prairie Pkwy",
+      "from": "Neptune Rd",
+      "to": "Partin Terrace Rd"
+    },
+    {
+      "id": "37",
+      "road": "Cross Prairie Pkwy",
+      "from": "US 192",
+      "to": "Turnpike Ramps"
+    },
+    {
+      "id": "38",
+      "road": "Cross Prairie Pkwy",
+      "from": "Clay Whaley Rd",
+      "to": "Kissimmee Park Rd"
+    },
+    {
+      "id": "39",
+      "road": "Cypress Pkwy",
+      "from": "Marigold Ave",
+      "to": "Pleasant Hill Rd"
+    },
+    {
+      "id": "40",
+      "road": "Cypress Pkwy",
+      "from": "Poinciana Pkwy",
+      "to": "Marigold Ave"
+    },
+    {
+      "id": "41",
+      "road": "Cyrils Dr",
+      "from": "Narcoossee Rd",
+      "to": "Zuni Rd"
+    },
+    {
+      "id": "42",
+      "road": "Cyrils Dr",
+      "from": "Zuni Rd",
+      "to": "Absher Rd"
+    },
+    {
+      "id": "43",
+      "road": "Cyrils Dr",
+      "from": "Narcoossee Rd (CR 15)",
+      "to": "Absher Rd"
+    },
+    {
+      "id": "44",
+      "road": "Deer Park Rd (CR 419)",
+      "from": "US 192",
+      "to": "Nova Rd (CR 532)"
+    },
+    {
+      "id": "45",
+      "road": "Deer Park Rd",
+      "from": "US 192",
+      "to": "Gator Branch Rd"
+    },
+    {
+      "id": "46",
+      "road": "Deer Park Rd",
+      "from": "Gator Branch Rd",
+      "to": "Nova Rd (CR 532)"
+    },
+    {
+      "id": "47",
+      "road": "Deer Run Rd",
+      "from": "Canoe Creek Rd (CR 523)",
+      "to": "Hickory Tree Rd"
+    },
+    {
+      "id": "48",
+      "road": "Donegan Ave",
+      "from": "John Young Pkwy",
+      "to": "US 17/92"
+    },
+    {
+      "id": "49",
+      "road": "Donegan Ave",
+      "from": "US 17/92",
+      "to": "Michigan Ave"
+    },
+    {
+      "id": "50",
+      "road": "Doverplum Ave",
+      "from": "Old Pleasant Hill Rd",
+      "to": "Cypress Pkwy"
+    },
+    {
+      "id": "51",
+      "road": "Doverplum Ave",
+      "from": "Cypress Pkwy",
+      "to": "KOA St"
+    },
+    {
+      "id": "52",
+      "road": "Eden Dr",
+      "from": "Nova Rd (CR 532)",
+      "to": "End"
+    },
+    {
+      "id": "53",
+      "road": "Enterprise Dr/Mercantile Ln",
+      "from": "Poinciana Blvd",
+      "to": "Cattle Dr"
+    },
+    {
+      "id": "54",
+      "road": "Entry Point Blvd",
+      "from": "Funie Steed Rd",
+      "to": "US 192"
+    },
+    {
+      "id": "55",
+      "road": "Fifth St (St Cloud)",
+      "from": "Old Canoe Creek Rd",
+      "to": "Vermont Ave"
+    },
+    {
+      "id": "56",
+      "road": "Florence Villa Grove Rd",
+      "from": "Polk County Line",
+      "to": "Westside Blvd"
+    },
+    {
+      "id": "57",
+      "road": "Florida Pkwy",
+      "from": "Osceola Pkwy",
+      "to": "Buenaventura Blvd"
+    },
+    {
+      "id": "58",
+      "road": "Florida's Turnpike",
+      "from": "Osceola Pkwy",
+      "to": "US 192-441"
+    },
+    {
+      "id": "59",
+      "road": "Florida's Turnpike",
+      "from": "US 192/441",
+      "to": "Kissimmee Park Rd"
+    },
+    {
+      "id": "60",
+      "road": "Florida's Turnpike",
+      "from": "Kissimmee Park Rd",
+      "to": "Indian River County"
+    },
+    {
+      "id": "61",
+      "road": "Florida's Turnpike",
+      "from": "Orange County Line",
+      "to": "Osceola Pkwy"
+    },
+    {
+      "id": "62",
+      "road": "Formosa Gardens Blvd",
+      "from": "Sinclair Rd",
+      "to": "Funie Steed Rd"
+    },
+    {
+      "id": "63",
+      "road": "Formosa Gardens Blvd",
+      "from": "Funie Steed Rd",
+      "to": "US 192"
+    },
+    {
+      "id": "64",
+      "road": "Formosa Gardens Blvd",
+      "from": "Funie Steed Rd",
+      "to": "Sand Hill Rd"
+    },
+    {
+      "id": "65",
+      "road": "Connector Road/Formosa Garden",
+      "from": "Sand Hill Rd",
+      "to": "Sinclair Rd"
+    },
+    {
+      "id": "66",
+      "road": "Fortune Rd",
+      "from": "US 192-441",
+      "to": "Simpson Rd"
+    },
+    {
+      "id": "67",
+      "road": "Fortune Rd",
+      "from": "Simpson Rd",
+      "to": "Lakeshore Blvd"
+    },
+    {
+      "id": "68",
+      "road": "Friars Cove Rd",
+      "from": "Florida's Turnpike",
+      "to": "Canoe Creek Rd (CR 523)"
+    },
+    {
+      "id": "69",
+      "road": "Funie Steed Rd",
+      "from": "Westside Blvd",
+      "to": "Formosa Gardens Blvd"
+    },
+    {
+      "id": "70",
+      "road": "Funie Steed Rd",
+      "from": "Formosa Gardens Blvd",
+      "to": "Old Lake Wilson Rd"
+    },
+    {
+      "id": "71",
+      "road": "Goodman Rd",
+      "from": "Westside Blvd",
+      "to": "Monaco Blvd"
+    },
+    {
+      "id": "72",
+      "road": "Goodman Rd",
+      "from": "Monaco Blvd",
+      "to": "Happy Trl"
+    },
+    {
+      "id": "73",
+      "road": "Ham Brown Rd",
+      "from": "Reaves Rd",
+      "to": "Cattle Drive Ln"
+    },
+    {
+      "id": "74",
+      "road": "Ham Brown Rd",
+      "from": "Cattle Drive Ln",
+      "to": "US 17/92"
+    },
+    {
+      "id": "75",
+      "road": "Henry Partin Rd",
+      "from": "Kings Hwy",
+      "to": "Neptune Rd"
+    },
+    {
+      "id": "76",
+      "road": "Hickory Tree Rd",
+      "from": "US 192 (West)",
+      "to": "Nolte Rd"
+    },
+    {
+      "id": "77",
+      "road": "Hickory Tree Rd",
+      "from": "Nolte Rd",
+      "to": "Deer Run Rd"
+    },
+    {
+      "id": "78",
+      "road": "Hickory Tree Rd",
+      "from": "Deer Run Rd",
+      "to": "US 192 (East)"
+    },
+    {
+      "id": "79",
+      "road": "Hoagland Blvd",
+      "from": "US 17/92",
+      "to": "US 192"
+    },
+    {
+      "id": "80",
+      "road": "Hoagland Blvd",
+      "from": "US 1792",
+      "to": "Jack Calhoun Dr N"
+    },
+    {
+      "id": "81",
+      "road": "Jack Calhoun Dr",
+      "from": "N Hoagland Blvd",
+      "to": "S Hoagland Blvd"
+    },
+    {
+      "id": "82",
+      "road": "International Drive South",
+      "from": "US 192",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "83",
+      "road": "Interstate 4",
+      "from": "Osceola Polk Line Rd (CR 532)",
+      "to": "SR 429"
+    },
+    {
+      "id": "84",
+      "road": "Interstate 4",
+      "from": "SR 429",
+      "to": "World Dr"
+    },
+    {
+      "id": "85",
+      "road": "Interstate 4",
+      "from": "World Dr",
+      "to": "US 192"
+    },
+    {
+      "id": "86",
+      "road": "Interstate 4",
+      "from": "US 192",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "87",
+      "road": "Jack Brack Rd",
+      "from": "Narcoossee Rd (CR 15)",
+      "to": "Zuni Rd"
+    },
+    {
+      "id": "88",
+      "road": "Jack Brack Rd",
+      "from": "Zuni Rd",
+      "to": "Absher Rd"
+    },
+    {
+      "id": "89",
+      "road": "John Young Pkwy",
+      "from": "US 192",
+      "to": "Columbia Ave"
+    },
+    {
+      "id": "90",
+      "road": "John Young Pkwy",
+      "from": "Columbia Ave",
+      "to": "Carroll St"
+    },
+    {
+      "id": "91",
+      "road": "John Young Pkwy",
+      "from": "Carroll St",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "92",
+      "road": "Jones Rd",
+      "from": "Narcoossee Rd",
+      "to": "Gerry Ct"
+    },
+    {
+      "id": "93",
+      "road": "Kings Hwy",
+      "from": "Pine Island Rd",
+      "to": "Neptune Rd"
+    },
+    {
+      "id": "94",
+      "road": "Kissimmee Park Rd",
+      "from": "Old Canoe Creek Rd",
+      "to": "Lake Tohopekaliga"
+    },
+    {
+      "id": "95",
+      "road": "Clay Whaley Rd",
+      "from": "Cross Prairie Pkwy",
+      "to": "Turnpike"
+    },
+    {
+      "id": "96",
+      "road": "KOA St",
+      "from": "Rhododendron Ave",
+      "to": "Marigold Ave"
+    },
+    {
+      "id": "97",
+      "road": "KOA St",
+      "from": "Marigold Ave",
+      "to": "Doverplum Ave"
+    },
+    {
+      "id": "98",
+      "road": "Lakeshore Blvd",
+      "from": "Fortune Rd",
+      "to": "Partin Settlement Rd"
+    },
+    {
+      "id": "99",
+      "road": "Lakeshore Blvd",
+      "from": "Partin Settlement Rd",
+      "to": "Brown Chapel Rd"
+    },
+    {
+      "id": "100",
+      "road": "Lakeshore Blvd",
+      "from": "Brown Chapel Rd",
+      "to": "Mississippi Ave"
+    },
+    {
+      "id": "101",
+      "road": "Laurel Ave",
+      "from": "KOA St",
+      "to": "Marigold Ave"
+    },
+    {
+      "id": "102",
+      "road": "Marigold Ave",
+      "from": "Cypress Pkwy",
+      "to": "KOA St"
+    },
+    {
+      "id": "103",
+      "road": "Marigold Ave",
+      "from": "KOA St",
+      "to": "Poinciana Pkwy"
+    },
+    {
+      "id": "104",
+      "road": "Masters Blvd/Goodman Rd",
+      "from": "Champions Gate Blvd",
+      "to": "Bella Citta Blvd"
+    },
+    {
+      "id": "105",
+      "road": "McMichael Rd",
+      "from": "Northern Terminus",
+      "to": "Jack Brack Rd"
+    },
+    {
+      "id": "106",
+      "road": "Michigan Ave (CR 531)",
+      "from": "US 192-441",
+      "to": "Donegan Ave"
+    },
+    {
+      "id": "107",
+      "road": "Michigan Ave (CR 531)",
+      "from": "Donegan Ave",
+      "to": "Carroll St"
+    },
+    {
+      "id": "108",
+      "road": "Michigan Ave (CR 531)",
+      "from": "Carroll St",
+      "to": "Osceola Pkwy"
+    },
+    {
+      "id": "109",
+      "road": "Michigan Ave (St Cloud)",
+      "from": "Lakeshore Blvd",
+      "to": "US 192-441"
+    },
+    {
+      "id": "110",
+      "road": "Michigan Ave (St Cloud)",
+      "from": "US 192",
+      "to": "Nolte Rd"
+    },
+    {
+      "id": "111",
+      "road": "Michigan Ave (St Cloud)",
+      "from": "Nolte Rd",
+      "to": "Creek Woods Dr"
+    },
+    {
+      "id": "112",
+      "road": "Narcoossee Rd (CR 15)",
+      "from": "Orange County Line",
+      "to": "Jones Rd"
+    },
+    {
+      "id": "113",
+      "road": "Narcoossee Rd (CR 15)",
+      "from": "Jones Rd",
+      "to": "Rummel Rd"
+    },
+    {
+      "id": "114",
+      "road": "Narcoossee Rd (CR 15)",
+      "from": "Rummel Rd",
+      "to": "10th St"
+    },
+    {
+      "id": "115",
+      "road": "Narcoossee Rd (CR 15)",
+      "from": "10th St",
+      "to": "US 192-441"
+    },
+    {
+      "id": "116",
+      "road": "Neptune Rd",
+      "from": "Broadway Ave/Main St",
+      "to": "Lakeshore Blvd"
+    },
+    {
+      "id": "117",
+      "road": "Neptune Rd",
+      "from": "Lakeshore Blvd",
+      "to": "Kings Hwy"
+    },
+    {
+      "id": "118",
+      "road": "Neptune Rd",
+      "from": "Kings Hwy",
+      "to": "Partin Settlement Rd"
+    },
+    {
+      "id": "119",
+      "road": "Neptune Rd",
+      "from": "Partin Settlement Rd",
+      "to": "Old Canoe Creek Rd"
+    },
+    {
+      "id": "120",
+      "road": "Neptune Rd",
+      "from": "Old Canoe Creek Rd",
+      "to": "US 192-441"
+    },
+    {
+      "id": "121",
+      "road": "Nolte Rd",
+      "from": "Old Canoe Creek Rd",
+      "to": "Canoe Creek Road (CR 523)"
+    },
+    {
+      "id": "122",
+      "road": "Nolte Rd",
+      "from": "Canoe Creek Road (CR 523)",
+      "to": "Michigan Ave"
+    },
+    {
+      "id": "123",
+      "road": "Nolte Rd",
+      "from": "Michigan Ave",
+      "to": "Hickory Tree Rd"
+    },
+    {
+      "id": "124",
+      "road": "Nova Rd (CR 532)",
+      "from": "US 192",
+      "to": "Lake Lizzie Dr"
+    },
+    {
+      "id": "125",
+      "road": "Nova Rd (CR 532)",
+      "from": "Lake Lizzie Dr",
+      "to": "Eden Dr"
+    },
+    {
+      "id": "126",
+      "road": "Nova Rd (CR 532)",
+      "from": "Eden Dr",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "127",
+      "road": "Old Boggy Creek Rd",
+      "from": "Denn John Ln",
+      "to": "Fortune Rd"
+    },
+    {
+      "id": "128",
+      "road": "Old Canoe Creek Rd",
+      "from": "US 192-441",
+      "to": "Neptune Rd"
+    },
+    {
+      "id": "129",
+      "road": "Old Canoe Creek Rd",
+      "from": "Neptune Rd",
+      "to": "Kissimmee Park Rd"
+    },
+    {
+      "id": "130",
+      "road": "Old Canoe Creek Rd",
+      "from": "Kissimmee Park Rd",
+      "to": "Canoe Creek Road (CR 523)"
+    },
+    {
+      "id": "131",
+      "road": "Old Dixie Hwy",
+      "from": "Donegan Ave",
+      "to": "Osceola Pkwy"
+    },
+    {
+      "id": "132",
+      "road": "Old Hickory Tree Rd",
+      "from": "Nolte Rd",
+      "to": "US 192-441"
+    },
+    {
+      "id": "133",
+      "road": "Old Lake Wilson Rd (CR 545)",
+      "from": "Osceola Polk Line Rd (CR 532)",
+      "to": "Sinclair Rd"
+    },
+    {
+      "id": "134",
+      "road": "Old Lake Wilson Rd (CR 545)",
+      "from": "Sinclair Rd",
+      "to": "Westgate Blvd"
+    },
+    {
+      "id": "135",
+      "road": "Old Lake Wilson Rd (CR 545)",
+      "from": "Westgate Blvd",
+      "to": "US 192"
+    },
+    {
+      "id": "136",
+      "road": "Old Melbourne Hwy",
+      "from": "US 192",
+      "to": "Bronco Dr"
+    },
+    {
+      "id": "137",
+      "road": "Old Tampa Hwy",
+      "from": "US 17/92",
+      "to": "Poinciana Blvd"
+    },
+    {
+      "id": "138",
+      "road": "Old Tampa Hwy",
+      "from": "Poinciana Blvd",
+      "to": "Broad St"
+    },
+    {
+      "id": "139",
+      "road": "Old Tampa Hwy",
+      "from": "Broad St",
+      "to": "Jack Calhoun Dr"
+    },
+    {
+      "id": "140",
+      "road": "Old Vineland Rd",
+      "from": "US 192",
+      "to": "Princess Way"
+    },
+    {
+      "id": "141",
+      "road": "Orange Ave (CR 527)",
+      "from": "Osceola Pkwy",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "142",
+      "road": "Orange Ave (St Cloud)",
+      "from": "US 192-441 (13th St)",
+      "to": "Rummell Rd"
+    },
+    {
+      "id": "143",
+      "road": "Oren Brown Rd",
+      "from": "Poinciana Blvd",
+      "to": "US 192"
+    },
+    {
+      "id": "144",
+      "road": "Osceola Pkwy",
+      "from": "I-4",
+      "to": "SR 417"
+    },
+    {
+      "id": "145",
+      "road": "Osceola Pkwy",
+      "from": "SR 417",
+      "to": "Vineland Rd (SR 535)"
+    },
+    {
+      "id": "146",
+      "road": "Osceola Pkwy",
+      "from": "Vineland Rd (SR 535)",
+      "to": "Sunrise City Dr/Storey Lake Blvd"
+    },
+    {
+      "id": "147",
+      "road": "Osceola Pkwy",
+      "from": "Sunrise City Dr",
+      "to": "Dyer Blvd"
+    },
+    {
+      "id": "148",
+      "road": "Osceola Pkwy",
+      "from": "Dyer Blvd",
+      "to": "John Young Pkwy"
+    },
+    {
+      "id": "149",
+      "road": "Osceola Pkwy",
+      "from": "John Young Pkwy",
+      "to": "US 17-92-441 (O.B.T.)"
+    },
+    {
+      "id": "150",
+      "road": "Osceola Pkwy",
+      "from": "US 17-92-441 (O.B.T.)",
+      "to": "Florida's Turnpike"
+    },
+    {
+      "id": "151",
+      "road": "Osceola Pkwy",
+      "from": "Florida's Turnpike",
+      "to": "Buenaventura Blvd"
+    },
+    {
+      "id": "152",
+      "road": "Osceola Pkwy",
+      "from": "Buenaventura Blvd",
+      "to": "Simpson Rd"
+    },
+    {
+      "id": "153",
+      "road": "Osceola Polk Line Rd (CR 532)",
+      "from": "I-4",
+      "to": "Old Lake Wilson Rd"
+    },
+    {
+      "id": "154",
+      "road": "Osceola Polk Line Rd (CR 532)",
+      "from": "Old Lake Wilson Rd",
+      "to": "US 17/92"
+    },
+    {
+      "id": "155",
+      "road": "Partin Settlement Rd",
+      "from": "Neptune Rd",
+      "to": "Cross Prairie Pkwy"
+    },
+    {
+      "id": "156",
+      "road": "Partin Settlement Rd",
+      "from": "Cross Prairie Pkwy",
+      "to": "US 192-441"
+    },
+    {
+      "id": "157",
+      "road": "Partin Settlement Rd",
+      "from": "US 192-441",
+      "to": "Lakeshore Blvd"
+    },
+    {
+      "id": "158",
+      "road": "Pine Grove Rd",
+      "from": "US 192-441",
+      "to": "Nova Rd (CR 532)"
+    },
+    {
+      "id": "159",
+      "road": "Pine Tree Rd",
+      "from": "Canoe Creek Rd",
+      "to": "Hickory Tree Rd"
+    },
+    {
+      "id": "160",
+      "road": "Pleasant Hill Rd",
+      "from": "Clay St",
+      "to": "US 17/92"
+    },
+    {
+      "id": "161",
+      "road": "Pleasant Hill Rd",
+      "from": "Cypress Pkwy",
+      "to": "Poinciana Blvd"
+    },
+    {
+      "id": "162",
+      "road": "Pleasant Hill Rd",
+      "from": "Poinciana Blvd",
+      "to": "Grasmere View Pkwy"
+    },
+    {
+      "id": "163",
+      "road": "Pleasant Hill Rd",
+      "from": "Grasmere View Pkwy",
+      "to": "US 17/92"
+    },
+    {
+      "id": "164",
+      "road": "Poinciana Blvd",
+      "from": "Pleasant Hill Rd",
+      "to": "Crescent Lakes Way"
+    },
+    {
+      "id": "165",
+      "road": "Poinciana Blvd",
+      "from": "Crescent Lakes Way",
+      "to": "US 17/92"
+    },
+    {
+      "id": "166",
+      "road": "Poinciana Blvd",
+      "from": "US 17/92",
+      "to": "One Mile North of CSX RR"
+    },
+    {
+      "id": "167",
+      "road": "Poinciana Blvd",
+      "from": "One Mile North of CSX RR",
+      "to": "Oren Brown Rd"
+    },
+    {
+      "id": "168",
+      "road": "Poinciana Blvd",
+      "from": "Oren Brown Rd",
+      "to": "US 192 (Bronson Hwy)"
+    },
+    {
+      "id": "169",
+      "road": "Poinciana Blvd",
+      "from": "US 192 (Bronson Hwy)",
+      "to": "Vineland Rd (SR 535)"
+    },
+    {
+      "id": "170",
+      "road": "Polynesian Isle Blvd",
+      "from": "US 192",
+      "to": "Vineland Rd (SR 535)"
+    },
+    {
+      "id": "171",
+      "road": "Princess Way/Seven Dwarfs Ln",
+      "from": "US 192 (Bronson Hwy)",
+      "to": "Old Vineland Rd"
+    },
+    {
+      "id": "172",
+      "road": "Reaves Rd",
+      "from": "Poinciana Blvd",
+      "to": "Pleasant Hill Rd"
+    },
+    {
+      "id": "173",
+      "road": "Royal Palm Dr",
+      "from": "Buenaventura Blvd",
+      "to": "Simpson Rd"
+    },
+    {
+      "id": "174",
+      "road": "Rummell Rd",
+      "from": "Mississippi Ave",
+      "to": "Narcoossee Rd (CR 15)"
+    },
+    {
+      "id": "175",
+      "road": "Rummell Rd",
+      "from": "Narcoossee Rd",
+      "to": "Hackney Rd"
+    },
+    {
+      "id": "176",
+      "road": "Sand Hill Rd",
+      "from": "Formosa Gardens Blvd",
+      "to": "Old Lake Wilson Rd (CR 545)"
+    },
+    {
+      "id": "177",
+      "road": "Sand Mine Rd",
+      "from": "Caribbean View Tr",
+      "to": "Westside Blvd"
+    },
+    {
+      "id": "178",
+      "road": "Shady Ln",
+      "from": "Partin Settlement Rd",
+      "to": "US 192-441 (Bronson Hwy)"
+    },
+    {
+      "id": "179",
+      "road": "Sherberth Rd",
+      "from": "US 192",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "180",
+      "road": "Siesta Lago Dr",
+      "from": "Poinciana Blvd",
+      "to": "US 192"
+    },
+    {
+      "id": "181",
+      "road": "Simpson Rd",
+      "from": "US 192-441",
+      "to": "Fortune Rd"
+    },
+    {
+      "id": "182",
+      "road": "Simpson Rd",
+      "from": "Fortune Rd",
+      "to": "Buenaventura Blvd"
+    },
+    {
+      "id": "183",
+      "road": "Simpson Rd",
+      "from": "Buenaventura Blvd",
+      "to": "Osceola Pkwy"
+    },
+    {
+      "id": "184",
+      "road": "Simpson Rd",
+      "from": "Osceola Pkwy",
+      "to": "Boggy Creek Rd (East)"
+    },
+    {
+      "id": "185",
+      "road": "Sinclair Rd",
+      "from": "SR 429 (Western Beltway)",
+      "to": "Old Lake Wilson Rd"
+    },
+    {
+      "id": "186",
+      "road": "Southport Rd",
+      "from": "Pleasant Hill Rd",
+      "to": "Southport Rd"
+    },
+    {
+      "id": "187",
+      "road": "SR 417",
+      "from": "I-4",
+      "to": "Celebration Ave"
+    },
+    {
+      "id": "188",
+      "road": "SR 417",
+      "from": "Celebration Ave",
+      "to": "Osceola Pkwy"
+    },
+    {
+      "id": "189",
+      "road": "SR 417",
+      "from": "Osceola Pkwy",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "190",
+      "road": "SR 429 (Western Beltway)",
+      "from": "I-4",
+      "to": "Sinclair Rd"
+    },
+    {
+      "id": "191",
+      "road": "SR 429 (Western Beltway)",
+      "from": "Sinclair Rd",
+      "to": "US 192/Orange County Line"
+    },
+    {
+      "id": "192",
+      "road": "SR 535 (Vineland Rd)",
+      "from": "US 192",
+      "to": "Poinciana Blvd"
+    },
+    {
+      "id": "193",
+      "road": "SR 535 (Vineland Rd)",
+      "from": "Poinciana Blvd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "194",
+      "road": "SR 60",
+      "from": "Indian River County Line",
+      "to": "Polk County Line"
+    },
+    {
+      "id": "195",
+      "road": "Storey Creek Blvd",
+      "from": "Ham Brown Rd",
+      "to": "Cricket Cradle Dr"
+    },
+    {
+      "id": "196",
+      "road": "Storey Creek Blvd",
+      "from": "Cricket Cradle Dr",
+      "to": "Pleasant Hill Rd"
+    },
+    {
+      "id": "197",
+      "road": "Tenth (10th) St",
+      "from": "US 192-441 (13th St)",
+      "to": "Michigan Ave"
+    },
+    {
+      "id": "198",
+      "road": "Tenth (10th) St",
+      "from": "Michigan Ave",
+      "to": "Narcoossee Rd (CR 15)"
+    },
+    {
+      "id": "199",
+      "road": "Thacker Ave",
+      "from": "Clay St",
+      "to": "MLK Jr Blvd"
+    },
+    {
+      "id": "200",
+      "road": "Thacker Ave",
+      "from": "Osceola Pkwy",
+      "to": "John Young Pkwy"
+    },
+    {
+      "id": "201",
+      "road": "US 17/92",
+      "from": "Pleasant Hill Rd",
+      "to": "Portage St"
+    },
+    {
+      "id": "202",
+      "road": "US 17/92",
+      "from": "Portage St",
+      "to": "Emmett St"
+    },
+    {
+      "id": "203",
+      "road": "US 17/92",
+      "from": "Emmett St",
+      "to": "US 192-441"
+    },
+    {
+      "id": "204",
+      "road": "US 17/92 (S Orange Blossom Tr)",
+      "from": "Polk County Line",
+      "to": "Osceola Polk Line Rd (CR 532)"
+    },
+    {
+      "id": "205",
+      "road": "US 17/92 (S Orange Blossom Tr)",
+      "from": "Osceola Polk Line Rd (CR 532)",
+      "to": "Old Tampa Hwy"
+    },
+    {
+      "id": "206",
+      "road": "US 17/92 (S Orange Blossom Tr)",
+      "from": "Old Tampa Hwy",
+      "to": "Poinciana Blvd"
+    },
+    {
+      "id": "207",
+      "road": "US 17/92 (S Orange Blossom Tr)",
+      "from": "Poinciana Blvd",
+      "to": "Ham Brown Rd"
+    },
+    {
+      "id": "208",
+      "road": "US 17/92 (S Orange Blossom Tr)",
+      "from": "Ham Brown Rd",
+      "to": "Pleasant Hill Rd"
+    },
+    {
+      "id": "209",
+      "road": "US 192",
+      "from": "Lake County Line",
+      "to": "SR 429 (Western Beltway)"
+    },
+    {
+      "id": "210",
+      "road": "US 192",
+      "from": "SR 429",
+      "to": "World Dr"
+    },
+    {
+      "id": "211",
+      "road": "US 192",
+      "from": "World Dr",
+      "to": "I-4"
+    },
+    {
+      "id": "212",
+      "road": "US 192",
+      "from": "I-4",
+      "to": "Parkway Blvd/Celebration Pl"
+    },
+    {
+      "id": "213",
+      "road": "US 192",
+      "from": "Parkway Blvd/Celebration Pl",
+      "to": "Polynesian Isle Blvd"
+    },
+    {
+      "id": "214",
+      "road": "US 192",
+      "from": "Polynesian Isle Blvd",
+      "to": "Vineland Rd (SR 535)"
+    },
+    {
+      "id": "215",
+      "road": "US 192",
+      "from": "Vineland Rd (SR 535)",
+      "to": "Siesta Lago Dr"
+    },
+    {
+      "id": "216",
+      "road": "US 192",
+      "from": "Siesta Lago Dr",
+      "to": "Hoagland Blvd"
+    },
+    {
+      "id": "217",
+      "road": "US 192",
+      "from": "Hoagland Blvd",
+      "to": "Thacker Ave"
+    },
+    {
+      "id": "218",
+      "road": "US 192",
+      "from": "Thacker Ave",
+      "to": "Main St/US 441-17/92"
+    },
+    {
+      "id": "219",
+      "road": "US 192",
+      "from": "US 441/SR 15/Holopaw Rd",
+      "to": "Brevard County Line"
+    },
+    {
+      "id": "220",
+      "road": "US 192-441",
+      "from": "Main St/US 441-17/92",
+      "to": "Michigan Ave/Oak St"
+    },
+    {
+      "id": "221",
+      "road": "US 192-441",
+      "from": "Michigan Ave/Oak St",
+      "to": "Fortune Rd"
+    },
+    {
+      "id": "222",
+      "road": "US 192-441",
+      "from": "Fortune Rd",
+      "to": "Shady Ln/Fla Turnpike"
+    },
+    {
+      "id": "223",
+      "road": "US 192-441",
+      "from": "Shady Ln/Fla Turnpike",
+      "to": "Partin Settlement Rd"
+    },
+    {
+      "id": "224",
+      "road": "US 192-441",
+      "from": "Partin Settlement Rd",
+      "to": "Commerce Center Dr"
+    },
+    {
+      "id": "225",
+      "road": "US 192-441",
+      "from": "Commerce Center Dr",
+      "to": "Columbia Ave/Budinger Ave"
+    },
+    {
+      "id": "226",
+      "road": "US 192-441",
+      "from": "Columbia Ave/Budinger Ave",
+      "to": "Mississippi Ave"
+    },
+    {
+      "id": "227",
+      "road": "US 192-441",
+      "from": "Mississippi Ave",
+      "to": "Narcoossee Rd (CR 15)/Hickory"
+    },
+    {
+      "id": "228",
+      "road": "US 192-441",
+      "from": "Narcoossee Rd (CR 15)/Hickory",
+      "to": "Nova Rd (CR 532)"
+    },
+    {
+      "id": "229",
+      "road": "US 192-441",
+      "from": "Nova Rd (CR 532)",
+      "to": "Old Melbourne Hwy"
+    },
+    {
+      "id": "230",
+      "road": "US 192-441",
+      "from": "Old Melbourne Hwy",
+      "to": "US 441/SR 15/Holopaw Rd"
+    },
+    {
+      "id": "231",
+      "road": "US 441/SR 15/Kenansville Rd",
+      "from": "SR 60",
+      "to": "Canoe Creek Rd/CR 523"
+    },
+    {
+      "id": "232",
+      "road": "US 441/SR 15/Kenansville Rd/Ho l",
+      "from": "Canoe Creek Rd/CR 523",
+      "to": "US 192"
+    },
+    {
+      "id": "233",
+      "road": "US 441-17/92 (N Orange Blossom",
+      "from": "Donegan Ave",
+      "to": "Carroll St"
+    },
+    {
+      "id": "234",
+      "road": "US 441-17/92 (N Orange Blossom",
+      "from": "Carroll St",
+      "to": "Osceola Pkwy"
+    },
+    {
+      "id": "235",
+      "road": "US 441-17/92 (N Orange Blossom",
+      "from": "Osceola Pkwy",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "236",
+      "road": "Vermont Ave",
+      "from": "Lakeshore Blvd",
+      "to": "US 192"
+    },
+    {
+      "id": "237",
+      "road": "Westside Blvd",
+      "from": "Monaco Blvd",
+      "to": "Goodman Road"
+    },
+    {
+      "id": "238",
+      "road": "Westside Blvd",
+      "from": "Florence Villa Grove Rd",
+      "to": "Funie Steed Rd"
+    },
+    {
+      "id": "239",
+      "road": "Westside Blvd",
+      "from": "Funie Steed Rd",
+      "to": "US 192"
+    },
+    {
+      "id": "240",
+      "road": "Westside Blvd",
+      "from": "Polk County Line",
+      "to": "Oasis Club Blvd./Olympic Club B"
+    },
+    {
+      "id": "241",
+      "road": "Westside Blvd",
+      "from": "Oasis Club Blvd",
+      "to": "Bella Citta Blvd"
+    },
+    {
+      "id": "242",
+      "road": "Westside Blvd",
+      "from": "Bella Citta Blvd",
+      "to": "Barry Rd"
+    },
+    {
+      "id": "243",
+      "road": "Woodcrest Blvd",
+      "from": "Michigan Ave",
+      "to": "Bill Beck Blvd"
+    },
+    {
+      "id": "244",
+      "road": "World Dr",
+      "from": "I-4",
+      "to": "US 192"
+    },
+    {
+      "id": "245",
+      "road": "World Dr",
+      "from": "US 192",
+      "to": "Osceola Pkwy"
+    },
+    {
+      "id": "246",
+      "road": "Zuni Rd",
+      "from": "Jack Brack Rd",
+      "to": "Cyrils Dr"
+    }
+  ]
+}

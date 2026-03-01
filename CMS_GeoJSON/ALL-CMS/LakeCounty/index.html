@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lake County CMS – Routed Segments Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    #map { width: 100vw; height: 100vh; }
+
+    .info-panel {
+      position: absolute; top: 10px; right: 10px; z-index: 1000;
+      background: #fff; border-radius: 8px; padding: 14px 18px;
+      box-shadow: 0 2px 12px rgba(0,0,0,.25); max-width: 360px;
+      font-size: 13px; line-height: 1.5;
+    }
+    .info-panel h3 { margin: 0 0 6px; font-size: 15px; }
+    .info-panel .count { color: #555; margin-bottom: 8px; }
+    .info-panel .stat { display: flex; justify-content: space-between; }
+    .info-panel .stat span:last-child { font-weight: 600; }
+
+    .legend {
+      position: absolute; bottom: 24px; left: 10px; z-index: 1000;
+      background: #fff; border-radius: 8px; padding: 10px 14px;
+      box-shadow: 0 2px 12px rgba(0,0,0,.25); font-size: 12px;
+    }
+    .legend-item { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+    .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+    .legend-line { width: 24px; height: 3px; flex-shrink: 0; border-radius: 2px; }
+
+    .search-box {
+      position: absolute; top: 10px; left: 54px; z-index: 1000;
+    }
+    .search-box input {
+      width: 280px; padding: 8px 12px; border: 2px solid #ccc;
+      border-radius: 6px; font-size: 13px; outline: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+    .search-box input:focus { border-color: #2563eb; }
+
+    .leaflet-popup-content { font-size: 12px; line-height: 1.6; min-width: 220px; }
+    .leaflet-popup-content strong { color: #1e40af; }
+    .popup-flag { background: #fef3c7; color: #92400e; padding: 2px 6px; border-radius: 3px; font-size: 11px; }
+    .popup-ok { background: #dcfce7; color: #166534; padding: 2px 6px; border-radius: 3px; font-size: 11px; }
+
+    .btn-delete {
+      display: inline-block; margin-top: 8px; padding: 5px 14px;
+      background: #dc2626; color: #fff; border: none; border-radius: 5px;
+      font-size: 12px; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-delete:hover { background: #b91c1c; }
+    .btn-undo {
+      display: inline-block; margin-top: 4px; padding: 4px 12px;
+      background: #6b7280; color: #fff; border: none; border-radius: 5px;
+      font-size: 11px; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-undo:hover { background: #4b5563; }
+    .btn-download {
+      display: inline-block; padding: 5px 12px;
+      background: #2563eb; color: #fff; border: none; border-radius: 5px;
+      font-size: 11px; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-download:hover { background: #1d4ed8; }
+
+    .toast {
+      position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
+      z-index: 9999; background: #1e293b; color: #fff; padding: 10px 24px;
+      border-radius: 8px; font-size: 13px; font-weight: 500;
+      box-shadow: 0 4px 16px rgba(0,0,0,.3); opacity: 0;
+      transition: opacity 0.3s; pointer-events: none;
+    }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <div class="search-box">
+    <input id="search" type="text" placeholder="Search road name or segment ID..." />
+  </div>
+
+  <div class="info-panel" id="info">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <h3 style="margin:0;">Lake County CMS Segments</h3>
+      <button class="btn-download" onclick="downloadGeoJSON()" title="Download current GeoJSON">Download</button>
+    </div>
+    <div class="count" id="count">Loading...</div>
+    <div class="count" id="edit-stats" style="display:none; color:#dc2626;"></div>
+    <div id="details">Click a segment or intersection for details.</div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-line" style="background:#6366f1; height:2px; border: 1px dashed #6366f1;"></div> County boundary</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#2563eb;"></div> FROM intersection</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#dc2626;"></div> TO intersection</div>
+    <div class="legend-item"><div class="legend-line" style="background:#16a34a;"></div> Routed segment (OK)</div>
+    <div class="legend-item"><div class="legend-line" style="background:#f59e0b;"></div> Routed segment (flagged)</div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // -- Map setup --
+    const map = L.map('map', { zoomControl: true }).setView([28.72, -81.72], 10);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors | Routing: OSRM'
+    }).addTo(map);
+
+    // Layer groups
+    const countyBoundary = L.layerGroup().addTo(map);
+    const segmentsOK     = L.layerGroup().addTo(map);
+    const segmentsFlag   = L.layerGroup().addTo(map);
+    const fromPoints     = L.layerGroup().addTo(map);
+    const toPoints       = L.layerGroup().addTo(map);
+
+    const overlays = {
+      "County boundary": countyBoundary,
+      "Segments (OK)": segmentsOK,
+      "Segments (flagged)": segmentsFlag,
+      "FROM points": fromPoints,
+      "TO points": toPoints
+    };
+    L.control.layers(null, overlays, { collapsed: false, position: 'bottomright' }).addTo(map);
+
+    // -- Load Lake County boundary --
+    fetch('Lake_County_Boundary.geojson')
+      .then(r => r.json())
+      .then(data => {
+        const geoLayer = L.geoJSON(data, {
+          style: {
+            color: '#6366f1',
+            weight: 2.5,
+            opacity: 0.8,
+            fillColor: '#6366f1',
+            fillOpacity: 0.04,
+            dashArray: '8, 5'
+          }
+        });
+        countyBoundary.addLayer(geoLayer);
+      });
+
+    // -- Load routed GeoJSON --
+    let allFeatures = [];
+    let originalCount = 0;
+    let selectedLayer = null;
+
+    fetch('Lake_County_CMS_routed.geojson')
+      .then(r => r.json())
+      .then(data => {
+        allFeatures = data.features;
+        originalCount = allFeatures.length;
+        renderFeatures(allFeatures);
+        updateCounts();
+      });
+
+    function renderFeatures(features, keepView) {
+      segmentsOK.clearLayers();
+      segmentsFlag.clearLayers();
+      fromPoints.clearLayers();
+      toPoints.clearLayers();
+
+      features.forEach(feat => {
+        const p = feat.properties;
+        const coords = feat.geometry.coordinates[0]; // array of [lon,lat] pairs
+        const fromCoord = coords[0];
+        const toCoord = coords[coords.length - 1];
+        const fromLL = [fromCoord[1], fromCoord[0]];
+        const toLL = [toCoord[1], toCoord[0]];
+
+        // Convert all route coords to Leaflet [lat,lon]
+        const routeLatLngs = coords.map(c => [c[1], c[0]]);
+
+        const isFlagged = p.Route_Status !== 'OK';
+        const routeKm = p.Route_Distance_km != null ? p.Route_Distance_km + ' km' : 'N/A';
+        const detour = p.Detour_Ratio != null ? p.Detour_Ratio + 'x' : 'N/A';
+        const pts = p.Route_Points || coords.length;
+
+        const statusBadge = isFlagged
+          ? `<span class="popup-flag">\u26a0 ${p.Route_Status}</span>`
+          : `<span class="popup-ok">\u2705 Route OK</span>`;
+
+        const popupHTML = `
+          <strong>Seg ${p.SEGMENT_ID}</strong><br/>
+          <b>${p.RoadName}</b><br/>
+          From: ${p.From}<br/>
+          To: ${p.To}<br/>
+          Route: ${routeKm} &nbsp;|&nbsp; Detour: ${detour}<br/>
+          Points: ${pts}<br/>
+          ${statusBadge}
+        `;
+
+        // Routed polyline
+        const color = isFlagged ? '#f59e0b' : '#16a34a';
+        const line = L.polyline(routeLatLngs, {
+          color: color, weight: 4, opacity: 0.8
+        }).bindPopup(popupHTML);
+
+        // Highlight on click
+        line.on('click', function () {
+          if (selectedLayer) {
+            selectedLayer.setStyle({ color: selectedLayer.options._origColor, weight: 4, opacity: 0.8 });
+          }
+          this.setStyle({ color: '#8b0000', weight: 7, opacity: 1.0 });
+          selectedLayer = this;
+          showInfo(p);
+        });
+
+        // Store original color for restore
+        line.options._origColor = color;
+
+        // Hover effect
+        line.on('mouseover', function () {
+          if (this !== selectedLayer) {
+            this.setStyle({ color: '#8b0000', weight: 6, opacity: 1.0 });
+          }
+        });
+        line.on('mouseout', function () {
+          if (this !== selectedLayer) {
+            this.setStyle({ color: this.options._origColor, weight: 4, opacity: 0.8 });
+          }
+        });
+
+        (isFlagged ? segmentsFlag : segmentsOK).addLayer(line);
+
+        // FROM marker
+        const fromMarker = L.circleMarker(fromLL, {
+          radius: 5, color: '#1e40af', fillColor: '#2563eb',
+          fillOpacity: 0.9, weight: 1.5
+        }).bindPopup(
+          `<strong>FROM</strong><br/>Seg ${p.SEGMENT_ID}: ${p.RoadName}<br/>${p.From}`
+        );
+        fromPoints.addLayer(fromMarker);
+
+        // TO marker
+        const toMarker = L.circleMarker(toLL, {
+          radius: 5, color: '#991b1b', fillColor: '#dc2626',
+          fillOpacity: 0.9, weight: 1.5
+        }).bindPopup(
+          `<strong>TO</strong><br/>Seg ${p.SEGMENT_ID}: ${p.RoadName}<br/>${p.To}`
+        );
+        toPoints.addLayer(toMarker);
+      });
+
+      // Fit bounds — skip if keepView is true (e.g. after delete)
+      if (!keepView && features.length > 0) {
+        const allLatLngs = features.flatMap(f =>
+          f.geometry.coordinates[0].map(c => [c[1], c[0]])
+        );
+        map.fitBounds(L.latLngBounds(allLatLngs).pad(0.03));
+      }
+    }
+
+    // -- Counts & stats --
+    function updateCounts() {
+      const current = allFeatures.length;
+      const deleted = originalCount - current;
+      document.getElementById('count').textContent =
+        current + ' of ' + originalCount + ' routed segments';
+      const statsEl = document.getElementById('edit-stats');
+      if (deleted > 0) {
+        const pct = (deleted / originalCount * 100).toFixed(1);
+        statsEl.textContent = `${deleted} deleted (${pct}%) | ${current} remaining`;
+        statsEl.style.display = '';
+      } else {
+        statsEl.style.display = 'none';
+      }
+    }
+
+    // -- Download GeoJSON --
+    function downloadGeoJSON() {
+      const gj = {
+        type: 'FeatureCollection',
+        features: allFeatures
+      };
+      const blob = new Blob([JSON.stringify(gj)], { type: 'application/geo+json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Lake_County_CMS_routed.geojson';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast(`Downloaded ${allFeatures.length} segments`);
+    }
+
+    // -- Toast notifications --
+    function showToast(msg, duration) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), duration || 2500);
+    }
+
+    // -- Backup on first load --
+    fetch('/api/backup', { method: 'POST' }).catch(() => {});
+
+    // -- Delete segment --
+    let lastDeleted = null;
+
+    function deleteSegment(segId) {
+      if (!confirm(`Delete Segment ${segId}? This removes it from the GeoJSON file.`)) return;
+
+      fetch('/api/delete', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ segment_id: segId })
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (data.ok) {
+          lastDeleted = segId;
+          // Remove from in-memory array — keep current map view
+          allFeatures = allFeatures.filter(f => f.properties.SEGMENT_ID !== String(segId));
+          renderFeatures(allFeatures, true);
+          updateCounts();
+          document.getElementById('details').innerHTML =
+            `<span style="color:#dc2626;">Segment ${segId} deleted.</span><br/>` +
+            `<button class="btn-undo" onclick="undoDelete()">Undo all deletions</button>`;
+          selectedLayer = null;
+          showToast(`Segment ${segId} deleted`);
+        } else {
+          showToast('Error: ' + (data.error || 'unknown'));
+        }
+      })
+      .catch(err => showToast('Network error: ' + err.message));
+    }
+
+    function undoDelete() {
+      fetch('/api/undo', { method: 'POST' })
+      .then(r => r.json())
+      .then(data => {
+        if (data.ok) {
+          // Reload from file
+          fetch('Lake_County_CMS_routed.geojson')
+            .then(r => r.json())
+            .then(gj => {
+              allFeatures = gj.features;
+              originalCount = allFeatures.length;
+              renderFeatures(allFeatures);
+              updateCounts();
+              document.getElementById('details').textContent =
+                'All deletions undone. Click a segment for details.';
+              selectedLayer = null;
+              showToast(`Restored ${data.restored} segments`);
+            });
+        } else {
+          showToast('Error: ' + (data.error || 'no backup'));
+        }
+      })
+      .catch(err => showToast('Undo failed: ' + err.message));
+    }
+
+    // -- Info panel --
+    function showInfo(p) {
+      const routeKm = p.Route_Distance_km != null ? p.Route_Distance_km + ' km' : 'N/A';
+      const straightKm = p.Straight_Distance_km != null ? p.Straight_Distance_km + ' km' : 'N/A';
+      const detour = p.Detour_Ratio != null ? p.Detour_Ratio + 'x' : 'N/A';
+      const pts = p.Route_Points || '--';
+      const isFlagged = p.Route_Status !== 'OK';
+      const statusBadge = isFlagged
+        ? `<span class="popup-flag">\u26a0 ${p.Route_Status}</span>`
+        : `<span class="popup-ok">\u2705 Route OK</span>`;
+
+      document.getElementById('details').innerHTML = `
+        <strong>Segment ${p.SEGMENT_ID}</strong><br/>
+        <b>${p.RoadName}</b><br/>
+        <div class="stat"><span>From:</span> <span>${p.From}</span></div>
+        <div class="stat"><span>To:</span> <span>${p.To}</span></div>
+        <hr style="margin:6px 0;border:none;border-top:1px solid #e5e7eb;"/>
+        <div class="stat"><span>Route distance:</span> <span>${routeKm}</span></div>
+        <div class="stat"><span>Straight-line:</span> <span>${straightKm}</span></div>
+        <div class="stat"><span>Detour ratio:</span> <span>${detour}</span></div>
+        <div class="stat"><span>Route points:</span> <span>${pts}</span></div>
+        <div style="margin-top:6px;">${statusBadge}</div>
+        <button class="btn-delete" onclick="deleteSegment('${p.SEGMENT_ID}')">Delete Segment</button>
+      `;
+    }
+
+    // -- Search --
+    document.getElementById('search').addEventListener('input', function () {
+      const q = this.value.trim().toLowerCase();
+      if (!q) {
+        renderFeatures(allFeatures);
+        updateCounts();
+        return;
+      }
+      const filtered = allFeatures.filter(f => {
+        const p = f.properties;
+        return p.RoadName.toLowerCase().includes(q) ||
+               p.SEGMENT_ID.toLowerCase().includes(q) ||
+               p.From.toLowerCase().includes(q) ||
+               p.To.toLowerCase().includes(q);
+      });
+      renderFeatures(filtered);
+      document.getElementById('count').textContent =
+        filtered.length + ' matching | ' + allFeatures.length + ' of ' + originalCount + ' total';
+    });
+  </script>
+</body>
+</html>

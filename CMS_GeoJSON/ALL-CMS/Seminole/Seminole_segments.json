@@ -1,0 +1,2934 @@
+{
+  "name": "Seminole",
+  "region": "Seminole County, FL",
+  "segments": [
+    {
+      "id": "99",
+      "road": "East Lake Dr",
+      "from": "Seminola Blvd",
+      "to": "Park Dr"
+    },
+    {
+      "id": "98",
+      "road": "E Lake Brantley Dr",
+      "from": "Wekiva Springs Rd",
+      "to": "SR 434"
+    },
+    {
+      "id": "97",
+      "road": "Eastbrook Blvd",
+      "from": "Howell Branch Rd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "96",
+      "road": "Eagle Cir",
+      "from": "Fallen Palm Dr",
+      "to": "Eagle Cir South"
+    },
+    {
+      "id": "4",
+      "road": "W Airport Blvd",
+      "from": "W SR 46",
+      "to": "McCracken Rd"
+    },
+    {
+      "id": "94",
+      "road": "Eagle Cir",
+      "from": "Redwing Way",
+      "to": "Eagle Blvd"
+    },
+    {
+      "id": "93",
+      "road": "Eagle Cir",
+      "from": "Eagle Cir South",
+      "to": "Redwing Way"
+    },
+    {
+      "id": "92",
+      "road": "Eagle Cir",
+      "from": "Red Bug Lake Rd",
+      "to": "Eagle Cir South"
+    },
+    {
+      "id": "91",
+      "road": "Eagle Blvd",
+      "from": "Dodd Rd",
+      "to": "Tuskawilla Rd"
+    },
+    {
+      "id": "90",
+      "road": "Eagle Blvd",
+      "from": "Eagle Cir",
+      "to": "Dodd Rd"
+    },
+    {
+      "id": "9",
+      "road": "E Airport Blvd",
+      "from": "Sanford Ave",
+      "to": "Mellonville Ave"
+    },
+    {
+      "id": "11",
+      "road": "Alafaya Woods Blvd",
+      "from": "Alexandria Blvd",
+      "to": "Mitchell Hammock Rd"
+    },
+    {
+      "id": "86",
+      "road": "Dog Track Rd",
+      "from": "US 17-92",
+      "to": "CR 427"
+    },
+    {
+      "id": "85",
+      "road": "Dodd Rd",
+      "from": "Dike Rd",
+      "to": "Howell Branch Rd"
+    },
+    {
+      "id": "84",
+      "road": "Dodd Rd",
+      "from": "Red Bug Lake Rd",
+      "to": "Dike Rd"
+    },
+    {
+      "id": "83",
+      "road": "Dodd Rd",
+      "from": "Eagle Blvd",
+      "to": "Red Bug Lake Rd"
+    },
+    {
+      "id": "82",
+      "road": "Dike Rd",
+      "from": "Princess Gate",
+      "to": "Howell Branch Rd"
+    },
+    {
+      "id": "81",
+      "road": "Dike Rd",
+      "from": "Dodd Rd",
+      "to": "Princess Gate"
+    },
+    {
+      "id": "80",
+      "road": "Dike Rd",
+      "from": "Tuskawilla Rd",
+      "to": "Dodd Rd"
+    },
+    {
+      "id": "8",
+      "road": "E Airport Blvd",
+      "from": "US 17-92",
+      "to": "Sanford Ave"
+    },
+    {
+      "id": "20",
+      "road": "Beardall Ave",
+      "from": "CR 415",
+      "to": "E SR 46"
+    },
+    {
+      "id": "21",
+      "road": "Beardall Ave",
+      "from": "E SR 46",
+      "to": "Kentucky St"
+    },
+    {
+      "id": "79",
+      "road": "Derbyshire Rd",
+      "from": "Oxford Rd",
+      "to": "Kewanee Trl"
+    },
+    {
+      "id": "78",
+      "road": "Derbyshire Rd",
+      "from": "Cherrywood",
+      "to": "Oxford Rd"
+    },
+    {
+      "id": "76",
+      "road": "Deleon St",
+      "from": "Florida Ave",
+      "to": "Howard Ave"
+    },
+    {
+      "id": "75",
+      "road": "Deleon St",
+      "from": "SR 434",
+      "to": "Florida Ave"
+    },
+    {
+      "id": "74",
+      "road": "Dean Rd",
+      "from": "SR 426",
+      "to": "County Line"
+    },
+    {
+      "id": "73",
+      "road": "CR 427",
+      "from": "Oranole Rd",
+      "to": "County Line"
+    },
+    {
+      "id": "71",
+      "road": "CR 427",
+      "from": "Ballard St",
+      "to": "Spring Lake - O'Brien Rd"
+    },
+    {
+      "id": "70",
+      "road": "CR 427",
+      "from": "Lake Orienta Ave",
+      "to": "Ballard St"
+    },
+    {
+      "id": "7",
+      "road": "W Airport Blvd",
+      "from": "Old Lake Mary Rd",
+      "to": "US 17-92"
+    },
+    {
+      "id": "68",
+      "road": "CR 427",
+      "from": "North St",
+      "to": "SR 436"
+    },
+    {
+      "id": "62A",
+      "road": "CR 427",
+      "from": "Silkwood Ct",
+      "to": "US 17-92"
+    },
+    {
+      "id": "32",
+      "road": "Central Pkwy",
+      "from": "Montgomery Rd",
+      "to": "Douglas Ave"
+    },
+    {
+      "id": "33",
+      "road": "Central Pkwy",
+      "from": "Douglas Ave",
+      "to": "I-4"
+    },
+    {
+      "id": "34",
+      "road": "Central Pkwy",
+      "from": "I-4",
+      "to": "Northlake Blvd"
+    },
+    {
+      "id": "35",
+      "road": "Central Pkwy",
+      "from": "Northlake Blvd",
+      "to": "Altamonte Mall"
+    },
+    {
+      "id": "36",
+      "road": "Central Pkwy",
+      "from": "Altamonte Mall",
+      "to": "Palm Springs Dr"
+    },
+    {
+      "id": "62",
+      "road": "CR 427",
+      "from": "US 17-92",
+      "to": "Country Club Rd"
+    },
+    {
+      "id": "60",
+      "road": "CR 427",
+      "from": "Sunland Dr",
+      "to": "County Home Rd"
+    },
+    {
+      "id": "39",
+      "road": "Country Club Rd",
+      "from": "CR 46A",
+      "to": "Linda Ln"
+    },
+    {
+      "id": "6",
+      "road": "W Airport Blvd",
+      "from": "CR 46A",
+      "to": "Old Lake Mary Rd"
+    },
+    {
+      "id": "41",
+      "road": "Country Club Rd",
+      "from": "Lake Mary Blvd",
+      "to": "Broadmoor Rd"
+    },
+    {
+      "id": "42",
+      "road": "Country Club Rd",
+      "from": "Broadmoor Rd",
+      "to": "Continental Blvd"
+    },
+    {
+      "id": "59",
+      "road": "CR 427",
+      "from": "Sanford Ave",
+      "to": "Sunland Dr"
+    },
+    {
+      "id": "44",
+      "road": "County Home Rd",
+      "from": "US 17-92",
+      "to": "CR 427"
+    },
+    {
+      "id": "45",
+      "road": "County Line Rd",
+      "from": "SR 436",
+      "to": "Sand Lake Rd"
+    },
+    {
+      "id": "57",
+      "road": "CR 426",
+      "from": "Reed Rd",
+      "to": "Old Mims Rd"
+    },
+    {
+      "id": "56",
+      "road": "CR 426",
+      "from": "CR 419",
+      "to": "Reed Rd"
+    },
+    {
+      "id": "46B",
+      "road": "CR 46A",
+      "from": "I-4 WB",
+      "to": "I-4 EB"
+    },
+    {
+      "id": "55B",
+      "road": "CR 419",
+      "from": "Snow Hill Rd",
+      "to": "2nd St"
+    },
+    {
+      "id": "55",
+      "road": "CR 419",
+      "from": "Snowhill Rd",
+      "to": "Lake Mills Rd"
+    },
+    {
+      "id": "54B",
+      "road": "CR 419",
+      "from": "Twin Rivers Bv (E)",
+      "to": "Live Oak Blvd"
+    },
+    {
+      "id": "54A",
+      "road": "CR 419",
+      "from": "Madrin Orange Way",
+      "to": "Snowhill Rd"
+    },
+    {
+      "id": "54",
+      "road": "CR 419",
+      "from": "Lockwood Blvd",
+      "to": "Mandarin Orange Way"
+    },
+    {
+      "id": "53",
+      "road": "CR 419",
+      "from": "Reed Rd",
+      "to": "Lockwood Blvd"
+    },
+    {
+      "id": "52",
+      "road": "CR 419",
+      "from": "SR 434",
+      "to": "Reed Rd"
+    },
+    {
+      "id": "51",
+      "road": "CR 46A",
+      "from": "Old Lake Mary Rd",
+      "to": "US 17-92"
+    },
+    {
+      "id": "50",
+      "road": "CR 46A",
+      "from": "Airport Blvd",
+      "to": "Old Lake Mary Rd"
+    },
+    {
+      "id": "5",
+      "road": "W Airport Blvd",
+      "from": "McCracken Rd",
+      "to": "CR 46A"
+    },
+    {
+      "id": "55A",
+      "road": "CR 419",
+      "from": "Lake Mills Rd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "49",
+      "road": "CR 46A",
+      "from": "Country Club Rd",
+      "to": "Airport Blvd"
+    },
+    {
+      "id": "48",
+      "road": "CR 46A",
+      "from": "Rinehart Rd",
+      "to": "Country Club Rd"
+    },
+    {
+      "id": "58",
+      "road": "CR 426",
+      "from": "Old Mims Rd",
+      "to": "SR 46"
+    },
+    {
+      "id": "47",
+      "road": "CR 46A",
+      "from": "I-4 EB",
+      "to": "Rinehart Rd"
+    },
+    {
+      "id": "46A",
+      "road": "CR 46A",
+      "from": "International Pkwy",
+      "to": "I-4 WB Ramp"
+    },
+    {
+      "id": "46",
+      "road": "CR 46A",
+      "from": "Orange Blvd (CR 431)",
+      "to": "International Pkwy"
+    },
+    {
+      "id": "61",
+      "road": "CR 427",
+      "from": "County Home Rd",
+      "to": "US 17-92"
+    },
+    {
+      "id": "437",
+      "road": "Brisson Ave",
+      "from": "E. Lake Mary Bv",
+      "to": "Blue Grouse Ln"
+    },
+    {
+      "id": "63",
+      "road": "CR 427",
+      "from": "Country Club Rd",
+      "to": "Longwood Lake Mary Rd"
+    },
+    {
+      "id": "64",
+      "road": "CR 427",
+      "from": "Longwood Lake Mary Rd",
+      "to": "Longwood Hills Rd"
+    },
+    {
+      "id": "65",
+      "road": "CR 427",
+      "from": "Longwood Hills Rd",
+      "to": "SR 434"
+    },
+    {
+      "id": "66",
+      "road": "CR 427",
+      "from": "SR 434",
+      "to": "Dogtrack Rd"
+    },
+    {
+      "id": "67",
+      "road": "CR 427",
+      "from": "Dogtrack Rd",
+      "to": "North St"
+    },
+    {
+      "id": "436",
+      "road": "Gateway Dr",
+      "from": "Inspiration Ave",
+      "to": "N. Keller Rd"
+    },
+    {
+      "id": "69",
+      "road": "CR 427",
+      "from": "SR 436",
+      "to": "Lake Orienta Ave"
+    },
+    {
+      "id": "435",
+      "road": "Gateway Dr",
+      "from": "SR 434",
+      "to": "Inspiration Ave"
+    },
+    {
+      "id": "434",
+      "road": "Gateway Dr",
+      "from": "Lotus Landing Blvd",
+      "to": "SR 434"
+    },
+    {
+      "id": "72",
+      "road": "CR 427",
+      "from": "Spring Lake - O'Brien Rd",
+      "to": "Oranole Rd"
+    },
+    {
+      "id": "433",
+      "road": "W. Town Pkwy",
+      "from": "Laurel St",
+      "to": "Orange Ave"
+    },
+    {
+      "id": "432",
+      "road": "W. Town Pkwy",
+      "from": "SR 434",
+      "to": "Laurel St"
+    },
+    {
+      "id": "431",
+      "road": "W. Town Pkwy",
+      "from": "Bunnell Rd",
+      "to": "SR 434"
+    },
+    {
+      "id": "43",
+      "road": "Country Club Rd",
+      "from": "Continental Blvd",
+      "to": "CR 427"
+    },
+    {
+      "id": "77",
+      "road": "Derbyshire Rd",
+      "from": "US 17-92",
+      "to": "Cherrywood Dr"
+    },
+    {
+      "id": "429",
+      "road": "McCraken Rd",
+      "from": "Airport Blvd.",
+      "to": "Persimmon Ave"
+    },
+    {
+      "id": "428",
+      "road": "Central Park Dr",
+      "from": "SR 46",
+      "to": "St Johns Pkwy"
+    },
+    {
+      "id": "427",
+      "road": "Dixon Rd",
+      "from": "Markham Woods Rd",
+      "to": "Sunshine Tree Blvd"
+    },
+    {
+      "id": "426",
+      "road": "S Sylvan Lake Dr",
+      "from": "Lake Markham Rd",
+      "to": "Orange Blvd"
+    },
+    {
+      "id": "425B",
+      "road": "Town Center Blvd",
+      "from": "St John's Pkwy",
+      "to": "SR 46"
+    },
+    {
+      "id": "425A",
+      "road": "Town Center Blvd",
+      "from": "WP Ball Blvd",
+      "to": "St Johns Pkwy"
+    },
+    {
+      "id": "425",
+      "road": "Town Center Blvd",
+      "from": "Rinehart Rd",
+      "to": "WP Ball Blvd"
+    },
+    {
+      "id": "424",
+      "road": "St Johns Pkwy",
+      "from": "Rinehart Rd",
+      "to": "Upsala Rd"
+    },
+    {
+      "id": "423",
+      "road": "Hickman Dr",
+      "from": "SR 46",
+      "to": "Hickman Circle"
+    },
+    {
+      "id": "87A",
+      "road": "Commerce Park Rd",
+      "from": "SR 434",
+      "to": "Markham Woods Rd"
+    },
+    {
+      "id": "87",
+      "road": "Douglas Ave",
+      "from": "Markham Woods Rd",
+      "to": "North St"
+    },
+    {
+      "id": "88",
+      "road": "Douglas Ave",
+      "from": "North St",
+      "to": "Citrus St"
+    },
+    {
+      "id": "89",
+      "road": "Douglas Ave",
+      "from": "Citrus St",
+      "to": "SR 436"
+    },
+    {
+      "id": "422",
+      "road": "Wayside Dr",
+      "from": "Orange Blvd",
+      "to": "International Pkwy"
+    },
+    {
+      "id": "421",
+      "road": "Wilson Rd",
+      "from": "Orange Blvd",
+      "to": "International Pkwy"
+    },
+    {
+      "id": "416",
+      "road": "Magnolia St",
+      "from": "Newburyport Ave",
+      "to": "CR 427"
+    },
+    {
+      "id": "414",
+      "road": "Station St",
+      "from": "Leonard St",
+      "to": "Merritt St"
+    },
+    {
+      "id": "412A",
+      "road": "Merritt St",
+      "from": "Station St",
+      "to": "Jackson St"
+    },
+    {
+      "id": "95",
+      "road": "Eagle Cir",
+      "from": "Eagle Blvd",
+      "to": "Fallen Palm Dr"
+    },
+    {
+      "id": "412",
+      "road": "Merritt St",
+      "from": "SR 427",
+      "to": "Sation St"
+    },
+    {
+      "id": "411",
+      "road": "Camden Rd",
+      "from": "Woodall Dr",
+      "to": "Sand Lake Rd"
+    },
+    {
+      "id": "410",
+      "road": "McNeil Rd",
+      "from": "Bear Lake Rd",
+      "to": "Pearl Lake Cswy"
+    },
+    {
+      "id": "408A",
+      "road": "Westmonte Drive",
+      "from": "SR 436",
+      "to": "Wymore Rd"
+    },
+    {
+      "id": "408",
+      "road": "Westmonte Drive",
+      "from": "SR 436",
+      "to": "Douglas Ave"
+    },
+    {
+      "id": "407",
+      "road": "Spring Valley Rd",
+      "from": "Wymore Rd",
+      "to": "Spring Valley Loop"
+    },
+    {
+      "id": "406",
+      "road": "Lynchfield Ave",
+      "from": "SR 436",
+      "to": "Clemson Dr"
+    },
+    {
+      "id": "405",
+      "road": "Weathersfield Ave",
+      "from": "SR 436",
+      "to": "Clemson Dr"
+    },
+    {
+      "id": "403",
+      "road": "Laura St",
+      "from": "US 17-92",
+      "to": "Sundew Lane"
+    },
+    {
+      "id": "402",
+      "road": "Bird Rd",
+      "from": "E. Lake Dr",
+      "to": "Dunmar Circle"
+    },
+    {
+      "id": "401",
+      "road": "Dyson Dr",
+      "from": "Tuskawilla Rd",
+      "to": "Deer Run Dr"
+    },
+    {
+      "id": "400",
+      "road": "S. Citrus Rd",
+      "from": "Red Bug Lake Rd",
+      "to": "Danielle Dr"
+    },
+    {
+      "id": "40",
+      "road": "Country Club Rd",
+      "from": "Linda Ln",
+      "to": "Lake Mary Blvd"
+    },
+    {
+      "id": "107",
+      "road": "EE Williamson Rd",
+      "from": "Markham Woods Rd",
+      "to": "Sunshine Tree"
+    },
+    {
+      "id": "108",
+      "road": "EE Williamson Rd",
+      "from": "Sunshine Tree",
+      "to": "Tollgate Trail"
+    },
+    {
+      "id": "109",
+      "road": "EE Williamson Rd",
+      "from": "Tollgate Trail",
+      "to": "Rangeline Rd"
+    },
+    {
+      "id": "110",
+      "road": "EE Williamson Rd",
+      "from": "Rangeline Rd",
+      "to": "Lake Emma Rd"
+    },
+    {
+      "id": "111",
+      "road": "EE Williamson Rd",
+      "from": "Lake Emma Raod",
+      "to": "CR 427"
+    },
+    {
+      "id": "399",
+      "road": "Rising Sun Blvd",
+      "from": "Red Bug Lake Rd",
+      "to": "Ortega St"
+    },
+    {
+      "id": "397",
+      "road": "Jungle Rd",
+      "from": "Old Mims Rd",
+      "to": "SR 46"
+    },
+    {
+      "id": "396",
+      "road": "Jungle Rd",
+      "from": "SR 46",
+      "to": "Lake Harney Rd"
+    },
+    {
+      "id": "395",
+      "road": "Old Mims Rd",
+      "from": "Snow Hill Rd",
+      "to": "Jungle Rd"
+    },
+    {
+      "id": "394",
+      "road": "1st St",
+      "from": "SR 46",
+      "to": "Cemetary Rd"
+    },
+    {
+      "id": "393",
+      "road": "Old Geneva Rd",
+      "from": "Avenue C",
+      "to": "Osceola Rd"
+    },
+    {
+      "id": "392",
+      "road": "Avenue C",
+      "from": "SR 46",
+      "to": "Old Geneva Rd"
+    },
+    {
+      "id": "391A",
+      "road": "Mullet Lake Park",
+      "from": "Osceola Rd",
+      "to": "Park Entrance"
+    },
+    {
+      "id": "391",
+      "road": "Mullet Lake Park",
+      "from": "SR 46",
+      "to": "Osceola Rd"
+    },
+    {
+      "id": "390",
+      "road": "Grand Rd",
+      "from": "Howell Branch Rd",
+      "to": "Dike Rd"
+    },
+    {
+      "id": "389",
+      "road": "Old Howell Branch Rd",
+      "from": "SR 426",
+      "to": "Howell Branch Rd"
+    },
+    {
+      "id": "388",
+      "road": "Gabriella Lane",
+      "from": "Tuskawilla Rd",
+      "to": "Brooks Lane"
+    },
+    {
+      "id": "387",
+      "road": "Citrus Ave",
+      "from": "Seminole Ave",
+      "to": "Hibiscus Ave"
+    },
+    {
+      "id": "386",
+      "road": "Grove Ave",
+      "from": "Tangerine Ave",
+      "to": "Seminole Ave"
+    },
+    {
+      "id": "385",
+      "road": "Bear Gully Rd",
+      "from": "Howell Branch Rd",
+      "to": "SR 426"
+    },
+    {
+      "id": "384",
+      "road": "Clayton Crossing",
+      "from": "SR 426",
+      "to": "Hidden Cypress Lane"
+    },
+    {
+      "id": "383",
+      "road": "Deep Lake Rd",
+      "from": "SR 426",
+      "to": "Atwater Loop/Vickory Ter."
+    },
+    {
+      "id": "128",
+      "road": "Howell Branch Rd",
+      "from": "Dike Rd",
+      "to": "Dodd Rd"
+    },
+    {
+      "id": "382",
+      "road": "Carrigan Ave",
+      "from": "SR 434",
+      "to": "Boland Dr"
+    },
+    {
+      "id": "381",
+      "road": "Old Lockwood Rd",
+      "from": "Lockwood Rd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "380",
+      "road": "Fort Christmas Rd",
+      "from": "Orange County Line",
+      "to": "Lake Mills Rd"
+    },
+    {
+      "id": "38",
+      "road": "Chapman Rd",
+      "from": "Oak Cir",
+      "to": "SR 434"
+    },
+    {
+      "id": "379",
+      "road": "Brumley Rd",
+      "from": "Ave. H",
+      "to": "Snow Valley Way"
+    },
+    {
+      "id": "371",
+      "road": "International Pkwy",
+      "from": "SR 46",
+      "to": "Wayside Dr"
+    },
+    {
+      "id": "377",
+      "road": "CR 427",
+      "from": "Lake Mary Blvd",
+      "to": "SR 417"
+    },
+    {
+      "id": "376",
+      "road": "Martin Luther King Dr",
+      "from": "20 th St",
+      "to": "Airport Blvd"
+    },
+    {
+      "id": "375",
+      "road": "Martin Luther King Dr",
+      "from": "St John's Pkwy",
+      "to": "20th St"
+    },
+    {
+      "id": "374",
+      "road": "Martin Luther King Dr",
+      "from": "SR 46",
+      "to": "St John's Pkwy"
+    },
+    {
+      "id": "373C",
+      "road": "International Pkwy",
+      "from": "AAA Drive",
+      "to": "Lake Mary Blvd"
+    },
+    {
+      "id": "373B",
+      "road": "International Pkwy",
+      "from": "CR 46A",
+      "to": "AAA Dr"
+    },
+    {
+      "id": "373A",
+      "road": "International Pkwy",
+      "from": "Metz Ave",
+      "to": "CR 46A"
+    },
+    {
+      "id": "373",
+      "road": "International Pkwy",
+      "from": "Wilson Rd",
+      "to": "Metz Ave"
+    },
+    {
+      "id": "372",
+      "road": "International Pkwy",
+      "from": "Wayside Dr.",
+      "to": "Wilson Rd"
+    },
+    {
+      "id": "37",
+      "road": "Chapman Rd",
+      "from": "SR 426",
+      "to": "Oak Cir"
+    },
+    {
+      "id": "367",
+      "road": "Wymore Rd",
+      "from": "SR 436",
+      "to": "Westmonte Dr"
+    },
+    {
+      "id": "140",
+      "road": "Lake Howell Ln",
+      "from": "SR 436",
+      "to": "Lake Howell Rd"
+    },
+    {
+      "id": "366",
+      "road": "Winter Park Dr",
+      "from": "Crystal Bowl Cir",
+      "to": "Seminola Blvd"
+    },
+    {
+      "id": "365",
+      "road": "Winter Park Dr",
+      "from": "Queen's Mirror Cir",
+      "to": "Crystal Bowl Cir"
+    },
+    {
+      "id": "364",
+      "road": "Winter Park Dr",
+      "from": "Wilshire Blvd",
+      "to": "Queen's Mirror Cir"
+    },
+    {
+      "id": "144",
+      "road": "Lake Markham Rd",
+      "from": "SR 46",
+      "to": "S. Sylvan Lake Dr"
+    },
+    {
+      "id": "363",
+      "road": "Winter Park Dr",
+      "from": "SR 436",
+      "to": "Wilshire Blvd"
+    },
+    {
+      "id": "362",
+      "road": "W Wekiva Trl",
+      "from": "Canterclub Trail",
+      "to": "Hunt Club Blvd"
+    },
+    {
+      "id": "147",
+      "road": "Lake Mary Blvd",
+      "from": "I-4",
+      "to": "Lake Emma Rd"
+    },
+    {
+      "id": "361",
+      "road": "W Wekiva Trl",
+      "from": "Hunt Club Blvd",
+      "to": "Canterclub Trail"
+    },
+    {
+      "id": "360",
+      "road": "West Lake Brantley (W)",
+      "from": "Jennifer Hope Blvd",
+      "to": "Westwood Dr"
+    },
+    {
+      "id": "359",
+      "road": "West Lake Brantley (W)",
+      "from": "Sand Lake Rd",
+      "to": "Jennifer Hope Blvd"
+    },
+    {
+      "id": "150",
+      "road": "Lake Mary Blvd",
+      "from": "CR 15",
+      "to": "US 17-92"
+    },
+    {
+      "id": "357",
+      "road": "Wekiva Springs Rd",
+      "from": "E Lakre Brantley Dr",
+      "to": "SR 434"
+    },
+    {
+      "id": "356",
+      "road": "Wekiva Springs Rd",
+      "from": "Fox Valley Dr",
+      "to": "E Lake Brantley Dr"
+    },
+    {
+      "id": "355",
+      "road": "Wekiva Springs Rd",
+      "from": "Hunt Club Blvd",
+      "to": "Fox Valley Dr"
+    },
+    {
+      "id": "353",
+      "road": "Wekiva Springs Ln",
+      "from": "SR 434",
+      "to": "Wekiva Springs Rd"
+    },
+    {
+      "id": "152B",
+      "road": "Lake Mary Blvd",
+      "from": "Cameron Ave",
+      "to": "SR 46"
+    },
+    {
+      "id": "351",
+      "road": "US 17-92",
+      "from": "CR 15 (Upsala Rd)",
+      "to": "Volusia County Line"
+    },
+    {
+      "id": "154",
+      "road": "Lake Mills Rd",
+      "from": "Tropical Ave",
+      "to": "Fort Christmas Rd"
+    },
+    {
+      "id": "350",
+      "road": "US 17-92",
+      "from": "Oak Dr",
+      "to": "CR 15 (Upsala Rd)"
+    },
+    {
+      "id": "156",
+      "road": "Lake Park Dr",
+      "from": "Greenway Blvd",
+      "to": "Lake Way Rd"
+    },
+    {
+      "id": "349",
+      "road": "US 17-92",
+      "from": "Seminole Blvd",
+      "to": "Oak Dr"
+    },
+    {
+      "id": "348",
+      "road": "US 17-92",
+      "from": "SR 46",
+      "to": "Seminole Blvd"
+    },
+    {
+      "id": "347",
+      "road": "US 17-92",
+      "from": "CR 46A",
+      "to": "SR 46"
+    },
+    {
+      "id": "346",
+      "road": "US 17-92",
+      "from": "Airport Blvd",
+      "to": "CR 46A"
+    },
+    {
+      "id": "344",
+      "road": "US 17-92",
+      "from": "CR 427",
+      "to": "Lake Mary Blvd"
+    },
+    {
+      "id": "343",
+      "road": "US 17-92",
+      "from": "CR 427-SR 419",
+      "to": "CR 427"
+    },
+    {
+      "id": "163",
+      "road": "Longwood Lake Mary Rd",
+      "from": "Lake Way Rd",
+      "to": "Greenway Blvd"
+    },
+    {
+      "id": "164",
+      "road": "Longwood Lake Mary Rd",
+      "from": "Greenway Blvd",
+      "to": "CR 427"
+    },
+    {
+      "id": "342A",
+      "road": "US 17-92",
+      "from": "General Hutchison",
+      "to": "CR 427/SR 419"
+    },
+    {
+      "id": "342",
+      "road": "US 17-92",
+      "from": "Shepard Rd",
+      "to": "General Hutchison Pkwy"
+    },
+    {
+      "id": "341",
+      "road": "US 17-92",
+      "from": "Seminola-Dogtrack",
+      "to": "SR 434"
+    },
+    {
+      "id": "340",
+      "road": "US 17-92",
+      "from": "Triplet Lake Dr",
+      "to": "Seminola-Dogtrack"
+    },
+    {
+      "id": "339",
+      "road": "US 17-92",
+      "from": "SR 436",
+      "to": "Triplet Lake Dr"
+    },
+    {
+      "id": "336",
+      "road": "Upsala Rd",
+      "from": "East 90 Turn",
+      "to": "CR 46A"
+    },
+    {
+      "id": "335",
+      "road": "Upsala Rd",
+      "from": "Coastline Rd",
+      "to": "Central Park Dr"
+    },
+    {
+      "id": "171",
+      "road": "Markham Woods Rd",
+      "from": "Michigan St",
+      "to": "Bridgewater Dr"
+    },
+    {
+      "id": "334",
+      "road": "Upsala Rd",
+      "from": "SR 46",
+      "to": "Coastline Rd"
+    },
+    {
+      "id": "333",
+      "road": "Tuskawilla Rd",
+      "from": "Dike Rd",
+      "to": "SR 426"
+    },
+    {
+      "id": "174",
+      "road": "Markham Woods Rd",
+      "from": "EE Williamson Rd",
+      "to": "SR 434"
+    },
+    {
+      "id": "174A",
+      "road": "Markham Woods Rd",
+      "from": "SR 434",
+      "to": "Douglas Ave"
+    },
+    {
+      "id": "332",
+      "road": "Tuskawilla Rd",
+      "from": "Red Bug Lake Rd",
+      "to": "Dike Rd"
+    },
+    {
+      "id": "331",
+      "road": "Tuskawilla Rd",
+      "from": "Eagle Blvd",
+      "to": "Red Bug Lake Rd"
+    },
+    {
+      "id": "330",
+      "road": "Tuskawilla Rd",
+      "from": "E Lake Dr",
+      "to": "Eagle Blvd"
+    },
+    {
+      "id": "329",
+      "road": "Tuskawilla Rd",
+      "from": "Dyson Dr",
+      "to": "E Lake Dr"
+    },
+    {
+      "id": "328",
+      "road": "Tuskawilla Rd",
+      "from": "Winter Springs Blvd",
+      "to": "Dyson Dr"
+    },
+    {
+      "id": "325",
+      "road": "Triplet Lake",
+      "from": "US 17-92",
+      "to": "N. Triplet Lake Dr"
+    },
+    {
+      "id": "324A",
+      "road": "Tangerine Ave",
+      "from": "Jackman Blvd",
+      "to": "Tangerine Way"
+    },
+    {
+      "id": "324",
+      "road": "Tangerine Ave",
+      "from": "Howell Branch Rd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "311A",
+      "road": "SR 436",
+      "from": "Lake Howell Rd",
+      "to": "Red Bug Lake Rd"
+    },
+    {
+      "id": "181",
+      "road": "Mitchell Hammock Rd",
+      "from": "SR 426",
+      "to": "SR 434"
+    },
+    {
+      "id": "311",
+      "road": "SR 436",
+      "from": "Howell Branch Road",
+      "to": "Lake Howell Rd"
+    },
+    {
+      "id": "31",
+      "road": "Celery Ave",
+      "from": "Sipes Ave",
+      "to": "SR 415"
+    },
+    {
+      "id": "309C",
+      "road": "SR 434",
+      "from": "Trailwood Dr",
+      "to": "SR 414"
+    },
+    {
+      "id": "309A",
+      "road": "SR 434",
+      "from": "SR 436",
+      "to": "W. Town Pkwy"
+    },
+    {
+      "id": "185",
+      "road": "Montgomery Rd",
+      "from": "SR 434",
+      "to": "Central Pkwy"
+    },
+    {
+      "id": "186",
+      "road": "Montgomery Rd",
+      "from": "Central Pkwy",
+      "to": "SR 436"
+    },
+    {
+      "id": "300",
+      "road": "SR 434",
+      "from": "US 17-92",
+      "to": "CR 427"
+    },
+    {
+      "id": "188",
+      "road": "North St",
+      "from": "Raymond Ave",
+      "to": "Palm Springs Dr"
+    },
+    {
+      "id": "189",
+      "road": "North St",
+      "from": "Palm Springs Dr",
+      "to": "Seminole Ave"
+    },
+    {
+      "id": "190",
+      "road": "North St",
+      "from": "Seminole Ave",
+      "to": "CR 427"
+    },
+    {
+      "id": "30",
+      "road": "Celery Ave",
+      "from": "Mellonville Ave",
+      "to": "Sipes Ave"
+    },
+    {
+      "id": "3",
+      "road": "E 27th St",
+      "from": "US 17-92",
+      "to": "Sanford Ave"
+    },
+    {
+      "id": "299",
+      "road": "SR 434",
+      "from": "Belle Ave",
+      "to": "US 17-92"
+    },
+    {
+      "id": "194",
+      "road": "Old Lake Mary Rd",
+      "from": "Airport Blvd",
+      "to": "CR 46A"
+    },
+    {
+      "id": "298",
+      "road": "SR 434",
+      "from": "SR 419",
+      "to": "Belle Ave"
+    },
+    {
+      "id": "196",
+      "road": "Old Lake Mary Rd",
+      "from": "Country Club Rd",
+      "to": "Southwest Rd"
+    },
+    {
+      "id": "297",
+      "road": "SR 434",
+      "from": "Tuskawilla Rd",
+      "to": "SR 419"
+    },
+    {
+      "id": "296",
+      "road": "SR 434",
+      "from": "Springs Ave",
+      "to": "Tuskawilla Rd"
+    },
+    {
+      "id": "295",
+      "road": "SR 434",
+      "from": "E-W Expressway",
+      "to": "Springs Ave"
+    },
+    {
+      "id": "294",
+      "road": "SR 434",
+      "from": "DeLeon St",
+      "to": "E-W Expressway"
+    },
+    {
+      "id": "293",
+      "road": "SR 434",
+      "from": "SR 426-CR 419",
+      "to": "DeLeon St"
+    },
+    {
+      "id": "291",
+      "road": "SR 434",
+      "from": "Alafaya Woods",
+      "to": "Mitchell Hammock Rd"
+    },
+    {
+      "id": "202A",
+      "road": "Orange Blvd",
+      "from": "Markham Rd",
+      "to": "CR 46A"
+    },
+    {
+      "id": "290",
+      "road": "SR 434",
+      "from": "Chapman Rd",
+      "to": "Alafaya Woods Blvd"
+    },
+    {
+      "id": "29",
+      "road": "Celery Ave",
+      "from": "Sanford Ave",
+      "to": "Mellonville Ave"
+    },
+    {
+      "id": "289A",
+      "road": "SR 434",
+      "from": "Orange County Line",
+      "to": "Chapman Rd"
+    },
+    {
+      "id": "288",
+      "road": "SR 426",
+      "from": "Lake Jesup Ave",
+      "to": "SR 434"
+    },
+    {
+      "id": "287",
+      "road": "SR 426",
+      "from": "Winter Springs Blvd",
+      "to": "Lake Jesup Ave"
+    },
+    {
+      "id": "286",
+      "road": "SR 426",
+      "from": "Red Bug Lake Rd",
+      "to": "Winter Springs Blvd"
+    },
+    {
+      "id": "285",
+      "road": "SR 426",
+      "from": "Chapman Rd",
+      "to": "Red Bug Lake Rd"
+    },
+    {
+      "id": "284",
+      "road": "SR 426",
+      "from": "Dean Rd",
+      "to": "Chapman Rd"
+    },
+    {
+      "id": "212",
+      "road": "Palm Springs Dr",
+      "from": "SR 434",
+      "to": "North St"
+    },
+    {
+      "id": "213",
+      "road": "Palm Springs Dr",
+      "from": "North St",
+      "to": "Central Pkwy"
+    },
+    {
+      "id": "214",
+      "road": "Palm Springs Dr",
+      "from": "Central Pkwy",
+      "to": "SR 436"
+    },
+    {
+      "id": "282",
+      "road": "SR 426",
+      "from": "Tuskawilla Rd",
+      "to": "SR 417"
+    },
+    {
+      "id": "281",
+      "road": "SR 426",
+      "from": "Hall Rd",
+      "to": "Tuskawilla Rd"
+    },
+    {
+      "id": "280",
+      "road": "SR 426",
+      "from": "Orange County Line",
+      "to": "Hall Rd"
+    },
+    {
+      "id": "28",
+      "road": "Celery Ave",
+      "from": "Park Ave",
+      "to": "Sanford Ave"
+    },
+    {
+      "id": "279",
+      "road": "SR 419",
+      "from": "Edgemon Ave",
+      "to": "US 17-92"
+    },
+    {
+      "id": "278",
+      "road": "SR 419",
+      "from": "SR 434",
+      "to": "Edgemon Ave"
+    },
+    {
+      "id": "277",
+      "road": "SR 415",
+      "from": "Celery Ave",
+      "to": "SR 46"
+    },
+    {
+      "id": "276",
+      "road": "SR 415",
+      "from": "Volusia County Line",
+      "to": "Celery Ave"
+    },
+    {
+      "id": "274",
+      "road": "SR 46",
+      "from": "Osceola Rd",
+      "to": "CR 426"
+    },
+    {
+      "id": "273",
+      "road": "SR 46",
+      "from": "SR 415",
+      "to": "Osceola Rd"
+    },
+    {
+      "id": "272",
+      "road": "SR 46",
+      "from": "Beardall Ave",
+      "to": "SR 415"
+    },
+    {
+      "id": "271",
+      "road": "SR 46",
+      "from": "Mellonville Ave",
+      "to": "Beardall Ave"
+    },
+    {
+      "id": "27",
+      "road": "Celery Ave",
+      "from": "US 17-92",
+      "to": "Park Ave"
+    },
+    {
+      "id": "226",
+      "road": "Raymond Ave",
+      "from": "SR 434",
+      "to": "North St"
+    },
+    {
+      "id": "269",
+      "road": "SR 46",
+      "from": "US 17-92",
+      "to": "Sanford Ave"
+    },
+    {
+      "id": "228",
+      "road": "Red Bug Lake Rd",
+      "from": "Eagle Cir",
+      "to": "Tuskawilla Rd"
+    },
+    {
+      "id": "268",
+      "road": "SR 46",
+      "from": "Airport Blvd",
+      "to": "US 17-92"
+    },
+    {
+      "id": "267",
+      "road": "SR 46",
+      "from": "Upsala Rd",
+      "to": "Airport Blvd"
+    },
+    {
+      "id": "266",
+      "road": "SR 46",
+      "from": "Rinehart Rd",
+      "to": "Upsala Rd"
+    },
+    {
+      "id": "265",
+      "road": "SR 46",
+      "from": "I-4",
+      "to": "Rinehart Rd"
+    },
+    {
+      "id": "262",
+      "road": "SR 46",
+      "from": "Lake County Line",
+      "to": "Orange Blvd"
+    },
+    {
+      "id": "261",
+      "road": "Spring Lake-O'Brien Rd",
+      "from": "RxR Tracks",
+      "to": "US 17-92"
+    },
+    {
+      "id": "26",
+      "road": "Button Rd",
+      "from": "US 17-92",
+      "to": "Seminola Blvd"
+    },
+    {
+      "id": "259A",
+      "road": "Silkwood Ct",
+      "from": "US 17-92",
+      "to": "CR 427"
+    },
+    {
+      "id": "258B",
+      "road": "Snow Hill Rd",
+      "from": "Ave. H",
+      "to": "Overlook Dr."
+    },
+    {
+      "id": "258A",
+      "road": "Snowhill Rd",
+      "from": "Brumley Rd (Ave H)",
+      "to": "CR 419"
+    },
+    {
+      "id": "237",
+      "road": "Rinehart Rd",
+      "from": "Anderson Ln",
+      "to": "Lake Mary Blvd"
+    },
+    {
+      "id": "238",
+      "road": "Sabal Palm Dr (N)",
+      "from": "Wekiva Springs Rd",
+      "to": "School Entrance"
+    },
+    {
+      "id": "258",
+      "road": "Snowhill Rd",
+      "from": "Old Mims Rd",
+      "to": "Brumley Rd"
+    },
+    {
+      "id": "240",
+      "road": "Sabal Palm Dr (S)",
+      "from": "Wekiva Springs Rd",
+      "to": "Sabal Palm Dr"
+    },
+    {
+      "id": "257",
+      "road": "Snowhill Rd",
+      "from": "CR 426",
+      "to": "Old Mims Rd"
+    },
+    {
+      "id": "256",
+      "road": "Slavia Rd",
+      "from": "Red Bug Lake Rd",
+      "to": "SR 426"
+    },
+    {
+      "id": "243",
+      "road": "Sand Lake Rd",
+      "from": "W. Lake Brantley (E)",
+      "to": "Hunt Club Blvd"
+    },
+    {
+      "id": "255",
+      "road": "Sipes Ave",
+      "from": "SR 46",
+      "to": "Pineway Ave"
+    },
+    {
+      "id": "378",
+      "road": "Sanford Ave",
+      "from": "E. 1st St",
+      "to": "25th St"
+    },
+    {
+      "id": "254",
+      "road": "Sipes Ave",
+      "from": "Celery Ave (CR 415)",
+      "to": "SR 46"
+    },
+    {
+      "id": "253A",
+      "road": "South St",
+      "from": "US 17-92",
+      "to": "Prairie Lake Dr"
+    },
+    {
+      "id": "247",
+      "road": "Sanford Ave",
+      "from": "Lake Mary Blvd",
+      "to": "Lake Jesup"
+    },
+    {
+      "id": "253",
+      "road": "Shepard Rd",
+      "from": "US 17-92",
+      "to": "Winter Springs City Limits"
+    },
+    {
+      "id": "252",
+      "road": "Seminole Blvd",
+      "from": "US 17-92",
+      "to": "Mellonville Ave"
+    },
+    {
+      "id": "251B",
+      "road": "Seminola Blvd",
+      "from": "Murphy Rd",
+      "to": "Lake Drive"
+    },
+    {
+      "id": "251A",
+      "road": "Seminola Blvd",
+      "from": "East Lake Dr",
+      "to": "Murphy Rd"
+    },
+    {
+      "id": "251",
+      "road": "Seminola Blvd",
+      "from": "Winter Park Dr",
+      "to": "East Lake Dr"
+    },
+    {
+      "id": "250",
+      "road": "Seminola Blvd",
+      "from": "Button Rd",
+      "to": "Winter Park Dr"
+    },
+    {
+      "id": "25",
+      "road": "Bunnell Rd",
+      "from": "S Pearl Lake Cswy",
+      "to": "West Town Pkwy"
+    },
+    {
+      "id": "249",
+      "road": "Seminola Blvd",
+      "from": "US 17-92",
+      "to": "Button Rd"
+    },
+    {
+      "id": "248",
+      "road": "Second St",
+      "from": "CR 419",
+      "to": "Ave H"
+    },
+    {
+      "id": "246",
+      "road": "Sanford Ave",
+      "from": "Airport Blvd",
+      "to": "Lake Mary Blvd"
+    },
+    {
+      "id": "245A",
+      "road": "Sanford Ave",
+      "from": "SR 46",
+      "to": "Airport Blvd"
+    },
+    {
+      "id": "244",
+      "road": "Sand Lake Rd",
+      "from": "Hunt Club Blvd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "242",
+      "road": "Sand Lake Rd",
+      "from": "SR 434",
+      "to": "W. Lake Brantley Rd (E)"
+    },
+    {
+      "id": "241",
+      "road": "Sabal Palm Dr (S)",
+      "from": "Sabal Palm Dr",
+      "to": "Sabal Pal Dr"
+    },
+    {
+      "id": "259",
+      "road": "Southwest Rd",
+      "from": "Old Lake Mary Rd",
+      "to": "13th St"
+    },
+    {
+      "id": "24",
+      "road": "Bunnell Rd",
+      "from": "Eden Park Rd",
+      "to": "S Pearl Lake Cswy"
+    },
+    {
+      "id": "260",
+      "road": "Spring Lake-O'Brien Rd",
+      "from": "Maitland Ave (CR 427)",
+      "to": "RxR Tracks"
+    },
+    {
+      "id": "239",
+      "road": "Sabal Palm Dr (N)",
+      "from": "School Entrance",
+      "to": "Sabal Palm Dr"
+    },
+    {
+      "id": "236",
+      "road": "Rinehart Rd",
+      "from": "CR 46A",
+      "to": "Anderson Ln"
+    },
+    {
+      "id": "263",
+      "road": "SR 46",
+      "from": "Orange Blvd",
+      "to": "Lake Forest"
+    },
+    {
+      "id": "264",
+      "road": "SR 46",
+      "from": "Lake Forest",
+      "to": "I-4"
+    },
+    {
+      "id": "235",
+      "road": "Rinehart Rd",
+      "from": "S Mall Entrance",
+      "to": "CR 46A"
+    },
+    {
+      "id": "234B",
+      "road": "Rinehart Rd",
+      "from": "SR 417 Ramp",
+      "to": "S Mall Entrance"
+    },
+    {
+      "id": "234A",
+      "road": "Rinehart Rd",
+      "from": "ST Johns Parkway",
+      "to": "SR 417 Ramp"
+    },
+    {
+      "id": "234",
+      "road": "Rinehart Rd",
+      "from": "SR 46",
+      "to": "ST John Pkwy (S Mall Entrance)"
+    },
+    {
+      "id": "233",
+      "road": "Reed Rd",
+      "from": "CR 426",
+      "to": "CR 419"
+    },
+    {
+      "id": "270",
+      "road": "SR 46",
+      "from": "Sanford Ave",
+      "to": "Mellonville Ave"
+    },
+    {
+      "id": "232",
+      "road": "Red Bug Lake Rd",
+      "from": "E-W Expressway",
+      "to": "SR 426"
+    },
+    {
+      "id": "231",
+      "road": "Red Bug Lake Rd",
+      "from": "Slavia Rd",
+      "to": "E-W Expressway"
+    },
+    {
+      "id": "230",
+      "road": "Red Bug Lake Rd",
+      "from": "Rising Sun Blvd",
+      "to": "Slavia Rd"
+    },
+    {
+      "id": "23",
+      "road": "Bunnell Rd",
+      "from": "Bear Lake Rd",
+      "to": "Eden Park Rd"
+    },
+    {
+      "id": "275",
+      "road": "SR 46",
+      "from": "CR 426",
+      "to": "Volusia County Line"
+    },
+    {
+      "id": "22A",
+      "road": "Brisson Ave",
+      "from": "Crawford Dr",
+      "to": "SR 46"
+    },
+    {
+      "id": "229",
+      "road": "Red Bug Lake Rd",
+      "from": "Tuskawilla Rd",
+      "to": "Rising Sun Blvd"
+    },
+    {
+      "id": "227",
+      "road": "Red Bug Lake Rd",
+      "from": "SR 436",
+      "to": "Eagle Cir"
+    },
+    {
+      "id": "225",
+      "road": "Raven Ave",
+      "from": "US 17-92",
+      "to": "Mockingbird Ln"
+    },
+    {
+      "id": "224",
+      "road": "Rangeline Rd",
+      "from": "Church Ave",
+      "to": "Longwood Hills Rd"
+    },
+    {
+      "id": "223",
+      "road": "Rangeline Rd",
+      "from": "SR 434",
+      "to": "Church Ave"
+    },
+    {
+      "id": "222B",
+      "road": "Plumosa Ave",
+      "from": "Lyman Rd",
+      "to": "Anchor Rd"
+    },
+    {
+      "id": "283",
+      "road": "SR 426",
+      "from": "SR 417",
+      "to": "Dean Rd"
+    },
+    {
+      "id": "222A",
+      "road": "Plumosa Ave",
+      "from": "CR 427",
+      "to": "Lyman Rd"
+    },
+    {
+      "id": "222",
+      "road": "Pineway Ave",
+      "from": "Sanford Ave (CR 425)",
+      "to": "Sipes Ave"
+    },
+    {
+      "id": "221",
+      "road": "Pearl Lake Causeway",
+      "from": "Pisgah Ave",
+      "to": "Bunnell Rd"
+    },
+    {
+      "id": "220",
+      "road": "Pearl Lake Causeway",
+      "from": "SR 436",
+      "to": "Pisgah Ave"
+    },
+    {
+      "id": "22",
+      "road": "Brisson Ave",
+      "from": "CR 415",
+      "to": "Crawford Dr"
+    },
+    {
+      "id": "219",
+      "road": "Park Dr",
+      "from": "Lake Dr",
+      "to": "Winter Park Dr"
+    },
+    {
+      "id": "218",
+      "road": "Park Ave",
+      "from": "1st St",
+      "to": "Seminole Blvd"
+    },
+    {
+      "id": "217",
+      "road": "Park Ave",
+      "from": "13th St",
+      "to": "1st St"
+    },
+    {
+      "id": "292",
+      "road": "SR 434",
+      "from": "Mitchell Hammock Rd",
+      "to": "SR 426-CR 419"
+    },
+    {
+      "id": "216",
+      "road": "Park Ave",
+      "from": "SR 46",
+      "to": "13th St"
+    },
+    {
+      "id": "215",
+      "road": "Park Ave",
+      "from": "US 17-92",
+      "to": "SR 46"
+    },
+    {
+      "id": "211",
+      "road": "Oxford Rd",
+      "from": "Lake of the Woods",
+      "to": "Derbyshire Rd"
+    },
+    {
+      "id": "210",
+      "road": "Oxford Rd",
+      "from": "Fernwood Blvd",
+      "to": "Lake of the Woods"
+    },
+    {
+      "id": "209",
+      "road": "Oxford Rd",
+      "from": "SR 436",
+      "to": "Fernwood Blvd"
+    },
+    {
+      "id": "208",
+      "road": "Osceola Rd",
+      "from": "Old Geneva Rd",
+      "to": "Fish Camp Rd"
+    },
+    {
+      "id": "207",
+      "road": "Osceola Rd",
+      "from": "Mullet Lake Park Rd",
+      "to": "Old Geneva Rd"
+    },
+    {
+      "id": "206",
+      "road": "Osceola Rd",
+      "from": "SR 46",
+      "to": "Mullet Lake Park Rd"
+    },
+    {
+      "id": "301",
+      "road": "SR 434",
+      "from": "CR 427",
+      "to": "Rangeline Rd"
+    },
+    {
+      "id": "302",
+      "road": "SR 434",
+      "from": "Rangeline Rd",
+      "to": "Palm Springs Dr"
+    },
+    {
+      "id": "303",
+      "road": "SR 434",
+      "from": "Palm Springs Dr",
+      "to": "Raymond Ave"
+    },
+    {
+      "id": "304",
+      "road": "SR 434",
+      "from": "Raymond Ave",
+      "to": "I-4"
+    },
+    {
+      "id": "305",
+      "road": "SR 434",
+      "from": "I-4",
+      "to": "Douglas Ave"
+    },
+    {
+      "id": "306",
+      "road": "SR 434",
+      "from": "Douglas Ave",
+      "to": "Wekiva Springs Rd"
+    },
+    {
+      "id": "307",
+      "road": "SR 434",
+      "from": "Wekiva Springs Rd",
+      "to": "Sand Lake Rd"
+    },
+    {
+      "id": "308",
+      "road": "SR 434",
+      "from": "Sand Lake Rd",
+      "to": "SR 436"
+    },
+    {
+      "id": "205",
+      "road": "Oregon Ave",
+      "from": "SR 46",
+      "to": "Orange Blvd (CR 431)"
+    },
+    {
+      "id": "309B",
+      "road": "SR 434",
+      "from": "W. Town Pkwy",
+      "to": "Trailwood Dr"
+    },
+    {
+      "id": "204",
+      "road": "Oranole Rd",
+      "from": "Mt. Vernon Pkwy",
+      "to": "Maitland Ave (CR 427)"
+    },
+    {
+      "id": "310",
+      "road": "SR 436",
+      "from": "Orange County Line",
+      "to": "Howell Branch Rd"
+    },
+    {
+      "id": "203",
+      "road": "Oranole Rd",
+      "from": "Wymore Rd",
+      "to": "Mt. Vernon Pkwy"
+    },
+    {
+      "id": "202",
+      "road": "Orange Blvd",
+      "from": "Wayside Drive",
+      "to": "Markham Rd"
+    },
+    {
+      "id": "312",
+      "road": "SR 436",
+      "from": "Red Bug Lake Rd",
+      "to": "US 17-92"
+    },
+    {
+      "id": "313",
+      "road": "SR 436",
+      "from": "US 17-92",
+      "to": "CR 427 (Longwood Ave)"
+    },
+    {
+      "id": "314",
+      "road": "SR 436",
+      "from": "CR 427 (Longwood)",
+      "to": "CR 427 (Maitland)"
+    },
+    {
+      "id": "315",
+      "road": "SR 436",
+      "from": "CR 427 (Maitland)",
+      "to": "Palm Springs Dr"
+    },
+    {
+      "id": "316",
+      "road": "SR 436",
+      "from": "Palm Springs Dr",
+      "to": "Northlake Blvd"
+    },
+    {
+      "id": "317",
+      "road": "SR 436",
+      "from": "Northlake Blvd",
+      "to": "I-4 East Ramp"
+    },
+    {
+      "id": "318",
+      "road": "SR 436",
+      "from": "I-4 East Ramp",
+      "to": "Wymore-Douglas"
+    },
+    {
+      "id": "319",
+      "road": "SR 436",
+      "from": "Wymore-Douglas",
+      "to": "Lynchfield Ave"
+    },
+    {
+      "id": "320",
+      "road": "SR 436",
+      "from": "Lynchfield Ave",
+      "to": "Montgomery Rd"
+    },
+    {
+      "id": "320A",
+      "road": "SR 436",
+      "from": "Montgomery Rd",
+      "to": "SR 434"
+    },
+    {
+      "id": "321",
+      "road": "SR 436",
+      "from": "SR 434",
+      "to": "Bear Lake Rd"
+    },
+    {
+      "id": "322",
+      "road": "SR 436",
+      "from": "Bear Lake Rd",
+      "to": "Hunt Club Blvd"
+    },
+    {
+      "id": "323",
+      "road": "SR 436",
+      "from": "Hunt Club Blvd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "201",
+      "road": "Orange Blvd",
+      "from": "SR 46",
+      "to": "Wayside Dr"
+    },
+    {
+      "id": "200A",
+      "road": "Orange Blvd",
+      "from": "Oregon Ave",
+      "to": "SR 46"
+    },
+    {
+      "id": "326",
+      "road": "Tuskawilla Rd",
+      "from": "SR 434",
+      "to": "Trotwood Blvd"
+    },
+    {
+      "id": "327",
+      "road": "Tuskawilla Rd",
+      "from": "Trotwood Blvd",
+      "to": "Winter Springs Blvd"
+    },
+    {
+      "id": "2",
+      "road": "W 13th St",
+      "from": "Southwest Rd",
+      "to": "US 17-92"
+    },
+    {
+      "id": "199",
+      "road": "Orange Blvd",
+      "from": "Monroe Rd (CR15)",
+      "to": "Oregon Ave"
+    },
+    {
+      "id": "198",
+      "road": "Orange Ave",
+      "from": "Laurel St",
+      "to": "SR 434"
+    },
+    {
+      "id": "197",
+      "road": "Orange Ave",
+      "from": "SR 436",
+      "to": "Laurel St"
+    },
+    {
+      "id": "195",
+      "road": "Old Lake Mary Rd",
+      "from": "CR 46A",
+      "to": "Country Club Rd"
+    },
+    {
+      "id": "193A",
+      "road": "Old Lake Mary Rd",
+      "from": "Palmetto Ave",
+      "to": "Petigo Point"
+    },
+    {
+      "id": "193",
+      "road": "Old Lake Mary Rd",
+      "from": "Country Club Rd",
+      "to": "Airport Blvd"
+    },
+    {
+      "id": "192",
+      "road": "Oklahoma St",
+      "from": "CR 426",
+      "to": "Florida Ave"
+    },
+    {
+      "id": "337",
+      "road": "US 17-92",
+      "from": "Orange County Line",
+      "to": "Lake of the Woods"
+    },
+    {
+      "id": "338",
+      "road": "US 17-92",
+      "from": "Lake of the Wood",
+      "to": "SR 436"
+    },
+    {
+      "id": "191",
+      "road": "Ohio Ave",
+      "from": "Lake Mary Blvd",
+      "to": "Marquette Ave"
+    },
+    {
+      "id": "19",
+      "road": "Bear Lake Rd",
+      "from": "Bunnell Rd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "187",
+      "road": "Myrtle Ave",
+      "from": "Hester Ave",
+      "to": "Sanford Ave (CR 425)"
+    },
+    {
+      "id": "341A",
+      "road": "US 17-92",
+      "from": "SR 434",
+      "to": "Shepard Rd"
+    },
+    {
+      "id": "184A",
+      "road": "Monroe Rd",
+      "from": "Church St",
+      "to": "SR 46"
+    },
+    {
+      "id": "184",
+      "road": "Monroe Rd",
+      "from": "Orange Blvd",
+      "to": "Church St"
+    },
+    {
+      "id": "183",
+      "road": "Mitchell Hammock Rd",
+      "from": "Alafaya Woods Blvd",
+      "to": "Lockwood Rd"
+    },
+    {
+      "id": "182",
+      "road": "Mitchell Hammock Rd",
+      "from": "SR 434",
+      "to": "Alafaya Woods Blvd"
+    },
+    {
+      "id": "345",
+      "road": "US 17-92",
+      "from": "Lake Mary Blvd",
+      "to": "Airport Blvd"
+    },
+    {
+      "id": "180",
+      "road": "Mellonville Ave",
+      "from": "Celery Ave",
+      "to": "Seminole Blvd"
+    },
+    {
+      "id": "18",
+      "road": "Bear Lake Rd",
+      "from": "McNeil Rd",
+      "to": "Bunnell Rd"
+    },
+    {
+      "id": "179",
+      "road": "Mellonville Ave",
+      "from": "SR 46",
+      "to": "Celery Ave"
+    },
+    {
+      "id": "178",
+      "road": "McCulloch Rd",
+      "from": "Lockwood Blvd",
+      "to": "Old Lockwood Blvd"
+    },
+    {
+      "id": "177A",
+      "road": "McCulloch Rd",
+      "from": "SR 434",
+      "to": "Rouse Rd"
+    },
+    {
+      "id": "177",
+      "road": "McCulloch Rd",
+      "from": "SR 434",
+      "to": "Lockwood Blvd"
+    },
+    {
+      "id": "352",
+      "road": "US 441",
+      "from": "Orange County Line",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "176",
+      "road": "Marquette Ave",
+      "from": "Sipes Ave",
+      "to": "Beardall Ave"
+    },
+    {
+      "id": "354",
+      "road": "Wekiva Springs Rd",
+      "from": "Orange County Line",
+      "to": "Hunt Club Blvd"
+    },
+    {
+      "id": "175",
+      "road": "Marquette Ave",
+      "from": "Ohio Ave",
+      "to": "Sipes Ave"
+    },
+    {
+      "id": "173A",
+      "road": "Markham Woods Rd",
+      "from": "Lake Mary Blvd",
+      "to": "EE Williamson Rd"
+    },
+    {
+      "id": "358",
+      "road": "West Lake Brantley (E)",
+      "from": "Sand Lake Rd",
+      "to": "SR 436"
+    },
+    {
+      "id": "172",
+      "road": "Markham Woods Rd",
+      "from": "Bridgewater Dr",
+      "to": "Lake Mary Blvd"
+    },
+    {
+      "id": "170",
+      "road": "Markham Woods Rd",
+      "from": "Markham Rd",
+      "to": "Michigan St"
+    },
+    {
+      "id": "17",
+      "road": "Bear Lake Rd",
+      "from": "E SR 436",
+      "to": "McNeil Rd"
+    },
+    {
+      "id": "169",
+      "road": "Markham Rd",
+      "from": "Lake Markham Rd",
+      "to": "Longwood Markham Rd"
+    },
+    {
+      "id": "168",
+      "road": "Markham Rd",
+      "from": "Markham Woods Rd",
+      "to": "Lake Markham Rd"
+    },
+    {
+      "id": "167",
+      "road": "Markham Rd",
+      "from": "Orange Blvd (CR 431)",
+      "to": "Markham Woods"
+    },
+    {
+      "id": "166A",
+      "road": "Lyman Rd",
+      "from": "SR 427",
+      "to": "Plumosa Ave"
+    },
+    {
+      "id": "166",
+      "road": "Longwood Markham Rd",
+      "from": "Via Hermosa",
+      "to": "Markham Rd"
+    },
+    {
+      "id": "165",
+      "road": "Longwood Markham Rd",
+      "from": "SR 46",
+      "to": "Via Hermosa"
+    },
+    {
+      "id": "368",
+      "road": "Wymore Rd",
+      "from": "Westmonte Dr",
+      "to": "Spring Lake Hills Dr"
+    },
+    {
+      "id": "369",
+      "road": "Wymore Rd",
+      "from": "Spring Lake Hills Dr",
+      "to": "Lake Destiny Rd"
+    },
+    {
+      "id": "370",
+      "road": "Wymore Rd",
+      "from": "Lake Destiny Rd",
+      "to": "Orange County Line"
+    },
+    {
+      "id": "162",
+      "road": "Longwood Lake Mary Rd",
+      "from": "Lake Mary Blvd",
+      "to": "Lake Way Rd"
+    },
+    {
+      "id": "161",
+      "road": "Lockwood Blvd",
+      "from": "Oviedo CIty Limits",
+      "to": "McCulloch Rd"
+    },
+    {
+      "id": "160",
+      "road": "Lockwood Blvd",
+      "from": "Mitchell Hammock Rd",
+      "to": "Oviedo City Limits"
+    },
+    {
+      "id": "65A",
+      "road": "CR 427",
+      "from": "SR 434",
+      "to": "Church Ave"
+    },
+    {
+      "id": "16",
+      "road": "Balmy Beach Dr",
+      "from": "Holiday Ave",
+      "to": "Neil Rd"
+    },
+    {
+      "id": "159",
+      "road": "Lockwood Blvd",
+      "from": "CR 419",
+      "to": "Mitchell Hammock Rd"
+    },
+    {
+      "id": "158",
+      "road": "Lockwood Blvd",
+      "from": "CR 426",
+      "to": "CR 419"
+    },
+    {
+      "id": "157",
+      "road": "Lake Way Rd",
+      "from": "Greenwood Blvd",
+      "to": "Longwood Lake Mary Rd"
+    },
+    {
+      "id": "155",
+      "road": "Lake Of The Woods Blvd",
+      "from": "US 17-92",
+      "to": "Oxford Rd"
+    },
+    {
+      "id": "153",
+      "road": "Lake Mills Rd",
+      "from": "CR 419",
+      "to": "Tropical Ave"
+    },
+    {
+      "id": "152A",
+      "road": "Lake Mary Blvd",
+      "from": "Red Cleveland Blvd",
+      "to": "Cameron Ave"
+    },
+    {
+      "id": "247A",
+      "road": "Sanford Ave",
+      "from": "Michigan St",
+      "to": "Oakway"
+    },
+    {
+      "id": "152",
+      "road": "Lake Mary Blvd",
+      "from": "CR 427",
+      "to": "Red Cleveland Bv"
+    },
+    {
+      "id": "151A",
+      "road": "Lake Mary Blvd",
+      "from": "SR 417 Ramps",
+      "to": "CR 427"
+    },
+    {
+      "id": "150C",
+      "road": "Lake Mary Blvd",
+      "from": "Palmetto Ave",
+      "to": "Sir Lawrence Dr"
+    },
+    {
+      "id": "150B",
+      "road": "Lake Mary Blvd",
+      "from": "US 17-92",
+      "to": "SR 417 Ramps"
+    },
+    {
+      "id": "150A",
+      "road": "Lake Mary Blvd",
+      "from": "CR 15 (Country Club Rd)",
+      "to": "Palemetto Ave"
+    },
+    {
+      "id": "15",
+      "road": "Balmy Beach Dr",
+      "from": "Orleans Way",
+      "to": "Holiday Ave"
+    },
+    {
+      "id": "149A",
+      "road": "Lake Mary Blvd",
+      "from": "Longwood Lake Mary Rd",
+      "to": "CR 15"
+    },
+    {
+      "id": "149",
+      "road": "Lake Mary Blvd",
+      "from": "Rinehart/Greenwood",
+      "to": "Longwood Lake Mary Rd"
+    },
+    {
+      "id": "148",
+      "road": "Lake Mary Blvd",
+      "from": "Lake Emma Rd",
+      "to": "Rinehart/Greenwood"
+    },
+    {
+      "id": "146",
+      "road": "Lake Mary Blvd",
+      "from": "Markham Woods Rd",
+      "to": "I-4"
+    },
+    {
+      "id": "145",
+      "road": "Lake Markham Rd",
+      "from": "S. Sylvan Lake Dr",
+      "to": "Markham Rd"
+    },
+    {
+      "id": "143",
+      "road": "Lake Howell Rd",
+      "from": "Howell Branch Rd",
+      "to": "County Line"
+    },
+    {
+      "id": "142",
+      "road": "Lake Howell Rd",
+      "from": "Tuscarora Trail",
+      "to": "Howell Branch Rd"
+    },
+    {
+      "id": "141",
+      "road": "Lake Howell Rd",
+      "from": "SR 436",
+      "to": "Tuscarora Trail"
+    },
+    {
+      "id": "14",
+      "road": "Balmy Beach Dr",
+      "from": "E SR 436",
+      "to": "Orleans Way"
+    },
+    {
+      "id": "139",
+      "road": "Lake Emma Rd",
+      "from": "Greenway Blvd",
+      "to": "Longwood Hills Rd"
+    },
+    {
+      "id": "138",
+      "road": "Lake Emma Rd",
+      "from": "Sand Pond Rd",
+      "to": "Greenway Blvd"
+    },
+    {
+      "id": "137",
+      "road": "Lake Emma Rd",
+      "from": "Greenwood Blvd",
+      "to": "Sand Pond Rd"
+    },
+    {
+      "id": "136",
+      "road": "Lake Emma Rd",
+      "from": "Lake Mary Center",
+      "to": "Greenwood Blvd"
+    },
+    {
+      "id": "135",
+      "road": "Lake Emma Rd",
+      "from": "Lake Mary Blvd",
+      "to": "Lake Mary Center"
+    },
+    {
+      "id": "134A",
+      "road": "Kewannee Trl",
+      "from": "SR 436",
+      "to": "Derbyshire Rd"
+    },
+    {
+      "id": "133",
+      "road": "Hunt Club Blvd",
+      "from": "Sand Lake Rd",
+      "to": "SR 436"
+    },
+    {
+      "id": "132",
+      "road": "Hunt Club Blvd",
+      "from": "E-W Wekiva Trail (S)",
+      "to": "Sand Lake Rd"
+    },
+    {
+      "id": "131",
+      "road": "Hunt Club Blvd",
+      "from": "E-W Wekiva Trail (N)",
+      "to": "E-W Wekiva Trail (S)"
+    },
+    {
+      "id": "130",
+      "road": "Hunt Club Blvd",
+      "from": "Wekiva Springs Rd",
+      "to": "E-W Wekiva Trail (N)"
+    },
+    {
+      "id": "13",
+      "road": "Anchor Rd",
+      "from": "W Melody Ln",
+      "to": "SR 436"
+    },
+    {
+      "id": "129",
+      "road": "Howell Branch Rd",
+      "from": "Dodd Rd",
+      "to": "SR 426"
+    },
+    {
+      "id": "127",
+      "road": "Howell Branch Rd",
+      "from": "Eastbrook Blvd",
+      "to": "Dike Rd"
+    },
+    {
+      "id": "126",
+      "road": "Howell Branch Rd",
+      "from": "SR 436",
+      "to": "Eastbrook Blvd"
+    },
+    {
+      "id": "404",
+      "road": "Trailwood Dr",
+      "from": "SR 434",
+      "to": "Northwestern Ave"
+    },
+    {
+      "id": "125",
+      "road": "Howell Branch Rd",
+      "from": "Lake Howell Rd",
+      "to": "SR 436"
+    },
+    {
+      "id": "124",
+      "road": "Howell Branch Rd",
+      "from": "Orange County Line",
+      "to": "Lake Howell Rd"
+    },
+    {
+      "id": "123",
+      "road": "Holliday Ave",
+      "from": "Bear Lake Rd",
+      "to": "Balmy Beach Dr"
+    },
+    {
+      "id": "122A",
+      "road": "Hillview Dr",
+      "from": "SR 434",
+      "to": "Discovery Ct"
+    },
+    {
+      "id": "122",
+      "road": "Hester Ave",
+      "from": "CR 427",
+      "to": "Myrtle Ave"
+    },
+    {
+      "id": "409",
+      "road": "Virginia Ave",
+      "from": "Tangerine St",
+      "to": "North St"
+    },
+    {
+      "id": "121",
+      "road": "Hattaway Dr",
+      "from": "SR 436",
+      "to": "Altamonte City Limits"
+    },
+    {
+      "id": "120A",
+      "road": "Greenwood Blvd",
+      "from": "Lake Way Rd",
+      "to": "Lake Mary Blvd"
+    },
+    {
+      "id": "120",
+      "road": "Greenwood Blvd",
+      "from": "Buttonwood Dr",
+      "to": "Lake Way Rd"
+    },
+    {
+      "id": "12",
+      "road": "Anchor Rd",
+      "from": "Plumosa Ave",
+      "to": "W Melody Ln"
+    },
+    {
+      "id": "413",
+      "road": "Jackson St",
+      "from": "SR 436",
+      "to": "Merritt St"
+    },
+    {
+      "id": "119",
+      "road": "Greenwood Blvd",
+      "from": "Lake Emma Rd",
+      "to": "Buttonwood Dr"
+    },
+    {
+      "id": "415",
+      "road": "Seminole Ave",
+      "from": "E. Hillcrest St",
+      "to": "Norht St"
+    },
+    {
+      "id": "118",
+      "road": "Greenway Blvd",
+      "from": "Lake Park Dr",
+      "to": "Lake Emma Rd"
+    },
+    {
+      "id": "417",
+      "road": "Tollgate Trail",
+      "from": "SR 434",
+      "to": "EE Williamson Rd"
+    },
+    {
+      "id": "418",
+      "road": "Myrtle Lake Hills Rd",
+      "from": "SR 434",
+      "to": "Northridge Dr"
+    },
+    {
+      "id": "419",
+      "road": "E. Church St",
+      "from": "Lakeview Dr",
+      "to": "US 17-92"
+    },
+    {
+      "id": "420",
+      "road": "Sun Drive",
+      "from": "Lake Mary Blvd",
+      "to": "Greenwood Blvd"
+    },
+    {
+      "id": "117",
+      "road": "Greenway Blvd",
+      "from": "Longwood Lake Mary Rd",
+      "to": "Lake Park Dr"
+    },
+    {
+      "id": "116",
+      "road": "Wayside Dr",
+      "from": "SR 46",
+      "to": "Wayside Dr"
+    },
+    {
+      "id": "115",
+      "road": "General Hutchinson Pkwy",
+      "from": "CR 427",
+      "to": "US 17-92"
+    },
+    {
+      "id": "114",
+      "road": "Florida Ave",
+      "from": "Oklahoma St",
+      "to": "Van Arsdale St"
+    },
+    {
+      "id": "113",
+      "road": "Florida Ave",
+      "from": "DeLeon St",
+      "to": "Oklahoma St"
+    },
+    {
+      "id": "112",
+      "road": "Fernwood Blvd",
+      "from": "US 17-92",
+      "to": "Oxford Rd"
+    },
+    {
+      "id": "106",
+      "road": "Eden Park Rd",
+      "from": "Country Creek",
+      "to": "County Line"
+    },
+    {
+      "id": "105A",
+      "road": "Eden Park Rd",
+      "from": "McNeil",
+      "to": "Bunnell Road"
+    },
+    {
+      "id": "105",
+      "road": "Eden Park Rd",
+      "from": "Bunnell Rd",
+      "to": "Country Creek (N Entrance)"
+    },
+    {
+      "id": "104",
+      "road": "East Wekiva Trl",
+      "from": "Holderness",
+      "to": "Hunt Club Blvd"
+    },
+    {
+      "id": "103",
+      "road": "East Wekiva Trl",
+      "from": "Hunt Club",
+      "to": "Holderness ( S of School)"
+    },
+    {
+      "id": "430",
+      "road": "W. Town Pkwy",
+      "from": "S. Pearl Lake Cswy",
+      "to": "Bunnell Rd"
+    },
+    {
+      "id": "102A",
+      "road": "East Lake Dr",
+      "from": "Bird Rd",
+      "to": "Tuskawilla Rd"
+    },
+    {
+      "id": "102",
+      "road": "East Lake Dr",
+      "from": "Azalea Rd",
+      "to": "Bird Road"
+    },
+    {
+      "id": "101",
+      "road": "East Lake Dr",
+      "from": "Sterling Oak Dr",
+      "to": "Azalea Rd"
+    },
+    {
+      "id": "100",
+      "road": "East Lake Dr",
+      "from": "Park Dr",
+      "to": "Sterling Oak Dr"
+    },
+    {
+      "id": "10",
+      "road": "Alafaya Woods Blvd",
+      "from": "SR 434",
+      "to": "Alexandria Blvd"
+    },
+    {
+      "id": "1",
+      "road": "W 1st St",
+      "from": "US 17-92",
+      "to": "Mellonville Ave"
+    }
+  ]
+}

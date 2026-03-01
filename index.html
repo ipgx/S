@@ -175,6 +175,9 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);overflow:hidde
 .layer-cb{width:16px;height:16px;border-radius:4px;border:2px solid var(--border2);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .1s}
 .layer-row.on .layer-cb{background:var(--acc);border-color:var(--acc);color:#09090b}
 .layer-swatch{width:12px;height:4px;border-radius:2px;flex-shrink:0}
+.dl-check{width:14px;height:14px;border-radius:3px;border:1.5px solid var(--border2);display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .1s}
+.dd-item.active .dl-check{background:var(--acc);border-color:var(--acc);color:#09090b}
+body.light .dd-item.active .dl-check{color:#fff}
 
 /* ================================================================
    CSS MODULE: Hover Info Popup
@@ -367,8 +370,11 @@ input[type=number]{-moz-appearance:textfield}
 .mf-row .mf{flex:1;min-width:0}
 .mf{display:flex;flex-direction:column;gap:6px;margin-bottom:14px}
 .mf label{font-size:11px;font-weight:600;color:var(--tx3);text-transform:uppercase;letter-spacing:.04em}
-.mf input,.mf select{padding:7px 12px;border-radius:6px;border:1px solid var(--border);background:var(--muted);color:var(--tx);font-size:13px;font-family:var(--font);outline:none;width:100%;box-sizing:border-box}
-.mf input:focus,.mf select:focus{border-color:var(--acc);box-shadow:0 0 0 2px var(--acc-bg)}
+.mf input,.mf select,.mf textarea{padding:7px 12px;border-radius:6px;border:1px solid var(--border);background:var(--muted);color:var(--tx);font-size:13px;font-family:var(--font);outline:none;width:100%;box-sizing:border-box}
+.mf input:focus,.mf select:focus,.mf textarea:focus{border-color:var(--acc);box-shadow:0 0 0 2px var(--acc-bg)}
+.mf textarea{font-family:var(--mono);font-size:12px;resize:vertical;min-height:40px;line-height:1.5}
+.cm-chip{display:inline-flex;align-items:center;padding:2px 8px;border-radius:4px;background:var(--muted);border:1px solid var(--border);font-size:10px;font-family:var(--mono);color:var(--tx2);cursor:pointer;transition:all .12s;user-select:none}
+.cm-chip:hover{background:var(--hover);color:var(--tx);border-color:var(--acc)}
 .mact{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
 .modal-features{width:700px;max-width:calc(100vw - 40px);max-height:calc(100vh - 60px);display:flex;flex-direction:column;padding:0}
 .mf-head{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid var(--border);flex-shrink:0}
@@ -507,8 +513,8 @@ body.light .hint kbd{background:#e4e4e7;border-color:#a1a1aa;color:#18181b}
             <button class="dd-item active" data-bm="dark"><span class="dd-icon">🌑</span> Dark</button>
             <button class="dd-item" data-bm="grey"><span class="dd-icon">🌫️</span> Grey</button>
             <button class="dd-item" data-bm="voyager"><span class="dd-icon">🗺️</span> Voyager</button>
-            <button class="dd-item" data-bm="sat"><span class="dd-icon">🛰️</span> Satellite</button>
-            <button class="dd-item" data-bm="topo"><span class="dd-icon">⛰️</span> Topo</button>
+            <button class="dd-item" data-bm="gstreets"><span class="dd-icon">🟢</span> G Streets</button>
+            <button class="dd-item" data-bm="gsat"><span class="dd-icon">🌍</span> G Satellite</button>
           </div>
         </div>
       </div>
@@ -543,6 +549,14 @@ body.light .hint kbd{background:#e4e4e7;border-color:#a1a1aa;color:#18181b}
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         Clear All
       </button>
+      <div class="tg-div"></div>
+      <div class="dd-wrap" id="dd-datalabel">
+        <button class="dd-btn" id="btn-datalabel">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+          + Data Label <span class="dd-caret">▾</span>
+        </button>
+        <div class="dd-menu" id="menu-datalabel"></div>
+      </div>
       <div class="tg-div"></div>
       <button class="tbtn expand" id="btn-expand" title="Full map view">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
@@ -616,7 +630,6 @@ body.light .hint kbd{background:#e4e4e7;border-color:#a1a1aa;color:#18181b}
       <div class="thead-right">
         <input type="text" class="tsearch" id="search" placeholder="Search roads…"/>
         <button class="abtn" id="btn-addcol">+ Add Column</button>
-        <button class="abtn dash" id="btn-colmath">÷ Column Math</button>
         <div class="col-vis-wrap">
           <button class="abtn" id="btn-colvis">👁 Columns</button>
           <div class="col-vis-menu" id="col-vis-menu"></div>
@@ -640,58 +653,41 @@ body.light .hint kbd{background:#e4e4e7;border-color:#a1a1aa;color:#18181b}
 </div>
 
 <!-- ================================================================
-     HTML: Add Column Modal
+     HTML: Add Column Modal (unified — includes Column Math)
      ================================================================ -->
 <div class="modal-bg" id="modal">
   <div class="modal">
     <div class="mtitle">Add Custom Column</div>
     <div class="mf"><label>Column Name</label><input type="text" id="mc-name" placeholder="e.g. Priority, Notes…"/></div>
     <div class="mf"><label>Column Type</label>
-      <select id="mc-type"><option value="text">Text</option><option value="number">Number</option><option value="percent">Percentage (%)</option><option value="dropdown">Dropdown</option></select>
+      <select id="mc-type"><option value="text">Text</option><option value="number">Number</option><option value="percent">Percentage (%)</option><option value="dropdown">Dropdown</option><option value="formula">Formula (Column Math)</option></select>
     </div>
+    <!-- Regular column fields -->
     <div class="mf" id="mc-dd-wrap" style="display:none"><label>Dropdown Options</label><input type="text" id="mc-dd-opts" placeholder="High, Medium, Low"/></div>
-    <div class="mf"><label>Default Value</label><input type="text" id="mc-def" placeholder="Optional"/></div>
+    <div class="mf" id="mc-def-wrap"><label>Default Value</label><input type="text" id="mc-def" placeholder="Optional"/></div>
+    <!-- Formula fields -->
+    <div id="mc-math-wrap" style="display:none">
+      <div class="mf"><label>Formula</label><textarea id="cm-expr" rows="2" spellcheck="false" placeholder="e.g. [AADT] / [Capacity] * 100"></textarea></div>
+      <div id="cm-chips" style="display:flex;flex-wrap:wrap;gap:5px;margin:-6px 0 12px"></div>
+      <div class="mf-row">
+        <div class="mf" style="flex:1"><label>Decimal Places</label>
+          <select id="cm-dec"><option value="0">0</option><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option><option value="4">4</option></select>
+        </div>
+        <div class="mf" style="flex:1"><label>Rounding</label>
+          <select id="cm-round">
+            <option value="none">None</option>
+            <option value="round">Round (½ up)</option>
+            <option value="ceil">Round Up (ceil)</option>
+            <option value="floor">Round Down (floor)</option>
+            <option value="r10">Nearest 10</option>
+            <option value="r100">Nearest 100</option>
+            <option value="r1000">Nearest 1,000</option>
+          </select>
+        </div>
+      </div>
+      <div id="cm-preview" style="margin-top:4px;font-size:11px;color:var(--tx3);min-height:16px"></div>
+    </div>
     <div class="mact"><button class="mbtn" id="mc-cancel">Cancel</button><button class="mbtn go" id="mc-ok">Add Column</button></div>
-  </div>
-</div>
-
-<!-- ================================================================
-     HTML: Column Math Modal
-     ================================================================ -->
-<div class="modal-bg" id="modal-math">
-  <div class="modal">
-    <div class="mtitle">Column Math</div>
-    <div class="mf"><label>Result Column Name</label><input type="text" id="cm-name" placeholder="e.g. Length in Feet"/></div>
-    <div class="mf-row">
-      <div class="mf" style="flex:1"><label>Column A</label><select id="cm-a"></select></div>
-      <div class="mf" style="width:120px"><label>Operation</label>
-        <select id="cm-op">
-          <option value="+">+ Add</option><option value="-">− Subtract</option>
-          <option value="*">× Multiply</option><option value="/">÷ Divide</option>
-          <option value="%">% Percentage</option>
-        </select>
-      </div>
-      <div class="mf" style="flex:1"><label>Column B / Value</label><select id="cm-b"></select></div>
-    </div>
-    <div class="mf" id="cm-const-wrap" style="display:none"><label>Constant Value</label><input type="number" id="cm-const" placeholder="e.g. 2, 100, 0.5…" step="any"/></div>
-    <div class="mf-row">
-      <div class="mf" style="flex:1"><label>Decimal Places</label>
-        <select id="cm-dec"><option value="0">0</option><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option><option value="4">4</option></select>
-      </div>
-      <div class="mf" style="flex:1"><label>Rounding</label>
-        <select id="cm-round">
-          <option value="none">None</option>
-          <option value="round">Round (½ up)</option>
-          <option value="ceil">Round Up (ceil)</option>
-          <option value="floor">Round Down (floor)</option>
-          <option value="r10">Nearest 10</option>
-          <option value="r100">Nearest 100</option>
-          <option value="r1000">Nearest 1,000</option>
-        </select>
-      </div>
-    </div>
-    <div id="cm-preview" style="margin-top:4px;font-size:11px;color:var(--tx3);min-height:16px"></div>
-    <div class="mact"><button class="mbtn" id="cm-cancel">Cancel</button><button class="mbtn go" id="cm-ok">Create Column</button></div>
   </div>
 </div>
 
@@ -1670,6 +1666,9 @@ var State = {
   customVals: {},              // {fid: {fieldName: value}} — THE truth for custom data
   _editingFormulaField: null,  // field being edited in Column Math modal (null = create mode)
 
+  // Extra label columns shown on map
+  labelFields: [],             // array of field names to display as extra lines on map labels
+
   // Column order: tracks field names in display order
   colOrder: null,              // null = default, or string[]
 
@@ -1698,16 +1697,16 @@ var Config = {
     dark:    {version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',sources:{carto:{type:'raster',tiles:['https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png','https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png'],tileSize:256,maxzoom:19}},layers:[{id:'carto',type:'raster',source:'carto'}]},
     grey:    {version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',sources:{carto:{type:'raster',tiles:['https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png','https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png'],tileSize:256,maxzoom:19}},layers:[{id:'carto',type:'raster',source:'carto'}]},
     voyager: {version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',sources:{carto:{type:'raster',tiles:['https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png','https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png'],tileSize:256,maxzoom:19}},layers:[{id:'carto',type:'raster',source:'carto'}]},
-    sat:     {version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',sources:{esri:{type:'raster',tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],tileSize:256,maxzoom:18},labels:{type:'raster',tiles:['https://a.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}@2x.png'],tileSize:256,maxzoom:19}},layers:[{id:'esri',type:'raster',source:'esri'},{id:'labels',type:'raster',source:'labels'}]},
-    topo:    {version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',sources:{topo:{type:'raster',tiles:['https://tile.opentopomap.org/{z}/{x}/{y}.png'],tileSize:256,maxzoom:17}},layers:[{id:'topo',type:'raster',source:'topo'}]}
+    gstreets:{version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',sources:{gm:{type:'raster',tiles:['https://mt0.google.com/vt/lyrs=m&x={x}&y={y}&z={z}','https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}'],tileSize:256,maxzoom:20}},layers:[{id:'gm',type:'raster',source:'gm'}]},
+    gsat:    {version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',sources:{gm:{type:'raster',tiles:['https://mt0.google.com/vt/lyrs=y&x={x}&y={y}&z={z}','https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}'],tileSize:256,maxzoom:20}},layers:[{id:'gm',type:'raster',source:'gm'}]}
   },
 
   COLORS: {
-    dark:    {road:'#818cf8', hover:'#67e8f9'},
-    grey:    {road:'#4338ca', hover:'#0ea5e9'},
-    voyager: {road:'#7c3aed', hover:'#06b6d4'},
-    sat:     {road:'#22d3ee', hover:'#a78bfa'},
-    topo:    {road:'#e11d48', hover:'#f97316'}
+    dark:    {road:'#818cf8', hover:'#67e8f9', county:'#facc15', node:'#ff8c00', label:'#e4e4e7', labelHalo:'rgba(9,9,11,.85)', labelAcc:'#facc15'},
+    grey:    {road:'#4338ca', hover:'#0ea5e9', county:'#E91E63', node:'#f43f5e', label:'#27272a', labelHalo:'rgba(255,255,255,.9)', labelAcc:'#E91E63'},
+    voyager: {road:'#7c3aed', hover:'#06b6d4', county:'#E91E63', node:'#f43f5e', label:'#27272a', labelHalo:'rgba(255,255,255,.9)', labelAcc:'#E91E63'},
+    gstreets:{road:'#e91e63', hover:'#00bcd4', county:'#ff6d00', node:'#00e676', label:'#1a1a2e', labelHalo:'rgba(255,255,255,.92)', labelAcc:'#e91e63'},
+    gsat:    {road:'#00ffff', hover:'#ff4081', county:'#ffea00', node:'#ff00ff', label:'#f0f0f0', labelHalo:'rgba(0,0,0,.8)', labelAcc:'#00ffff'}
   },
 
   // CC classification colors for legend and road styling
@@ -1724,6 +1723,9 @@ var Config = {
 
   // Base column field names (in default order)
   BASE_FIELDS: ['_sel', 'ID', 'Name', 'From', 'To', 'CC', 'Capacity_Group', 'Ln', 'LOS', 'Cap', 'AADT', 'PmPk', 'PkDir', 'Comm_Trips', 'Avail', 'Cap_LOS'],
+
+  // Display titles for base fields (used in label column selector)
+  COL_TITLES: {CC:'Class', Capacity_Group:'Cap Group', Ln:'Lanes', LOS:'LOS', Cap:'Capacity', AADT:'AADT', PmPk:'PM Peak', PkDir:'Pk Dir', Comm_Trips:'Comm Trips', Avail:'Available', Cap_LOS:'Cap LOS'},
 
   CENTER: [-81.26, 28.55],
   ZOOM: 10.5,
@@ -1802,18 +1804,28 @@ var MapManager = {
   },
 
   labelLayout: function() {
-    var acc = Utils.accentColor();
+    var c = Config.COLORS[State.curBase] || Config.COLORS.dark;
+    var acc = c.labelAcc;
+    var parts = [
+      ['get','ID'], {'font-scale':1.0, 'text-font':['literal',['Noto Sans Bold']], 'text-color': acc},
+      ': ', {'font-scale':1.0, 'text-font':['literal',['Noto Sans Bold']], 'text-color': acc},
+      ['get','Name'], {'font-scale':1.0, 'text-font':['literal',['Noto Sans Regular']]},
+      '\n', {},
+      ['get','From'], {'font-scale':1.0, 'text-font':['literal',['Noto Sans Regular']]},
+      '  →  ', {'font-scale':1.2, 'text-font':['literal',['Noto Sans Bold']], 'text-color': acc},
+      ['get','To'], {'font-scale':1.0, 'text-font':['literal',['Noto Sans Regular']]}
+    ];
+    State.labelFields.forEach(function(field) {
+      var title = Config.COL_TITLES[field] || field;
+      var cc = State.customCols.filter(function(c){return c.field===field;})[0];
+      if (cc) title = cc.title;
+      parts.push('\n', {});
+      parts.push(title + ': ', {'font-scale':0.9, 'text-font':['literal',['Noto Sans Bold']], 'text-color': acc});
+      parts.push(['to-string',['get', field]], {'font-scale':0.9, 'text-font':['literal',['Noto Sans Bold']], 'text-color': acc});
+    });
     return {
       'symbol-placement': 'line-center',
-      'text-field': ['format',
-        ['get','ID'], {'font-scale':1.0, 'text-font':['literal',['Noto Sans Bold']], 'text-color': acc},
-        ': ', {'font-scale':1.0, 'text-font':['literal',['Noto Sans Bold']], 'text-color': acc},
-        ['get','Name'], {'font-scale':1.0, 'text-font':['literal',['Noto Sans Regular']]},
-        '\n', {},
-        ['get','From'], {'font-scale':1.0, 'text-font':['literal',['Noto Sans Regular']]},
-        '  →  ', {'font-scale':1.2, 'text-font':['literal',['Noto Sans Bold']], 'text-color': acc},
-        ['get','To'], {'font-scale':1.0, 'text-font':['literal',['Noto Sans Regular']]}
-      ],
+      'text-field': ['format'].concat(parts),
       'text-size': ['interpolate',['linear'],['zoom'], 10, 9, 13, 11, 16, 13],
       'text-font': ['Noto Sans Regular'],
       'text-anchor': 'bottom',
@@ -1830,10 +1842,10 @@ var MapManager = {
   },
 
   labelPaint: function() {
-    var isDark = State.isDark;
+    var c = Config.COLORS[State.curBase] || Config.COLORS.dark;
     return {
-      'text-color': isDark ? '#e4e4e7' : '#27272a',
-      'text-halo-color': isDark ? 'rgba(9,9,11,.85)' : 'rgba(255,255,255,.9)',
+      'text-color': c.label,
+      'text-halo-color': c.labelHalo,
       'text-halo-width': 1.8,
       'text-opacity': ['interpolate',['linear'],['zoom'], 10, 0, 11, 0.5, 13, 0.85, 16, 1]
     };
@@ -1912,6 +1924,7 @@ var MapManager = {
 
       Utils.el('loading-text').textContent = 'Building table…';
       TableManager.buildTable();
+      MapManager.populateLabelSelect();
       Boot.dismiss();
     };
 
@@ -1943,10 +1956,11 @@ var MapManager = {
   addCountyLayers: function() {
     if (!State.countiesData || !State.map) return;
     if (State.map.getSource('counties')) return;
-    var acc = Utils.accentColor();
+    var c = Config.COLORS[State.curBase] || Config.COLORS.dark;
+    var cc = c.county;
     State.map.addSource('counties', {type:'geojson', data: State.countiesData});
-    State.map.addLayer({id:'county-fill', type:'fill', source:'counties', paint:{'fill-color': acc,'fill-opacity':0.04}}, 'roads-glow');
-    State.map.addLayer({id:'county-line', type:'line', source:'counties', paint:{'line-color': acc,'line-width':1.5,'line-opacity':0.5,'line-dasharray':[6,3]}}, 'roads-glow');
+    State.map.addLayer({id:'county-fill', type:'fill', source:'counties', paint:{'fill-color': cc,'fill-opacity':0.04}}, 'roads-glow');
+    State.map.addLayer({id:'county-line', type:'line', source:'counties', paint:{'line-color': cc,'line-width':1.5,'line-opacity':0.5,'line-dasharray':[6,3]}}, 'roads-glow');
     // Restore visibility state
     ['county-fill','county-line'].forEach(function(lid) {
       if (State.map.getLayer(lid) && State.layerVis[lid] === false) {
@@ -1987,13 +2001,11 @@ var MapManager = {
   addNodeLayers: function() {
     if (!State.nodesData || !State.map) return;
     if (State.map.getSource('nodes')) return;
-    var acc = Utils.accentColor();
-    var halo = State.isDark ? '#09090b' : '#ffffff';
+    var c = Config.COLORS[State.curBase] || Config.COLORS.dark;
     State.map.addSource('nodes', {type:'geojson', data: State.nodesData});
-    var bright = State.isDark ? '#fde047' : '#f43f5e';
     State.map.addLayer({id:'nodes-circle', type:'circle', source:'nodes', paint:{
       'circle-radius': ['interpolate',['linear'],['zoom'], 10, 2, 13, 4, 16, 6],
-      'circle-color': bright,
+      'circle-color': c.node,
       'circle-opacity': 1,
       'circle-stroke-color': '#ffffff',
       'circle-stroke-width': ['interpolate',['linear'],['zoom'], 10, 1.5, 13, 2, 16, 2.5],
@@ -2090,15 +2102,80 @@ var MapManager = {
   },
 
   updateLayerSwatches: function() {
-    var acc = Utils.accentColor();
+    var c = Config.COLORS[State.curBase] || Config.COLORS.dark;
     var countySwatch = document.querySelector('[data-layers="county-fill,county-line"] .layer-swatch');
-    if (countySwatch) countySwatch.style.background = acc;
+    if (countySwatch) countySwatch.style.background = c.county;
     var labelSwatch = document.querySelector('[data-layers="roads-label"] .layer-swatch');
-    if (labelSwatch) labelSwatch.style.background = acc;
+    if (labelSwatch) labelSwatch.style.background = Utils.accentColor();
     var nodeSwatch = document.querySelector('[data-layers="nodes-circle"] .layer-swatch');
-    if (nodeSwatch) nodeSwatch.style.background = acc;
+    if (nodeSwatch) nodeSwatch.style.background = c.node;
     var arrowSwatch = document.querySelector('[data-layers="sel-arrows-layer"] .layer-swatch');
-    if (arrowSwatch) arrowSwatch.style.background = acc;
+    if (arrowSwatch) arrowSwatch.style.background = Utils.accentColor();
+  },
+
+  /** Populate the data label dropdown with available columns */
+  populateLabelSelect: function() {
+    var menu = Utils.el('menu-datalabel');
+    if (!menu) return;
+    var chk = '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>';
+    var html = '';
+    var skip = {_sel:1, ID:1, Name:1, From:1, To:1};
+    Config.BASE_FIELDS.forEach(function(f) {
+      if (skip[f]) return;
+      var t = Config.COL_TITLES[f] || f;
+      var on = State.labelFields.indexOf(f) !== -1;
+      html += '<button class="dd-item' + (on ? ' active' : '') + '" data-field="' + f + '"><span class="dl-check">' + chk + '</span>' + t + '</button>';
+    });
+    State.customCols.forEach(function(col) {
+      var on = State.labelFields.indexOf(col.field) !== -1;
+      html += '<button class="dd-item' + (on ? ' active' : '') + '" data-field="' + col.field + '"><span class="dl-check">' + chk + '</span>' + col.title + '</button>';
+    });
+    menu.innerHTML = html;
+    MapManager.updateLabelBtn();
+  },
+
+  /** Update the data label button text */
+  updateLabelBtn: function() {
+    var btn = Utils.el('btn-datalabel');
+    if (!btn) return;
+    var n = State.labelFields.length;
+    var icon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg> ';
+    if (n === 0) {
+      btn.innerHTML = icon + '+ Data Label <span class="dd-caret">▾</span>';
+      btn.classList.remove('on');
+    } else {
+      btn.innerHTML = icon + n + ' Label' + (n > 1 ? 's' : '') + ' <span class="dd-caret">▾</span>';
+      btn.classList.add('on');
+    }
+  },
+
+  /** Inject custom column values into GeoJSON properties so MapLibre can read them */
+  injectCustomVals: function() {
+    if (!State.geojson) return;
+    State.geojson.features.forEach(function(f) {
+      var cv = State.customVals[f.id];
+      if (cv) {
+        Object.keys(cv).forEach(function(k) {
+          f.properties[k] = cv[k] != null ? cv[k] : '';
+        });
+      }
+    });
+    if (State.map && State.map.getSource('roads')) {
+      State.map.getSource('roads').setData(State.geojson);
+    }
+  },
+
+  /** Refresh the label layer with current layout/paint */
+  refreshLabels: function() {
+    if (!State.map) return;
+    if (State.map.getLayer('roads-label')) State.map.removeLayer('roads-label');
+    try {
+      State.map.addLayer({id:'roads-label', type:'symbol', source:'roads', layout: MapManager.labelLayout(), paint: MapManager.labelPaint()});
+    } catch(e) { console.warn('Label refresh failed:', e); }
+    if (State.layerVis['roads-label'] === false) {
+      State.map.setLayoutProperty('roads-label', 'visibility', 'none');
+    }
+    MapManager.bumpLayers();
   },
 
   createArrowImage: function() {
@@ -2299,6 +2376,7 @@ var MapManager = {
             });
             Columns.recalcComputed();
             TableManager.rebuildTable();
+            if (State.labelFields.some(function(f){return f.indexOf('_c_')===0;})) { MapManager.injectCustomVals(); MapManager.refreshLabels(); }
             popup.remove();
             State.activePopup = null;
           };
@@ -2370,6 +2448,7 @@ var MapManager = {
 
     var swatch = document.querySelector('[data-layers="roads-line,roads-glow"] .layer-swatch');
     if (swatch) swatch.style.background = Config.COLORS[bm].road;
+    MapManager.updateLayerSwatches();
 
     State.map.once('idle', function() {
       if (State.map.getSource('roads')) return;
@@ -2798,6 +2877,7 @@ var TableManager = {
         } else {
           CellNav.moveEditorDown(cell);
         }
+        if (State.labelFields.some(function(f){return f.indexOf('_c_')===0;})) { MapManager.injectCustomVals(); MapManager.refreshLabels(); }
       };
     }
     return def;
@@ -2895,10 +2975,16 @@ var TableManager = {
 
     /** CELL CLICK — handles ALL cell clicks.
      *  For _sel column: toggles selection (checkbox).
+     *  Ctrl/Cmd+click on any column: toggles selection.
      *  For other columns: sets cell focus for navigation. */
     State.table.on('cellClick', function(e, cell) {
       var f = cell.getColumn().getField();
       if (f === '_sel') {
+        e.stopPropagation();
+        Selection.toggle(Utils.fid(cell.getRow().getData()._fid));
+        return;
+      }
+      if (e.ctrlKey || e.metaKey) {
         e.stopPropagation();
         Selection.toggle(Utils.fid(cell.getRow().getData()._fid));
         return;
@@ -3066,7 +3152,10 @@ var Columns = {
     State.customCols = State.customCols.filter(function(c) { return c.field !== field; });
     Object.keys(State.customVals).forEach(function(id) { delete State.customVals[id][field]; });
     if (State.colOrder) State.colOrder = State.colOrder.filter(function(f) { return f !== field; });
+    var idx = State.labelFields.indexOf(field);
+    if (idx !== -1) { State.labelFields.splice(idx, 1); MapManager.refreshLabels(); }
     TableManager.rebuildTable();
+    MapManager.populateLabelSelect();
   },
 
   addCol: function(name, type, opts, def) {
@@ -3080,9 +3169,10 @@ var Columns = {
       });
     }
     TableManager.rebuildTable();
+    MapManager.populateLabelSelect();
   },
 
-  /** Get all numeric columns available for Column Math */
+  /** Get all numeric columns available for formulas */
   getNumericColumns: function() {
     var cols = [
       {field:'Ln', title:'Lanes'},
@@ -3101,70 +3191,175 @@ var Columns = {
     return cols;
   },
 
-  /**
-   * GET COLUMN VALUE — reads from customVals (source of truth).
-   *
-   * Percent handling:
-   *   - For * and / operations: percent columns are auto-converted to fractions
-   *     (e.g., 50 → 0.5) so that "50% × 100 = 50"
-   *   - For % operation: NO auto-conversion. The % op formula itself does A×B/100
-   *   - For + and - operations: raw values used
-   */
-  getColValue: function(fid, field, feature, op) {
+  /** Get raw numeric value for a column field from a feature */
+  getColValue: function(fid, field, feature) {
     var raw = 0;
-    // Base numeric fields from OC_CMS properties
     var baseNumeric = {Ln:1, Cap:1, AADT:1, PmPk:1, Comm_Trips:1, Avail:1};
     if (baseNumeric[field]) {
       raw = feature ? parseFloat(feature.properties[field] || 0) : 0;
     } else if (State.customVals[fid] && State.customVals[fid][field] != null) {
       raw = parseFloat(State.customVals[fid][field]) || 0;
     }
-
-    // Auto-convert percent to fraction for multiply/divide ONLY
-    if (op === '*' || op === '/') {
-      var isPercent = false;
-      for (var i = 0; i < State.customCols.length; i++) {
-        if (State.customCols[i].field === field && State.customCols[i].type === 'percent') {
-          isPercent = true; break;
-        }
-      }
-      if (isPercent) raw = raw / 100;
-    }
     return raw;
   },
 
-  /**
-   * COMPUTE OPERATION
-   * +  : A + B
-   * -  : A - B
-   * *  : A × B (percents auto-converted to fractions)
-   * /  : A ÷ B (percents auto-converted to fractions)
-   * %  : B% of A = A × B / 100
-   *
-   * rnd (rounding mode): 'none', 'round', 'ceil', 'floor', 'r10', 'r100', 'r1000'
-   */
-  computeOp: function(a, b, op, dec, rnd) {
-    var r = 0;
-    if (op === '+') r = a + b;
-    else if (op === '-') r = a - b;
-    else if (op === '*') r = a * b;
-    else if (op === '/') r = (b !== 0) ? a / b : 0;
-    else if (op === '%') r = a * b / 100;
+  /** Map a display title back to its field name */
+  fieldToTitle: function(field) {
+    if (Config.COL_TITLES[field]) return Config.COL_TITLES[field];
+    for (var i = 0; i < State.customCols.length; i++) {
+      if (State.customCols[i].field === field) return State.customCols[i].title;
+    }
+    return field;
+  },
 
-    // Apply rounding
-    if (rnd === 'round')     r = Math.round(r);
-    else if (rnd === 'ceil') r = Math.ceil(r);
+  /** Apply rounding + decimals */
+  applyRounding: function(r, dec, rnd) {
+    if (rnd === 'round')      r = Math.round(r);
+    else if (rnd === 'ceil')  r = Math.ceil(r);
     else if (rnd === 'floor') r = Math.floor(r);
-    else if (rnd === 'r10')  r = Math.round(r / 10) * 10;
-    else if (rnd === 'r100') r = Math.round(r / 100) * 100;
+    else if (rnd === 'r10')   r = Math.round(r / 10) * 10;
+    else if (rnd === 'r100')  r = Math.round(r / 100) * 100;
     else if (rnd === 'r1000') r = Math.round(r / 1000) * 1000;
-
     return parseFloat(r.toFixed(dec));
+  },
+
+  /* ----------------------------------------------------------------
+   * EXPRESSION ENGINE — safe formula parser (no eval)
+   * Supports: +, -, *, /, (), numeric constants, [Column Name] refs
+   * ---------------------------------------------------------------- */
+
+  /** Tokenize a formula string */
+  tokenize: function(expr) {
+    var tokens = [], i = 0, len = expr.length;
+    while (i < len) {
+      var ch = expr[i];
+      if (ch === ' ' || ch === '\t' || ch === '\n') { i++; continue; }
+      if (ch === '[') {
+        var j = expr.indexOf(']', i + 1);
+        if (j === -1) return {tokens:null, error:'Missing closing ] at position ' + i};
+        tokens.push({type:'COL', value:expr.substring(i + 1, j), pos:i});
+        i = j + 1; continue;
+      }
+      if (ch === '(') { tokens.push({type:'LP', pos:i}); i++; continue; }
+      if (ch === ')') { tokens.push({type:'RP', pos:i}); i++; continue; }
+      if (ch === '+' || ch === '-' || ch === '*' || ch === '/') {
+        tokens.push({type:'OP', value:ch, pos:i}); i++; continue;
+      }
+      if ((ch >= '0' && ch <= '9') || ch === '.') {
+        var start = i;
+        while (i < len && ((expr[i] >= '0' && expr[i] <= '9') || expr[i] === '.')) i++;
+        var num = parseFloat(expr.substring(start, i));
+        if (isNaN(num)) return {tokens:null, error:'Invalid number at position ' + start};
+        tokens.push({type:'NUM', value:num, pos:start}); continue;
+      }
+      return {tokens:null, error:'Unexpected character "' + ch + '" at position ' + i};
+    }
+    return {tokens:tokens, error:null};
+  },
+
+  /** Build a resolver function: title → numeric value for a feature */
+  buildResolver: function(fid, feature) {
+    var titleMap = {};
+    var baseCols = Columns.getNumericColumns();
+    baseCols.forEach(function(c) { titleMap[c.title] = c.field; });
+    // Also allow raw field names
+    baseCols.forEach(function(c) { if (!titleMap[c.field]) titleMap[c.field] = c.field; });
+    return function(title) {
+      var field = titleMap[title];
+      if (!field) return {error:'Unknown column: [' + title + ']'};
+      return {value: Columns.getColValue(fid, field, feature)};
+    };
+  },
+
+  /** Evaluate a formula expression with a resolver function */
+  evalExpr: function(expr, resolve) {
+    var r = Columns.tokenize(expr);
+    if (r.error) return {value:0, error:r.error};
+    var tokens = r.tokens, pos = 0;
+
+    function peek() { return pos < tokens.length ? tokens[pos] : null; }
+    function advance() { return tokens[pos++]; }
+
+    function parseExpression() {
+      var left = parseTerm();
+      while (peek() && peek().type === 'OP' && (peek().value === '+' || peek().value === '-')) {
+        var op = advance().value;
+        var right = parseTerm();
+        left = (op === '+') ? left + right : left - right;
+      }
+      return left;
+    }
+
+    function parseTerm() {
+      var left = parseUnary();
+      while (peek() && peek().type === 'OP' && (peek().value === '*' || peek().value === '/')) {
+        var op = advance().value;
+        var right = parseUnary();
+        if (op === '*') left = left * right;
+        else left = (right !== 0) ? left / right : 0;
+      }
+      return left;
+    }
+
+    function parseUnary() {
+      if (peek() && peek().type === 'OP' && peek().value === '-') { advance(); return -parseUnary(); }
+      if (peek() && peek().type === 'OP' && peek().value === '+') { advance(); return parseUnary(); }
+      return parsePrimary();
+    }
+
+    function parsePrimary() {
+      var tok = peek();
+      if (!tok) return {error:'Unexpected end of formula'};
+      if (tok.type === 'NUM') { advance(); return tok.value; }
+      if (tok.type === 'COL') {
+        advance();
+        var res = resolve(tok.value);
+        if (res.error) throw new Error(res.error);
+        return res.value;
+      }
+      if (tok.type === 'LP') {
+        advance();
+        var val = parseExpression();
+        if (!peek() || peek().type !== 'RP') throw new Error('Missing ) at position ' + (peek() ? peek().pos : 'end'));
+        advance();
+        return val;
+      }
+      throw new Error('Unexpected token at position ' + tok.pos);
+    }
+
+    try {
+      var result = parseExpression();
+      if (pos < tokens.length) return {value:0, error:'Unexpected token at position ' + tokens[pos].pos};
+      if (!isFinite(result)) result = 0;
+      return {value:result, error:null};
+    } catch(e) {
+      return {value:0, error:e.message};
+    }
+  },
+
+  /** Validate an expression string (dry-run parse) */
+  validateExpr: function(expr) {
+    if (!expr || !expr.trim()) return {valid:false, error:'Empty formula'};
+    var r = Columns.tokenize(expr);
+    if (r.error) return {valid:false, error:r.error};
+    // Check all column refs exist
+    var titleMap = {};
+    Columns.getNumericColumns().forEach(function(c) { titleMap[c.title] = 1; titleMap[c.field] = 1; });
+    for (var i = 0; i < r.tokens.length; i++) {
+      if (r.tokens[i].type === 'COL' && !titleMap[r.tokens[i].value]) {
+        return {valid:false, error:'Unknown column: [' + r.tokens[i].value + ']'};
+      }
+    }
+    // Dry-run parse with zeros
+    var dryResolve = function() { return {value:0}; };
+    var res = Columns.evalExpr(expr, dryResolve);
+    if (res.error) return {valid:false, error:res.error};
+    return {valid:true, error:null};
   },
 
   /**
    * RECALCULATE ALL COMPUTED COLUMNS
-   * Iterates through all computed columns and updates customVals.
+   * Supports both new {expr} and legacy {a,b,op} formats.
    * Returns true if any values changed.
    */
   recalcComputed: function() {
@@ -3175,9 +3370,23 @@ var Columns = {
       var fm = col.formula;
       State.geojson.features.forEach(function(f) {
         if (!State.customVals[f.id]) State.customVals[f.id] = {};
-        var va = Columns.getColValue(f.id, fm.a, f, fm.op);
-        var vb = (fm.b === '_CONST_') ? (fm.constVal || 0) : Columns.getColValue(f.id, fm.b, f, fm.op);
-        var nv = Columns.computeOp(va, vb, fm.op, fm.dec, fm.rnd || 'none');
+        var nv;
+        if (fm.expr) {
+          var resolver = Columns.buildResolver(f.id, f);
+          var result = Columns.evalExpr(fm.expr, resolver);
+          nv = Columns.applyRounding(result.error ? 0 : result.value, fm.dec, fm.rnd || 'none');
+        } else {
+          // Legacy {a, b, op} format
+          var va = Columns.getColValue(f.id, fm.a, f);
+          var vb = (fm.b === '_CONST_') ? (fm.constVal || 0) : Columns.getColValue(f.id, fm.b, f);
+          var r = 0;
+          if (fm.op === '+') r = va + vb;
+          else if (fm.op === '-') r = va - vb;
+          else if (fm.op === '*') r = va * vb;
+          else if (fm.op === '/') r = (vb !== 0) ? va / vb : 0;
+          else if (fm.op === '%') r = va * vb / 100;
+          nv = Columns.applyRounding(r, fm.dec, fm.rnd || 'none');
+        }
         if (State.customVals[f.id][col.field] !== nv) {
           State.customVals[f.id][col.field] = nv;
           dirty = true;
@@ -3187,47 +3396,47 @@ var Columns = {
     return dirty;
   },
 
-  /** Create a Column Math computed column */
-  addMathCol: function(name, fieldA, fieldB, isConst, constVal, op, dec, rnd) {
+  /** Create a computed column from a formula expression */
+  addMathCol: function(name, expr, dec, rnd) {
     var field = '_c_' + name.replace(/[^a-zA-Z0-9]/g, '_') + '_' + Date.now();
     var colDef = {
       field: field, title: name, type:'computed', opts:[], def:'0',
-      formula: {a:fieldA, b:isConst?'_CONST_':fieldB, op:op, dec:dec, constVal:constVal, rnd:rnd||'none'}
+      formula: {expr:expr, dec:dec, rnd:rnd||'none'}
     };
     State.customCols.push(colDef);
-
     if (State.geojson) {
       State.geojson.features.forEach(function(f) {
         if (!State.customVals[f.id]) State.customVals[f.id] = {};
-        var va = Columns.getColValue(f.id, fieldA, f, op);
-        var vb = isConst ? constVal : Columns.getColValue(f.id, fieldB, f, op);
-        State.customVals[f.id][field] = Columns.computeOp(va, vb, op, dec, rnd||'none');
+        var resolver = Columns.buildResolver(f.id, f);
+        var result = Columns.evalExpr(expr, resolver);
+        State.customVals[f.id][field] = Columns.applyRounding(result.error ? 0 : result.value, dec, rnd||'none');
       });
     }
     TableManager.rebuildTable();
+    MapManager.populateLabelSelect();
   },
 
   /** Update an existing computed column formula */
-  updateFormula: function(field, name, fieldA, fieldB, isConst, constVal, op, dec, rnd) {
+  updateFormula: function(field, name, expr, dec, rnd) {
     var col = null;
     for (var i = 0; i < State.customCols.length; i++) {
       if (State.customCols[i].field === field) { col = State.customCols[i]; break; }
     }
     if (!col) return;
     col.title = name;
-    col.formula = {a:fieldA, b:isConst?'_CONST_':fieldB, op:op, dec:dec, constVal:constVal, rnd:rnd||'none'};
+    col.formula = {expr:expr, dec:dec, rnd:rnd||'none'};
     if (State.geojson) {
       State.geojson.features.forEach(function(f) {
         if (!State.customVals[f.id]) State.customVals[f.id] = {};
-        var va = Columns.getColValue(f.id, fieldA, f, op);
-        var vb = isConst ? constVal : Columns.getColValue(f.id, fieldB, f, op);
-        State.customVals[f.id][field] = Columns.computeOp(va, vb, op, dec, rnd||'none');
+        var resolver = Columns.buildResolver(f.id, f);
+        var result = Columns.evalExpr(expr, resolver);
+        State.customVals[f.id][field] = Columns.applyRounding(result.error ? 0 : result.value, dec, rnd||'none');
       });
     }
     TableManager.rebuildTable();
   },
 
-  /** Open Column Math modal in edit mode for an existing computed column */
+  /** Open formula modal in edit mode for an existing computed column */
   editFormula: function(field) {
     var col = null;
     for (var i = 0; i < State.customCols.length; i++) {
@@ -3235,27 +3444,31 @@ var Columns = {
     }
     if (!col || col.type !== 'computed' || !col.formula) return;
     var fm = col.formula;
-    var cols = Columns.getNumericColumns();
-    if (cols.length < 1) return;
-    UI.populateMathDropdowns();
-    Utils.el('cm-name').value = col.title;
-    Utils.el('cm-a').value = fm.a;
-    Utils.el('cm-op').value = fm.op;
-    if (fm.b === '_CONST_') {
-      Utils.el('cm-b').value = '_CONST_';
-      Utils.el('cm-const').value = fm.constVal;
-      Utils.el('cm-const-wrap').style.display = 'flex';
+    Utils.el('mc-name').value = col.title;
+    Utils.el('mc-type').value = 'formula';
+    Utils.el('mc-dd-wrap').style.display = 'none';
+    Utils.el('mc-def-wrap').style.display = 'none';
+    Utils.el('mc-math-wrap').style.display = 'block';
+    UI.populateFormulaChips();
+    if (fm.expr) {
+      Utils.el('cm-expr').value = fm.expr;
     } else {
-      Utils.el('cm-b').value = fm.b;
-      Utils.el('cm-const-wrap').style.display = 'none';
+      // Legacy format: reconstruct expression string
+      var aTitle = Columns.fieldToTitle(fm.a);
+      var bPart = (fm.b === '_CONST_') ? String(fm.constVal || 0) : '[' + Columns.fieldToTitle(fm.b) + ']';
+      if (fm.op === '%') {
+        Utils.el('cm-expr').value = '[' + aTitle + '] * ' + bPart + ' / 100';
+      } else {
+        Utils.el('cm-expr').value = '[' + aTitle + '] ' + fm.op + ' ' + bPart;
+      }
     }
     Utils.el('cm-dec').value = fm.dec;
     Utils.el('cm-round').value = fm.rnd || 'none';
     State._editingFormulaField = field;
-    Utils.el('cm-ok').textContent = 'Update Column';
-    UI.updateMathPreview();
-    Utils.el('modal-math').classList.add('on');
-    setTimeout(function() { Utils.el('cm-name').focus(); }, 100);
+    Utils.el('mc-ok').textContent = 'Update Column';
+    UI.updateFormulaPreview();
+    Utils.el('modal').classList.add('on');
+    setTimeout(function() { Utils.el('cm-expr').focus(); }, 100);
   }
 };
 
@@ -3385,41 +3598,56 @@ var UI = {
 
   hideCtx: function() { Utils.el('ctx').style.display = 'none'; State.ctxFid = null; },
 
-  /** Column Math preview text */
-  updateMathPreview: function() {
-    var a = Utils.el('cm-a');
-    var b = Utils.el('cm-b');
-    var op = Utils.el('cm-op').value;
-    var aName = a.options[a.selectedIndex] ? a.options[a.selectedIndex].text : '?';
-    var isConst = b.value === '_CONST_';
-    Utils.el('cm-const-wrap').style.display = isConst ? 'flex' : 'none';
-    var bName = isConst ? (Utils.el('cm-const').value || '?') : (b.options[b.selectedIndex] ? b.options[b.selectedIndex].text : '?');
-    var sym = {'+':'+', '-':'−', '*':'×', '/':'÷', '%':'% of'}[op] || op;
-    var previewText;
-    if (op === '%') {
-      previewText = bName + '% of ' + aName;
-    } else {
-      previewText = aName + ' ' + sym + ' ' + bName;
-    }
-    var rnd = Utils.el('cm-round').value;
-    var rndLabel = {'none':'', 'round':' → rounded', 'ceil':' → rounded up', 'floor':' → rounded down', 'r10':' → nearest 10', 'r100':' → nearest 100', 'r1000':' → nearest 1,000'}[rnd] || '';
-    Utils.el('cm-preview').textContent = 'Formula: ' + previewText + rndLabel;
+  /** Populate clickable column chips below formula textarea */
+  populateFormulaChips: function() {
+    var container = Utils.el('cm-chips');
+    if (!container) return;
+    container.innerHTML = '';
+    var cols = Columns.getNumericColumns();
+    cols.forEach(function(c) {
+      var chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'cm-chip';
+      chip.textContent = c.title;
+      chip.onclick = function(e) {
+        e.preventDefault();
+        var ta = Utils.el('cm-expr');
+        var start = ta.selectionStart || 0;
+        var end = ta.selectionEnd || 0;
+        var text = ta.value;
+        var insert = '[' + c.title + ']';
+        ta.value = text.substring(0, start) + insert + text.substring(end);
+        ta.selectionStart = ta.selectionEnd = start + insert.length;
+        ta.focus();
+        UI.updateFormulaPreview();
+      };
+      container.appendChild(chip);
+    });
   },
 
-  populateMathDropdowns: function() {
-    var cols = Columns.getNumericColumns();
-    var selA = Utils.el('cm-a');
-    var selB = Utils.el('cm-b');
-    selA.innerHTML = '';
-    selB.innerHTML = '';
-    cols.forEach(function(c) {
-      selA.innerHTML += '<option value="' + c.field + '">' + c.title + '</option>';
-      selB.innerHTML += '<option value="' + c.field + '">' + c.title + '</option>';
-    });
-    selB.innerHTML += '<option value="_CONST_">Constant value…</option>';
-    if (cols.length >= 2) selB.selectedIndex = 1;
-    Utils.el('cm-const-wrap').style.display = 'none';
-    UI.updateMathPreview();
+  /** Live preview: evaluate formula for first feature */
+  updateFormulaPreview: function() {
+    var exprEl = Utils.el('cm-expr');
+    var preview = Utils.el('cm-preview');
+    if (!exprEl || !preview) return;
+    var expr = exprEl.value.trim();
+    if (!expr) { preview.textContent = ''; return; }
+    var validation = Columns.validateExpr(expr);
+    if (!validation.valid) {
+      preview.innerHTML = '<span style="color:#ef4444">' + validation.error + '</span>';
+      return;
+    }
+    var f = State.geojson ? State.geojson.features[0] : null;
+    if (!f) { preview.textContent = 'Formula looks valid'; return; }
+    var resolver = Columns.buildResolver(f.id, f);
+    var result = Columns.evalExpr(expr, resolver);
+    if (result.error) { preview.innerHTML = '<span style="color:#ef4444">' + result.error + '</span>'; return; }
+    var dec = parseInt(Utils.el('cm-dec').value) || 2;
+    var rnd = Utils.el('cm-round').value;
+    var rounded = Columns.applyRounding(result.value, dec, rnd);
+    var rndLabel = {'none':'','round':' rounded','ceil':' rounded up','floor':' rounded down','r10':' nearest 10','r100':' nearest 100','r1000':' nearest 1,000'}[rnd] || '';
+    var segName = f.properties.Name || ('ID ' + f.properties.SegmentID);
+    preview.textContent = 'Preview (' + segName + '): ' + rounded + (rndLabel ? ' (' + rndLabel + ')' : '');
   },
 
   /** Render HELP.md as HTML */
@@ -3440,6 +3668,7 @@ var UI = {
       '- **Polygon tool** — click to place points, double-click to close the shape',
       '### In the Table',
       '- **Click the checkbox** next to any road',
+      '- **Ctrl+Click** (or **Cmd+Click** on Mac) any cell to toggle selection',
       '- **Right-click a row** for more options (Zoom, Select, Copy Name)',
       '### Viewing Your Selection',
       '- Use the **All / Selected** toggle above the table to filter the view',
@@ -3451,11 +3680,11 @@ var UI = {
       '- **Scroll** to zoom in/out, **click & drag** to pan around',
       '- **Double-click a row** in the table to fly to that road on the map',
       '### Basemaps',
-      '- Click **Base** in the toolbar to switch between 5 map styles: Dark, Grey, Voyager, Satellite, and Topo',
+      '- Click **Base** in the toolbar to switch between 5 map styles: Dark, Grey, Voyager, Google Streets, and Google Satellite',
       '### County Selector',
       '- Use the county dropdown in the titlebar to fly to different counties: Orange, Lake, Martin, Apopka, or Hillsborough',
       '### Layers',
-      '- Hover over the **layers icon** (top-right of map) to toggle road segments, labels, and county boundaries',
+      '- Hover over the **layers icon** (top-right of map) to toggle road segments, labels, county boundaries, and intersection nodes',
       '### Measurements',
       '- After drawing a shape, the measurement panel shows dimensions (radius, area, etc.)',
       '- **Click the title** (e.g., "CIRCLE") to re-center the map on your shape',
@@ -3483,19 +3712,33 @@ var UI = {
       '| **Percentage** | Values shown with a % sign |',
       '| **Dropdown** | Pick from a list you define |',
       'Edit values by clicking a cell and pressing Enter, or through the **map popup** (double-click a road on the map).',
-      '### Column Math (Calculated Columns)',
-      'Click **Column Math** to create formulas:',
-      '- Pick two columns (or a column and a number)',
-      '- Choose an operation: **+ − × ÷ %**',
-      '- Set decimal places and rounding',
+      '| **Formula** | Computed column using a formula expression |',
+      '### Formula Columns (Calculated)',
+      'Select **Formula (Column Math)** as the column type to create a computed column:',
+      '- Write expressions using **[Column Name]** syntax, e.g. `[AADT] / [Capacity] * 100`',
+      '- Click the **column chips** below the formula box to insert column references',
+      '- Supports **+ − × ÷** and **parentheses** for grouping',
+      '- Use numeric constants directly: `[Lanes] * 5280`',
+      '- Set decimal places and rounding mode',
+      '- **Live preview** shows the computed result for the first road segment',
       '- The column auto-updates when source data changes',
-      '- Right-click a computed column header and select **Edit Formula** to modify it later',
+      '- Right-click a computed column header → **Edit Formula** to modify it later',
       '---',
       '## Editing on the Map',
-      '**Double-click any road** on the map to open a popup card where you can:',
+      '**Right-click any road** on the map to open a popup card where you can:',
       '- See the road\'s ID, name, and cross-streets',
       '- Edit custom column values right there',
       '- Click **Save** to apply changes',
+      '---',
+      '## Data Labels on Map',
+      'Use the **+ Data Label** dropdown in the toolbar to display any column\'s value on the map labels.',
+      '- Select a column (e.g., AADT, LOS, Lanes) to add it as a third line on each road label',
+      '- Custom columns you create also appear in the dropdown',
+      '- Set back to **+ Data Label** to remove the extra line',
+      '---',
+      '## Classification',
+      'Click **Classification** on the map to color-code roads by Context Classification (C2, C2T, C3C, C3R, C4, C5, C6, LA).',
+      '- Click any category in the legend to hide/show those segments',
       '---',
       '## Exporting Data',
       'Click **Export Selected** to download a CSV file with all your selected roads and their data (including any custom columns you\'ve added).',
@@ -3525,8 +3768,8 @@ var UI = {
       '- Live measurements in imperial units',
       '- Split-screen map + table with draggable resizer',
       '- Full-view modes for map or table',
-      '- Custom columns (Text, Number, Percentage, Dropdown)',
-      '- Column Math with formulas, rounding, and auto-recalculation',
+      '- Custom columns (Text, Number, Percentage, Dropdown, Formula)',
+      '- Formula expressions with [Column Name] syntax and live preview',
       '- Excel-style cell navigation with auto-advance editing',
       '- Real-time search and filtering',
       '- CSV export of selected roads',
@@ -3534,6 +3777,9 @@ var UI = {
       '- Segment labels with per-section styling',
       '- County boundaries layer (67 Florida counties)',
       '- County fly-to navigation',
+      '- Data Labels: display any column value on map segment labels',
+      '- CC Classification coloring with toggleable legend',
+      '- Per-basemap color system for optimal visibility',
       '- Scalable font size for table and map labels',
     ].join('\n');
     // Simple markdown → HTML
@@ -3622,7 +3868,8 @@ var Theme = {
         State.map.setPaintProperty('circ-center-l', 'circle-color', drawColor);
         State.map.setPaintProperty('circ-label-l', 'text-color', drawColor);
         State.map.setPaintProperty('circ-label-l', 'text-halo-color', State.isDark ? 'rgba(9,9,11,.85)' : 'rgba(255,255,255,.9)');
-        State.map.setPaintProperty('nodes-circle', 'circle-color', State.isDark ? '#fde047' : '#f43f5e');
+        var nc = Config.COLORS[State.curBase] || Config.COLORS.dark;
+        State.map.setPaintProperty('nodes-circle', 'circle-color', nc.node);
         State.map.setPaintProperty('nodes-circle', 'circle-stroke-color', '#ffffff');
         State.map.setPaintProperty('sel-arrows-layer', 'icon-color', drawColor);
       } catch(ex) {}
@@ -3840,6 +4087,27 @@ var Boot = {
       };
     });
 
+    // Data label dropdown
+    Utils.el('btn-datalabel').onclick = function(e) {
+      e.stopPropagation();
+      var menu = Utils.el('menu-datalabel');
+      var isOpen = menu.classList.contains('open');
+      UI.closeAllDropdowns();
+      if (!isOpen) { MapManager.populateLabelSelect(); menu.classList.add('open'); }
+    };
+    Utils.el('menu-datalabel').onclick = function(e) {
+      e.stopPropagation();
+      var item = e.target.closest('.dd-item');
+      if (!item) return;
+      var field = item.dataset.field;
+      var idx = State.labelFields.indexOf(field);
+      if (idx !== -1) { State.labelFields.splice(idx, 1); item.classList.remove('active'); }
+      else { State.labelFields.push(field); item.classList.add('active'); }
+      if (State.labelFields.some(function(f){return f.indexOf('_c_')===0;})) MapManager.injectCustomVals();
+      MapManager.refreshLabels();
+      MapManager.updateLabelBtn();
+    };
+
     // Column visibility
     Utils.el('btn-colvis').onclick = function(e) {
       e.stopPropagation();
@@ -3856,75 +4124,67 @@ var Boot = {
       }
     });
 
-    // Add Column modal
-    Utils.el('mc-type').onchange = function() {
-      Utils.el('mc-dd-wrap').style.display = this.value === 'dropdown' ? 'flex' : 'none';
-    };
+    // Add Column modal (unified — includes Formula)
+    function showModalFields(type) {
+      Utils.el('mc-dd-wrap').style.display = type === 'dropdown' ? 'flex' : 'none';
+      Utils.el('mc-def-wrap').style.display = type === 'formula' ? 'none' : 'flex';
+      Utils.el('mc-math-wrap').style.display = type === 'formula' ? 'block' : 'none';
+      if (type === 'formula') UI.populateFormulaChips();
+    }
+    Utils.el('mc-type').onchange = function() { showModalFields(this.value); };
     Utils.el('btn-addcol').onclick = function() {
+      State._editingFormulaField = null;
       Utils.el('mc-name').value = '';
       Utils.el('mc-def').value = '';
       Utils.el('mc-dd-opts').value = '';
       Utils.el('mc-type').value = 'text';
-      Utils.el('mc-dd-wrap').style.display = 'none';
+      Utils.el('cm-round').value = 'none';
+      Utils.el('cm-dec').value = '2';
+      Utils.el('cm-expr').value = '';
+      Utils.el('cm-preview').textContent = '';
+      showModalFields('text');
+      Utils.el('mc-ok').textContent = 'Add Column';
       Utils.el('modal').classList.add('on');
       setTimeout(function() { Utils.el('mc-name').focus(); }, 100);
     };
-    Utils.el('mc-cancel').onclick = function() { Utils.el('modal').classList.remove('on'); };
-    Utils.el('modal').onclick = function(e) { if (e.target === this) this.classList.remove('on'); };
-    Utils.el('modal').onkeydown = function(e) { if (e.key === 'Enter') Utils.el('mc-ok').click(); };
+    Utils.el('mc-cancel').onclick = function() { Utils.el('modal').classList.remove('on'); State._editingFormulaField = null; };
+    Utils.el('modal').onclick = function(e) { if (e.target === this) { this.classList.remove('on'); State._editingFormulaField = null; } };
+    Utils.el('modal').onkeydown = function(e) { if (e.key === 'Enter' && e.target.tagName !== 'TEXTAREA') Utils.el('mc-ok').click(); };
+    Utils.el('cm-expr').oninput = UI.updateFormulaPreview;
+    Utils.el('cm-round').onchange = UI.updateFormulaPreview;
+    Utils.el('cm-dec').onchange = UI.updateFormulaPreview;
     Utils.el('mc-ok').onclick = function() {
       var name = Utils.el('mc-name').value.trim();
       if (!name) { Utils.el('mc-name').focus(); return; }
       var type = Utils.el('mc-type').value;
-      var def  = Utils.el('mc-def').value.trim();
-      var opts = [];
-      if (type === 'dropdown') {
-        opts = Utils.el('mc-dd-opts').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
-        if (!opts.length) { Utils.el('mc-dd-opts').focus(); return; }
-      }
-      Utils.el('modal').classList.remove('on');
-      Columns.addCol(name, type, opts, def);
-    };
-
-    // Column Math modal
-    Utils.el('btn-colmath').onclick = function() {
-      var cols = Columns.getNumericColumns();
-      if (cols.length < 1) { alert('You need at least one numeric column.'); return; }
-      State._editingFormulaField = null;
-      Utils.el('cm-ok').textContent = 'Create Column';
-      Utils.el('cm-name').value = '';
-      Utils.el('cm-round').value = 'none';
-      Utils.el('cm-dec').value = '2';
-      Utils.el('cm-const-wrap').style.display = 'none';
-      UI.populateMathDropdowns();
-      Utils.el('modal-math').classList.add('on');
-      setTimeout(function() { Utils.el('cm-name').focus(); }, 100);
-    };
-    Utils.el('cm-cancel').onclick = function() { Utils.el('modal-math').classList.remove('on'); State._editingFormulaField = null; };
-    Utils.el('modal-math').onclick = function(e) { if (e.target === this) { this.classList.remove('on'); State._editingFormulaField = null; } };
-    Utils.el('modal-math').onkeydown = function(e) { if (e.key === 'Enter') Utils.el('cm-ok').click(); };
-    Utils.el('cm-a').onchange = UI.updateMathPreview;
-    Utils.el('cm-b').onchange = UI.updateMathPreview;
-    Utils.el('cm-op').onchange = UI.updateMathPreview;
-    Utils.el('cm-const').oninput = UI.updateMathPreview;
-    Utils.el('cm-round').onchange = UI.updateMathPreview;
-    Utils.el('cm-ok').onclick = function() {
-      var name = Utils.el('cm-name').value.trim();
-      if (!name) { Utils.el('cm-name').focus(); return; }
-      var fieldA = Utils.el('cm-a').value;
-      var fieldB = Utils.el('cm-b').value;
-      var isConst = fieldB === '_CONST_';
-      var constVal = isConst ? (parseFloat(Utils.el('cm-const').value) || 0) : 0;
-      if (isConst && Utils.el('cm-const').value.trim() === '') { Utils.el('cm-const').focus(); return; }
-      var op  = Utils.el('cm-op').value;
-      var dec = parseInt(Utils.el('cm-dec').value) || 2;
-      var rnd = Utils.el('cm-round').value;
-      Utils.el('modal-math').classList.remove('on');
-      if (State._editingFormulaField) {
-        Columns.updateFormula(State._editingFormulaField, name, fieldA, fieldB, isConst, constVal, op, dec, rnd);
-        State._editingFormulaField = null;
+      if (type === 'formula') {
+        // Formula path
+        var expr = Utils.el('cm-expr').value.trim();
+        if (!expr) { Utils.el('cm-expr').focus(); return; }
+        var validation = Columns.validateExpr(expr);
+        if (!validation.valid) {
+          Utils.el('cm-preview').innerHTML = '<span style="color:#ef4444">' + validation.error + '</span>';
+          return;
+        }
+        var dec = parseInt(Utils.el('cm-dec').value) || 2;
+        var rnd = Utils.el('cm-round').value;
+        Utils.el('modal').classList.remove('on');
+        if (State._editingFormulaField) {
+          Columns.updateFormula(State._editingFormulaField, name, expr, dec, rnd);
+          State._editingFormulaField = null;
+        } else {
+          Columns.addMathCol(name, expr, dec, rnd);
+        }
       } else {
-        Columns.addMathCol(name, fieldA, fieldB, isConst, constVal, op, dec, rnd);
+        // Regular column path
+        var def  = Utils.el('mc-def').value.trim();
+        var opts = [];
+        if (type === 'dropdown') {
+          opts = Utils.el('mc-dd-opts').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+          if (!opts.length) { Utils.el('mc-dd-opts').focus(); return; }
+        }
+        Utils.el('modal').classList.remove('on');
+        Columns.addCol(name, type, opts, def);
       }
     };
 
@@ -3937,8 +4197,7 @@ var Boot = {
       // Escape handling
       if (e.key === 'Escape') {
         if (Utils.el('modal-features').classList.contains('on')) Utils.el('modal-features').classList.remove('on');
-        else if (Utils.el('modal').classList.contains('on')) Utils.el('modal').classList.remove('on');
-        else if (Utils.el('modal-math').classList.contains('on')) Utils.el('modal-math').classList.remove('on');
+        else if (Utils.el('modal').classList.contains('on')) { Utils.el('modal').classList.remove('on'); State._editingFormulaField = null; }
         else if (State.tool) SpatialTools.setTool(null);
         UI.closeAllDropdowns();
         UI.hideCtx();

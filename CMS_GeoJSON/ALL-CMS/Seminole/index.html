@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seminole CMS – Routed Segments Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    #map { width: 100vw; height: 100vh; }
+    .info-panel { position: absolute; top: 10px; right: 10px; z-index: 1000; background: #fff; border-radius: 8px; padding: 14px 18px; box-shadow: 0 2px 12px rgba(0,0,0,.25); max-width: 360px; font-size: 13px; line-height: 1.5; }
+    .info-panel h3 { margin: 0 0 6px; font-size: 15px; }
+    .info-panel .count { color: #555; margin-bottom: 8px; }
+    .info-panel .stat { display: flex; justify-content: space-between; }
+    .info-panel .stat span:last-child { font-weight: 600; }
+    .legend { position: absolute; bottom: 24px; left: 10px; z-index: 1000; background: #fff; border-radius: 8px; padding: 10px 14px; box-shadow: 0 2px 12px rgba(0,0,0,.25); font-size: 12px; }
+    .legend-item { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+    .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+    .legend-line { width: 24px; height: 3px; flex-shrink: 0; border-radius: 2px; }
+    .search-box { position: absolute; top: 10px; left: 54px; z-index: 1000; }
+    .search-box input { width: 280px; padding: 8px 12px; border: 2px solid #ccc; border-radius: 6px; font-size: 13px; outline: none; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+    .search-box input:focus { border-color: #2563eb; }
+    .leaflet-popup-content { font-size: 12px; line-height: 1.6; min-width: 220px; }
+    .leaflet-popup-content strong { color: #1e40af; }
+    .popup-flag { background: #fef3c7; color: #92400e; padding: 2px 6px; border-radius: 3px; font-size: 11px; }
+    .popup-ok { background: #dcfce7; color: #166534; padding: 2px 6px; border-radius: 3px; font-size: 11px; }
+    .btn-delete { display: inline-block; margin-top: 8px; padding: 5px 14px; background: #dc2626; color: #fff; border: none; border-radius: 5px; font-size: 12px; font-weight: 600; cursor: pointer; }
+    .btn-delete:hover { background: #b91c1c; }
+    .btn-undo { display: inline-block; margin-top: 4px; padding: 4px 12px; background: #6b7280; color: #fff; border: none; border-radius: 5px; font-size: 11px; cursor: pointer; }
+    .btn-download { display: inline-block; padding: 5px 12px; background: #2563eb; color: #fff; border: none; border-radius: 5px; font-size: 11px; font-weight: 600; cursor: pointer; }
+    .btn-download:hover { background: #1d4ed8; }
+    .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 9999; background: #1e293b; color: #fff; padding: 10px 24px; border-radius: 8px; font-size: 13px; font-weight: 500; box-shadow: 0 4px 16px rgba(0,0,0,.3); opacity: 0; transition: opacity 0.3s; pointer-events: none; }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div class="search-box"><input id="search" type="text" placeholder="Search road name or segment ID..." /></div>
+  <div class="info-panel" id="info">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <h3 style="margin:0;">Seminole CMS</h3>
+      <button class="btn-download" onclick="downloadGeoJSON()">Download</button>
+    </div>
+    <div class="count" id="count">Loading...</div>
+    <div class="count" id="edit-stats" style="display:none; color:#dc2626;"></div>
+    <div id="details">Click a segment for details.</div>
+  </div>
+  <div class="toast" id="toast"></div>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-line" style="background:#6366f1; height:2px; border: 1px dashed #6366f1;"></div> Boundary</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#2563eb;"></div> FROM</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#dc2626;"></div> TO</div>
+    <div class="legend-item"><div class="legend-line" style="background:#16a34a;"></div> Routed (OK)</div>
+    <div class="legend-item"><div class="legend-line" style="background:#f59e0b;"></div> Routed (flagged)</div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map', { zoomControl: true }).setView([28.0, -81.5], 10);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; OSM | Valhalla' }).addTo(map);
+    const bndLayer = L.layerGroup().addTo(map), okLayer = L.layerGroup().addTo(map), flagLayer = L.layerGroup().addTo(map), fromLayer = L.layerGroup().addTo(map), toLayer = L.layerGroup().addTo(map);
+    L.control.layers(null, {"Boundary": bndLayer, "Segments (OK)": okLayer, "Segments (flagged)": flagLayer, "FROM": fromLayer, "TO": toLayer}, { collapsed: false, position: 'bottomright' }).addTo(map);
+    fetch('boundary.geojson').then(r=>r.json()).then(d=>{ bndLayer.addLayer(L.geoJSON(d, { style: { color:'#6366f1', weight:2.5, opacity:0.8, fillColor:'#6366f1', fillOpacity:0.04, dashArray:'8,5' } })); });
+    let allFeatures=[], originalCount=0, selectedLayer=null;
+    fetch('Seminole_CMS_routed.geojson').then(r=>r.json()).then(data=>{ allFeatures=data.features; originalCount=allFeatures.length; renderFeatures(allFeatures); updateCounts(); });
+    function renderFeatures(features, keepView) {
+      okLayer.clearLayers(); flagLayer.clearLayers(); fromLayer.clearLayers(); toLayer.clearLayers();
+      features.forEach(feat=>{
+        const p=feat.properties, coords=feat.geometry.coordinates[0];
+        if(!coords||coords.length<2) return;
+        const fLL=[coords[0][1],coords[0][0]], tLL=[coords[coords.length-1][1],coords[coords.length-1][0]];
+        const latlngs=coords.map(c=>[c[1],c[0]]);
+        const flagged=p.Route_Status!=='OK';
+        const color=flagged?'#f59e0b':'#16a34a';
+        const line=L.polyline(latlngs, {color, weight:4, opacity:0.8}).bindPopup(
+          `<strong>Seg ${p.SEGMENT_ID}</strong><br/><b>${p.RoadName}</b><br/>From: ${p.From}<br/>To: ${p.To}<br/>Route: ${p.Route_Distance_km} km | Detour: ${p.Detour_Ratio}x<br/>${flagged?'<span class="popup-flag">\u26a0 '+p.Route_Status+'</span>':'<span class="popup-ok">\u2705 OK</span>'}`
+        );
+        line.options._origColor=color;
+        line.on('click', function(){ if(selectedLayer) selectedLayer.setStyle({color:selectedLayer.options._origColor,weight:4,opacity:0.8}); this.setStyle({color:'#8b0000',weight:7,opacity:1}); selectedLayer=this; showInfo(p); });
+        line.on('mouseover', function(){ if(this!==selectedLayer) this.setStyle({color:'#8b0000',weight:6,opacity:1}); });
+        line.on('mouseout', function(){ if(this!==selectedLayer) this.setStyle({color:this.options._origColor,weight:4,opacity:0.8}); });
+        (flagged?flagLayer:okLayer).addLayer(line);
+        fromLayer.addLayer(L.circleMarker(fLL,{radius:5,color:'#1e40af',fillColor:'#2563eb',fillOpacity:0.9,weight:1.5}).bindPopup(`<strong>FROM</strong><br/>Seg ${p.SEGMENT_ID}: ${p.RoadName}<br/>${p.From}`));
+        toLayer.addLayer(L.circleMarker(tLL,{radius:5,color:'#991b1b',fillColor:'#dc2626',fillOpacity:0.9,weight:1.5}).bindPopup(`<strong>TO</strong><br/>Seg ${p.SEGMENT_ID}: ${p.RoadName}<br/>${p.To}`));
+      });
+      if(!keepView && features.length>0) { const all=features.flatMap(f=>f.geometry.coordinates[0].map(c=>[c[1],c[0]])); map.fitBounds(L.latLngBounds(all).pad(0.03)); }
+    }
+    function updateCounts() {
+      const c=allFeatures.length, d=originalCount-c;
+      document.getElementById('count').textContent=c+' of '+originalCount+' routed segments';
+      const s=document.getElementById('edit-stats');
+      if(d>0){ s.textContent=d+' deleted ('+(d/originalCount*100).toFixed(1)+'%) | '+c+' remaining'; s.style.display=''; } else { s.style.display='none'; }
+    }
+    function downloadGeoJSON() {
+      const blob=new Blob([JSON.stringify({type:'FeatureCollection',features:allFeatures})],{type:'application/geo+json'});
+      const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='Seminole_CMS_routed.geojson'; document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      showToast('Downloaded '+allFeatures.length+' segments');
+    }
+    function showToast(m,d){ const t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),d||2500); }
+    fetch('/api/backup',{method:'POST'}).catch(()=>{});
+    let lastDeleted=null;
+    function deleteSegment(id){ if(!confirm('Delete Segment '+id+'?')) return; fetch('/api/delete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({segment_id:id})}).then(r=>r.json()).then(d=>{ if(d.ok){ allFeatures=allFeatures.filter(f=>f.properties.SEGMENT_ID!==String(id)); renderFeatures(allFeatures,true); updateCounts(); document.getElementById('details').innerHTML='<span style="color:#dc2626;">Segment '+id+' deleted.</span><br/><button class="btn-undo" onclick="undoDelete()">Undo all deletions</button>'; selectedLayer=null; showToast('Segment '+id+' deleted'); } }).catch(e=>showToast('Error: '+e.message)); }
+    function undoDelete(){ fetch('/api/undo',{method:'POST'}).then(r=>r.json()).then(d=>{ if(d.ok) fetch('Seminole_CMS_routed.geojson').then(r=>r.json()).then(gj=>{ allFeatures=gj.features; originalCount=allFeatures.length; renderFeatures(allFeatures); updateCounts(); document.getElementById('details').textContent='Restored. Click a segment.'; showToast('Restored '+d.restored); }); }).catch(e=>showToast('Undo failed')); }
+    function showInfo(p) {
+      const flagged=p.Route_Status!=='OK';
+      document.getElementById('details').innerHTML=`
+        <strong>Segment ${p.SEGMENT_ID}</strong><br/><b>${p.RoadName}</b><br/>
+        <div class="stat"><span>From:</span> <span>${p.From}</span></div>
+        <div class="stat"><span>To:</span> <span>${p.To}</span></div>
+        <hr style="margin:6px 0;border:none;border-top:1px solid #e5e7eb;"/>
+        <div class="stat"><span>Route distance:</span> <span>${p.Route_Distance_km} km</span></div>
+        <div class="stat"><span>Straight-line:</span> <span>${p.Straight_Distance_km} km</span></div>
+        <div class="stat"><span>Detour ratio:</span> <span>${p.Detour_Ratio}x</span></div>
+        <div class="stat"><span>Route points:</span> <span>${p.Route_Points}</span></div>
+        <div style="margin-top:6px;">${flagged?'<span class="popup-flag">\u26a0 '+p.Route_Status+'</span>':'<span class="popup-ok">\u2705 Route OK</span>'}</div>
+        <button class="btn-delete" onclick="deleteSegment('${p.SEGMENT_ID}')">Delete Segment</button>`;
+    }
+    document.getElementById('search').addEventListener('input', function(){
+      const q=this.value.trim().toLowerCase();
+      if(!q){ renderFeatures(allFeatures); updateCounts(); return; }
+      const f=allFeatures.filter(f=>{ const p=f.properties; return p.RoadName.toLowerCase().includes(q)||p.SEGMENT_ID.toLowerCase().includes(q)||p.From.toLowerCase().includes(q)||p.To.toLowerCase().includes(q); });
+      renderFeatures(f); document.getElementById('count').textContent=f.length+' matching | '+allFeatures.length+' of '+originalCount+' total';
+    });
+  </script>
+</body>
+</html>

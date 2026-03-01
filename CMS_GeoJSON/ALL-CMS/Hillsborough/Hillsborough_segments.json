@@ -1,0 +1,3048 @@
+{
+  "name": "Hillsborough",
+  "region": "Hillsborough County, FL",
+  "segments": [
+    {
+      "id": "1",
+      "road": "llTHAVENW",
+      "from": "14TH STNW",
+      "to": "US41"
+    },
+    {
+      "id": "2",
+      "road": "12TH ST NE/ INTERCHANGE ST",
+      "from": "SHELL POINT RD",
+      "to": "US41"
+    },
+    {
+      "id": "3",
+      "road": "131STAVE",
+      "from": "NEBRASKA AVE",
+      "to": "30TH ST"
+    },
+    {
+      "id": "4",
+      "road": "14TH AVE SE",
+      "from": "US41",
+      "to": "24TH STSE"
+    },
+    {
+      "id": "5",
+      "road": "14TH STNW",
+      "from": "SHELL POINT RD",
+      "to": "19THAVE NW"
+    },
+    {
+      "id": "6",
+      "road": "15TH ST",
+      "from": "FOWLER AVE",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "7",
+      "road": "19TH AVE NE",
+      "from": "USHWY41",
+      "to": "USHWY301"
+    },
+    {
+      "id": "8",
+      "road": "19THAVENW",
+      "from": "EG SYMMONS PARK",
+      "to": "USHWY41"
+    },
+    {
+      "id": "9",
+      "road": "21STAVESE",
+      "from": "6TH ST SE",
+      "to": "24TH STSE"
+    },
+    {
+      "id": "10",
+      "road": "21ST ST SE",
+      "from": "SR674",
+      "to": "SHELL POINT RD"
+    },
+    {
+      "id": "11",
+      "road": "22ND ST",
+      "from": "CLUB DR",
+      "to": "BEARSSAVE"
+    },
+    {
+      "id": "12",
+      "road": "24TH STSE",
+      "from": "21STAVESE",
+      "to": "SR674"
+    },
+    {
+      "id": "13",
+      "road": "24TH ST NE",
+      "from": "SR674",
+      "to": "SHELL POINT RD"
+    },
+    {
+      "id": "14",
+      "road": "24TH ST NE",
+      "from": "SHELL POINT RD",
+      "to": "19TH AVE NE"
+    },
+    {
+      "id": "15",
+      "road": "30TH ST",
+      "from": "SR674",
+      "to": "SHELL POINT RD"
+    },
+    {
+      "id": "16",
+      "road": "30TH ST",
+      "from": "SHELL POINT RD",
+      "to": "19TH AVE NE"
+    },
+    {
+      "id": "17",
+      "road": "46TH ST",
+      "from": "FLETCHER AVE",
+      "to": "SKIPPER RD"
+    },
+    {
+      "id": "18",
+      "road": "50TH ST",
+      "from": "FOWLER AVE",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "19",
+      "road": "56TH ST",
+      "from": "FOWLER AVE",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "20",
+      "road": "6TH ST SE",
+      "from": "21STAVESE",
+      "to": "SR674"
+    },
+    {
+      "id": "21",
+      "road": "78TH ST",
+      "from": "RIVERVIEW DR",
+      "to": "MADISON AVE"
+    },
+    {
+      "id": "22",
+      "road": "78TH ST",
+      "from": "MADISON AVE",
+      "to": "CAUSEWAY BLVD"
+    },
+    {
+      "id": "23",
+      "road": "78TH ST",
+      "from": "CAUSEWAY BLVD",
+      "to": "PALM RIVER RD"
+    },
+    {
+      "id": "24",
+      "road": "78TH ST",
+      "from": "PALM RIVER RD",
+      "to": "ADAMO DR"
+    },
+    {
+      "id": "25",
+      "road": "ANDERSON RD",
+      "from": "HILLSBOROUGH AVE",
+      "to": "SLIGH AVE"
+    },
+    {
+      "id": "26",
+      "road": "ANDERSON RD",
+      "from": "SLIGH AVE",
+      "to": "WATERS AVE"
+    },
+    {
+      "id": "27",
+      "road": "ANDERSON RD",
+      "from": "WATERS AVE",
+      "to": "LINEBAUGH AVE"
+    },
+    {
+      "id": "28",
+      "road": "ANDERSON RD",
+      "from": "LINEBAUGH AVE",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "29",
+      "road": "ANGELLN",
+      "from": "LUT2 LAKE FERN",
+      "to": "PASCO COUNTY"
+    },
+    {
+      "id": "30",
+      "road": "APOLLO BEACH BLVD",
+      "from": "SURFSIDE BLVD",
+      "to": "USHWY41"
+    },
+    {
+      "id": "31",
+      "road": "ARMENIA AVE",
+      "from": "JOROME DR (CITY LIMITS)",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "32",
+      "road": "BALM BOYETTE RD",
+      "from": "CR672",
+      "to": "BOYITTE RD"
+    },
+    {
+      "id": "33",
+      "road": "CR 672 / BALM RD",
+      "from": "BALM RIVERVIEW RD",
+      "to": "BALM BOYITTE RD"
+    },
+    {
+      "id": "34",
+      "road": "CR 672 / BALM RD",
+      "from": "US HWY301",
+      "to": "BALM RIVERVIEW RD"
+    },
+    {
+      "id": "35",
+      "road": "BALM RIVERVIEW RD",
+      "from": "BALM RD",
+      "to": "BIG BEND RD"
+    },
+    {
+      "id": "36",
+      "road": "BALM RIVERVIEW RD",
+      "from": "BIG BEND RD",
+      "to": "RHODINERD"
+    },
+    {
+      "id": "37",
+      "road": "BALM RIVERVIEW RD",
+      "from": "RHODINE RD",
+      "to": "BOYITTE RD"
+    },
+    {
+      "id": "38",
+      "road": "BALM RIVERVIEW RD",
+      "from": "BOYETTE RD",
+      "to": "USHWY301"
+    },
+    {
+      "id": "39",
+      "road": "BALM WIMAUMA RD",
+      "from": "SR674",
+      "to": "CR672"
+    },
+    {
+      "id": "40",
+      "road": "BARRY RD",
+      "from": "HANLEY RD",
+      "to": "BENJAMIN RD"
+    },
+    {
+      "id": "41",
+      "road": "BEARSSAVE",
+      "from": "DALE MABRY HWY",
+      "to": "FLORIDA AVE"
+    },
+    {
+      "id": "42",
+      "road": "BEARSSAVE",
+      "from": "NEBRASKA AVE",
+      "to": "BRUCE B DOWNS BLVD"
+    },
+    {
+      "id": "43",
+      "road": "BELL SHOALS RD",
+      "from": "BOYETTE RD",
+      "to": "BLOOMINGDALE AVE"
+    },
+    {
+      "id": "44",
+      "road": "BELL SHOALS RD",
+      "from": "BLOOMINGDALE AVE",
+      "to": "LITHIA PINECREST"
+    },
+    {
+      "id": "45",
+      "road": "BENJAMIN RD",
+      "from": "HILLSBOROUGH AVE",
+      "to": "SLIGH AVE"
+    },
+    {
+      "id": "46",
+      "road": "BENJAMIN RD",
+      "from": "SLIGH AVE",
+      "to": "WATERS AVE"
+    },
+    {
+      "id": "47",
+      "road": "BIG BEND RD",
+      "from": "DICKMAN RD",
+      "to": "USHWY41"
+    },
+    {
+      "id": "48",
+      "road": "BIG BEND RD",
+      "from": "US HWY41",
+      "to": "1-75 N RAMP"
+    },
+    {
+      "id": "49",
+      "road": "BIG BEND RD",
+      "from": "1-75 N RAMP",
+      "to": "U5HWY301"
+    },
+    {
+      "id": "50",
+      "road": "BIG BEND RD",
+      "from": "US HWY301",
+      "to": "SUMMERFIELD BLVD"
+    },
+    {
+      "id": "51",
+      "road": "BIG BEND RD",
+      "from": "SUMMERFIELD BLVD",
+      "to": "BALM RIVERVIEW"
+    },
+    {
+      "id": "52",
+      "road": "BLOOMINGDALE AVE",
+      "from": "US HWY301",
+      "to": "GORNTO LAKE RD"
+    },
+    {
+      "id": "53",
+      "road": "BLOOMINGDALE AVE",
+      "from": "GORNTO LAKE RD",
+      "to": "KINGS AVE"
+    },
+    {
+      "id": "54",
+      "road": "BLOOMINGDALE AVE",
+      "from": "KINGS AVE",
+      "to": "BELL SHOALS RD"
+    },
+    {
+      "id": "55",
+      "road": "BLOOMINGDALE AVE",
+      "from": "BELL SHOALS RD",
+      "to": "LITHIA PINECREST RD"
+    },
+    {
+      "id": "56",
+      "road": "BLOOMINGDALE AVE",
+      "from": "LITHIA PINECREST RD",
+      "to": "LITTLE RD"
+    },
+    {
+      "id": "57",
+      "road": "BOYSCOUT RD",
+      "from": "RACE TRACK RD",
+      "to": "TARPON SPRINGS RD"
+    },
+    {
+      "id": "58",
+      "road": "BOYITTE RD",
+      "from": "USHWY301",
+      "to": "BALM RIVERVIEW RD"
+    },
+    {
+      "id": "59",
+      "road": "BOYITTE RD",
+      "from": "BALM RIVERVIEW RD",
+      "to": "BELL SHOALS RD"
+    },
+    {
+      "id": "60",
+      "road": "BOYETTE RD",
+      "from": "BELL SHOALS RD",
+      "to": "BALM BOYETTE RD"
+    },
+    {
+      "id": "61",
+      "road": "BOYETTE RD",
+      "from": "BALM BOYETTE RD",
+      "to": "LITHIA PINECREST RD"
+    },
+    {
+      "id": "62",
+      "road": "BRANDON MAIN ST",
+      "from": "PROVIDENCE RD",
+      "to": "LAKEWOOD RD"
+    },
+    {
+      "id": "63",
+      "road": "BROADWAY AVE",
+      "from": "TAMPA BYPASS CANAL (CITY LIMI",
+      "to": "USHWY301"
+    },
+    {
+      "id": "64",
+      "road": "BROADWAY AVE",
+      "from": "US HWY301",
+      "to": "FALKENBURG RD"
+    },
+    {
+      "id": "65",
+      "road": "BROADWAY AVE",
+      "from": "FALKENBURG RD",
+      "to": "WILLIAMS RD"
+    },
+    {
+      "id": "66",
+      "road": "BROADWAY AVE",
+      "from": "WILLIAMS RD",
+      "to": "M LKING BLVD"
+    },
+    {
+      "id": "67",
+      "road": "BROOKER RD",
+      "from": "BRYAN RD",
+      "to": "BELL SHOALS RD"
+    },
+    {
+      "id": "68",
+      "road": "BROOKER RD",
+      "from": "BELL SHOALS RD",
+      "to": "VALRICO RD"
+    },
+    {
+      "id": "69",
+      "road": "BRUCE B DOWNS BLVD",
+      "from": "FOWLER AVE",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "70",
+      "road": "BRUCE B DOWNS BLVD",
+      "from": "FLETCHER AVE",
+      "to": "BEARSSAVE"
+    },
+    {
+      "id": "71",
+      "road": "BRUCE B DOWNS BLVD",
+      "from": "BEARSSAVE",
+      "to": "750' N OF GILLIGANS WAY (CITY LI"
+    },
+    {
+      "id": "72",
+      "road": "BRUCE B DOWNS BLVD",
+      "from": "CROSS CREEK BLVD",
+      "to": "PEBBLE CREEK DR"
+    },
+    {
+      "id": "73",
+      "road": "BRUCE B DOWNS BLVD",
+      "from": "PEBBLE CREEK DR",
+      "to": "COUNTY LINE RD"
+    },
+    {
+      "id": "74",
+      "road": "BRYAN RD",
+      "from": "BLOOMINGDALE AVE",
+      "to": "SR 60 / BRANDON BLVD"
+    },
+    {
+      "id": "75",
+      "road": "BUTCH CASSIDYTRL",
+      "from": "LIGHTFOOT RD (W)",
+      "to": "LIGHTFOOT RD (E)"
+    },
+    {
+      "id": "76",
+      "road": "CARLTON LAKE RD",
+      "from": "SR674",
+      "to": "CR672"
+    },
+    {
+      "id": "77",
+      "road": "CASEY RD",
+      "from": "GUNN HWY",
+      "to": "SVILLAGE DR"
+    },
+    {
+      "id": "78",
+      "road": "CASEY RD/ DAWN VIEW DR",
+      "from": "EHRLICH RD",
+      "to": "NORTHDALE BLVD"
+    },
+    {
+      "id": "79",
+      "road": "CAUSEWAY BLVD",
+      "from": "US HWY301",
+      "to": "FALKENBURG RD"
+    },
+    {
+      "id": "80",
+      "road": "CAUSEWAY BLVD",
+      "from": "FALKENBURG RD",
+      "to": "PROVIDENCE RD"
+    },
+    {
+      "id": "81",
+      "road": "CHARLIE GRIFFIN RD",
+      "from": "MUD LAKE RD",
+      "to": "SR 39"
+    },
+    {
+      "id": "82",
+      "road": "CHARLIE TAYLOR RD",
+      "from": "1-4",
+      "to": "KNIGHTS GRIFFIN RD"
+    },
+    {
+      "id": "83",
+      "road": "CITRUS PARK DR",
+      "from": "SHELDON RD",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "84",
+      "road": "CLAY PITRD",
+      "from": "WILLIAMS RD",
+      "to": "CR579"
+    },
+    {
+      "id": "85",
+      "road": "COCKROACH BAY RD",
+      "from": "DEAD END",
+      "to": "USHWY41"
+    },
+    {
+      "id": "86",
+      "road": "COUNTRYWAY BLVD",
+      "from": "HILLSBOROUGH AVE",
+      "to": "WATERS AVE"
+    },
+    {
+      "id": "87",
+      "road": "COUNTRYWAY BLVD",
+      "from": "WATERS AVE",
+      "to": "LINEBAUGH AVE"
+    },
+    {
+      "id": "88",
+      "road": "COUNTRYWAY BLVD",
+      "from": "LINEBAUGH AVE",
+      "to": "CITRUS PARK EXT"
+    },
+    {
+      "id": "89",
+      "road": "COUNTRYWAY BLVD",
+      "from": "CITRUS PARK EXT",
+      "to": "RACE TRACK RD"
+    },
+    {
+      "id": "90",
+      "road": "COUNTY LINE RD (Polk)",
+      "from": "SR60",
+      "to": "EWELL RD"
+    },
+    {
+      "id": "91",
+      "road": "COUNTY LINE RD (Polk)",
+      "from": "EWELL RD",
+      "to": "MEDULLA RD"
+    },
+    {
+      "id": "92",
+      "road": "COUNTY LINE RD (Polk)",
+      "from": "1-4 RAMP",
+      "to": "SWINDELL RD"
+    },
+    {
+      "id": "93",
+      "road": "COUNTY LINE RD (Pasco)",
+      "from": "LIVINGSTON AVE",
+      "to": "BRUCE B DOWNS BLVD"
+    },
+    {
+      "id": "94",
+      "road": "COUNTY LINE RD (Pasco)/ WILLOV",
+      "from": "DALE MABRY HWY",
+      "to": "PASCO COUNTY"
+    },
+    {
+      "id": "95",
+      "road": "CR39",
+      "from": "MANATEE COUNTY",
+      "to": "SR674"
+    },
+    {
+      "id": "96",
+      "road": "CR39",
+      "from": "SR674",
+      "to": "BALM PICNIC RD"
+    },
+    {
+      "id": "97",
+      "road": "CR39",
+      "from": "BALM PICNIC RD",
+      "to": "LITHIA PINECREST RD"
+    },
+    {
+      "id": "98",
+      "road": "CR39",
+      "from": "LITHIA PINECREST RD",
+      "to": "KEYSVILLE RD"
+    },
+    {
+      "id": "99",
+      "road": "CR39",
+      "from": "KEYSVILLE RD",
+      "to": "SR 60"
+    },
+    {
+      "id": "100",
+      "road": "CR579",
+      "from": "MANATEE COUNTY",
+      "to": "SR674"
+    },
+    {
+      "id": "101",
+      "road": "CR579",
+      "from": "M LKING BLVD",
+      "to": "USHWY92"
+    },
+    {
+      "id": "102",
+      "road": "CR579",
+      "from": "US HWY92",
+      "to": "SLIGH AVE"
+    },
+    {
+      "id": "103",
+      "road": "CR579",
+      "from": "SLIGH AVE",
+      "to": "JOE EBERT RD"
+    },
+    {
+      "id": "104",
+      "road": "CR579",
+      "from": "JOE EBERT RD",
+      "to": "USHWY301"
+    },
+    {
+      "id": "105",
+      "road": "CR672",
+      "from": "BALM BOYETTE RD",
+      "to": "CR39"
+    },
+    {
+      "id": "106",
+      "road": "CRAWLEY RD",
+      "from": "BOYSCOUT RD",
+      "to": "TARPON SPRINGS"
+    },
+    {
+      "id": "107",
+      "road": "CRENSHAW LAKE RD",
+      "from": "SIMMONS RD",
+      "to": "USHWY41"
+    },
+    {
+      "id": "108",
+      "road": "CROOKED LANE RD",
+      "from": "CRYSTAL LAKE RD",
+      "to": "LUT2 LAKE FERN"
+    },
+    {
+      "id": "109",
+      "road": "CRYSTAL LAKE RD/ EXCITING IDLE'",
+      "from": "DALE MABRY HWY",
+      "to": "GERACI RD"
+    },
+    {
+      "id": "110",
+      "road": "CRYSTAL LAKE RD",
+      "from": "GERACI RD",
+      "to": "USHWY41"
+    },
+    {
+      "id": "111",
+      "road": "CYPRESS VILLAGE BLVD",
+      "from": "SR674",
+      "to": "19TH AVE NE"
+    },
+    {
+      "id": "112",
+      "road": "DANA SHORES DR",
+      "from": "MEMORIAL HWY",
+      "to": "GEORGE RD"
+    },
+    {
+      "id": "113",
+      "road": "DEBUEL RD",
+      "from": "US HWY41",
+      "to": "HANNA RD"
+    },
+    {
+      "id": "114",
+      "road": "DOVER RD",
+      "from": "DURANT RD",
+      "to": "SR 60"
+    },
+    {
+      "id": "115",
+      "road": "DOVER RD",
+      "from": "SR60",
+      "to": "SYDNEY RD"
+    },
+    {
+      "id": "116",
+      "road": "DOVER RD",
+      "from": "SYDNEY RD",
+      "to": "M LKING BLVD"
+    },
+    {
+      "id": "117",
+      "road": "DUNCAN RD",
+      "from": "US HWY301",
+      "to": "BLOOMINGDALE AVE"
+    },
+    {
+      "id": "118",
+      "road": "DURANT RD",
+      "from": "LUMSDEN RD",
+      "to": "LITTLE RD"
+    },
+    {
+      "id": "119",
+      "road": "DURANT RD",
+      "from": "LITTLE RD",
+      "to": "LEWIS RD"
+    },
+    {
+      "id": "120",
+      "road": "DURANT RD",
+      "from": "LEWIS RD",
+      "to": "TURKEY CREEK RD"
+    },
+    {
+      "id": "121",
+      "road": "EBAY RD",
+      "from": "SYMMES RD",
+      "to": "Gl8SONTON DR"
+    },
+    {
+      "id": "122",
+      "road": "EAGLE PALM DR",
+      "from": "78TH ST",
+      "to": "FALKENBURG RD"
+    },
+    {
+      "id": "123",
+      "road": "EHRLICH RD",
+      "from": "GUNN HWY",
+      "to": "LYNN TURNER RD"
+    },
+    {
+      "id": "124",
+      "road": "EHRLICH RD",
+      "from": "LYNN TURNER RD",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "125",
+      "road": "FALKENBURG RD",
+      "from": "78TH ST",
+      "to": "EAGLE PALM DR"
+    },
+    {
+      "id": "126",
+      "road": "FALKENBURG RD",
+      "from": "EAGLE PALM DR",
+      "to": "PROGRESS BLVD"
+    },
+    {
+      "id": "127",
+      "road": "FALKENBURG RD",
+      "from": "PROGRESS BLVD",
+      "to": "USHWY301"
+    },
+    {
+      "id": "128",
+      "road": "FALKENBURG RD",
+      "from": "US HWY301",
+      "to": "LUMSDEN RD"
+    },
+    {
+      "id": "129",
+      "road": "FALKENBURG RD",
+      "from": "LUMSDEN RD",
+      "to": "LEE ROY SELMON EXPY ON RAMP"
+    },
+    {
+      "id": "130",
+      "road": "FALKENBURG RD",
+      "from": "LEE ROY SELMON EXPY ON RAMP",
+      "to": "ADAMO DR"
+    },
+    {
+      "id": "131",
+      "road": "FALKENBURG RD",
+      "from": "ADAMO DR",
+      "to": "M LKING"
+    },
+    {
+      "id": "132",
+      "road": "FALKENBURG RD",
+      "from": "M LKING",
+      "to": "BRYAN RD"
+    },
+    {
+      "id": "133",
+      "road": "FALKENBURG RD",
+      "from": "BRYAN RD",
+      "to": "HILLSBOROUGH AVE"
+    },
+    {
+      "id": "134",
+      "road": "FISH HAWK BLVD",
+      "from": "BELL SHOALS RD",
+      "to": "LITHIA PINECREST"
+    },
+    {
+      "id": "135",
+      "road": "FLETCHER AVE",
+      "from": "DALE MABRY HWY",
+      "to": "ARMENIA AVE"
+    },
+    {
+      "id": "136",
+      "road": "FLETCHER AVE",
+      "from": "ARMENIA AVE",
+      "to": "FLORIDA AVE"
+    },
+    {
+      "id": "137",
+      "road": "FLETCHER AVE",
+      "from": "NEBRASKA AVE",
+      "to": "BRUCE B DOWNS BLVD"
+    },
+    {
+      "id": "138",
+      "road": "FLETCHER AVE",
+      "from": "BRUCE B DOWNS BLVD",
+      "to": "46TH ST"
+    },
+    {
+      "id": "139",
+      "road": "FLETCHER AVE",
+      "from": "46TH ST",
+      "to": "56TH ST"
+    },
+    {
+      "id": "140",
+      "road": "FLETCHER AVE",
+      "from": "56TH ST",
+      "to": "MORRIS BRIDGE RD"
+    },
+    {
+      "id": "141",
+      "road": "FORBES RD",
+      "from": "TRAPNELLRD",
+      "to": "M LKING BLVD"
+    },
+    {
+      "id": "142",
+      "road": "FORBES RD",
+      "from": "M LKING BLVD",
+      "to": "USHWY92"
+    },
+    {
+      "id": "143",
+      "road": "FORBES RD",
+      "from": "US HWY92",
+      "to": "THONOTOSASSA RD"
+    },
+    {
+      "id": "144",
+      "road": "FORBES RD",
+      "from": "THONOTOSASSA RD",
+      "to": "THONOTOSASSA-SAM ALLEN"
+    },
+    {
+      "id": "145",
+      "road": "FORT KING RD",
+      "from": "MAIN ST",
+      "to": "KNIGHTS GRIFFIN"
+    },
+    {
+      "id": "146",
+      "road": "FRONT ST",
+      "from": "SEFFNER-VALRICO RD",
+      "to": "VALRICO RD"
+    },
+    {
+      "id": "147",
+      "road": "GEORGE RD",
+      "from": "MEMORIAL HWY",
+      "to": "HILLSBOROUGH AVE"
+    },
+    {
+      "id": "148",
+      "road": "GERACI RD",
+      "from": "DALE MABRY HWY",
+      "to": "CRYSTAL LAKE RD"
+    },
+    {
+      "id": "149",
+      "road": "GIBSONTON DR",
+      "from": "US HWY41",
+      "to": "1-75 N RAMP"
+    },
+    {
+      "id": "150",
+      "road": "GIBSONTON DR",
+      "from": "1-75 N RAMP",
+      "to": "US HWY301"
+    },
+    {
+      "id": "151",
+      "road": "GOLF AND SEA BLVD",
+      "from": "LEISEY RD",
+      "to": "MILLER MAC RD"
+    },
+    {
+      "id": "152",
+      "road": "GORNTO LAKE RD",
+      "from": "BLOOMINGDALE AVE",
+      "to": "PROVIDENCE RDG"
+    },
+    {
+      "id": "153",
+      "road": "GORNTO LAKE RD",
+      "from": "PROVIDENCE RDG",
+      "to": "PROVIDENCE LAKES EXT"
+    },
+    {
+      "id": "154",
+      "road": "GORNTO LAKE RD",
+      "from": "PROVIDENCE LAKES EXT",
+      "to": "LUMSDEN RD"
+    },
+    {
+      "id": "155",
+      "road": "GORNTO LAKE RD",
+      "from": "LUMSDEN RD",
+      "to": "BRANDON TOWN CENTER"
+    },
+    {
+      "id": "156",
+      "road": "GORNTO LAKE RD",
+      "from": "BRANDON TOWN CENTER",
+      "to": "SR60"
+    },
+    {
+      "id": "157",
+      "road": "GRAND REGENCY BLVD",
+      "from": "SR60",
+      "to": "WOODBERRY RD"
+    },
+    {
+      "id": "158",
+      "road": "GULF CITY RD",
+      "from": "COCKROACH BAY RD",
+      "to": "USHWY41"
+    },
+    {
+      "id": "159",
+      "road": "GUNN HWY",
+      "from": "PASCO COUNTY LINE",
+      "to": "VAN DYKE RD"
+    },
+    {
+      "id": "160",
+      "road": "GUNN HWY",
+      "from": "VAN DYKE RD",
+      "to": "S MOBLEY RD"
+    },
+    {
+      "id": "161",
+      "road": "GUNN HWY",
+      "from": "S MOBLEY RD",
+      "to": "EHRLICH RD"
+    },
+    {
+      "id": "162",
+      "road": "GUNN HWY",
+      "from": "EHRLICH RD",
+      "to": "CITRUS PARK DR"
+    },
+    {
+      "id": "163",
+      "road": "GUNN HWY",
+      "from": "CITRUS PARK DR",
+      "to": "VETERANS EXPWY"
+    },
+    {
+      "id": "164",
+      "road": "GUNN HWY",
+      "from": "VETERANS EXPWY",
+      "to": "ANDERSON/LYNN TURNER"
+    },
+    {
+      "id": "165",
+      "road": "GUNN HWY",
+      "from": "ANDERSON/LYNN TURNER",
+      "to": "CASEY RD"
+    },
+    {
+      "id": "166",
+      "road": "GUNN HWY",
+      "from": "CASEY RD",
+      "to": "DALE MABRY OVERPASS"
+    },
+    {
+      "id": "167",
+      "road": "HABANAAVE",
+      "from": "HENRY AVE",
+      "to": "SLIGH AVE"
+    },
+    {
+      "id": "168",
+      "road": "HABANAAVE",
+      "from": "SLIGH AVE",
+      "to": "WATERS AVE"
+    },
+    {
+      "id": "169",
+      "road": "HANLEY RD",
+      "from": "HILLSBOROUGH AVE",
+      "to": "WILSKYBLVD"
+    },
+    {
+      "id": "170",
+      "road": "HANNA AVE",
+      "from": "43RD ST",
+      "to": "HARNEY RD"
+    },
+    {
+      "id": "171",
+      "road": "HANNA RD",
+      "from": "VANDERVORT RD",
+      "to": "SUNSET LANE"
+    },
+    {
+      "id": "172",
+      "road": "HARNEY RD",
+      "from": "56TH ST",
+      "to": "SLIGH AVE"
+    },
+    {
+      "id": "173",
+      "road": "HARNEY RD",
+      "from": "SLIGH AVE",
+      "to": "TEMPLE TERRACE HWY"
+    },
+    {
+      "id": "174",
+      "road": "HARNEY RD",
+      "from": "TEMPLE TERRACE HWY",
+      "to": "USHWY301"
+    },
+    {
+      "id": "175",
+      "road": "HARNEY RD",
+      "from": "USHWY301",
+      "to": "USHWY301"
+    },
+    {
+      "id": "176",
+      "road": "HENDERSON RD",
+      "from": "WATERS AVE",
+      "to": "LINEBAUGH AVE"
+    },
+    {
+      "id": "177",
+      "road": "HENDERSON RD",
+      "from": "LINEBAUGH AVE",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "178",
+      "road": "HIGHVIEW RD",
+      "from": "WINDHORST RD",
+      "to": "M L KING BLVD/ SR 574"
+    },
+    {
+      "id": "179",
+      "road": "HIMES AVE",
+      "from": "1320' N OF HILLSBOROUGH (CllY",
+      "to": "BUSCH BLVD"
+    },
+    {
+      "id": "180",
+      "road": "HOOVER BLVD",
+      "from": "HILLSBOROUGH AVE",
+      "to": "SLIGH AVE"
+    },
+    {
+      "id": "181",
+      "road": "HUTCHINSON RD",
+      "from": "EHRLICH RD",
+      "to": "NORTHDALE BLVD/ WILCOX RD"
+    },
+    {
+      "id": "182",
+      "road": "HUTCHINSON RD",
+      "from": "NORTHDALE BLVD/ WILCOX RD",
+      "to": "N MOBLEY RD"
+    },
+    {
+      "id": "183",
+      "road": "1-4 FRONTAGE RD N",
+      "from": "WILDER RD",
+      "to": "SWINDELL RD"
+    },
+    {
+      "id": "184",
+      "road": "JACKSON SPRINGS RD",
+      "from": "OLD MEMORIAL HWY",
+      "to": "WEBB RD"
+    },
+    {
+      "id": "185",
+      "road": "JACKSON SPRINGS RD",
+      "from": "WEBB RD",
+      "to": "HANLEY RD"
+    },
+    {
+      "id": "186",
+      "road": "JAP TUCKER RD",
+      "from": "TRAPNELLRD",
+      "to": "SPARKMAN RD"
+    },
+    {
+      "id": "187",
+      "road": "JAP TUCKER RD",
+      "from": "SPARKMAN RD",
+      "to": "JIM JOHNSON RD"
+    },
+    {
+      "id": "188",
+      "road": "JOE EBERT RD",
+      "from": "WILLIAMS RD",
+      "to": "CR579"
+    },
+    {
+      "id": "189",
+      "road": "JOHN MOORE RD",
+      "from": "BLOOMINGDALE AVE",
+      "to": "LUMSDEN RD"
+    },
+    {
+      "id": "190",
+      "road": "KELLY RD",
+      "from": "MEMORIAL HWY",
+      "to": "HILLSBOROUGH AVE"
+    },
+    {
+      "id": "191",
+      "road": "KEYSVILLE RD",
+      "from": "TURKEY CREEK RD",
+      "to": "CR39"
+    },
+    {
+      "id": "192",
+      "road": "KEYSVILLE RD",
+      "from": "CR39",
+      "to": "LITHIA PINECREST RD"
+    },
+    {
+      "id": "193",
+      "road": "KINGS AVE",
+      "from": "BLOOMINGDALE AVE",
+      "to": "LUMSDEN RD"
+    },
+    {
+      "id": "194",
+      "road": "KINGS AVE",
+      "from": "LUMSDEN RD",
+      "to": "SR 60/BRANDON BLVD"
+    },
+    {
+      "id": "195",
+      "road": "KINGS AVE",
+      "from": "SR 60/BRANDON BLVD",
+      "to": "VICTORIA ST"
+    },
+    {
+      "id": "196",
+      "road": "KINGSWAYRD",
+      "from": "SR 60/BRANDON BLVD",
+      "to": "CLAY AVE"
+    },
+    {
+      "id": "197",
+      "road": "KINGSWAYRD",
+      "from": "CLAY AVE",
+      "to": "M LKING BLVD"
+    },
+    {
+      "id": "198",
+      "road": "KINGSWAYRD",
+      "from": "M LKING BLVD",
+      "to": "USHWY92"
+    },
+    {
+      "id": "199",
+      "road": "KINGSWAYRD",
+      "from": "US HWY92",
+      "to": "1-4"
+    },
+    {
+      "id": "200",
+      "road": "KINGSWAYRD",
+      "from": "1-4",
+      "to": "THONOTOSASSA RD"
+    },
+    {
+      "id": "201",
+      "road": "KNIGHTS GRIFFIN RD",
+      "from": "STACY RD",
+      "to": "MCINTOSH RD"
+    },
+    {
+      "id": "202",
+      "road": "KNIGHTS GRIFFIN RD",
+      "from": "MCINTOSH RD",
+      "to": "SR 39"
+    },
+    {
+      "id": "203",
+      "road": "KNIGHTS GRIFFIN RD",
+      "from": "SR39",
+      "to": "POLKCOUNlY"
+    },
+    {
+      "id": "204",
+      "road": "KRYCULAVE",
+      "from": "RIVERVIEW DR",
+      "to": "US301"
+    },
+    {
+      "id": "205",
+      "road": "LAKE BRANDON DR",
+      "from": "PROVIDENCE LAKES BLVD",
+      "to": "S GORNTO LAKE RD"
+    },
+    {
+      "id": "206",
+      "road": "LAKE MAGDALENE BLVD",
+      "from": "FLETCHER AVE",
+      "to": "BEARSSAVE"
+    },
+    {
+      "id": "207",
+      "road": "LAKE MAGDALENE BLVD",
+      "from": "BEARSSAVE",
+      "to": "FLORIDA AVE"
+    },
+    {
+      "id": "208",
+      "road": "LAKESHORE RD",
+      "from": "WILCOX RD",
+      "to": "VAN DYKE RD"
+    },
+    {
+      "id": "209",
+      "road": "LAKEWOOD DR",
+      "from": "BRANDON PKWY",
+      "to": "SR 60"
+    },
+    {
+      "id": "210",
+      "road": "LAKEWOOD DR",
+      "from": "SR60",
+      "to": "M LKING BLVD"
+    },
+    {
+      "id": "211",
+      "road": "LAKEWOOD DR",
+      "from": "M LKING BLVD",
+      "to": "CLAY PITRD"
+    },
+    {
+      "id": "212",
+      "road": "LAMBRIGHT RD",
+      "from": "MANHATTAN AVE",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "213",
+      "road": "LAMBRIGHT RD",
+      "from": "DALE MABRY HWY",
+      "to": "TAMPANIAAVE"
+    },
+    {
+      "id": "214",
+      "road": "LEISEY RD",
+      "from": "GOLF AND SEA BLVD",
+      "to": "USHWY41"
+    },
+    {
+      "id": "215",
+      "road": "LESLIE RD",
+      "from": "BROADWAY AVE",
+      "to": "E21STST"
+    },
+    {
+      "id": "216",
+      "road": "LIGHTFOOT RD (E)",
+      "from": "TIMBERLEE RD",
+      "to": "USHWY301"
+    },
+    {
+      "id": "217",
+      "road": "LINEBAUGH AVE",
+      "from": "RACETRACK RD",
+      "to": "COUNTRYWAY BLVD"
+    },
+    {
+      "id": "218",
+      "road": "LINEBAUGH AVE",
+      "from": "COUNTRYWAY BLVD",
+      "to": "SHELDON RD"
+    },
+    {
+      "id": "219",
+      "road": "LINEBAUGH AVE",
+      "from": "SHELDON RD",
+      "to": "VETERANS EXPWY"
+    },
+    {
+      "id": "220",
+      "road": "LINEBAUGH AVE",
+      "from": "VETERANS EXPWY",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "221",
+      "road": "LINEBAUGH AVE",
+      "from": "GUNN HWY",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "222",
+      "road": "LITHIA PINECREST RD",
+      "from": "SR60",
+      "to": "LUMSDEN RD"
+    },
+    {
+      "id": "223",
+      "road": "LITHIA PINECREST RD",
+      "from": "LUMSDEN RD",
+      "to": "BLOOMINGDALE AVE"
+    },
+    {
+      "id": "224",
+      "road": "LITHIA PINECREST RD",
+      "from": "BLOOMINGDALE AVE",
+      "to": "BOYETTE RD"
+    },
+    {
+      "id": "225",
+      "road": "LITHIA PINECREST RD",
+      "from": "BOYETTE RD",
+      "to": "CR39"
+    },
+    {
+      "id": "226",
+      "road": "LITHIA PINECREST RD",
+      "from": "CR39",
+      "to": "KEYSVILLE RD"
+    },
+    {
+      "id": "227",
+      "road": "LITHIA PINECREST RD",
+      "from": "KEYSVILLE RD",
+      "to": "POLKCOUNlY"
+    },
+    {
+      "id": "228",
+      "road": "LITTLE RD",
+      "from": "BLOOMINGDALE AVE",
+      "to": "DURANT RD"
+    },
+    {
+      "id": "229",
+      "road": "LIVINGSTON AVE",
+      "from": "BEARSS RD",
+      "to": "SINCLAIR HILLS DR"
+    },
+    {
+      "id": "230",
+      "road": "LIVINGSTON AVE",
+      "from": "SINCLAIR HILLS DR",
+      "to": "VANDERVORT RD"
+    },
+    {
+      "id": "231",
+      "road": "LIVINGSTON AVE",
+      "from": "VANDERVORT RD",
+      "to": "SUNSET LANE"
+    },
+    {
+      "id": "232",
+      "road": "LIVINGSTON AVE",
+      "from": "SUNSET LANE",
+      "to": "PASCO COUNlY"
+    },
+    {
+      "id": "233",
+      "road": "LUMSDEN RD",
+      "from": "PROVIDENCE DR",
+      "to": "KINGS AVE"
+    },
+    {
+      "id": "234",
+      "road": "LUMSDEN RD",
+      "from": "KINGS AVE",
+      "to": "LITHIA PINECREST"
+    },
+    {
+      "id": "235",
+      "road": "LUMSDEN RD",
+      "from": "LITHIA PINECREST",
+      "to": "MULRENNAN RD"
+    },
+    {
+      "id": "236",
+      "road": "LUT2 LAKE FERN RD",
+      "from": "GUNN HWY",
+      "to": "ANGEL LN"
+    },
+    {
+      "id": "237",
+      "road": "LUlZ LAKE FERN RD",
+      "from": "ANGELLN",
+      "to": "SUNCOAST PKWY"
+    },
+    {
+      "id": "238",
+      "road": "LUlZ LAKE FERN RD",
+      "from": "SUNCOAST PKWY",
+      "to": "SUNLAKE BLVD"
+    },
+    {
+      "id": "239",
+      "road": "LUlZ LAKE FERN RD",
+      "from": "SUNLAKE BLVD",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "240",
+      "road": "LUlZ LAKE FERN RD",
+      "from": "DALE MABRY HWY",
+      "to": "USHWY41"
+    },
+    {
+      "id": "241",
+      "road": "LYNN TURNER",
+      "from": "GUNN HWY",
+      "to": "EHRLICH RD"
+    },
+    {
+      "id": "242",
+      "road": "MADISON AVE",
+      "from": "US HWY41",
+      "to": "78TH ST"
+    },
+    {
+      "id": "243",
+      "road": "MAIN ST",
+      "from": "US HWY301",
+      "to": "FORT KING RD"
+    },
+    {
+      "id": "244",
+      "road": "MANHATTAN AVE",
+      "from": "HENRY AVE",
+      "to": "HUMPREY"
+    },
+    {
+      "id": "245",
+      "road": "MAYDELL DR",
+      "from": "CAUSEWAY BLVD",
+      "to": "PALM RIVER {CITY LIMITS)"
+    },
+    {
+      "id": "246",
+      "road": "MCINTOSH RD",
+      "from": "M LKING BLVD",
+      "to": "USHWY92"
+    },
+    {
+      "id": "247",
+      "road": "MCINTOSH RD",
+      "from": "US HWY92",
+      "to": "l-4W RAMP"
+    },
+    {
+      "id": "248",
+      "road": "MCINTOSH RD",
+      "from": "l-4WRAMP",
+      "to": "THONOTOSASSA RD"
+    },
+    {
+      "id": "249",
+      "road": "MCINTOSH RD",
+      "from": "THONOTOSASSA RD",
+      "to": "KNIGHTS GRIFFIN"
+    },
+    {
+      "id": "250",
+      "road": "MCINTOSH RD",
+      "from": "KNIGHTS GRIFFIN",
+      "to": "USHWY301"
+    },
+    {
+      "id": "251",
+      "road": "MCMULLEN LOOP RD",
+      "from": "BALM RIVERVIEW RD",
+      "to": "MCMULLEN RD"
+    },
+    {
+      "id": "252",
+      "road": "MCMULLEN RD",
+      "from": "BALM RIVERVIEW RD",
+      "to": "MCMULLEN LOOP RD"
+    },
+    {
+      "id": "253",
+      "road": "MEDULLA RD",
+      "from": "CORONET RD",
+      "to": "OLD MULBERRY RD"
+    },
+    {
+      "id": "254",
+      "road": "MEDULLA RD",
+      "from": "OLD MULBERRY RD",
+      "to": "COUNTY LINE RD"
+    },
+    {
+      "id": "255",
+      "road": "MEMORIAL HWY",
+      "from": "HILLSBOROUGH AVE",
+      "to": "KELLY RD"
+    },
+    {
+      "id": "256",
+      "road": "MEMORIAL HWY",
+      "from": "KELLY RD",
+      "to": "VETERANS EXPWY/MEMORIAL"
+    },
+    {
+      "id": "257",
+      "road": "MILLER MAC RD",
+      "from": "GULF AND SEA BLVD",
+      "to": "US41"
+    },
+    {
+      "id": "258",
+      "road": "MILLER RD",
+      "from": "LITHIA PINECREST RD",
+      "to": "SR60"
+    },
+    {
+      "id": "259",
+      "road": "MONTAGUE ST",
+      "from": "HILLSBOROUGH AVE",
+      "to": "WATERS AVE"
+    },
+    {
+      "id": "260",
+      "road": "MONTAGUE ST",
+      "from": "WATERS AVE",
+      "to": "CHARLESBERG DR/RR TRACKS"
+    },
+    {
+      "id": "261",
+      "road": "MONTAGUE ST",
+      "from": "TATE LN",
+      "to": "LINEBAUGH AVE"
+    },
+    {
+      "id": "262",
+      "road": "MONTAGUE ST",
+      "from": "LINEBAUGH AVE",
+      "to": "(CITRUS PARK DR EXT)"
+    },
+    {
+      "id": "263",
+      "road": "MOORES LAKE RD",
+      "from": "M LKING BLVD",
+      "to": "USHWY92"
+    },
+    {
+      "id": "264",
+      "road": "MORRIS BRIDGE RD",
+      "from": "TEMPLE TERRACE HWY",
+      "to": "FOWLER AVE"
+    },
+    {
+      "id": "265",
+      "road": "MORRIS BRIDGE RD",
+      "from": "FOWLER AVE",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "266",
+      "road": "MORRIS BRIDGE RD",
+      "from": "1-75",
+      "to": "CROSS CREEK BLVD"
+    },
+    {
+      "id": "267",
+      "road": "MORRIS BRIDGE RD",
+      "from": "CROSS CREEK BLVD",
+      "to": "PASCO COUNTY"
+    },
+    {
+      "id": "268",
+      "road": "MT CARMEL RD",
+      "from": "LUMSDEN RD",
+      "to": "FRONT ST"
+    },
+    {
+      "id": "269",
+      "road": "MUD LAKE RD",
+      "from": "SR60",
+      "to": "CHARLIE GRIFFIN"
+    },
+    {
+      "id": "270",
+      "road": "MULRENNAN RD/ PEARSON RD",
+      "from": "BLOOMINGDALE AVE",
+      "to": "SR 60"
+    },
+    {
+      "id": "271",
+      "road": "N BOULEVARD",
+      "from": "COUNTRY CLUB DR",
+      "to": "LAKE MAGDALENE BLVD"
+    },
+    {
+      "id": "272",
+      "road": "N MOBLEY",
+      "from": "CRAWLEY RD",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "273",
+      "road": "N MOBLEY",
+      "from": "GUNN HWY",
+      "to": "HUTCHINSON"
+    },
+    {
+      "id": "274",
+      "road": "N VILLAGE DR",
+      "from": "SVILLAGE DR",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "275",
+      "road": "NICHOLS RD",
+      "from": "KEYSVILLE RD",
+      "to": "POLK COUNTY LINE"
+    },
+    {
+      "id": "276",
+      "road": "NIXON RD",
+      "from": "LINEBAUGH AVE",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "277",
+      "road": "NORTHDALE BLVD",
+      "from": "WILCOX RD/NEWKIRK DR",
+      "to": "CLAYWELL ELM SCH"
+    },
+    {
+      "id": "278",
+      "road": "NORTHDALE BLVD",
+      "from": "CLAYWELL ELEMENTARY",
+      "to": "DAWNVIEW DR"
+    },
+    {
+      "id": "279",
+      "road": "NORTHDALE BLVD",
+      "from": "DAWNVIEWDR",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "280",
+      "road": "OAKFIELD DR",
+      "from": "LAKEWOOD DR",
+      "to": "KING5AVE"
+    },
+    {
+      "id": "281",
+      "road": "OAKFIELD DR",
+      "from": "KINGS AVE",
+      "to": "PARSONS AVE"
+    },
+    {
+      "id": "282",
+      "road": "OLD MEMORIAL HWY",
+      "from": "SEA FAIRER DR",
+      "to": "SHELDON RD"
+    },
+    {
+      "id": "283",
+      "road": "OLD MEMORIAL HWY",
+      "from": "HILLSBOROUGH AVE",
+      "to": "MONTAGUE ST"
+    },
+    {
+      "id": "284",
+      "road": "OLD MULBERRY RD",
+      "from": "COUNTY LINE RD",
+      "to": "MEDULLA RD"
+    },
+    {
+      "id": "285",
+      "road": "ORIENT RD",
+      "from": "SR 60 / ADAMO DR",
+      "to": "HILLSBOROUGH AVE"
+    },
+    {
+      "id": "286",
+      "road": "ORIENT RD",
+      "from": "HILLSBOROUGH AVE",
+      "to": "SLIGH AVE"
+    },
+    {
+      "id": "287",
+      "road": "PALM RIVER RD",
+      "from": "US HWY41",
+      "to": "78TH ST"
+    },
+    {
+      "id": "288",
+      "road": "PALM RIVER RD",
+      "from": "78TH ST",
+      "to": "FALKENBURG RD"
+    },
+    {
+      "id": "289",
+      "road": "PANTHER TRACE BLVD",
+      "from": "US HWY301",
+      "to": "BALM RIVERVIEW RD"
+    },
+    {
+      "id": "290",
+      "road": "PARSONS AVE",
+      "from": "LUMSDEN RD",
+      "to": "SR 60"
+    },
+    {
+      "id": "291",
+      "road": "PARSONS AVE",
+      "from": "SR 60",
+      "to": "WINDHORST RD"
+    },
+    {
+      "id": "292",
+      "road": "PARSONS AVE",
+      "from": "WINDHORST RD",
+      "to": "M LKING BLVD"
+    },
+    {
+      "id": "293",
+      "road": "PARSONS AVE",
+      "from": "M LKING BLVD",
+      "to": "U5HWY92"
+    },
+    {
+      "id": "294",
+      "road": "PATTERSON RD",
+      "from": "RACE TRACK RD",
+      "to": "TARPON SPRINGS"
+    },
+    {
+      "id": "295",
+      "road": "PAULS CONNECTOR",
+      "from": "BRANDON PARKWAY",
+      "to": "PAULS RD"
+    },
+    {
+      "id": "296",
+      "road": "PAULS DR",
+      "from": "N OF LUMSDEN RD",
+      "to": "SR 60"
+    },
+    {
+      "id": "297",
+      "road": "PINE ST",
+      "from": "M L KING BLVD/ SR 574",
+      "to": "USHWY92"
+    },
+    {
+      "id": "298",
+      "road": "PROGRESS BLVD",
+      "from": "78TH ST",
+      "to": "FALKENBURG RD"
+    },
+    {
+      "id": "299",
+      "road": "PROGRESS BLVD",
+      "from": "FALKENBURG RD",
+      "to": "1-75"
+    },
+    {
+      "id": "300",
+      "road": "PROGRESS BLVD",
+      "from": "1-75",
+      "to": "USHWY301"
+    },
+    {
+      "id": "301",
+      "road": "PROVIDENCE LAKE BLVD",
+      "from": "CAUSEWAY BLVD",
+      "to": "GORNTO LAKE RD"
+    },
+    {
+      "id": "302",
+      "road": "PROVIDENCE LAKE BLVD",
+      "from": "GORNTO LAKE RD",
+      "to": "PROVIDENCE RD"
+    },
+    {
+      "id": "303",
+      "road": "PROVIDENCE LAKE BLVD",
+      "from": "PROVIDENCE RD",
+      "to": "ENGLISH BLUFF CT"
+    },
+    {
+      "id": "304",
+      "road": "PROVIDENCE RD",
+      "from": "RIVERVIEW DR",
+      "to": "BLOOMINGDALE AVE"
+    },
+    {
+      "id": "305",
+      "road": "PROVIDENCE RD",
+      "from": "BLOOMINGDALE AVE",
+      "to": "LUMSDEN RD"
+    },
+    {
+      "id": "306",
+      "road": "PROVIDENCE RD",
+      "from": "LUMSDEN RD",
+      "to": "BRANDON PARKWAY"
+    },
+    {
+      "id": "307",
+      "road": "PROVIDENCE RIDGE",
+      "from": "GORNTO LAKE RD",
+      "to": "PROVIDENCE RD"
+    },
+    {
+      "id": "308",
+      "road": "RACE TRACK RD",
+      "from": "HILLSBOROUGH AVE",
+      "to": "LINEBAUGH AVE"
+    },
+    {
+      "id": "309",
+      "road": "RACE TRACK RD",
+      "from": "LINEBAUGH AVE",
+      "to": "COUNTRYWAY BLVD"
+    },
+    {
+      "id": "310",
+      "road": "RACE TRACK RD",
+      "from": "COUNTRYWAY BLVD",
+      "to": "S MOBLEY"
+    },
+    {
+      "id": "311",
+      "road": "RACE TRACK RD",
+      "from": "S MOBLEY",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "312",
+      "road": "RHODINERD",
+      "from": "US HWY301",
+      "to": "BALM RIVERVIEW"
+    },
+    {
+      "id": "313",
+      "road": "RHODINE RD",
+      "from": "BALM RIVERVIEW",
+      "to": "BOYETTE RD"
+    },
+    {
+      "id": "314",
+      "road": "RICE RD",
+      "from": "WIGGINS RD",
+      "to": "COUNTY LINE RD"
+    },
+    {
+      "id": "315",
+      "road": "RIVERVIEW DR",
+      "from": "USHWY41",
+      "to": "USHWY301"
+    },
+    {
+      "id": "316",
+      "road": "RIVERVIEW DR",
+      "from": "US HWY301",
+      "to": "PROVIDENCE RD"
+    },
+    {
+      "id": "317",
+      "road": "S MOBLEY RD",
+      "from": "RACE TRACK RD",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "318",
+      "road": "SVILLAGE DR",
+      "from": "EHRLICH RD",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "319",
+      "road": "SAINT CLOUD AVE",
+      "from": "DURANT RD",
+      "to": "SR 60"
+    },
+    {
+      "id": "320",
+      "road": "SAM ALLEN RD",
+      "from": "FORBES RD",
+      "to": "SR 39"
+    },
+    {
+      "id": "321",
+      "road": "SAM ALLEN RD",
+      "from": "SR39",
+      "to": "WILDER RD"
+    },
+    {
+      "id": "322",
+      "road": "SEFFNER-VALRICO RD",
+      "from": "FRONT ST",
+      "to": "WHEELER RD"
+    },
+    {
+      "id": "323",
+      "road": "SHELDON RD",
+      "from": "HILLSBOROUGH AVE",
+      "to": "WATERS AVE"
+    },
+    {
+      "id": "324",
+      "road": "SHELDON RD",
+      "from": "WATERS AVE",
+      "to": "LINEBAUGH AVE"
+    },
+    {
+      "id": "325",
+      "road": "SHELDON RD",
+      "from": "LINEBAUGH AVE",
+      "to": "CITRUS PARK DR"
+    },
+    {
+      "id": "326",
+      "road": "SHELDON RD",
+      "from": "CITRUS PARK DR",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "327",
+      "road": "SHELL POINT RD",
+      "from": "DEAD END",
+      "to": "US HWY41"
+    },
+    {
+      "id": "328",
+      "road": "SHELL POINT RD",
+      "from": "USHWY41",
+      "to": "24TH STSE"
+    },
+    {
+      "id": "329",
+      "road": "SHELL POINT RD",
+      "from": "24TH ST",
+      "to": "30TH ST"
+    },
+    {
+      "id": "330",
+      "road": "SIMMONS RD",
+      "from": "CRENSHAW LAKE RD",
+      "to": "CRYSTAL LAKE RD"
+    },
+    {
+      "id": "331",
+      "road": "SKIPPER RD",
+      "from": "NEBRASKA AVE",
+      "to": "16TH ST"
+    },
+    {
+      "id": "332",
+      "road": "SKIPPER RD",
+      "from": "BRUCE B DOWNS BLVD",
+      "to": "46TH ST"
+    },
+    {
+      "id": "333",
+      "road": "SLIGH AVE",
+      "from": "BENJAMIN RD",
+      "to": "MANHATTAN AVE"
+    },
+    {
+      "id": "334",
+      "road": "SLIGH AVE",
+      "from": "43RD ST",
+      "to": "56TH ST"
+    },
+    {
+      "id": "335",
+      "road": "SLIGH AVE",
+      "from": "56TH ST",
+      "to": "ORIENT RD"
+    },
+    {
+      "id": "336",
+      "road": "SLIGH AVE",
+      "from": "ORIENT RD",
+      "to": "USHWY301"
+    },
+    {
+      "id": "337",
+      "road": "SLIGH AVE/ EUREKA SPRINGS",
+      "from": "US HWY301",
+      "to": "EUREKA SPRINGS"
+    },
+    {
+      "id": "338",
+      "road": "SLIGH AVE",
+      "from": "EUREKA SPRINGS",
+      "to": "WILLIAMS RD"
+    },
+    {
+      "id": "339",
+      "road": "SMITH-RYALS RD",
+      "from": "SR60",
+      "to": "TRAPNELL RD"
+    },
+    {
+      "id": "340",
+      "road": "STACY RD",
+      "from": "FT KING RD",
+      "to": "USHWY301"
+    },
+    {
+      "id": "341",
+      "road": "SUMMERFIELD BLVD",
+      "from": "BIG BEND RD",
+      "to": "DIXON DR"
+    },
+    {
+      "id": "342",
+      "road": "SUNLAKE BLVD",
+      "from": "DALE MABRY",
+      "to": "LUT2 LAKE FERN"
+    },
+    {
+      "id": "343",
+      "road": "SUNLAKE BLVD",
+      "from": "LUT2 LAKE FERN",
+      "to": "PASCO COUNTY"
+    },
+    {
+      "id": "344",
+      "road": "SUNSET LANE",
+      "from": "US HWY41",
+      "to": "LIVINGSTON AVE"
+    },
+    {
+      "id": "345",
+      "road": "SYDNEY DOVER RD",
+      "from": "SYDNEY RD",
+      "to": "M L KING BLVD/ SR 574"
+    },
+    {
+      "id": "346",
+      "road": "SYDNEY RD",
+      "from": "VALRICO RD",
+      "to": "FORBES RD"
+    },
+    {
+      "id": "347",
+      "road": "SYDNEY RD",
+      "from": "FORBES RD",
+      "to": "TURKEY CREEK RD"
+    },
+    {
+      "id": "348",
+      "road": "SYMMES RD",
+      "from": "US HWY41",
+      "to": "USHWY301"
+    },
+    {
+      "id": "349",
+      "road": "SYMMES RD EXT",
+      "from": "us 301",
+      "to": "BALM RIVERVIEW"
+    },
+    {
+      "id": "350",
+      "road": "TAMPA EAST BLVD",
+      "from": "U5301",
+      "to": "BROADWAY AVE"
+    },
+    {
+      "id": "351",
+      "road": "TARPON SPRINGS RD",
+      "from": "PINELLAS COUNTY",
+      "to": "BOYSCOUT RD"
+    },
+    {
+      "id": "352",
+      "road": "TARPON SPRINGS RD",
+      "from": "BOYSCOUT RD",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "353",
+      "road": "TAYLOR RD",
+      "from": "THONOTOSASSA RD",
+      "to": "MAIN ST"
+    },
+    {
+      "id": "354",
+      "road": "TEMPLE TERRACE HWY",
+      "from": "TEMPLE PARK DR",
+      "to": "HARNEY RD"
+    },
+    {
+      "id": "355",
+      "road": "THONOTOSASSA RD",
+      "from": "TAYLOR RD",
+      "to": "MCINTOSH RD"
+    },
+    {
+      "id": "356",
+      "road": "THONOTOSASSA RD",
+      "from": "MCINTOSH RD",
+      "to": "BRANCH-FORBES RD"
+    },
+    {
+      "id": "357",
+      "road": "THONOTOSASSA RD",
+      "from": "BRANCH-FORBES RD",
+      "to": "1-4"
+    },
+    {
+      "id": "358",
+      "road": "TOBACCO RD",
+      "from": "HUTCHINSON RD",
+      "to": "VAN DYKE RD"
+    },
+    {
+      "id": "359",
+      "road": "TOWN CENTER BLVD",
+      "from": "BRANDON TOWN CENTER DR",
+      "to": "PROVIDENCE RD"
+    },
+    {
+      "id": "360",
+      "road": "TOWN N COUNTRY BLVD",
+      "from": "MEMORIAL HWY",
+      "to": "JACKSON SPRINGS RD"
+    },
+    {
+      "id": "361",
+      "road": "TRAPNELLRD",
+      "from": "FORBES RD",
+      "to": "SR 39"
+    },
+    {
+      "id": "362",
+      "road": "TRAPNELLRD",
+      "from": "SR39",
+      "to": "WIGGINS RD/ OLD MULBERRY RD"
+    },
+    {
+      "id": "363",
+      "road": "TURKEY CREEK RD",
+      "from": "KEYSVILLE RD",
+      "to": "SR 60"
+    },
+    {
+      "id": "364",
+      "road": "TURKEY CREEK RD",
+      "from": "SR60",
+      "to": "TRAPNELL RD"
+    },
+    {
+      "id": "365",
+      "road": "VALRICO RD",
+      "from": "LITHIA PINECREST RD",
+      "to": "DURANT RD"
+    },
+    {
+      "id": "366",
+      "road": "VALRICO RD",
+      "from": "DURANT RD",
+      "to": "SR60"
+    },
+    {
+      "id": "367",
+      "road": "VALRICO RD",
+      "from": "SR60",
+      "to": "M LKING BLVD"
+    },
+    {
+      "id": "368",
+      "road": "VALROY RD/ LIGHTFOOT RD (W)",
+      "from": "US HWY41",
+      "to": "BUTCH CASSIDY TRAIL"
+    },
+    {
+      "id": "369",
+      "road": "VAN DYKE RD",
+      "from": "GUNN HWY",
+      "to": "SUNCOAST N RAMP"
+    },
+    {
+      "id": "370",
+      "road": "VAN DYKE RD",
+      "from": "SUNCOAST N RAMP",
+      "to": "OLD TOBACCO RD"
+    },
+    {
+      "id": "371",
+      "road": "VAN DYKE RD",
+      "from": "OLD TOBACCO RD",
+      "to": "WHIRLEY RD"
+    },
+    {
+      "id": "372",
+      "road": "VAN DYKE RD",
+      "from": "WHIRLEY RD",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "373",
+      "road": "VAN DYKE RD",
+      "from": "DALE MABRY HWY",
+      "to": "SIMMONS RD"
+    },
+    {
+      "id": "374",
+      "road": "VANDERVORT RD",
+      "from": "HANNA RD",
+      "to": "LIVINGSTON AVE"
+    },
+    {
+      "id": "375",
+      "road": "VICTORIA ST/ LIMONA RD",
+      "from": "LAKEWOOD DR",
+      "to": "PARSONS AVE"
+    },
+    {
+      "id": "376",
+      "road": "WVILLAGE DR",
+      "from": "EHRLICH RD",
+      "to": "S VILLAGE DR"
+    },
+    {
+      "id": "377",
+      "road": "WATERS AVE",
+      "from": "COUNTRYWAY",
+      "to": "SHELDON RD"
+    },
+    {
+      "id": "378",
+      "road": "WATERS AVE",
+      "from": "SHELDON RD",
+      "to": "VETERANS EXPY"
+    },
+    {
+      "id": "379",
+      "road": "WATERS AVE",
+      "from": "VETERANS EXPY",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "380",
+      "road": "WATERS AVE",
+      "from": "DALE MABRY HWY",
+      "to": "ARMENIA AVE"
+    },
+    {
+      "id": "381",
+      "road": "WEBB RD",
+      "from": "MEMORIAL HWY",
+      "to": "JACKSON SPRINGS"
+    },
+    {
+      "id": "382",
+      "road": "WHEELER RD",
+      "from": "HIGHVIEW RD",
+      "to": "VALRICO RD"
+    },
+    {
+      "id": "383",
+      "road": "WHITAKER RD",
+      "from": "US HWY41",
+      "to": "HANNA RD"
+    },
+    {
+      "id": "384",
+      "road": "WIGGINS RD",
+      "from": "MEDULLA RD",
+      "to": "1-4 FRONTAGE RDS"
+    },
+    {
+      "id": "385",
+      "road": "WILCOX RD/ NEWKIRK DR",
+      "from": "HUTCHINSON RD",
+      "to": "NORTHDALE BLVD"
+    },
+    {
+      "id": "386",
+      "road": "WILDER RD",
+      "from": "1-4 FRONTAGE RD N",
+      "to": "KNIGHTS-GRIFFIN"
+    },
+    {
+      "id": "387",
+      "road": "WILLIAMS RD",
+      "from": "BROADWAY AVE",
+      "to": "SLIGH AVE"
+    },
+    {
+      "id": "388",
+      "road": "WILLIAMS RD",
+      "from": "SLIGH AVE",
+      "to": "FOWLER AVE"
+    },
+    {
+      "id": "389",
+      "road": "WILSKYBLVD",
+      "from": "HANLEY RD",
+      "to": "VETERAN'S EXPWY"
+    },
+    {
+      "id": "390",
+      "road": "WINDHORST RD",
+      "from": "LAKEWOOD RD",
+      "to": "SEFFNER VALRICO RD"
+    },
+    {
+      "id": "391",
+      "road": "WOODBERRY RD",
+      "from": "FALKENBURG RD",
+      "to": "GRAND REGENCY BLVD"
+    },
+    {
+      "id": "392",
+      "road": "WOODBERRY RD",
+      "from": "GRAND REGENCY BLVD",
+      "to": "LAKEWOOD DR"
+    },
+    {
+      "id": "393",
+      "road": "FOWLER AVE",
+      "from": "1-75",
+      "to": "US301"
+    },
+    {
+      "id": "394",
+      "road": "HILl5BOROUGH AVE",
+      "from": "PINELLAS COUNTY",
+      "to": "DOUBLE BRANCH RD"
+    },
+    {
+      "id": "395",
+      "road": "HILl5BOROUGH AVE",
+      "from": "DOUBLE BRANCH RD",
+      "to": "LONGBOAT BLVD"
+    },
+    {
+      "id": "396",
+      "road": "HILl5BOROUGH AVE",
+      "from": "LONGBOAT BLVD",
+      "to": "MEMORIAL HWY"
+    },
+    {
+      "id": "397",
+      "road": "HILl5BOROUGH AVE",
+      "from": "MEMORIAL HWY",
+      "to": "VETERAN'S EXPWY"
+    },
+    {
+      "id": "398",
+      "road": "HILl5BOROUGH AVE",
+      "from": "VETERAN'S EXPWY",
+      "to": "HOOVER RD"
+    },
+    {
+      "id": "399",
+      "road": "HILl5BOROUGH AVE",
+      "from": "50TH ST",
+      "to": "HARNEY RD"
+    },
+    {
+      "id": "400",
+      "road": "HILl5BOROUGH AVE",
+      "from": "HARNEY RD",
+      "to": "USHWY301"
+    },
+    {
+      "id": "401",
+      "road": "1-275",
+      "from": "PINELLAS COUNTY",
+      "to": "KENNEDY BLVD"
+    },
+    {
+      "id": "402",
+      "road": "1-275",
+      "from": "FOWLER AVE",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "403",
+      "road": "1-275",
+      "from": "FLETCHER",
+      "to": "BEARSSAVE"
+    },
+    {
+      "id": "404",
+      "road": "1-275",
+      "from": "BEARSSAVE",
+      "to": "1-75"
+    },
+    {
+      "id": "405",
+      "road": "1-4",
+      "from": "525' W OF MM#4 (CITY LIMITS)",
+      "to": "US HWY 301"
+    },
+    {
+      "id": "406",
+      "road": "1-4",
+      "from": "US HWY 301",
+      "to": "1-75"
+    },
+    {
+      "id": "407",
+      "road": "1-4",
+      "from": "1-75",
+      "to": "CRS79"
+    },
+    {
+      "id": "408",
+      "road": "1-4",
+      "from": "CR579",
+      "to": "MCINTOSH RD"
+    },
+    {
+      "id": "409",
+      "road": "1-4",
+      "from": "MCINTOSH RD",
+      "to": "BRANCH FORBES RD"
+    },
+    {
+      "id": "410",
+      "road": "1-4",
+      "from": "BRANCH FORBES RD",
+      "to": "THONOTOSASSA RD"
+    },
+    {
+      "id": "411",
+      "road": "1-4",
+      "from": "PARK RD",
+      "to": "POLK COUNTY"
+    },
+    {
+      "id": "412",
+      "road": "1-75",
+      "from": "MANATEE COUNTY",
+      "to": "SR674"
+    },
+    {
+      "id": "413",
+      "road": "1-75",
+      "from": "SR674",
+      "to": "BIG BEND RD"
+    },
+    {
+      "id": "414",
+      "road": "1-75",
+      "from": "BIG BEND RD",
+      "to": "GIBSONTON DR"
+    },
+    {
+      "id": "415",
+      "road": "1-75",
+      "from": "GIBSONTON DR",
+      "to": "USHWY301"
+    },
+    {
+      "id": "416",
+      "road": "1-75",
+      "from": "USHWY301",
+      "to": "LEE ROY SELMON EXPWY"
+    },
+    {
+      "id": "417",
+      "road": "1-75",
+      "from": "LEE ROY SELMON EXPWY",
+      "to": "SR60"
+    },
+    {
+      "id": "418",
+      "road": "1-75",
+      "from": "SR60",
+      "to": "M LKING BLVD"
+    },
+    {
+      "id": "419",
+      "road": "1-75",
+      "from": "M LKING BLVD",
+      "to": "1-4"
+    },
+    {
+      "id": "420",
+      "road": "1-75",
+      "from": "1-4",
+      "to": "FOWLER AVE"
+    },
+    {
+      "id": "421",
+      "road": "1-75",
+      "from": "FOWLER AVE",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "422",
+      "road": "1-75",
+      "from": "FLETCHER AVE",
+      "to": "BRUCE B DOWNS BLVD/CR 5Bl"
+    },
+    {
+      "id": "423",
+      "road": "LEE ROY SELMON EXPWY",
+      "from": "78TH ST",
+      "to": "USHWY301"
+    },
+    {
+      "id": "424",
+      "road": "LEE ROY SELMON EXPWY",
+      "from": "USHWY301",
+      "to": "1-75"
+    },
+    {
+      "id": "425",
+      "road": "M LKING BLVD",
+      "from": "50TH ST",
+      "to": "1-4"
+    },
+    {
+      "id": "426",
+      "road": "M LKING BLVD",
+      "from": "1-4",
+      "to": "USHWY301"
+    },
+    {
+      "id": "427",
+      "road": "M LKING BLVD",
+      "from": "US HWY301",
+      "to": "1-75"
+    },
+    {
+      "id": "428",
+      "road": "M LKING BLVD",
+      "from": "1-75",
+      "to": "HIGHVIEW RD"
+    },
+    {
+      "id": "429",
+      "road": "M LKING BLVD",
+      "from": "HIGHVIEW RD",
+      "to": "PARSONS AVE"
+    },
+    {
+      "id": "430",
+      "road": "M LKING BLVD",
+      "from": "PARSONS AVE",
+      "to": "KINGSWAYRD"
+    },
+    {
+      "id": "431",
+      "road": "M LKING BLVD",
+      "from": "KINGSWAYRD",
+      "to": "VALRICO RD"
+    },
+    {
+      "id": "432",
+      "road": "M LKING BLVD",
+      "from": "VALRICO RD",
+      "to": "MCINTOSH RD"
+    },
+    {
+      "id": "433",
+      "road": "M LKING BLVD",
+      "from": "MCINTOSH RD",
+      "to": "FORBES RD"
+    },
+    {
+      "id": "434",
+      "road": "ML KING BLVD/ SR 574",
+      "from": "FORBES RD",
+      "to": "TURKEY CREEK RD"
+    },
+    {
+      "id": "435",
+      "road": "NEBRASKA AVE",
+      "from": "FOWLER AVE",
+      "to": "FLETCHER AVE"
+    },
+    {
+      "id": "436",
+      "road": "NEBRASKA AVE",
+      "from": "FLETCHER AVE",
+      "to": "BEARSSAVE"
+    },
+    {
+      "id": "437",
+      "road": "NEBRASKA AVE",
+      "from": "BEARSSAVE",
+      "to": "FLORIDA/NEBRASKA"
+    },
+    {
+      "id": "438",
+      "road": "SR39",
+      "from": "SR60",
+      "to": "TRAPNELL RD"
+    },
+    {
+      "id": "439",
+      "road": "SR 39 / PAUL BUCHMAN HWY",
+      "from": "SAM ALLEN RD",
+      "to": "PASCO COUNTY"
+    },
+    {
+      "id": "440",
+      "road": "SR 60 / ADAMO DR",
+      "from": "US HWY 301",
+      "to": "FALKENBURG RD"
+    },
+    {
+      "id": "441",
+      "road": "SR 60/BRANDON BLVD",
+      "from": "FALKENBURG RD",
+      "to": "PROVIDENCE RD"
+    },
+    {
+      "id": "442",
+      "road": "SR 60 / BRANDON BLVD",
+      "from": "PROVIDENCE RD",
+      "to": "PAUl5 DR"
+    },
+    {
+      "id": "443",
+      "road": "SR 60 / BRANDON BLVD",
+      "from": "PAUl5 DR",
+      "to": "KINGS AVE"
+    },
+    {
+      "id": "444",
+      "road": "SR 60 / BRANDON BLVD",
+      "from": "KINGS AVE",
+      "to": "KINGSWAYRD"
+    },
+    {
+      "id": "445",
+      "road": "SR 60 / BRANDON BLVD",
+      "from": "KINGSWAYRD",
+      "to": "VALRICO RD"
+    },
+    {
+      "id": "446",
+      "road": "SR 60/",
+      "from": "VALRICORD",
+      "to": "DOVER RD"
+    },
+    {
+      "id": "447",
+      "road": "SR 60 / BRANDON BLVD",
+      "from": "DOVER RD",
+      "to": "TURKEY CREEK RD"
+    },
+    {
+      "id": "448",
+      "road": "SR 60 / BRANDON BLVD",
+      "from": "TURKEY CREEK RD",
+      "to": "CR39"
+    },
+    {
+      "id": "449",
+      "road": "SR 60 / BRANDON BLVD",
+      "from": "CR39",
+      "to": "SMITH-RYAl5 RD"
+    },
+    {
+      "id": "450",
+      "road": "SR 60/BRANDON BLVD",
+      "from": "SMITH-RYAl5 RD",
+      "to": "COUNTY LINE RD"
+    },
+    {
+      "id": "451",
+      "road": "SR674",
+      "from": "US HWY41",
+      "to": "l-7S"
+    },
+    {
+      "id": "452",
+      "road": "SR674",
+      "from": "l-7S",
+      "to": "USHWY301"
+    },
+    {
+      "id": "453",
+      "road": "SR674",
+      "from": "US HWY301",
+      "to": "CR579"
+    },
+    {
+      "id": "454",
+      "road": "SR674",
+      "from": "CR579",
+      "to": "CARLTON LAKE RD"
+    },
+    {
+      "id": "455",
+      "road": "SR674",
+      "from": "CARLTON LAKE RD",
+      "to": "CR 39"
+    },
+    {
+      "id": "456",
+      "road": "SR674",
+      "from": "CR39",
+      "to": "POLK COUNTY"
+    },
+    {
+      "id": "457",
+      "road": "SUNCOAST PKWY",
+      "from": "VETERANS EXPWY",
+      "to": "PASCO COUNTY"
+    },
+    {
+      "id": "458",
+      "road": "US HWY301",
+      "from": "MANATEE COUNTY",
+      "to": "5R674"
+    },
+    {
+      "id": "459",
+      "road": "US HWY301",
+      "from": "SR674",
+      "to": "BALM RD"
+    },
+    {
+      "id": "460",
+      "road": "US HWY301",
+      "from": "BALM RD",
+      "to": "RHODINE RD"
+    },
+    {
+      "id": "461",
+      "road": "US HWY301",
+      "from": "RHODINE RD",
+      "to": "GIBSONTON DR"
+    },
+    {
+      "id": "462",
+      "road": "US HWY301",
+      "from": "GIBSONTON DR",
+      "to": "RIVERVIEW DR"
+    },
+    {
+      "id": "463",
+      "road": "US HWY301",
+      "from": "RIVERVIEW DR",
+      "to": "BLOOMINGDALE AVE"
+    },
+    {
+      "id": "464",
+      "road": "US HWY301",
+      "from": "BLOOMINGDALE AVE",
+      "to": "1-75"
+    },
+    {
+      "id": "465",
+      "road": "US HWY301",
+      "from": "1-75",
+      "to": "CAUSEWAY BLVD"
+    },
+    {
+      "id": "466",
+      "road": "US HWY301",
+      "from": "CAUSEWAY BLVD",
+      "to": "CROSSTOWN W RAMP"
+    },
+    {
+      "id": "467",
+      "road": "US HWY301",
+      "from": "CROSSTOWN W RAMP",
+      "to": "ADAMO DR"
+    },
+    {
+      "id": "468",
+      "road": "US HWY301",
+      "from": "ADAMO DR",
+      "to": "SR 574/MLK JR BLVD"
+    },
+    {
+      "id": "469",
+      "road": "US HWY301",
+      "from": "SR 574/MLK JR BLVD",
+      "to": "1-4"
+    },
+    {
+      "id": "470",
+      "road": "US HWY301",
+      "from": "1-4",
+      "to": "SLIGH AVES"
+    },
+    {
+      "id": "471",
+      "road": "US HWY301",
+      "from": "SLIGH AVES",
+      "to": "HARNEY RDS"
+    },
+    {
+      "id": "472",
+      "road": "US HWY301",
+      "from": "HARNEY RD (S)",
+      "to": "FOWLER AVE"
+    },
+    {
+      "id": "473",
+      "road": "US HWY301",
+      "from": "FOWLER AVE",
+      "to": "HARNEY RD"
+    },
+    {
+      "id": "474",
+      "road": "US HWY301",
+      "from": "HARNEY RD",
+      "to": "CR579"
+    },
+    {
+      "id": "475",
+      "road": "US HWY301",
+      "from": "CR 579 / MANGO RD",
+      "to": "MCINTOSH RD"
+    },
+    {
+      "id": "476",
+      "road": "US HWY301",
+      "from": "MCINTOSH RD",
+      "to": "PASCO COUNTY"
+    },
+    {
+      "id": "477",
+      "road": "US HWY41",
+      "from": "MANATEE COUNTY",
+      "to": "COCKROACH BAY"
+    },
+    {
+      "id": "478",
+      "road": "US HWY41",
+      "from": "COCKROACH BAY",
+      "to": "7THSTSW"
+    },
+    {
+      "id": "479",
+      "road": "US HWY41",
+      "from": "7TH STSW",
+      "to": "19TH AVE NE"
+    },
+    {
+      "id": "480",
+      "road": "US HWY41",
+      "from": "19TH AVE NE",
+      "to": "APOLLO BEACH BLVD"
+    },
+    {
+      "id": "481",
+      "road": "US HWY41",
+      "from": "APOLLO BEACH BLVD",
+      "to": "BIG BEND RD"
+    },
+    {
+      "id": "482",
+      "road": "US HWY41",
+      "from": "BIG BEND RD",
+      "to": "SYMMES RD"
+    },
+    {
+      "id": "483",
+      "road": "US HWY41",
+      "from": "SYMMES RD",
+      "to": "RIVERVIEW DR"
+    },
+    {
+      "id": "484",
+      "road": "US HWY41",
+      "from": "RIVERVIEW DR",
+      "to": "MADISON AVE"
+    },
+    {
+      "id": "485",
+      "road": "US HWY41",
+      "from": "MADISON AVE",
+      "to": "PORT SUTTON RD"
+    },
+    {
+      "id": "486",
+      "road": "US HWY41",
+      "from": "PORT SUTTON RD",
+      "to": "CAUSEWAY BLVD"
+    },
+    {
+      "id": "487",
+      "road": "US HWY41",
+      "from": "CAUSEWAY BLVD",
+      "to": "PALM RIVER (CITY LIMITS)"
+    },
+    {
+      "id": "488",
+      "road": "US HWY41",
+      "from": "NEBRASKA/FLORIDA",
+      "to": "DEBUELRD"
+    },
+    {
+      "id": "489",
+      "road": "US HWY41",
+      "from": "DEBUEL RD",
+      "to": "SUNSET LANE"
+    },
+    {
+      "id": "490",
+      "road": "US HWY41",
+      "from": "SUNSET LANE",
+      "to": "COUNTY LINE RD"
+    },
+    {
+      "id": "491",
+      "road": "US HWY92",
+      "from": "US HWY301",
+      "to": "WILLIAMS RD"
+    },
+    {
+      "id": "492",
+      "road": "US HWY92",
+      "from": "WILLIAMS RD",
+      "to": "PINE ST"
+    },
+    {
+      "id": "493",
+      "road": "US HWY92",
+      "from": "PINE ST",
+      "to": "KINGSWAYRD"
+    },
+    {
+      "id": "494",
+      "road": "US HWY92",
+      "from": "KINGSWAYRD",
+      "to": "MCINTOSH RD"
+    },
+    {
+      "id": "495",
+      "road": "US HWY92",
+      "from": "MCINTOSH RD",
+      "to": "FORBES RD"
+    },
+    {
+      "id": "496",
+      "road": "US HWY92",
+      "from": "FORBES RD",
+      "to": "TURKEY CREEK RD"
+    },
+    {
+      "id": "497",
+      "road": "US HWY92",
+      "from": "TURKEY CREEK RD",
+      "to": "WALTER DR"
+    },
+    {
+      "id": "498",
+      "road": "US HWY92",
+      "from": "PARK ST",
+      "to": "COUNTY LINE RD"
+    },
+    {
+      "id": "499",
+      "road": "VETERANS EXPWY",
+      "from": "INDEPENDENCE PKWY",
+      "to": "MEMORIAL HWY"
+    },
+    {
+      "id": "500",
+      "road": "VETERANS EXPWY",
+      "from": "MEMORIAL HWY",
+      "to": "ANDERSON RAMP"
+    },
+    {
+      "id": "501",
+      "road": "VETERANS EXPWY",
+      "from": "ANDERSON RAMP",
+      "to": "GUNN HWY"
+    },
+    {
+      "id": "502",
+      "road": "VETERANS EXPWY",
+      "from": "GUNN HWY",
+      "to": "EHRLICH RD"
+    },
+    {
+      "id": "503",
+      "road": "VETERANS EXPWY",
+      "from": "EHRLICH RD",
+      "to": "HUTCHINSON RD"
+    },
+    {
+      "id": "504",
+      "road": "VETERANS EXPWY",
+      "from": "HUTCHINSON RD",
+      "to": "SUNCOAST PKWY"
+    },
+    {
+      "id": "505",
+      "road": "VETERANS EXPWY",
+      "from": "SUNCOAST PKWY",
+      "to": "DALE MABRY HWY"
+    },
+    {
+      "id": "506",
+      "road": "VETERANS FRONTAGE N",
+      "from": "INDEPENDENCE PKWY",
+      "to": "HILLSBOROUGH AVE"
+    },
+    {
+      "id": "507",
+      "road": "VETERANS FRONTAGES",
+      "from": "MEMORIAL HWY",
+      "to": "HIULSBOROUGH AVE"
+    }
+  ]
+}

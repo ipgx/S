@@ -1,0 +1,1764 @@
+{
+  "name": "PalmBeach",
+  "region": "Palm Beach County, FL",
+  "segments": [
+    {
+      "id": "4643",
+      "road": "10TH AVE N",
+      "from": "Jog Rd",
+      "to": "Haverhill Rd"
+    },
+    {
+      "id": "4601",
+      "road": "10TH AVE N",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "4603",
+      "road": "10TH AVE N",
+      "from": "Military Tr",
+      "to": "Kirk Rd"
+    },
+    {
+      "id": "4653",
+      "road": "10TH AVE N",
+      "from": "Kirk Rd",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "5603",
+      "road": "23RD AVE SW",
+      "from": "Congress Ave",
+      "to": "I-95"
+    },
+    {
+      "id": "5305",
+      "road": "23RD AVE SW",
+      "from": "I-95",
+      "to": "Seacrest Blvd"
+    },
+    {
+      "id": "5811",
+      "road": "23RD AVE SW",
+      "from": "Seacrest Blvd",
+      "to": "US-1"
+    },
+    {
+      "id": "5621",
+      "road": "23RD AVE SW (GOLF RD)",
+      "from": "Military Tr",
+      "to": "E Country Rd"
+    },
+    {
+      "id": "5617",
+      "road": "23RD AVE SW (GOLF RD)",
+      "from": "E Country Rd",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "3607",
+      "road": "45TH ST",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "3665",
+      "road": "45TH ST",
+      "from": "Military Tr",
+      "to": "Village Blvd"
+    },
+    {
+      "id": "3843",
+      "road": "45TH ST",
+      "from": "Congress Ave",
+      "to": "Australian Ave"
+    },
+    {
+      "id": "3845",
+      "road": "45TH ST",
+      "from": "Greenwood Ave",
+      "to": "Broadway (WPB)"
+    },
+    {
+      "id": "1804",
+      "road": "A1A",
+      "from": "US 1",
+      "to": "Indiantown Rd"
+    },
+    {
+      "id": "1812",
+      "road": "A1A",
+      "from": "Indiantown Rd",
+      "to": "Ocean Way"
+    },
+    {
+      "id": "5643",
+      "road": "ATLANTIC AVE",
+      "from": "Hagen Ranch Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "5659",
+      "road": "ATLANTIC AVE",
+      "from": "Barwick Rd",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "2834",
+      "road": "AUSTRALIAN AVE",
+      "from": "Blue Heron Blvd",
+      "to": "MLK JR BL (SR 710"
+    },
+    {
+      "id": "2306",
+      "road": "AUSTRALIAN AVE",
+      "from": "MLK JR BL (SR 710)",
+      "to": "45th St"
+    },
+    {
+      "id": "3802",
+      "road": "AUSTRALIAN AVE",
+      "from": "45th St",
+      "to": "36th St"
+    },
+    {
+      "id": "3810",
+      "road": "AUSTRALIAN AVE",
+      "from": "36th St",
+      "to": "25th St"
+    },
+    {
+      "id": "3816",
+      "road": "AUSTRALIAN AVE",
+      "from": "25th St",
+      "to": "15th St"
+    },
+    {
+      "id": "3820",
+      "road": "AUSTRALIAN AVE",
+      "from": "15th St",
+      "to": "Palm Beach Lakes Bl"
+    },
+    {
+      "id": "3924",
+      "road": "AUSTRALIAN AVE",
+      "from": "Palm Beach Lakes Blvd",
+      "to": "Banyan Blvd"
+    },
+    {
+      "id": "3850",
+      "road": "AUSTRALIAN AVE",
+      "from": "Banyan Blvd",
+      "to": "Okeechobee Bl"
+    },
+    {
+      "id": "3309",
+      "road": "AUSTRALIAN AVE",
+      "from": "Okeechobee Bl",
+      "to": "Belvedere Rd"
+    },
+    {
+      "id": "3610",
+      "road": "AUSTRALIAN AVE",
+      "from": "Belvedere Rd",
+      "to": "PBIA (Turnage Blvd)"
+    },
+    {
+      "id": "1401",
+      "road": "BEELINE HWY",
+      "from": "Indiantown Rd",
+      "to": "Pratt-Whitney Rd"
+    },
+    {
+      "id": "1411",
+      "road": "BEELINE HWY",
+      "from": "Pratt-Whitney Rd",
+      "to": "Caloosa"
+    },
+    {
+      "id": "2109",
+      "road": "BEELINE HWY",
+      "from": "Caloosa",
+      "to": "N County Airport"
+    },
+    {
+      "id": "2419",
+      "road": "BEELINE HWY",
+      "from": "Northlake Blvd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "3427",
+      "road": "BELVEDERE RD",
+      "from": "SR 7",
+      "to": "Sansbury's Way"
+    },
+    {
+      "id": "3425",
+      "road": "BELVEDERE RD",
+      "from": "Sansbury's Way",
+      "to": "Skees Rd"
+    },
+    {
+      "id": "3211",
+      "road": "BELVEDERE RD",
+      "from": "Skees Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "3679",
+      "road": "BELVEDERE RD",
+      "from": "Jog Rd",
+      "to": "Drexel Rd"
+    },
+    {
+      "id": "3645",
+      "road": "BELVEDERE RD",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "3623",
+      "road": "BELVEDERE RD",
+      "from": "Military Tr",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "3605",
+      "road": "BELVEDERE RD",
+      "from": "Congress Ave",
+      "to": "Australian Ave"
+    },
+    {
+      "id": "3821",
+      "road": "BELVEDERE RD",
+      "from": "Parker Ave",
+      "to": "Dixie Hwy"
+    },
+    {
+      "id": "3456",
+      "road": "BENOIST FARMS RD",
+      "from": "Okeechobee Bl",
+      "to": "Belvedere Rd"
+    },
+    {
+      "id": "6408",
+      "road": "BOCA RIO RD",
+      "from": "Glades Rd",
+      "to": "Palmetto Park Rd"
+    },
+    {
+      "id": "6418",
+      "road": "BOCA RIO RD",
+      "from": "Palmetto Park Rd",
+      "to": "SW 18th St"
+    },
+    {
+      "id": "5641",
+      "road": "BOYNTON BEACH BLVD",
+      "from": "Hagen Ranch Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "6426",
+      "road": "CAIN BLVD",
+      "from": "Yamato Rd",
+      "to": "W Kimberly Blvd"
+    },
+    {
+      "id": "6422",
+      "road": "CAIN BLVD",
+      "from": "W Kimberly Blvd",
+      "to": "Glades Rd"
+    },
+    {
+      "id": "6619",
+      "road": "CAMINO REAL",
+      "from": "Powerline Rd",
+      "to": "Camino del Mar"
+    },
+    {
+      "id": "6636",
+      "road": "CAMINO REAL",
+      "from": "Camino del Mar",
+      "to": "Military Tr"
+    },
+    {
+      "id": "6855",
+      "road": "CAMINO REAL",
+      "from": "Old Dixie Hwy",
+      "to": "US 1"
+    },
+    {
+      "id": "6859",
+      "road": "CAMINO REAL",
+      "from": "ICWW Bridge",
+      "to": "A1A"
+    },
+    {
+      "id": "1603",
+      "road": "CENTER ST",
+      "from": "Indiantown Rd",
+      "to": "Loxahatchee River R"
+    },
+    {
+      "id": "1803",
+      "road": "CENTER ST",
+      "from": "Loxahatchee River Rd",
+      "to": "Alt. A1A"
+    },
+    {
+      "id": "1612",
+      "road": "CENTRAL BLVD",
+      "from": "Church St",
+      "to": "Indiantown Rd"
+    },
+    {
+      "id": "1606",
+      "road": "CENTRAL BLVD",
+      "from": "Indiantown Rd",
+      "to": "Indian Creek Pkwy"
+    },
+    {
+      "id": "1614",
+      "road": "CENTRAL BLVD",
+      "from": "Indian Creek Pkwy",
+      "to": "Frederick Small Rd"
+    },
+    {
+      "id": "1206",
+      "road": "CENTRAL BLVD",
+      "from": "Frederick Small Rd",
+      "to": "Donald Ross Rd"
+    },
+    {
+      "id": "2210",
+      "road": "CENTRAL BLVD",
+      "from": "Donald Ross Rd",
+      "to": "Hood Rd"
+    },
+    {
+      "id": "2608",
+      "road": "CENTRAL BLVD",
+      "from": "Hood Rd",
+      "to": "PGA Blvd"
+    },
+    {
+      "id": "6403",
+      "road": "CLINT MOORE RD",
+      "from": "SR 7",
+      "to": "Lyons Rd"
+    },
+    {
+      "id": "6201",
+      "road": "CLINT MOORE RD",
+      "from": "Lyons Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "6607",
+      "road": "CLINT MOORE RD",
+      "from": "Jog Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "6601",
+      "road": "CLINT MOORE RD",
+      "from": "Military Tr",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "2404",
+      "road": "COCONUT BLVD",
+      "from": "Northlake Blvd",
+      "to": "Temple Blvd"
+    },
+    {
+      "id": "2412",
+      "road": "COCONUT BLVD",
+      "from": "Temple Blvd",
+      "to": "Orange Bl"
+    },
+    {
+      "id": "3641",
+      "road": "COMMUNITY DR",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "3659",
+      "road": "COMMUNITY DR",
+      "from": "Military Tr",
+      "to": "Village Blvd"
+    },
+    {
+      "id": "2620",
+      "road": "CONGRESS AVE",
+      "from": "Northlake Blvd",
+      "to": "Silverbeach Rd"
+    },
+    {
+      "id": "2622",
+      "road": "CONGRESS AVE",
+      "from": "Silverbeach Rd",
+      "to": "Blue Heron Blvd"
+    },
+    {
+      "id": "3928",
+      "road": "CONGRESS AVE",
+      "from": "45th St",
+      "to": "Presidential Way"
+    },
+    {
+      "id": "3930",
+      "road": "CONGRESS AVE",
+      "from": "Presidential Way",
+      "to": "Palm Beach Lakes Bl"
+    },
+    {
+      "id": "3305",
+      "road": "CONGRESS AVE",
+      "from": "Palm Beach Lakes Blvd",
+      "to": "Okeechobee Blvd"
+    },
+    {
+      "id": "4600",
+      "road": "CONGRESS AVE",
+      "from": "Lantana Rd",
+      "to": "Hypoluxo Rd"
+    },
+    {
+      "id": "4641",
+      "road": "CRESTHAVEN BLVD",
+      "from": "Jog Rd",
+      "to": "Sherwood Forest Blv"
+    },
+    {
+      "id": "4635",
+      "road": "CRESTHAVEN BLVD",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "3440",
+      "road": "CRESTWOOD BLVD",
+      "from": "Okeechobee Bl",
+      "to": "Sparrow Rd"
+    },
+    {
+      "id": "3428",
+      "road": "CRESTWOOD BLVD",
+      "from": "Folsom Rd",
+      "to": "Southern Blvd"
+    },
+    {
+      "id": "4800",
+      "road": "DIXIE HWY",
+      "from": "10th Ave N",
+      "to": "Lake/Lucerne"
+    },
+    {
+      "id": "1219",
+      "road": "DONALD ROSS RD",
+      "from": "I-95",
+      "to": "Parkside Dr"
+    },
+    {
+      "id": "1211",
+      "road": "DONALD ROSS RD",
+      "from": "Central Blvd",
+      "to": "SR 811"
+    },
+    {
+      "id": "1805",
+      "road": "DONALD ROSS RD",
+      "from": "SR 811",
+      "to": "Prosperity Farms Rd"
+    },
+    {
+      "id": "3638",
+      "road": "DREXEL RD",
+      "from": "Okeechobee Bl",
+      "to": "Belvedere Rd"
+    },
+    {
+      "id": "2304",
+      "road": "ELLISON-WILSON RD",
+      "from": "Donald Ross Rd",
+      "to": "Universe Blvd"
+    },
+    {
+      "id": "2844",
+      "road": "ELLISON-WILSON RD",
+      "from": "Universe Blvd",
+      "to": "PGA Blvd"
+    },
+    {
+      "id": "3661",
+      "road": "ELMHURST RD",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "4826",
+      "road": "FEDERAL HWY",
+      "from": "Miner Rd",
+      "to": "Gateway Blvd"
+    },
+    {
+      "id": "5824",
+      "road": "FEDERAL HWY",
+      "from": "NE 6th Ave",
+      "to": "23rd Ave"
+    },
+    {
+      "id": "5838",
+      "road": "FEDERAL HWY",
+      "from": "Lowson Blvd",
+      "to": "Linton Blvd"
+    },
+    {
+      "id": "5663",
+      "road": "FLAVOR PICT RD",
+      "from": "Hagen Ranch Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "5654",
+      "road": "FLAVOR PICT RD",
+      "from": "Jog Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "3407",
+      "road": "FOREST HILL BLVD",
+      "from": "South Shore Blvd",
+      "to": "SR 7"
+    },
+    {
+      "id": "3667",
+      "road": "FOREST HILL BLVD",
+      "from": "Sherwood Forest Blvd",
+      "to": "Haverhill Rd"
+    },
+    {
+      "id": "3629",
+      "road": "FOREST HILL BLVD",
+      "from": "Kirk Rd",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "1217",
+      "road": "FREDERICK SMALL RD",
+      "from": "Central Blvd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "1215",
+      "road": "FREDERICK SMALL RD",
+      "from": "Military Tr",
+      "to": "Alt A1A"
+    },
+    {
+      "id": "4663",
+      "road": "GATEWAY BLVD",
+      "from": "Hagen Ranch Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "4659",
+      "road": "GATEWAY BLVD",
+      "from": "Jog Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "4649",
+      "road": "GATEWAY BLVD",
+      "from": "Military Tr",
+      "to": "Lawrence Rd"
+    },
+    {
+      "id": "4625",
+      "road": "GATEWAY BLVD",
+      "from": "Lawrence Rd",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "4315",
+      "road": "GATEWAY BLVD",
+      "from": "I-95",
+      "to": "Seacrest Blvd"
+    },
+    {
+      "id": "6429",
+      "road": "GLADES RD",
+      "from": "Palmetto Park Rd",
+      "to": "Cain Blvd"
+    },
+    {
+      "id": "6411",
+      "road": "GLADES RD",
+      "from": "Cain Blvd",
+      "to": "SR-7"
+    },
+    {
+      "id": "6413",
+      "road": "GLADES RD",
+      "from": "Lyons Rd",
+      "to": "Boca Rio Rd"
+    },
+    {
+      "id": "3651",
+      "road": "GUN CLUB RD",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "3653",
+      "road": "GUN CLUB RD",
+      "from": "Military Tr",
+      "to": "Kirk Rd"
+    },
+    {
+      "id": "4668",
+      "road": "HAGEN RANCH RD",
+      "from": "Lantana Rd",
+      "to": "Hypoluxo Rd"
+    },
+    {
+      "id": "4666",
+      "road": "HAGEN RANCH RD",
+      "from": "Hypoluxo Rd",
+      "to": "Gateway Blvd"
+    },
+    {
+      "id": "5214",
+      "road": "HAGEN RANCH RD",
+      "from": "Gateway Blvd",
+      "to": "Boynton Beach Blvd"
+    },
+    {
+      "id": "5600",
+      "road": "HAGEN RANCH RD",
+      "from": "Boynton Beach Blvd",
+      "to": "Pipers Glen Blvd"
+    },
+    {
+      "id": "5646",
+      "road": "HAGEN RANCH RD",
+      "from": "Pipers Glen Blvd",
+      "to": "Lake Ida Rd"
+    },
+    {
+      "id": "5604",
+      "road": "HAGEN RANCH RD",
+      "from": "Lake Ida Rd",
+      "to": "W Atlantic Ave"
+    },
+    {
+      "id": "3622",
+      "road": "HAVERHILL RD",
+      "from": "45th St",
+      "to": "Roebuck Rd"
+    },
+    {
+      "id": "3600",
+      "road": "HAVERHILL RD",
+      "from": "Community Dr",
+      "to": "Okeechobee Blvd"
+    },
+    {
+      "id": "3604",
+      "road": "HAVERHILL RD",
+      "from": "Okeechobee Blvd",
+      "to": "Belvedere Rd"
+    },
+    {
+      "id": "3608",
+      "road": "HAVERHILL RD",
+      "from": "Belvedere Rd",
+      "to": "Southern Blvd"
+    },
+    {
+      "id": "3634",
+      "road": "HAVERHILL RD",
+      "from": "Southern Blvd",
+      "to": "Summit Blvd"
+    },
+    {
+      "id": "3640",
+      "road": "HAVERHILL RD",
+      "from": "Summit Blvd",
+      "to": "Forest Hill Blvd"
+    },
+    {
+      "id": "4224",
+      "road": "HAVERHILL RD",
+      "from": "Forest Hill Blvd",
+      "to": "Purdy Ln"
+    },
+    {
+      "id": "4642",
+      "road": "HAVERHILL RD",
+      "from": "Purdy Ln",
+      "to": "Cresthaven Blvd"
+    },
+    {
+      "id": "4656",
+      "road": "HAVERHILL RD",
+      "from": "Cresthaven Blvd",
+      "to": "10th Ave N"
+    },
+    {
+      "id": "4638",
+      "road": "HAVERHILL RD",
+      "from": "10th Ave N",
+      "to": "Lake Worth Rd"
+    },
+    {
+      "id": "4646",
+      "road": "HAVERHILL RD",
+      "from": "Lake Worth Rd",
+      "to": "Melaleuca Ln"
+    },
+    {
+      "id": "4672",
+      "road": "HAVERHILL RD",
+      "from": "Melaleuca Ln",
+      "to": "Lantana Rd"
+    },
+    {
+      "id": "4674",
+      "road": "HAVERHILL RD",
+      "from": "Lantana Rd",
+      "to": "Hypoluxo Rd"
+    },
+    {
+      "id": "4648",
+      "road": "HIGH RIDGE RD",
+      "from": "Gateway Blvd",
+      "to": "Hypoluxo Rd"
+    },
+    {
+      "id": "2105",
+      "road": "HOOD RD",
+      "from": "Jog Road",
+      "to": "Central Blvd"
+    },
+    {
+      "id": "2611",
+      "road": "HOOD RD",
+      "from": "Central Blvd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "2213",
+      "road": "HOOD RD",
+      "from": "Military Tr",
+      "to": "SR 811"
+    },
+    {
+      "id": "4411",
+      "road": "HYPOLUXO RD",
+      "from": "SR-7",
+      "to": "Lyons Rd"
+    },
+    {
+      "id": "4683",
+      "road": "HYPOLUXO RD",
+      "from": "Lyons Rd",
+      "to": "Fl Turnpike"
+    },
+    {
+      "id": "4629",
+      "road": "HYPOLUXO RD",
+      "from": "Jog Rd",
+      "to": "Haverhill Rd"
+    },
+    {
+      "id": "4681",
+      "road": "HYPOLUXO RD",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "4607",
+      "road": "HYPOLUXO RD",
+      "from": "Military Tr",
+      "to": "Lawrence Rd"
+    },
+    {
+      "id": "4621",
+      "road": "HYPOLUXO RD",
+      "from": "Lawrence Rd",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "4809",
+      "road": "HYPOLUXO RD",
+      "from": "Seacrest Blvd",
+      "to": "Dixie Hwy"
+    },
+    {
+      "id": "1605",
+      "road": "INDIAN CREEK BLVD",
+      "from": "Central Blvd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "1615",
+      "road": "INDIAN CREEK BLVD",
+      "from": "Toney Penna Dr",
+      "to": "Maplewood Dr"
+    },
+    {
+      "id": "1613",
+      "road": "INDIAN CREEK PKWY",
+      "from": "Central Blvd",
+      "to": "Maplewood Dr"
+    },
+    {
+      "id": "1405",
+      "road": "INDIANTOWN RD",
+      "from": "Bee Line Hwy",
+      "to": "Pratt-Whitney Rd"
+    },
+    {
+      "id": "1403",
+      "road": "INDIANTOWN RD",
+      "from": "Pratt-Whitney Rd",
+      "to": "130th Ave N"
+    },
+    {
+      "id": "1409",
+      "road": "INDIANTOWN RD",
+      "from": "130th Ave N",
+      "to": "Alexander Run"
+    },
+    {
+      "id": "1617",
+      "road": "INDIANTOWN RD",
+      "from": "Island Way",
+      "to": "Central Blvd"
+    },
+    {
+      "id": "2215",
+      "road": "INVESTMENT LN",
+      "from": "Military Tr",
+      "to": "Garden Rd"
+    },
+    {
+      "id": "1620",
+      "road": "ISLAND WAY",
+      "from": "Indiantown Rd",
+      "to": "Church St"
+    },
+    {
+      "id": "2416",
+      "road": "JOG RD",
+      "from": "Turnpike Int",
+      "to": "Beeline Hwy"
+    },
+    {
+      "id": "2414",
+      "road": "JOG RD",
+      "from": "Beeline Hwy",
+      "to": "45th St"
+    },
+    {
+      "id": "3458",
+      "road": "JOG RD",
+      "from": "Roebuck Rd",
+      "to": "Okeechobee Bl"
+    },
+    {
+      "id": "4612",
+      "road": "JOG RD",
+      "from": "Melaleuca Ln",
+      "to": "Lantana Rd"
+    },
+    {
+      "id": "4670",
+      "road": "JOG RD",
+      "from": "Winston Trails Bl",
+      "to": "Hypoluxo Rd"
+    },
+    {
+      "id": "6634",
+      "road": "JOG RD",
+      "from": "Yamato Rd",
+      "to": "Potomac Rd"
+    },
+    {
+      "id": "6420",
+      "road": "JUDGE WINIKOFF RD",
+      "from": "Sandpoint Ter",
+      "to": "SR 7"
+    },
+    {
+      "id": "1404",
+      "road": "JUPITER FARMS RD",
+      "from": "Indiantown Rd",
+      "to": "South of Indiantown"
+    },
+    {
+      "id": "3614",
+      "road": "KIRK RD",
+      "from": "Southern Blvd",
+      "to": "Gun Club Rd"
+    },
+    {
+      "id": "3662",
+      "road": "KIRK RD",
+      "from": "Gun Club Rd",
+      "to": "Summit Blvd"
+    },
+    {
+      "id": "3656",
+      "road": "KIRK RD",
+      "from": "Summit Blvd",
+      "to": "Forest Hill Blvd"
+    },
+    {
+      "id": "4208",
+      "road": "KIRK RD",
+      "from": "Forest Hill Blvd",
+      "to": "Purdy Ln"
+    },
+    {
+      "id": "4664",
+      "road": "KIRK RD",
+      "from": "Purdy Ln",
+      "to": "10th Ave N"
+    },
+    {
+      "id": "4630",
+      "road": "KIRK RD",
+      "from": "10th Ave N",
+      "to": "Lake Worth Rd"
+    },
+    {
+      "id": "4652",
+      "road": "KIRK RD",
+      "from": "Lake Worth Rd",
+      "to": "Melaleuca Ln"
+    },
+    {
+      "id": "5649",
+      "road": "LAKE IDA RD",
+      "from": "Hagen Ranch Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "5653",
+      "road": "LAKE IDA RD",
+      "from": "Jog Rd",
+      "to": "El Clair Ranch Rd"
+    },
+    {
+      "id": "5651",
+      "road": "LAKE IDA RD",
+      "from": "El Clair Ranch Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "5623",
+      "road": "LAKE IDA RD",
+      "from": "Military Tr",
+      "to": "Barwick Rd"
+    },
+    {
+      "id": "5605",
+      "road": "LAKE IDA RD",
+      "from": "Barwick Rd",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "4407",
+      "road": "LAKE WORTH RD",
+      "from": "Isles Bl",
+      "to": "SR-7"
+    },
+    {
+      "id": "4645",
+      "road": "LAKE WORTH RD",
+      "from": "Pinehurst Dr",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "4403",
+      "road": "LANTANA RD",
+      "from": "SR-7",
+      "to": "Lyons Rd"
+    },
+    {
+      "id": "4207",
+      "road": "LANTANA RD",
+      "from": "Lyons Rd",
+      "to": "Hagen Ranch Rd"
+    },
+    {
+      "id": "4669",
+      "road": "LANTANA RD",
+      "from": "Hagen Ranch Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "4619",
+      "road": "LANTANA RD",
+      "from": "Jog Rd",
+      "to": "Haverhill Rd"
+    },
+    {
+      "id": "4675",
+      "road": "LANTANA RD",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "4807",
+      "road": "LANTANA RD",
+      "from": "Redding Dr",
+      "to": "Federal Hwy"
+    },
+    {
+      "id": "4608",
+      "road": "LAWRENCE RD",
+      "from": "Lantana Rd",
+      "to": "Hypoluxo Rd"
+    },
+    {
+      "id": "4614",
+      "road": "LAWRENCE RD",
+      "from": "Hypoluxo Rd",
+      "to": "Gateway Blvd"
+    },
+    {
+      "id": "5204",
+      "road": "LAWRENCE RD",
+      "from": "Gateway Blvd",
+      "to": "Boynton Beach Blvd"
+    },
+    {
+      "id": "5638",
+      "road": "LAWRENCE RD",
+      "from": "Boynton Beach Blvd",
+      "to": "Woolbright Rd"
+    },
+    {
+      "id": "4661",
+      "road": "LE CHALET BLVD",
+      "from": "Jog Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "5635",
+      "road": "LINTON BLVD",
+      "from": "Jog Rd",
+      "to": "Sim Rd"
+    },
+    {
+      "id": "5625",
+      "road": "LINTON BLVD",
+      "from": "Sim Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "5607",
+      "road": "LINTON BLVD",
+      "from": "Military Tr",
+      "to": "Homewood Blvd"
+    },
+    {
+      "id": "5661",
+      "road": "LINTON BLVD",
+      "from": "Homewood Blvd",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "5819",
+      "road": "LINTON BLVD",
+      "from": "10th Ave SW",
+      "to": "Old Dixie Hwy"
+    },
+    {
+      "id": "5821",
+      "road": "LINTON BLVD",
+      "from": "Old Dixie Hwy",
+      "to": "US 1"
+    },
+    {
+      "id": "1610",
+      "road": "LOXAHATCHEE RIVER R",
+      "from": "Roebuck Rd",
+      "to": "Indiantown Rd"
+    },
+    {
+      "id": "3466",
+      "road": "LYONS RD",
+      "from": "Southern Blvd",
+      "to": "Dillman Rd"
+    },
+    {
+      "id": "3462",
+      "road": "LYONS RD",
+      "from": "Forest Hill Blvd",
+      "to": "Stribling Way"
+    },
+    {
+      "id": "5110",
+      "road": "LYONS RD",
+      "from": "Boynton Beach Blvd",
+      "to": "Flavor Pict Rd"
+    },
+    {
+      "id": "6114",
+      "road": "LYONS RD",
+      "from": "158 Rd S",
+      "to": "Clint Moore Rd"
+    },
+    {
+      "id": "6416",
+      "road": "LYONS RD",
+      "from": "Clint Moore Rd",
+      "to": "Yamato Rd"
+    },
+    {
+      "id": "6406",
+      "road": "LYONS RD",
+      "from": "Glades Rd",
+      "to": "Palmetto Park Rd"
+    },
+    {
+      "id": "6410",
+      "road": "LYONS RD",
+      "from": "Palmetto Park Rd",
+      "to": "SW 18th St"
+    },
+    {
+      "id": "6112",
+      "road": "LYONS RD",
+      "from": "SW 18th St",
+      "to": "Broward County Line"
+    },
+    {
+      "id": "2813",
+      "road": "MARTIN LUTHER KING J",
+      "from": "Australian Ave",
+      "to": "President Barack Oba"
+    },
+    {
+      "id": "2827",
+      "road": "MARTIN LUTHER KING J",
+      "from": "President Barack Obam",
+      "to": "W Port Rd"
+    },
+    {
+      "id": "2825",
+      "road": "MARTIN LUTHER KING J",
+      "from": "W Port Rd",
+      "to": "US 1"
+    },
+    {
+      "id": "4615",
+      "road": "MELALEUCA LA",
+      "from": "Jog Rd",
+      "to": "Haverhill Rd"
+    },
+    {
+      "id": "4657",
+      "road": "MELALEUCA LA",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "6608",
+      "road": "MILITARY TRL",
+      "from": "Camino Real",
+      "to": "SW 18th St"
+    },
+    {
+      "id": "6216",
+      "road": "MILITARY TRL",
+      "from": "SW 18th St",
+      "to": "Broward Co. Line"
+    },
+    {
+      "id": "4690",
+      "road": "MINER RD",
+      "from": "Congress Ave",
+      "to": "High Ridge Rd"
+    },
+    {
+      "id": "2407",
+      "road": "NORTHLAKE BLVD",
+      "from": "SR-7",
+      "to": "Beeline Hwy"
+    },
+    {
+      "id": "2401",
+      "road": "NORTHLAKE BLVD",
+      "from": "Beeline Hwy",
+      "to": "Ryder Cup Blvd"
+    },
+    {
+      "id": "2205",
+      "road": "NORTHLAKE BLVD",
+      "from": "Ryder Cup Blvd",
+      "to": "Steeplechase Dr / Bal"
+    },
+    {
+      "id": "2207",
+      "road": "NORTHLAKE BLVD",
+      "from": "Military Tr",
+      "to": "I-95"
+    },
+    {
+      "id": "2815",
+      "road": "NORTHLAKE BLVD",
+      "from": "Congress Ave",
+      "to": "SR 811"
+    },
+    {
+      "id": "2817",
+      "road": "NORTHLAKE BLVD",
+      "from": "Prosperity Farms Rd",
+      "to": "Southwind Dr"
+    },
+    {
+      "id": "3419",
+      "road": "OKEECHOBEE BLVD",
+      "from": "Seminole Pratt Whitney",
+      "to": "E Rd"
+    },
+    {
+      "id": "3451",
+      "road": "OKEECHOBEE BLVD",
+      "from": "E Rd",
+      "to": "Crestwood Blvd"
+    },
+    {
+      "id": "3411",
+      "road": "OKEECHOBEE BLVD",
+      "from": "Crestwood Blvd",
+      "to": "Royal Palm Beach Bl"
+    },
+    {
+      "id": "3453",
+      "road": "OKEECHOBEE BLVD",
+      "from": "Royal Palm Beach Blvd",
+      "to": "Wildcat Way"
+    },
+    {
+      "id": "5639",
+      "road": "OLD BOYNTON RD",
+      "from": "Military Tr",
+      "to": "Lawrence Rd"
+    },
+    {
+      "id": "5629",
+      "road": "OLD BOYNTON RD",
+      "from": "Congress Ave",
+      "to": "Boynton Beach Blvd"
+    },
+    {
+      "id": "1814",
+      "road": "OLD DIXIE HWY",
+      "from": "County Line Rd",
+      "to": "Tequesta Dr"
+    },
+    {
+      "id": "6304",
+      "road": "OLD DIXIE HWY",
+      "from": "Hidden Valley Blvd",
+      "to": "Lindell Blvd"
+    },
+    {
+      "id": "6862",
+      "road": "OLD DIXIE HWY",
+      "from": "Yamato Rd",
+      "to": "Spanish River Blvd"
+    },
+    {
+      "id": "6860",
+      "road": "OLD DIXIE HWY",
+      "from": "Spanish River Blvd",
+      "to": "NE 20th St"
+    },
+    {
+      "id": "6866",
+      "road": "OLD DIXIE HWY",
+      "from": "NE 20th St",
+      "to": "Glades Rd"
+    },
+    {
+      "id": "6900",
+      "road": "OLD DIXIE HWY",
+      "from": "Glades Rd",
+      "to": "Palmetto Park Rd"
+    },
+    {
+      "id": "6870",
+      "road": "OLD DIXIE HWY",
+      "from": "Palmetto Park Rd",
+      "to": "Camino Real"
+    },
+    {
+      "id": "2417",
+      "road": "ORANGE BLVD",
+      "from": "Seminole Pratt Whitney",
+      "to": "140th Ave N"
+    },
+    {
+      "id": "2409",
+      "road": "ORANGE BLVD",
+      "from": "140th Ave N",
+      "to": "Coconut Blvd"
+    },
+    {
+      "id": "2415",
+      "road": "ORANGE BLVD",
+      "from": "Coconut Blvd",
+      "to": "Royal Palm Beach Bl"
+    },
+    {
+      "id": "3601",
+      "road": "PALM BEACH LAKES BL",
+      "from": "Okeechobee Blvd",
+      "to": "Village Blvd"
+    },
+    {
+      "id": "3847",
+      "road": "PALM BEACH LAKES BL",
+      "from": "Congress Ave",
+      "to": "Australian Ave"
+    },
+    {
+      "id": "3811",
+      "road": "PALM BEACH LAKES BL",
+      "from": "Australian Ave",
+      "to": "Tamarind Ave"
+    },
+    {
+      "id": "3807",
+      "road": "PALM BEACH LAKES BL",
+      "from": "Tamarind Ave",
+      "to": "Dixie Hwy"
+    },
+    {
+      "id": "6431",
+      "road": "PALMETTO PARK RD",
+      "from": "Glades Rd",
+      "to": "Ponderosa Dr"
+    },
+    {
+      "id": "6405",
+      "road": "PALMETTO PARK RD",
+      "from": "SR-7",
+      "to": "Lyons Rd"
+    },
+    {
+      "id": "6425",
+      "road": "PALMETTO PARK RD",
+      "from": "Lyons Rd",
+      "to": "Boca Rio Rd"
+    },
+    {
+      "id": "6211",
+      "road": "PALMETTO PARK RD",
+      "from": "Boca Rio Rd",
+      "to": "Powerline Rd"
+    },
+    {
+      "id": "6617",
+      "road": "PALMETTO PARK RD",
+      "from": "Powerline Rd",
+      "to": "St Andrews Blvd"
+    },
+    {
+      "id": "6609",
+      "road": "PALMETTO PARK RD",
+      "from": "St Andrews Blvd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "6209",
+      "road": "PALMETTO PARK RD",
+      "from": "Military Tr",
+      "to": "I-95"
+    },
+    {
+      "id": "6803",
+      "road": "PALMETTO PARK RD",
+      "from": "NE 5th Ave",
+      "to": "ICWW Bridge"
+    },
+    {
+      "id": "2833",
+      "road": "PARK AVE",
+      "from": "Federal Hwy",
+      "to": "10TH St"
+    },
+    {
+      "id": "2108",
+      "road": "PGA BLVD",
+      "from": "Ryder Cup/Jog Rd",
+      "to": "Mirasol Dr - Ave of t"
+    },
+    {
+      "id": "2609",
+      "road": "PGA BLVD",
+      "from": "Central Blvd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "2805",
+      "road": "PGA BLVD",
+      "from": "Gardens Mall",
+      "to": "Prosperity Farms Rd"
+    },
+    {
+      "id": "2837",
+      "road": "PGA BLVD",
+      "from": "Ellison Wilson Rd",
+      "to": "Federal Hwy"
+    },
+    {
+      "id": "3450",
+      "road": "PIKE RD",
+      "from": "Fla Turnpike Entrance",
+      "to": "Belvedere Rd"
+    },
+    {
+      "id": "3448",
+      "road": "PIKE RD",
+      "from": "Southern Blvd",
+      "to": "Fla Turnpike Entranc"
+    },
+    {
+      "id": "4202",
+      "road": "PINEHURST DR",
+      "from": "Forest Hill Blvd",
+      "to": "10TH Ave N"
+    },
+    {
+      "id": "4662",
+      "road": "PINEHURST DR",
+      "from": "10th Ave N",
+      "to": "Lake Worth Rd"
+    },
+    {
+      "id": "2808",
+      "road": "PRES BARAK OBAMA H",
+      "from": "Blue Heron Blvd",
+      "to": "Silverbeach Rd"
+    },
+    {
+      "id": "2810",
+      "road": "PRES BARAK OBAMA H",
+      "from": "MLK Blvd",
+      "to": "Blue Heron Blvd"
+    },
+    {
+      "id": "2302",
+      "road": "PROSPERITY FARMS RD",
+      "from": "Donald Ross Rd",
+      "to": "Hood Rd"
+    },
+    {
+      "id": "2802",
+      "road": "PROSPERITY FARMS RD",
+      "from": "Hood Rd",
+      "to": "PGA Blvd"
+    },
+    {
+      "id": "2804",
+      "road": "PROSPERITY FARMS RD",
+      "from": "PGA Blvd",
+      "to": "Burns Rd"
+    },
+    {
+      "id": "2836",
+      "road": "PROSPERITY FARMS RD",
+      "from": "Burns Rd",
+      "to": "Lighthouse Dr"
+    },
+    {
+      "id": "2806",
+      "road": "PROSPERITY FARMS RD",
+      "from": "Lighthouse Dr",
+      "to": "Northlake Blvd"
+    },
+    {
+      "id": "4637",
+      "road": "PURDY LN",
+      "from": "Jog Rd",
+      "to": "Haverhill Rd"
+    },
+    {
+      "id": "4639",
+      "road": "PURDY LN",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "2831",
+      "road": "RCA BLVD",
+      "from": "Alt A1A",
+      "to": "Prosperity Farms Rd"
+    },
+    {
+      "id": "3681",
+      "road": "ROEBUCK RD",
+      "from": "Haverhill Rd",
+      "to": "Military Trail"
+    },
+    {
+      "id": "3414",
+      "road": "SANSBURYS WAY",
+      "from": "Belvedere Rd",
+      "to": "Southern Blvd"
+    },
+    {
+      "id": "4806",
+      "road": "SEACREST BLVD",
+      "from": "Hypoluxo Rd",
+      "to": "Gateway Blvd"
+    },
+    {
+      "id": "5302",
+      "road": "SEACREST BLVD",
+      "from": "Gateway Blvd",
+      "to": "Boynton Beach Blvd"
+    },
+    {
+      "id": "5800",
+      "road": "SEACREST BLVD",
+      "from": "Boynton Beach Blvd",
+      "to": "Woolbright Rd"
+    },
+    {
+      "id": "5802",
+      "road": "SEACREST BLVD",
+      "from": "Woolbright Rd",
+      "to": "23rd Ave"
+    },
+    {
+      "id": "2406",
+      "road": "SEMINOLE PRATT-WHIT",
+      "from": "Northlake Blvd",
+      "to": "Orange Bl"
+    },
+    {
+      "id": "2408",
+      "road": "SEMINOLE PRATT-WHIT",
+      "from": "Orange Bl",
+      "to": "60Th St N"
+    },
+    {
+      "id": "3442",
+      "road": "SEMINOLE PRATT-WHIT",
+      "from": "60Th St N",
+      "to": "Sycamore Dr E"
+    },
+    {
+      "id": "3424",
+      "road": "SEMINOLE PRATT-WHIT",
+      "from": "Sycamore Dr E",
+      "to": "Okeechobee Blvd"
+    },
+    {
+      "id": "3420",
+      "road": "SEMINOLE PRATT-WHIT",
+      "from": "Okeechobee Blvd",
+      "to": "Southern Blvd"
+    },
+    {
+      "id": "4200",
+      "road": "SHERWOOD FOREST BL",
+      "from": "Forest Hill Blvd",
+      "to": "Cresthaven Blvd"
+    },
+    {
+      "id": "4644",
+      "road": "SHERWOOD FOREST BL",
+      "from": "10th Ave N",
+      "to": "Lake Worth Rd"
+    },
+    {
+      "id": "2807",
+      "road": "SILVER BEACH RD",
+      "from": "Old Dixie Hwy",
+      "to": "US-1"
+    },
+    {
+      "id": "3418",
+      "road": "SKEES RD",
+      "from": "Okeechobee Bl",
+      "to": "Belvedere Rd"
+    },
+    {
+      "id": "3823",
+      "road": "SOUTHERN BLVD",
+      "from": "Parker Ave",
+      "to": "Dixie Hwy"
+    },
+    {
+      "id": "3469",
+      "road": "SR-7",
+      "from": "60th St N",
+      "to": "Persimmon Blvd"
+    },
+    {
+      "id": "5400",
+      "road": "SR-7",
+      "from": "Lee Rd",
+      "to": "W Atlantic Ave"
+    },
+    {
+      "id": "5404",
+      "road": "SR-7",
+      "from": "W Atlantic Ave",
+      "to": "Winner's Cir"
+    },
+    {
+      "id": "2814",
+      "road": "SR-811",
+      "from": "Lighthouse Dr",
+      "to": "Northlake Blvd"
+    },
+    {
+      "id": "3657",
+      "road": "SUMMIT BLVD",
+      "from": "Jog Rd",
+      "to": "Haverhill Rd"
+    },
+    {
+      "id": "3611",
+      "road": "SUMMIT BLVD",
+      "from": "Haverhill Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "3613",
+      "road": "SUMMIT BLVD",
+      "from": "Military Tr",
+      "to": "Kirk Rd"
+    },
+    {
+      "id": "3615",
+      "road": "SUMMIT BLVD",
+      "from": "Kirk Rd",
+      "to": "Davis Rd"
+    },
+    {
+      "id": "3621",
+      "road": "SUMMIT BLVD",
+      "from": "Florida Mango Rd",
+      "to": "I-95"
+    },
+    {
+      "id": "6213",
+      "road": "SW 18TH ST",
+      "from": "Boca Rio Rd",
+      "to": "Powerline Rd"
+    },
+    {
+      "id": "6613",
+      "road": "SW 18TH ST",
+      "from": "Powerline Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "1816",
+      "road": "US-1",
+      "from": "Ocean Way",
+      "to": "Marcinski Rd"
+    },
+    {
+      "id": "2840",
+      "road": "US-1",
+      "from": "Donald Ross Rd",
+      "to": "Universe Blvd"
+    },
+    {
+      "id": "2832",
+      "road": "US-1",
+      "from": "Lighthouse Dr",
+      "to": "Northlake Blvd"
+    },
+    {
+      "id": "5810",
+      "road": "US-1 (SB)",
+      "from": "NE 4th St",
+      "to": "Atlantic Ave"
+    },
+    {
+      "id": "3652",
+      "road": "WABASSO DR",
+      "from": "Okeechobee Bl",
+      "to": "Westgate Ave"
+    },
+    {
+      "id": "3663",
+      "road": "WESTGATE AVE",
+      "from": "Military Tr",
+      "to": "Wabasso Dr"
+    },
+    {
+      "id": "5662",
+      "road": "WOOLBRIGHT RD",
+      "from": "Hagen Ranch Rd",
+      "to": "Jog Rd"
+    },
+    {
+      "id": "5655",
+      "road": "WOOLBRIGHT RD",
+      "from": "Jog Rd",
+      "to": "El Clair Ranch Rd"
+    },
+    {
+      "id": "5647",
+      "road": "WOOLBRIGHT RD",
+      "from": "El Clair Ranch Rd",
+      "to": "Military Tr"
+    },
+    {
+      "id": "5645",
+      "road": "WOOLBRIGHT RD",
+      "from": "Military Tr",
+      "to": "Congress Ave"
+    },
+    {
+      "id": "5809",
+      "road": "WOOLBRIGHT RD",
+      "from": "US-1",
+      "to": "Ocean Blvd"
+    },
+    {
+      "id": "6433",
+      "road": "YAMATO RD",
+      "from": "Coral Ridge Dr",
+      "to": "Cain Blvd"
+    },
+    {
+      "id": "6427",
+      "road": "YAMATO RD",
+      "from": "Cain Blvd",
+      "to": "SR 7"
+    },
+    {
+      "id": "6421",
+      "road": "YAMATO RD",
+      "from": "SR 7",
+      "to": "Lyons Rd"
+    },
+    {
+      "id": "6103",
+      "road": "YAMATO RD",
+      "from": "Lyons Rd",
+      "to": "Boca West Dr"
+    }
+  ]
+}

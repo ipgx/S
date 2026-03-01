@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Florida CMS — All Regions (MapLibre GL)</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"/>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;font-family:'Segoe UI',system-ui,sans-serif}
+#map{height:100%;width:100%}
+
+.info-panel{position:absolute;top:12px;left:50%;transform:translateX(-50%);z-index:10;background:rgba(255,255,255,0.95);padding:10px 24px;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.2);text-align:center;pointer-events:none}
+.info-panel h2{font-size:16px;margin:0 0 2px;color:#1a1a2e}
+.info-panel span{font-size:13px;color:#555}
+
+.search-box{position:absolute;top:12px;right:12px;z-index:10}
+.search-box input{width:260px;padding:8px 12px;border:2px solid #ccc;border-radius:6px;font-size:13px;outline:none;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.search-box input:focus{border-color:#4a90d9}
+
+.legend{position:absolute;bottom:30px;left:12px;z-index:10;background:#fff;padding:14px 18px;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.25);max-height:85vh;overflow-y:auto}
+.legend h3{margin:0 0 10px;font-size:14px;color:#333}
+.legend-item{display:flex;align-items:center;gap:10px;cursor:pointer;padding:5px 4px;border-radius:4px;user-select:none;transition:background .15s}
+.legend-item:hover{background:#f0f0f0}
+.legend-item.disabled{opacity:0.3}
+.legend-item.disabled .legend-swatch{background:#ccc!important}
+.legend-swatch{width:18px;height:18px;border-radius:4px;border:1px solid rgba(0,0,0,.15);flex-shrink:0;transition:background .2s}
+.legend-label{font-size:13px;color:#333;font-weight:500}
+.legend-count{font-size:11px;color:#888;margin-left:auto;padding-left:10px}
+.legend hr{margin:8px 0;border:none;border-top:1px solid #e0e0e0}
+.legend-total{font-size:11px;color:#666;text-align:center;padding-top:4px}
+.legend-hint{font-size:10px;color:#999;text-align:center;padding-top:4px}
+
+.maplibregl-popup-content{padding:10px 14px!important;border-radius:8px!important;box-shadow:0 3px 14px rgba(0,0,0,.25)!important;font-family:'Segoe UI',system-ui,sans-serif;max-width:320px}
+.popup-region{font-size:11px;font-weight:700;margin-bottom:2px}
+.popup-road{font-size:14px;font-weight:700;color:#1a1a2e;margin-bottom:2px}
+.popup-seg{font-size:11px;color:#777}
+.popup-fromto{font-size:12px;color:#444;margin-top:4px;line-height:1.5}
+.popup-status{font-size:10px;margin-top:5px;padding:2px 8px;border-radius:3px;display:inline-block;color:#fff;font-weight:600}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="info-panel">
+  <h2>Florida CMS — All Regions</h2>
+  <span id="total-info">Loading...</span>
+</div>
+<div class="search-box">
+  <input id="search" type="text" placeholder="Search road name, segment ID..."/>
+</div>
+<div class="legend" id="legend">
+  <h3>CMS Regions</h3>
+  <div id="legend-items"></div>
+  <hr>
+  <div class="legend-total" id="legend-total"></div>
+  <div class="legend-hint">Click to toggle</div>
+</div>
+
+<script>
+const DATASETS = [
+  {name:'Lake County',  key:'lake',         path:'LakeCounty/Lake_County_CMS_routed.geojson', boundary:'LakeCounty/Lake_County_Boundary.geojson', color:'#2196F3'},
+  {name:'Apopka',       key:'apopka',       path:'Apopka/Apopka_CMS_routed.geojson',          boundary:'Apopka/boundary.geojson',                  color:'#E91E63'},
+  {name:'Hillsborough', key:'hillsborough', path:'Hillsborough/Hillsborough_CMS_routed.geojson', boundary:'Hillsborough/boundary.geojson',         color:'#FF9800'},
+  {name:'Osceola',      key:'osceola',      path:'Osceola/Osceola_CMS_routed.geojson',        boundary:'Osceola/boundary.geojson',                  color:'#4CAF50'},
+  {name:'Palm Beach',   key:'palmbeach',    path:'PalmBeach/PalmBeach_CMS_routed.geojson',     boundary:'PalmBeach/boundary.geojson',                color:'#9C27B0'},
+  {name:'Polk',         key:'polk',         path:'Polk/Polk_CMS_routed.geojson',               boundary:'Polk/boundary.geojson',                    color:'#00BCD4'},
+  {name:'Seminole',     key:'seminole',     path:'Seminole/Seminole_CMS_routed.geojson',       boundary:'Seminole/boundary.geojson',                color:'#FF5722'},
+  {name:'St. Lucie',    key:'stlucie',      path:'StLucie/StLucie_CMS_routed.geojson',         boundary:'StLucie/boundary.geojson',                 color:'#795548'}
+];
+
+const map = new maplibregl.Map({
+  container: 'map',
+  style: {
+    version: 8,
+    sources: {
+      'google-hybrid': {
+        type: 'raster',
+        tiles: ['https://mt0.google.com/vt/lyrs=y&x={x}&y={y}&z={z}','https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}','https://mt2.google.com/vt/lyrs=y&x={x}&y={y}&z={z}','https://mt3.google.com/vt/lyrs=y&x={x}&y={y}&z={z}'],
+        tileSize: 256,
+        attribution: '&copy; Google Maps'
+      }
+    },
+    layers: [{id:'google',type:'raster',source:'google-hybrid'}]
+  },
+  center: [-81.3, 27.8],
+  zoom: 6.3
+});
+
+map.addControl(new maplibregl.NavigationControl(), 'top-left');
+
+const visibility = {};
+const featureCounts = {};
+let totalSegments = 0;
+let popup = null;
+let hoverPopup = null;
+
+// Node markers for from/to
+let fromMarker = null;
+let toMarker = null;
+let fromLabel = null;
+let toLabel = null;
+
+function createNodeLabel(text, color) {
+  const el = document.createElement('div');
+  el.style.cssText = `font-size:11px;font-weight:700;color:${color};white-space:nowrap;text-shadow:-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff;pointer-events:none;transform:translate(12px,-6px)`;
+  el.textContent = text;
+  return el;
+}
+
+function createNodeDot(color) {
+  const el = document.createElement('div');
+  el.style.cssText = `width:14px;height:14px;border-radius:50%;background:${color};border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4);pointer-events:none;transform:translate(-7px,-7px)`;
+  return el;
+}
+
+function clearNodes() {
+  if (fromMarker) { fromMarker.remove(); fromMarker = null; }
+  if (toMarker) { toMarker.remove(); toMarker = null; }
+  if (fromLabel) { fromLabel.remove(); fromLabel = null; }
+  if (toLabel) { toLabel.remove(); toLabel = null; }
+}
+
+function showNodes(props, geom) {
+  clearNodes();
+  const coords = geom.coordinates;
+  if (!coords || coords.length === 0) return;
+
+  let fromPt, toPt;
+  if (geom.type === 'MultiLineString') {
+    const first = coords[0], last = coords[coords.length-1];
+    if (!first || !last || !first.length || !last.length) return;
+    fromPt = first[0];
+    toPt = last[last.length-1];
+  } else if (geom.type === 'LineString') {
+    fromPt = coords[0];
+    toPt = coords[coords.length-1];
+  } else return;
+
+  const fromName = props.From || props.from_road || props.fromRoad || props.FROM || '';
+  const toName = props.To || props.to_road || props.toRoad || props.TO || '';
+
+  fromMarker = new maplibregl.Marker({element: createNodeDot('#4CAF50')}).setLngLat(fromPt).addTo(map);
+  toMarker = new maplibregl.Marker({element: createNodeDot('#E91E63')}).setLngLat(toPt).addTo(map);
+  fromLabel = new maplibregl.Marker({element: createNodeLabel('FROM: '+fromName, '#2e7d32'), anchor:'top-left'}).setLngLat(fromPt).addTo(map);
+  toLabel = new maplibregl.Marker({element: createNodeLabel('TO: '+toName, '#c62828'), anchor:'top-left'}).setLngLat(toPt).addTo(map);
+}
+
+function statusColor(s) {
+  if (!s) return '#2e7d32';
+  if (s.startsWith('HIGH_DETOUR')) return '#d32f2f';
+  if (s === 'CLIPPED') return '#7b1fa2';
+  if (s === 'STRAIGHT_LINE') return '#e65100';
+  return '#2e7d32';
+}
+
+function getProp(p, ...keys) {
+  for (const k of keys) { if (p[k]) return p[k]; }
+  return '';
+}
+
+map.on('load', async () => {
+  const allBounds = new maplibregl.LngLatBounds();
+
+  for (const ds of DATASETS) {
+    try {
+      const [segResp, bndResp] = await Promise.all([fetch(ds.path), fetch(ds.boundary)]);
+      const segData = await segResp.json();
+      const bndData = await bndResp.json();
+
+      const count = segData.features.length;
+      featureCounts[ds.key] = count;
+      totalSegments += count;
+      visibility[ds.key] = true;
+
+      // Tag each feature with its dataset key
+      segData.features.forEach(f => {
+        f.properties._dsKey = ds.key;
+        f.properties._dsName = ds.name;
+        f.properties._dsColor = ds.color;
+      });
+
+      // Add sources
+      map.addSource(`seg-${ds.key}`, {type:'geojson', data: segData});
+      map.addSource(`bnd-${ds.key}`, {type:'geojson', data: bndData});
+
+      // Boundary fill
+      map.addLayer({
+        id: `bnd-fill-${ds.key}`,
+        type: 'fill',
+        source: `bnd-${ds.key}`,
+        paint: {'fill-color': ds.color, 'fill-opacity': 0.04}
+      });
+      // Boundary outline
+      map.addLayer({
+        id: `bnd-line-${ds.key}`,
+        type: 'line',
+        source: `bnd-${ds.key}`,
+        paint: {'line-color': ds.color, 'line-width': 2, 'line-dasharray': [4,3], 'line-opacity': 0.6}
+      });
+
+      // Segments line
+      map.addLayer({
+        id: `seg-${ds.key}`,
+        type: 'line',
+        source: `seg-${ds.key}`,
+        paint: {'line-color': ds.color, 'line-width': 2.5, 'line-opacity': 0.8},
+        layout: {'line-cap': 'round', 'line-join': 'round'}
+      });
+
+      // Hover highlight layer (invisible by default, filtered to nothing)
+      map.addLayer({
+        id: `seg-hover-${ds.key}`,
+        type: 'line',
+        source: `seg-${ds.key}`,
+        paint: {'line-color': '#8b0000', 'line-width': 5, 'line-opacity': 1},
+        layout: {'line-cap': 'round', 'line-join': 'round'},
+        filter: ['==', 'SEGMENT_ID', '']
+      });
+
+      // Expand bounds
+      segData.features.forEach(f => {
+        const coords = f.geometry.coordinates;
+        const flat = f.geometry.type === 'MultiLineString' ? coords.flat() : coords;
+        flat.forEach(c => allBounds.extend(c));
+      });
+
+    } catch(e) {
+      console.error(`Failed to load ${ds.name}:`, e);
+    }
+  }
+
+  // Fit to all data
+  map.fitBounds(allBounds, {padding: 40});
+
+  // Update info
+  document.getElementById('total-info').textContent = `8 regions | ${totalSegments.toLocaleString()} segments`;
+  document.getElementById('legend-total').textContent = `Total: ${totalSegments.toLocaleString()} segments`;
+
+  // Build legend
+  const legendEl = document.getElementById('legend-items');
+  DATASETS.forEach(ds => {
+    const item = document.createElement('div');
+    item.className = 'legend-item';
+    item.innerHTML = `
+      <div class="legend-swatch" style="background:${ds.color}"></div>
+      <span class="legend-label">${ds.name}</span>
+      <span class="legend-count">${featureCounts[ds.key] || 0}</span>
+    `;
+    item.addEventListener('click', () => {
+      visibility[ds.key] = !visibility[ds.key];
+      const vis = visibility[ds.key] ? 'visible' : 'none';
+      map.setLayoutProperty(`seg-${ds.key}`, 'visibility', vis);
+      map.setLayoutProperty(`seg-hover-${ds.key}`, 'visibility', vis);
+      map.setLayoutProperty(`bnd-fill-${ds.key}`, 'visibility', vis);
+      map.setLayoutProperty(`bnd-line-${ds.key}`, 'visibility', vis);
+      item.classList.toggle('disabled', !visibility[ds.key]);
+    });
+    legendEl.appendChild(item);
+  });
+
+  // --- Hover & Click interactions ---
+  const segLayerIds = DATASETS.map(d => `seg-${d.key}`);
+
+  // Pointer cursor
+  segLayerIds.forEach(id => {
+    map.on('mouseenter', id, () => { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', id, () => { map.getCanvas().style.cursor = ''; });
+  });
+
+  // Hover tooltip + highlight + nodes
+  let hoveredKey = null;
+  let hoveredId = null;
+
+  map.on('mousemove', (e) => {
+    const features = map.queryRenderedFeatures(e.point, {layers: segLayerIds});
+
+    if (features.length === 0) {
+      // Clear hover
+      if (hoveredKey) {
+        map.setFilter(`seg-hover-${hoveredKey}`, ['==', 'SEGMENT_ID', '']);
+        hoveredKey = null;
+        hoveredId = null;
+      }
+      if (hoverPopup) { hoverPopup.remove(); hoverPopup = null; }
+      clearNodes();
+      return;
+    }
+
+    const f = features[0];
+    const p = f.properties;
+    const dsKey = p._dsKey;
+    const segId = getProp(p, 'SEGMENT_ID','segment_id','segmentId','SEG_ID','link_id');
+
+    // Only update if different segment
+    if (dsKey === hoveredKey && segId === hoveredId) return;
+
+    // Clear previous
+    if (hoveredKey && hoveredKey !== dsKey) {
+      map.setFilter(`seg-hover-${hoveredKey}`, ['==', 'SEGMENT_ID', '']);
+    }
+
+    hoveredKey = dsKey;
+    hoveredId = segId;
+
+    // Highlight
+    const idField = p.SEGMENT_ID ? 'SEGMENT_ID' : p.segment_id ? 'segment_id' : 'SEGMENT_ID';
+    map.setFilter(`seg-hover-${dsKey}`, ['==', idField, segId]);
+
+    // Rich tooltip
+    const name = getProp(p, 'RoadName','road_name','roadName','ROAD');
+    const from = getProp(p, 'From','from_road','fromRoad','FROM');
+    const to = getProp(p, 'To','to_road','toRoad','TO');
+    const status = getProp(p, 'Route_Status','route_status','routeStatus') || 'OK';
+    const dist = getProp(p, 'Route_Distance_km','route_distance_km');
+    const pts = getProp(p, 'Route_Points','route_points');
+    const dsName = p._dsName || '';
+    const dsColor = p._dsColor || '#333';
+    const stColor = statusColor(status);
+
+    const html = `
+      <div style="font-size:11px;font-weight:700;color:${dsColor}">${dsName}</div>
+      <div style="font-size:13px;font-weight:700;color:#1a1a2e">${name || 'Unknown Road'}</div>
+      <div style="font-size:10px;color:#777">Segment ${segId}${dist ? ' | '+dist+' km' : ''}${pts ? ' | '+pts+' pts' : ''}</div>
+      <div style="font-size:11px;color:#444;margin-top:3px;line-height:1.5">
+        <span style="color:#2e7d32;font-weight:600">FROM:</span> ${from}<br>
+        <span style="color:#c62828;font-weight:600">TO:</span> ${to}
+      </div>
+      <div style="margin-top:4px"><span style="background:${stColor};color:#fff;font-size:10px;padding:2px 7px;border-radius:3px;font-weight:600">${status}</span></div>
+    `;
+
+    if (hoverPopup) hoverPopup.remove();
+    hoverPopup = new maplibregl.Popup({closeButton:false, closeOnClick:false, offset:12, maxWidth:'320px'})
+      .setLngLat(e.lngLat)
+      .setHTML(html)
+      .addTo(map);
+
+    // Show from/to nodes
+    // Need to get the actual geometry from the source
+    const source = map.getSource(`seg-${dsKey}`);
+    if (source && source._data) {
+      const feat = source._data.features.find(sf => {
+        const sid = sf.properties.SEGMENT_ID || sf.properties.segment_id || '';
+        return String(sid) === String(segId);
+      });
+      if (feat) showNodes(feat.properties, feat.geometry);
+    }
+  });
+
+  // Click popup
+  segLayerIds.forEach(layerId => {
+    map.on('click', layerId, (e) => {
+      if (!e.features || e.features.length === 0) return;
+      const f = e.features[0];
+      const p = f.properties;
+      const dsColor = p._dsColor || '#333';
+      const dsName = p._dsName || '';
+      const name = getProp(p, 'RoadName','road_name','roadName','ROAD');
+      const segId = getProp(p, 'SEGMENT_ID','segment_id','segmentId','SEG_ID','link_id');
+      const from = getProp(p, 'From','from_road','fromRoad','FROM');
+      const to = getProp(p, 'To','to_road','toRoad','TO');
+      const status = getProp(p, 'Route_Status','route_status','routeStatus') || 'OK';
+      const dist = getProp(p, 'Route_Distance_km','route_distance_km');
+      const stColor = statusColor(status);
+
+      const html = `
+        <div class="popup-region" style="color:${dsColor}">${dsName}</div>
+        <div class="popup-road">${name || 'Unknown Road'}</div>
+        <div class="popup-seg">Segment ${segId}${dist ? ' | '+dist+' km' : ''}</div>
+        <div class="popup-fromto">
+          <span style="color:#2e7d32;font-weight:600">FROM:</span> ${from}<br>
+          <span style="color:#c62828;font-weight:600">TO:</span> ${to}
+        </div>
+        <span class="popup-status" style="background:${stColor}">${status}</span>
+      `;
+
+      if (popup) popup.remove();
+      popup = new maplibregl.Popup({maxWidth:'320px'})
+        .setLngLat(e.lngLat)
+        .setHTML(html)
+        .addTo(map);
+    });
+  });
+
+  // Search
+  const searchInput = document.getElementById('search');
+  searchInput.addEventListener('input', function() {
+    const q = this.value.toLowerCase().trim();
+    DATASETS.forEach(ds => {
+      if (!q) {
+        map.setPaintProperty(`seg-${ds.key}`, 'line-opacity', 0.8);
+        return;
+      }
+      // Use a filter approach: set opacity based on match
+      const source = map.getSource(`seg-${ds.key}`);
+      if (!source || !source._data) return;
+      const matchIds = [];
+      source._data.features.forEach(f => {
+        const p = f.properties;
+        const text = [
+          getProp(p,'RoadName','road_name','roadName','ROAD'),
+          getProp(p,'SEGMENT_ID','segment_id','segmentId','SEG_ID','link_id'),
+          getProp(p,'From','from_road','fromRoad','FROM'),
+          getProp(p,'To','to_road','toRoad','TO'),
+          getProp(p,'Route_Status','route_status','routeStatus'),
+          ds.name
+        ].join(' ').toLowerCase();
+        if (text.includes(q)) matchIds.push(String(p.SEGMENT_ID || p.segment_id || ''));
+      });
+
+      // Use data-driven styling for opacity
+      if (matchIds.length === 0) {
+        map.setPaintProperty(`seg-${ds.key}`, 'line-opacity', 0.05);
+      } else if (matchIds.length === source._data.features.length) {
+        map.setPaintProperty(`seg-${ds.key}`, 'line-opacity', 0.8);
+      } else {
+        const expr = ['case', ['in', ['get','SEGMENT_ID'], ['literal', matchIds]], 0.8, 0.05];
+        map.setPaintProperty(`seg-${ds.key}`, 'line-opacity', expr);
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>

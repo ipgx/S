@@ -39,12 +39,13 @@ S-Preview/
 
 ## Features
 
-- **5 Basemaps** — Dark, Grey, Voyager, Satellite, Topo
+- **5 Basemaps** — Dark, Grey, Voyager, Google Streets, Google Satellite
 - **CC Classification Coloring** — Segments colored by Context Classification with interactive legend
 - **Hover Info Popup** — Name, ID, From/To, Lanes, Capacity, AADT, PM Peak, LOS, and more
 - **Spatial Selection Tools** — Circle, Rectangle, and Polygon (Lasso) with imperial measurements
 - **Full Data Table** — Sortable, searchable, paginated with resizable and movable columns
-- **Custom Columns & Column Math** — Add computed columns with formulas
+- **Custom Columns & Formulas** — Add computed columns with free-form `[Column Name]` expressions
+- **Data Labels** — Display selected column values (e.g., AADT, LOS) as additional lines on map segment labels
 - **CSV Export** — Export selected segments
 - **Dark & Light Themes** — Toggle via titlebar icon
 - **County Selector** — Switch between loaded county datasets

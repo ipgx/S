@@ -1,0 +1,23 @@
+{
+  "name": "Osceola",
+  "region": "Osceola County, FL",
+  "total_input": 246,
+  "geocoded": 246,
+  "geocode_failed": 0,
+  "routed": 239,
+  "route_failed": 7,
+  "clipped": 15,
+  "total_route_points": 21822,
+  "oob_points": 21,
+  "oob_pct": 0.0962,
+  "statuses": {
+    "OK": 219,
+    "STRAIGHT_LINE": 7,
+    "CLIPPED": 15,
+    "HIGH_DETOUR:5.2x": 1,
+    "HIGH_DETOUR:10.6x": 1,
+    "HIGH_DETOUR:11.6x": 1,
+    "HIGH_DETOUR:5.4x": 1,
+    "HIGH_DETOUR:10.2x": 1
+  }
+}

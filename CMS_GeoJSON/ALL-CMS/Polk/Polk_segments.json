@@ -1,0 +1,3372 @@
+{
+  "name": "Polk",
+  "region": "Polk County, FL",
+  "segments": [
+    {
+      "id": "8301",
+      "road": "ADAMS ROAD/MOHAWK RD",
+      "from": "BOLENDER ROAD",
+      "to": "CR 559"
+    },
+    {
+      "id": "8302",
+      "road": "ALAMO DRIVE",
+      "from": "OLD HIGHWAY 37",
+      "to": "SR 37"
+    },
+    {
+      "id": "8303",
+      "road": "ALAMO DRIVE",
+      "from": "SR 563 (HARDEN BLVD S)",
+      "to": "OLD HIGHWAY 37"
+    },
+    {
+      "id": "4010",
+      "road": "ALTURAS-BABSON PARK CUTOFF RD",
+      "from": "CR 559",
+      "to": "US 27"
+    },
+    {
+      "id": "4011",
+      "road": "AMERICAN SUPERIOR BLVD/HOOVER RD/SHELL RD/LK ELOISE DR W",
+      "from": "CR 655 (SNIVELY AVE)",
+      "to": "AVE Z SE"
+    },
+    {
+      "id": "4012",
+      "road": "ARIANA ST",
+      "from": "WABASH AVE S",
+      "to": "SR 563 (HARDEN BLVD)"
+    },
+    {
+      "id": "8000",
+      "road": "ARIANA STREET",
+      "from": "SR 563 (HARDEN BLVD)",
+      "to": "SR 37 (FLORIDA AVENUE S)"
+    },
+    {
+      "id": "8057",
+      "road": "AVENUE C SE",
+      "from": "1ST STREET SOUTH",
+      "to": "6TH STREET"
+    },
+    {
+      "id": "8055",
+      "road": "AVENUE C SW",
+      "from": "1ST STREET SOUTH",
+      "to": "US 17 (6TH STREET NW)"
+    },
+    {
+      "id": "8060",
+      "road": "AVENUE K SE",
+      "from": "1ST STREET SOUTH",
+      "to": "6TH STREET SE"
+    },
+    {
+      "id": "8059",
+      "road": "AVENUE K SW",
+      "from": "US 17 (3RD STREET SW)",
+      "to": "1ST STREET SOUTH"
+    },
+    {
+      "id": "8061",
+      "road": "AVENUE O SW",
+      "from": "7TH STREET SW",
+      "to": "1ST STREET SOUTH"
+    },
+    {
+      "id": "4013",
+      "road": "AVENUE T NE/COUNTRY CLUB RD N",
+      "from": "SR 544",
+      "to": "LAKE HAMILTON DR W"
+    },
+    {
+      "id": "8072",
+      "road": "AVON PARK CUTOFF RD",
+      "from": "US 98",
+      "to": "US 27/98"
+    },
+    {
+      "id": "8073",
+      "road": "BAILEY ROAD",
+      "from": "SR 60",
+      "to": "SHEPHERD ROAD"
+    },
+    {
+      "id": "8304",
+      "road": "BAKER AVENUE E/BAKER DAIRY RD",
+      "from": "US 17/92",
+      "to": "POWER LINE ROAD"
+    },
+    {
+      "id": "8074",
+      "road": "BANANA ROAD",
+      "from": "CAMPBELL ROAD N",
+      "to": "US 98"
+    },
+    {
+      "id": "8075",
+      "road": "BANNON ISLAND ROAD",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "CR 544 (LAKE MARION ROAD)"
+    },
+    {
+      "id": "8207",
+      "road": "BATES ROAD",
+      "from": "US 27",
+      "to": "US 17/92"
+    },
+    {
+      "id": "8058",
+      "road": "BEACON ROAD",
+      "from": "SR 563 (HARDEN BLVD)",
+      "to": "LAKE HOLLINGSWORTH DRIVE"
+    },
+    {
+      "id": "8407",
+      "road": "BELLA CITTA BOULEVARD",
+      "from": "US 27",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "8056",
+      "road": "BELLA VISTA STREET",
+      "from": "MARTIN LUTHER KING JR AVENUE",
+      "to": "LAKE PARKER DRIVE W"
+    },
+    {
+      "id": "8411",
+      "road": "BELLA VISTA STREET",
+      "from": "WALKER ROAD",
+      "to": "CR 542A"
+    },
+    {
+      "id": "8076",
+      "road": "BELLA VISTA STREET W/KENDRICK LN",
+      "from": "CR 542A (GALLOWAY RD N)",
+      "to": "SR 539 (KATHLEEN ROAD)"
+    },
+    {
+      "id": "8305",
+      "road": "BICE GROVE ROAD",
+      "from": "CR 544",
+      "to": "CR 546"
+    },
+    {
+      "id": "8221",
+      "road": "BLUE JORDAN ROAD",
+      "from": "LAKE REEDY BLVD N",
+      "to": "CR 630"
+    },
+    {
+      "id": "4016",
+      "road": "BOLENDER RD",
+      "from": "CR 559 (POLK CITY ROAD)",
+      "to": "LAKE ALFRED RD"
+    },
+    {
+      "id": "8450",
+      "road": "BRADDOCK ROAD",
+      "from": "SR 570 (POLK PARKWAY)",
+      "to": "SR 655 (BERKLEY RD)"
+    },
+    {
+      "id": "4018",
+      "road": "BRIDGERS AVE",
+      "from": "US 92",
+      "to": "US 92 (MAGNOLIA AVENUE)"
+    },
+    {
+      "id": "5403",
+      "road": "BROADWAY AVE N",
+      "from": "MAIN ST",
+      "to": "SR 60 (VAN FLEET DRIVE)"
+    },
+    {
+      "id": "8435",
+      "road": "BROADWAY AVENUE SOUTH",
+      "from": "STUART AVE",
+      "to": "MAIN STREET"
+    },
+    {
+      "id": "8436",
+      "road": "BROADWAY AVENUE SOUTH/SHUMATE DR",
+      "from": "CLOWER STREET",
+      "to": "STUART AVE"
+    },
+    {
+      "id": "4020",
+      "road": "BUCKEYE LOOP RD",
+      "from": "SR 542 (DUNDEE RD)",
+      "to": "AVE T NE"
+    },
+    {
+      "id": "4021",
+      "road": "BUCKEYE RD",
+      "from": "11TH ST NE",
+      "to": "BUCKEYE LOOP RD"
+    },
+    {
+      "id": "8445",
+      "road": "BUCKINGHAM DRIVE/MAY FAIR BLVD",
+      "from": "DUNSON ROAD",
+      "to": "CR 54 (RONALD REAGAN PARKWAY)"
+    },
+    {
+      "id": "8306",
+      "road": "CAMELLIA DRIVE",
+      "from": "SR 540",
+      "to": "LAKE SHIPP DR S"
+    },
+    {
+      "id": "8077",
+      "road": "CAMPBELL RD N",
+      "from": "CR 35A (KATHLEEN RD)",
+      "to": "CR 35A (SOCRUM LOOP RD W)"
+    },
+    {
+      "id": "4022",
+      "road": "CANAL AVE/LAKE PARKER DR E/IDLEWILD ST/MORGAN COMBEE RD",
+      "from": "CR 542 (MAIN STREET E)",
+      "to": "FISH HATCHERY RD"
+    },
+    {
+      "id": "8210",
+      "road": "CANAL AVENUE/WATKINS ROAD",
+      "from": "LAKE MABEL LOOP ROAD",
+      "to": "CR 542 (LAKE HATCHINEHA ROAD)"
+    },
+    {
+      "id": "8078",
+      "road": "CARL FLOYD ROAD",
+      "from": "CR 550 (OVERLOOK DRIVE SE)",
+      "to": "SR 542 (DUNDEE ROAD)"
+    },
+    {
+      "id": "8001",
+      "road": "CARPENTER'S WAY/WEDGEWOOD ESTATES BLVD",
+      "from": "US 98",
+      "to": "CR 582 (FLORIDA AVENUE N)"
+    },
+    {
+      "id": "8079",
+      "road": "CARTER ROAD",
+      "from": "SR 37",
+      "to": "CR 540A"
+    },
+    {
+      "id": "8307",
+      "road": "CASS ROAD",
+      "from": "ADAMS BARN RD",
+      "to": "CR 557A (OLD LAKE ALFRED RD)"
+    },
+    {
+      "id": "8205",
+      "road": "CENTRAL AVENUE",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "8206",
+      "road": "CENTRAL AVENUE",
+      "from": "SR 60",
+      "to": "US 27"
+    },
+    {
+      "id": "8444",
+      "road": "CENTRAL AVENUE EAST",
+      "from": "STATE ROAD 17 (SCENIC HIGHWAY)",
+      "to": "LAKESHORE BOULEVARD"
+    },
+    {
+      "id": "8216",
+      "road": "CHAMPIONS GATE BOULEVARD",
+      "from": "CR 54",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "8446",
+      "road": "CHAMPIONS GATE BOULEVARD WEST",
+      "from": "BUCKINGHAM DRIVE",
+      "to": "CR 54 (RONALD REAGAN PARKWAY)"
+    },
+    {
+      "id": "4164",
+      "road": "CHARLOTTE RD/DAIRY RD",
+      "from": "SR 544 (HAVENDALE BLVD)",
+      "to": "LAKE ALFRED RD"
+    },
+    {
+      "id": "8080",
+      "road": "CHERRY LANE",
+      "from": "LUNN ROAD",
+      "to": "OLD HIGHWAY 37"
+    },
+    {
+      "id": "4023",
+      "road": "CHESTNUT RD N",
+      "from": "US 92 (NEW TAMPA HWY)",
+      "to": "10TH ST W"
+    },
+    {
+      "id": "8415",
+      "road": "CLARK ROAD",
+      "from": "CR 542 (OLD TAMPA HWY)",
+      "to": "NORTH FRONTAGE ROAD"
+    },
+    {
+      "id": "8002",
+      "road": "CLEVELAND HEIGHTS BLVD",
+      "from": "WESTOVER STREET",
+      "to": "LAKE HOLLINGSWORTH DRIVE"
+    },
+    {
+      "id": "8003",
+      "road": "CLEVELAND HEIGHTS BLVD",
+      "from": "WESTOVER STREET",
+      "to": "HALLAM DRIVE"
+    },
+    {
+      "id": "8437",
+      "road": "CLOWER STREET",
+      "from": "CR 555",
+      "to": "SHUMATE DR"
+    },
+    {
+      "id": "8423",
+      "road": "CLUBHOUSE ROAD EAST",
+      "from": "US 98",
+      "to": "FIRST STREET"
+    },
+    {
+      "id": "8081",
+      "road": "COLBERT ROAD",
+      "from": "CR 540 (CLUBHOUSE ROAD)",
+      "to": "US 98"
+    },
+    {
+      "id": "4024",
+      "road": "COLEMAN RD/AVE C SW",
+      "from": "SPIRIT LAKE RD",
+      "to": "21ST ST SW"
+    },
+    {
+      "id": "4014",
+      "road": "COMMERCE POINT DR",
+      "from": "US 98",
+      "to": "SR 659 (COMBEE RD S)"
+    },
+    {
+      "id": "8308",
+      "road": "COOLEY ROAD",
+      "from": "SR 540",
+      "to": "SR 655 (RECKER HIGHWAY)"
+    },
+    {
+      "id": "4025",
+      "road": "CORONET RD",
+      "from": "SR 60",
+      "to": "COUNTY LINE ROAD"
+    },
+    {
+      "id": "4026",
+      "road": "COUNTRY CLUB RD S",
+      "from": "SR 542 (DUNDEE RD)",
+      "to": "LAKE HAMILTON DR W"
+    },
+    {
+      "id": "8422",
+      "road": "COUNTRY CLUB ROAD",
+      "from": "WALNUT STREET",
+      "to": "POLK CO/L (CADDY DRIVE)"
+    },
+    {
+      "id": "4027",
+      "road": "COUNTY LINE RD",
+      "from": "SR 60",
+      "to": "PIPKIN ROAD WEST"
+    },
+    {
+      "id": "4028",
+      "road": "COUNTY LINE RD",
+      "from": "PIPKIN ROAD WEST",
+      "to": "I-4"
+    },
+    {
+      "id": "8414",
+      "road": "COUNTY LINE ROAD/NORTH FRONTAGE ROAD",
+      "from": "INTERSTATE 4",
+      "to": "CR 542A"
+    },
+    {
+      "id": "4029",
+      "road": "CR 17",
+      "from": "CR 557",
+      "to": "US 27"
+    },
+    {
+      "id": "4031",
+      "road": "CR 17A (BURNS AVE)",
+      "from": "SR 17",
+      "to": "BRENTWOOD DRIVE"
+    },
+    {
+      "id": "8120",
+      "road": "CR 17A (BURNS AVE)",
+      "from": "BRENTWOOD DRIVE",
+      "to": "MAMMOTH GROVE RD"
+    },
+    {
+      "id": "4102",
+      "road": "CR 17A (CHALET SUZANNE RD)",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "US 27"
+    },
+    {
+      "id": "4030",
+      "road": "CR 17A (MASTERPIECE GARDENS RD/MASTERPIECE RD)",
+      "from": "MAMMOTH GROVE RD",
+      "to": "SR 17"
+    },
+    {
+      "id": "4033",
+      "road": "CR 17B (BUCK MOORE RD)",
+      "from": "SR 60",
+      "to": "CR 17A (BURNS AVE)"
+    },
+    {
+      "id": "4032",
+      "road": "CR 17B (ELEVENTH ST S/HUNT BROTHERS RD)",
+      "from": "US 27",
+      "to": "SR 60"
+    },
+    {
+      "id": "4035",
+      "road": "CR 35A (KATHLEEN RD)",
+      "from": "I-4",
+      "to": "CR 542A (GALLOWAY RD N)"
+    },
+    {
+      "id": "4036",
+      "road": "CR 35A (KATHLEEN RD)",
+      "from": "DUFF RD",
+      "to": "CR 35A (SOCRUM LOOP RD W)"
+    },
+    {
+      "id": "4167",
+      "road": "CR 35A (KATHLEEN RD)",
+      "from": "CR 542A (GALLOWAY RD N)",
+      "to": "DUFF RD"
+    },
+    {
+      "id": "4034",
+      "road": "CR 35A (SOCRUM LOOP RD W)",
+      "from": "CR 35A (KATHLEEN RD)",
+      "to": "US 98"
+    },
+    {
+      "id": "4037",
+      "road": "CR 37A (SCOTT LAKE RD)",
+      "from": "CR 540A",
+      "to": "HALLAM DR"
+    },
+    {
+      "id": "4038",
+      "road": "CR 37B (LAKELAND HIGHLANDS RD)",
+      "from": "CR 540A",
+      "to": "LAKE MIRIAM DR"
+    },
+    {
+      "id": "4163",
+      "road": "CR 37B (LAKELAND HIGHLANDS RD)",
+      "from": "LAKE MIRIAM DR",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "4176",
+      "road": "CR 37B (LAKELAND HIGHLANDS RD)",
+      "from": "SR 570 (POLK PARKWAY)",
+      "to": "EDGEWOOD DR E"
+    },
+    {
+      "id": "4039",
+      "road": "CR 54 (RONALD REAGAN PKWY)",
+      "from": "US 27",
+      "to": "CHAMPIONS GATE BLVD"
+    },
+    {
+      "id": "7304",
+      "road": "CR 54 (RONALD REAGAN PKWY)",
+      "from": "CHAMPIONS GATE BLVD",
+      "to": "LAKE WILSON RD"
+    },
+    {
+      "id": "7305",
+      "road": "CR 54 (RONALD REAGAN PKWY)",
+      "from": "LAKE WILSON RD",
+      "to": "US 17/92"
+    },
+    {
+      "id": "4040",
+      "road": "CR 540 (CLUBHOUSE RD)",
+      "from": "CR 37B (LAKELAND HIGHLANDS RD)",
+      "to": "US 98"
+    },
+    {
+      "id": "4041",
+      "road": "CR 540A (CENTRAL BARN RD)",
+      "from": "SR 37 (FLORIDA AVENUE S)",
+      "to": "CR 37B (LAKELAND HIGHLANDS ROAD)"
+    },
+    {
+      "id": "4162",
+      "road": "CR 540A (CENTRAL BARN RD)",
+      "from": "CR 37B (LAKELAND HIGHLANDS RD)",
+      "to": "US 98"
+    },
+    {
+      "id": "4162",
+      "road": "CR 540A (CENTRAL BARD RD)",
+      "from": "CR 37B (LAKELAND HIGHLANDS RD)",
+      "to": "US 98"
+    },
+    {
+      "id": "4093",
+      "road": "CR 540A (ELOISE LOOP RD)",
+      "from": "POLLARD RD",
+      "to": "CR 653 (RATTLESNAKE ROAD)"
+    },
+    {
+      "id": "4094",
+      "road": "CR 540A (LAKE RUBY DR W)",
+      "from": "THOMPSON NURSERY RD",
+      "to": "SR 540 (CYPRESS GARDENS BLVD)"
+    },
+    {
+      "id": "4046",
+      "road": "CR 542 (AVE G NW)",
+      "from": "LAKE HOWARD DR NW",
+      "to": "SR 655 (RECKER HIGHWAY)"
+    },
+    {
+      "id": "4169",
+      "road": "CR 542 (K-VILLE AVE)",
+      "from": "THORNHILL ROAD",
+      "to": "SR 655 (RECKER HIGHWAY)"
+    },
+    {
+      "id": "4042",
+      "road": "CR 542 (LAKE HATCHINEHA RD)",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "LAKE HATCHINEHA"
+    },
+    {
+      "id": "4044",
+      "road": "CR 542 (MAIN ST E)",
+      "from": "US 98 (LAKE PARKER AVE)",
+      "to": "SR 659 (COMBEE ROAD)"
+    },
+    {
+      "id": "4043",
+      "road": "CR 542 (MAIN ST E/K-VILLE AVE)",
+      "from": "SR 659 (COMBEE ROAD)",
+      "to": "THORNHILL RD"
+    },
+    {
+      "id": "4047",
+      "road": "CR 542 (OLD TAMPA HWY)",
+      "from": "COUNTY LINE RD",
+      "to": "WABASH AVE S"
+    },
+    {
+      "id": "4045",
+      "road": "CR 542A (GALLOWAY RD N)",
+      "from": "US 92 (NEW TAMPA HWY)",
+      "to": "10TH ST W"
+    },
+    {
+      "id": "4165",
+      "road": "CR 542A (GALLOWAY RD)",
+      "from": "10TH ST W",
+      "to": "CR 35A (KATHLEEN ROAD)"
+    },
+    {
+      "id": "4049",
+      "road": "CR 544/LAKE MARION RD W/JIM EDWARDS RD",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "CR 542 (LAKE HATCHINEHA ROAD)"
+    },
+    {
+      "id": "4048",
+      "road": "CR 544A (DERBY AVE W)",
+      "from": "SR 655 (RECKER HIGHWAY)",
+      "to": "SR 544 (HAVENDALE BLVD)"
+    },
+    {
+      "id": "4051",
+      "road": "CR 546 (KOKOMO RD)",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "CR 544"
+    },
+    {
+      "id": "8309",
+      "road": "CR 546 (KOKOMO RD)",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "4050",
+      "road": "CR 546 (SADDLE CREEK RD/OLD DIXIE HWY)",
+      "from": "SR 659 (COMBEE ROAD)",
+      "to": "LAKE ARIANA BLVD"
+    },
+    {
+      "id": "4053",
+      "road": "CR 547 (JACKSON HWY/BAY ST)",
+      "from": "US 27",
+      "to": "CR 547 (LEE JACKSON HWY)"
+    },
+    {
+      "id": "4052",
+      "road": "CR 547 (JACKSON HWY/RAILROAD AVE)",
+      "from": "CR 547 (BAY ST)",
+      "to": "ERNIE CALDWELL BOULEVARD"
+    },
+    {
+      "id": "8453",
+      "road": "CR 547 (JACKSON HWY/RAILROAD AVE)",
+      "from": "ERNIE CALDWELL BOULEVARD",
+      "to": "CR 54 (RONALD REAGAN PKWY)"
+    },
+    {
+      "id": "4054",
+      "road": "CR 550 (OVERLOOK DR)",
+      "from": "SR 540 (CYPRESS GARDENS BLVD)",
+      "to": "SR 542 (DUNDEE ROAD)"
+    },
+    {
+      "id": "4056",
+      "road": "CR 555 (AGRICOLA RD)",
+      "from": "CR 630",
+      "to": "SR 60 (MAIN STREET W)"
+    },
+    {
+      "id": "4173",
+      "road": "CR 557/POMELO ST",
+      "from": "US 17/92",
+      "to": "I-4"
+    },
+    {
+      "id": "4057",
+      "road": "CR 557A (POLK CITY RD)",
+      "from": "SR 559",
+      "to": "CR 557"
+    },
+    {
+      "id": "6804",
+      "road": "CR 559",
+      "from": "GAPWAY ROAD",
+      "to": "I-4"
+    },
+    {
+      "id": "4017",
+      "road": "CR 559 (BOMBER RD)",
+      "from": "US 17",
+      "to": "CR 655 (RIFLE RANGE RD)"
+    },
+    {
+      "id": "6803",
+      "road": "CR 559/LAKE ARIANA BLVD",
+      "from": "LAKE STELLA DRIVE",
+      "to": "GAPWAY ROAD"
+    },
+    {
+      "id": "4059",
+      "road": "CR 580 (JOHNSON AVE E)",
+      "from": "US 17/92",
+      "to": "POWER LINE ROAD"
+    },
+    {
+      "id": "4201",
+      "road": "CR 580 (JOHNSON AVE E/CYPRESS PKWY/MARION CREEK RD)",
+      "from": "POWER LINE ROAD",
+      "to": "RHODODENDRON AVE"
+    },
+    {
+      "id": "4202",
+      "road": "CR 580 (JOHNSON AVE E/CYPRESS PKWY/MARION CREEK RD)",
+      "from": "RHODODENDRON AVE",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "4062",
+      "road": "CR 582 (FLORIDA AVE N)",
+      "from": "GRIFFIN RD",
+      "to": "SR 33 (LAKLAND HILLS BLVD)"
+    },
+    {
+      "id": "4166",
+      "road": "CR 582 (GRIFFIN RD)",
+      "from": "CR 35A (KATHLEEN RD)",
+      "to": "US 98"
+    },
+    {
+      "id": "4172",
+      "road": "CR 582 (GRIFFIN RD)",
+      "from": "US 98",
+      "to": "SR 33 (LAKLAND HILLS BLVD)"
+    },
+    {
+      "id": "4061",
+      "road": "CR 582 (KNIGHTS STATION RD)",
+      "from": "HILLSBOROUGH COUNTY LINE",
+      "to": "CR 35A (KATHLEEN ROAD)"
+    },
+    {
+      "id": "4060",
+      "road": "CR 582 (SOCRUM LOOP RD N)",
+      "from": "SR 33",
+      "to": "DAUGHTERY RD E"
+    },
+    {
+      "id": "4161",
+      "road": "CR 582 (SOCRUM LOOP RD N)",
+      "from": "DAUGHTERY RD E",
+      "to": "OLD POLK CITY RD"
+    },
+    {
+      "id": "4063",
+      "road": "CR 630 (BREWSTER RD)",
+      "from": "SR 37",
+      "to": "US 17/98"
+    },
+    {
+      "id": "4064",
+      "road": "CR 630 (INDIAN LAKES CUTOFF)",
+      "from": "US 27",
+      "to": "SR 60"
+    },
+    {
+      "id": "4065",
+      "road": "CR 630A (FORT MEADE ROAD)",
+      "from": "CR 630",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "4066",
+      "road": "CR 630A (FROSTPROOF CONNECTOR)",
+      "from": "US 27",
+      "to": "CR 630"
+    },
+    {
+      "id": "4067",
+      "road": "CR 64 (ARBUCKLE RD)",
+      "from": "HIGHLANDS COUNTY LINE",
+      "to": "LAKE ARBUCKLE"
+    },
+    {
+      "id": "4068",
+      "road": "CR 640",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "4070",
+      "road": "CR 640",
+      "from": "SR 37",
+      "to": "US 17/98"
+    },
+    {
+      "id": "4200",
+      "road": "CR 640 (HOMELAND GARFIELD RD)",
+      "from": "US 17/98",
+      "to": "CR 559 (80 FOOT RD)"
+    },
+    {
+      "id": "4069",
+      "road": "CR 640 (PINECREST RD)",
+      "from": "HILLSBOROUGH COUNTY LINE",
+      "to": "SR 37"
+    },
+    {
+      "id": "8092",
+      "road": "CR 653 (RATTLESNAKE RD)/OLD BARTOW LAKE WALES ROAD",
+      "from": "SR 60",
+      "to": "CR 540A (ELOISE LOOP RD)"
+    },
+    {
+      "id": "4071",
+      "road": "CR 655 (BERKLEY RD)",
+      "from": "SR 559 (C FRED JONES BLVD)",
+      "to": "SR 33 (COMMON WEALTH AVE SW)"
+    },
+    {
+      "id": "4074",
+      "road": "CR 655 (RIFLE RANGE RD)",
+      "from": "SR 60",
+      "to": "CR 559 (BOMBER RD)"
+    },
+    {
+      "id": "4168",
+      "road": "CR 655 (RIFLE RANGE RD/SNIVELY AVE)",
+      "from": "CR 559 (BOMBER RD)",
+      "to": "US 17"
+    },
+    {
+      "id": "4073",
+      "road": "CR 655A (COX RD/ALTURAS RD N)",
+      "from": "CR 559/CR 655A (80 FOOT RD)",
+      "to": "SR 60"
+    },
+    {
+      "id": "4075",
+      "road": "CR 676 (NICHOLS RD)",
+      "from": "HILLSBOROUGH COUNTY LINE",
+      "to": "SR 60"
+    },
+    {
+      "id": "8004",
+      "road": "CRESAP STREET/LAKE HUNTER DRIVE",
+      "from": "SR 563 (SIKES BLVD)",
+      "to": "SR 37 (FLORIDA AVENUE S)"
+    },
+    {
+      "id": "8082",
+      "road": "CREWS LAKE DRIVE/CREWSLAKE ROAD/LAKELAND HIGHLANDS ROAD",
+      "from": "CR 540A",
+      "to": "CR 540A"
+    },
+    {
+      "id": "4078",
+      "road": "CRUMP RD",
+      "from": "COUNTRY CLUB RD S",
+      "to": "US 27"
+    },
+    {
+      "id": "4079",
+      "road": "CRUTCHFIELD RD",
+      "from": "SR 546 (SWINDELL RD)",
+      "to": "WABASH AVE N"
+    },
+    {
+      "id": "4077",
+      "road": "CRYSTAL BEACH RD/THORNHILL RD",
+      "from": "OLD BARTOW EAGLE LAKE RD",
+      "to": "SR 540"
+    },
+    {
+      "id": "8451",
+      "road": "CRYSTAL BERACH ROAD",
+      "from": "THORNHILL ROAD",
+      "to": "SR 540 (WINTER LAKE RD)"
+    },
+    {
+      "id": "4080",
+      "road": "CRYSTAL LAKE DR N",
+      "from": "US 98 (BARTOW RD)",
+      "to": "SR 659 (COMBEE ROAD)"
+    },
+    {
+      "id": "4081",
+      "road": "CRYSTAL LAKE DR S",
+      "from": "US 98",
+      "to": "SR 659 (COMBEE ROAD)"
+    },
+    {
+      "id": "8005",
+      "road": "CRYSTAL LAKE DRIVE",
+      "from": "LAKE HOLLINGSWORTH DRIVE",
+      "to": "US 98 (BARTOW RD)"
+    },
+    {
+      "id": "4082",
+      "road": "CYPRESS GARDENS RD",
+      "from": "SR 540 (CYPRESS GARDENS BLVD SE)",
+      "to": "LAKE NED RD"
+    },
+    {
+      "id": "4171",
+      "road": "CYPRESS GARDENS RD",
+      "from": "LAKE NED ROAD",
+      "to": "SR 540 (CYPRESS GARDENS BLVD SE)"
+    },
+    {
+      "id": "8006",
+      "road": "DAUGHTERY ROAD EAST",
+      "from": "US 98",
+      "to": "CR 582 (SOCRUM LOOP ROAD N)"
+    },
+    {
+      "id": "8083",
+      "road": "DAUGHTERY ROAD WEST",
+      "from": "GIBSONIA-GALLOWAY RD",
+      "to": "US 98"
+    },
+    {
+      "id": "8403",
+      "road": "DEEN STILL ROAD",
+      "from": "SR 33",
+      "to": "US 27"
+    },
+    {
+      "id": "8404",
+      "road": "DEEN STILL ROAD",
+      "from": "ROCK RIDGE ROAD",
+      "to": "SR 33"
+    },
+    {
+      "id": "8084",
+      "road": "DEESON ROAD",
+      "from": "HILLSBOROUGH COUNTY LINE",
+      "to": "CR 35A (KATHLEEN ROAD)"
+    },
+    {
+      "id": "4084",
+      "road": "DENTON AVE",
+      "from": "SR 655 (BERKLEY ROAD)",
+      "to": "LAKE ARIANA BLVD"
+    },
+    {
+      "id": "8085",
+      "road": "DETOUR ROAD",
+      "from": "CR 542 (HATCHINEHA RD)",
+      "to": "CR 544"
+    },
+    {
+      "id": "4087",
+      "road": "DRANE FIELD RD",
+      "from": "COUNTY LINE RD",
+      "to": "SR 572 (AIRPORT RD)"
+    },
+    {
+      "id": "4088",
+      "road": "DUFF RD",
+      "from": "CR 35A (KATHLEEN RD)",
+      "to": "US 98"
+    },
+    {
+      "id": "8103",
+      "road": "DUNDEE ROAD",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "8430",
+      "road": "DUNSON ROAD",
+      "from": "US 27",
+      "to": "DEAD END EAST"
+    },
+    {
+      "id": "4091",
+      "road": "EAGLE LAKE LOOP RD",
+      "from": "CR 655 (RIFLE RANGE ROAD)",
+      "to": "POLLARD RD"
+    },
+    {
+      "id": "4089",
+      "road": "EAGLE LAKE LOOP RD/EAGLE AVE E",
+      "from": "US 17 (4TH STREET)",
+      "to": "CR 655 (RIFLE RANGE RD)"
+    },
+    {
+      "id": "4090",
+      "road": "EDGEWOOD DRIVE E",
+      "from": "US 98",
+      "to": "CR 37B (LAKELAND HIGHLANDS ROAD)"
+    },
+    {
+      "id": "8008",
+      "road": "EDGEWOOD DRIVE E",
+      "from": "SR 37 (FLORIDA AVENUE S)",
+      "to": "CR 37B (LAKELAND HIGHLANDS ROAD)"
+    },
+    {
+      "id": "8217",
+      "road": "EIGHTH ST/DETOUR ROAD",
+      "from": "LAKE MARIE BLVD",
+      "to": "CR 542 (LAKE HATCHINEHA ROAD)"
+    },
+    {
+      "id": "8440",
+      "road": "ELEVENTH STREET SOUTH",
+      "from": "STATE ROAD 60",
+      "to": "LAKESHORE BLVD SOUTH"
+    },
+    {
+      "id": "8110",
+      "road": "ELOISE LOOP ROAD",
+      "from": "CR 655 (RIFLE RANGE ROAD)",
+      "to": "EAGLE LAKE LOOP ROAD"
+    },
+    {
+      "id": "7500",
+      "road": "ERNEST M SMITH BLVD",
+      "from": "US 98",
+      "to": "US 17"
+    },
+    {
+      "id": "6906",
+      "road": "ERNIE CALDWELL ROAD",
+      "from": "HELLER BROTHERS BLVD",
+      "to": "PINE TREE TRAIL"
+    },
+    {
+      "id": "6911",
+      "road": "ERNIE CALDWELL ROAD",
+      "from": "PINE TREE TRAIL",
+      "to": "US 17/92"
+    },
+    {
+      "id": "8310",
+      "road": "EVENHOUSE ROAD",
+      "from": "CR 557 (BUENA VISTA DRIVE)",
+      "to": "EXPERIMENT STATION ROAD"
+    },
+    {
+      "id": "8009",
+      "road": "EWELL ROAD",
+      "from": "COUNTY LINE ROAD",
+      "to": "SR 37 (S FLORIDA AVE)"
+    },
+    {
+      "id": "8312",
+      "road": "EXPERIMENT STATION ROAD",
+      "from": "OLD HAINES CITY - LAKE ALFRED ROAD",
+      "to": "EVENHOUSE ROAD"
+    },
+    {
+      "id": "8406",
+      "road": "FDC GROVE RD/PARK PLACE BLVD",
+      "from": "US 27",
+      "to": "HELLER BROTHERS BLVD"
+    },
+    {
+      "id": "8067",
+      "road": "FIFTEENTH STREET SW",
+      "from": "LAKE SHIPP DRIVE",
+      "to": "LAKE HOWARD DRIVE SW"
+    },
+    {
+      "id": "8010",
+      "road": "FIFTH STREET",
+      "from": "SR 539 (KATHLEEN ROAD)",
+      "to": "US 98 (FLORIDA AVENUE N)"
+    },
+    {
+      "id": "8068",
+      "road": "FIRST STREET SOUTH",
+      "from": "SR 542 CENTRAL AVE",
+      "to": "SR 540 (CYPRESS GARDENS BLVD SE)"
+    },
+    {
+      "id": "8438",
+      "road": "FIRST STREET SOUTH",
+      "from": "STATE ROAD 60",
+      "to": "CENTRAL AVENUE"
+    },
+    {
+      "id": "4092",
+      "road": "FISH HATCHERY RD",
+      "from": "CR 542",
+      "to": "CR 546 (SADDLE CREEK RD)"
+    },
+    {
+      "id": "8115",
+      "road": "FITZGERALD ROAD",
+      "from": "SR 37 (FLORIDA AVENUE S)",
+      "to": "CR 37A (SCOTT LAKE ROAD)"
+    },
+    {
+      "id": "8426",
+      "road": "FLORENCE VILLA GROVE ROAD",
+      "from": "US 27",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "8321",
+      "road": "FLORIDA AVENUE N/PINEHURST ST",
+      "from": "US 98",
+      "to": "CR 582 (GRIFFIN ROAD)"
+    },
+    {
+      "id": "4007",
+      "road": "FORTY-SECOND ST NW",
+      "from": "CR 542 (AVENUE G NW)",
+      "to": "SR 544 (HAVENDALE BLVD NW)"
+    },
+    {
+      "id": "8086",
+      "road": "GAPWAY ROAD",
+      "from": "SR 655 (BERKLEY ROAD)",
+      "to": "CR 559"
+    },
+    {
+      "id": "5315",
+      "road": "GARY ROAD N/GARY ROAD E",
+      "from": "CR 542 (MAIN STREET E)",
+      "to": "US 92 (MEMORIAL BLVD)"
+    },
+    {
+      "id": "5703",
+      "road": "GEORGE JENKINS BLVD",
+      "from": "SLOAN AVE N",
+      "to": "SR 35 (FLORIDA AVE N)"
+    },
+    {
+      "id": "8107",
+      "road": "GIBSONIA-GALLOWAY ROAD",
+      "from": "CR 35A (KATHLEEN ROAD)",
+      "to": "US 98"
+    },
+    {
+      "id": "8449",
+      "road": "GLENDALE STREET",
+      "from": "NEW JERSEY ROAD",
+      "to": "LAKELAND HIGHLANDS ROAD"
+    },
+    {
+      "id": "8434",
+      "road": "GOLFVIEW CUTOFF/FRIEDLANDER/LEWIS GRIFFIN ROAD",
+      "from": "STATE ROAD 17 (SCENIC HIGHWAY)",
+      "to": "STATE ROAD 60"
+    },
+    {
+      "id": "8313",
+      "road": "GRACE AVENUE E/HORNET DRIVE",
+      "from": "SR 17/TENTH STREET",
+      "to": "30TH STREET"
+    },
+    {
+      "id": "8022",
+      "road": "GRANADA STREET",
+      "from": "FLORIDA AVENUE N",
+      "to": "WEST LAKE PARKER DRIVE"
+    },
+    {
+      "id": "8314",
+      "road": "GREEN ROAD",
+      "from": "DAUGHTERY RD W",
+      "to": "DUFF RD"
+    },
+    {
+      "id": "8212",
+      "road": "H.L. SMITH ROAD S",
+      "from": "LAKE MABEL LOOP ROAD",
+      "to": "CR 542 (HATCHINEHA ROAD)"
+    },
+    {
+      "id": "8012",
+      "road": "HALLAM DRIVE",
+      "from": "CLEVELAND HEIGHTS BLVD",
+      "to": "CR 37B (LAKELAND HIGHLANDS ROAD)"
+    },
+    {
+      "id": "8013",
+      "road": "HARDEN BLVD",
+      "from": "PIPKIN ROAD W",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "8087",
+      "road": "HARDIN COMBEE ROAD",
+      "from": "SR 659 (COMBEE ROAD)",
+      "to": "FISH HATCHERY ROAD"
+    },
+    {
+      "id": "8014",
+      "road": "HARTSELL ROAD",
+      "from": "LAKE BEULAH DRIVE",
+      "to": "SR 563 (SIKES BLVD)"
+    },
+    {
+      "id": "8088",
+      "road": "HATCHER ROAD",
+      "from": "SHEPHERD ROAD",
+      "to": "EWELL ROAD"
+    },
+    {
+      "id": "4095",
+      "road": "HELENA RD",
+      "from": "CR 540A (ELOISE LOOP RD)",
+      "to": "SR 540 (CYPRESS GARDENS BLVD SE)"
+    },
+    {
+      "id": "8408",
+      "road": "HELLER BROTHERS BLVD",
+      "from": "FDC GROVE ROAD",
+      "to": "US 27"
+    },
+    {
+      "id": "8315",
+      "road": "HIGHLAND DRIVE W",
+      "from": "OLD HIGHWAY 37",
+      "to": "SR 37 (FLORIDA AVENUE S)"
+    },
+    {
+      "id": "4096",
+      "road": "HIGHLAND ST W/GREENWOOD ST W",
+      "from": "CR 542 (OLD TAMPA HWY)",
+      "to": "SR 563 (SIKES BLVD)"
+    },
+    {
+      "id": "8054",
+      "road": "HIGHLANDS DRIVE",
+      "from": "SR 37 (FLORIDA AVENUE S)",
+      "to": "CLEVELAND HEIGHTS BLVD"
+    },
+    {
+      "id": "8211",
+      "road": "HINSON AVENUE/POWER LINE ROAD",
+      "from": "US 17/92",
+      "to": "CR 580 (JOHNSON AVENUE)"
+    },
+    {
+      "id": "8015",
+      "road": "HOLLINGSWORTH ROAD",
+      "from": "LAKE HOLLINGSWORTH DRIVE",
+      "to": "US 98 (BARTOW RD)"
+    },
+    {
+      "id": "8316",
+      "road": "HOLLY HILL ROAD",
+      "from": "CR 547",
+      "to": "US 27"
+    },
+    {
+      "id": "8433",
+      "road": "HUNT BROTHERS ROAD",
+      "from": "11TH STREET SOUTH",
+      "to": "STATE ROAD 60"
+    },
+    {
+      "id": "8016",
+      "road": "INGRAHAM AVENUE",
+      "from": "LAKE HOLLINGSWORTH DRIVE",
+      "to": "US 98"
+    },
+    {
+      "id": "8017",
+      "road": "INGRAHAM AVENUE",
+      "from": "US 98",
+      "to": "US 92 (MEMORIAL BLVD)"
+    },
+    {
+      "id": "5500",
+      "road": "INTERSTATE 4",
+      "from": "HILLSBOROUGH COUNTY LINE",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "5501",
+      "road": "INTERSTATE 4",
+      "from": "SR 570 (POLK PARKWAY)",
+      "to": "SR 33"
+    },
+    {
+      "id": "5506",
+      "road": "INTERSTATE 4",
+      "from": "SR 33",
+      "to": "CR 557"
+    },
+    {
+      "id": "8222",
+      "road": "INTERSTATE 4",
+      "from": "CR 557",
+      "to": "US 27"
+    },
+    {
+      "id": "8454",
+      "road": "INTERSTATE 4",
+      "from": "US 27",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "8317",
+      "road": "KENTUCKY ST/JOHNSON AVE W/PRADO GRANDE AVE",
+      "from": "OLD HAINES CITY - LAKE ALFRED ROAD",
+      "to": "CR 17 (POLK CITY ROAD)"
+    },
+    {
+      "id": "8452",
+      "road": "KING ROAD",
+      "from": "SR 540 (WINTER LAKE RD)",
+      "to": "COLEMAN ROAD"
+    },
+    {
+      "id": "8337",
+      "road": "RONALD REAGAN PARKWAY",
+      "from": "US 17/92",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "4100",
+      "road": "LAKE ARIANA BLVD W",
+      "from": "CR 546 (OLD DIXIE HWY)",
+      "to": "CR 559 (POLK CITY ROAD)"
+    },
+    {
+      "id": "7501",
+      "road": "LAKE BEULAH DR",
+      "from": "OLIVE ST",
+      "to": "OLIVE ST"
+    },
+    {
+      "id": "8063",
+      "road": "LAKE ELBERT DRIVE/11TH STREET NE",
+      "from": "SR 542 (CENTRAL AVE E)",
+      "to": "AVENUE T NE"
+    },
+    {
+      "id": "4103",
+      "road": "LAKE HAMILTON DR W",
+      "from": "COUNTRY CLUB RD N",
+      "to": "SR 544 (LUCERNE PARK ROAD)"
+    },
+    {
+      "id": "8424",
+      "road": "LAKE HANCOCK RD/1ST STREET SE",
+      "from": "CLUBHOUSE ROAD EAST",
+      "to": "US 98"
+    },
+    {
+      "id": "4019",
+      "road": "LAKE HENDRY RD/STOKES RD/CR 559/CR 655A",
+      "from": "US 98",
+      "to": "SR 60"
+    },
+    {
+      "id": "8018",
+      "road": "LAKE HOLLINGSWORTH DRIVE (NORTH)",
+      "from": "BELMAR STREET",
+      "to": "CRYSTAL LAKE DRIVE"
+    },
+    {
+      "id": "8019",
+      "road": "LAKE HOLLINGSWORTH DRIVE (SOUTH)",
+      "from": "BELMAR STREET",
+      "to": "CRYSTAL LAKE DRIVE"
+    },
+    {
+      "id": "8064",
+      "road": "LAKE HOWARD DRIVE",
+      "from": "21ST STREET SW",
+      "to": "AVENUE D NW"
+    },
+    {
+      "id": "8065",
+      "road": "LAKE HOWARD DRIVE/AVE D NW",
+      "from": "AVENUE G NW",
+      "to": "SR 549 (1ST STREET)"
+    },
+    {
+      "id": "4105",
+      "road": "LAKE LOWERY RD",
+      "from": "OLD HAINES CITY-LAKE ALFRED RD",
+      "to": "CR 17 (POLK CITY ROAD)"
+    },
+    {
+      "id": "8203",
+      "road": "LAKE MABEL LOOP RD",
+      "from": "CR 17A (MASTERPIECE ROAD)",
+      "to": "CANAL AVENUE"
+    },
+    {
+      "id": "8204",
+      "road": "LAKE MABEL LOOP RD/LAKE TRASK ROAD",
+      "from": "CANAL AVENUE",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "8218",
+      "road": "LAKE MARIE BLVD",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "H.L. SMITH ROAD"
+    },
+    {
+      "id": "8214",
+      "road": "LAKE MARION CREEK DR/MCMAN RD/EASTYWAY RD/ MIDWAY RD/LK MARION CREEK RD",
+      "from": "POINCIANA PARKWAY",
+      "to": "CR 580 (CYPRESS PARKWAY)"
+    },
+    {
+      "id": "8112",
+      "road": "LAKE MATTIE ROAD/ADAMS BARN ROAD",
+      "from": "CR 559 (POLK CITY ROAD)",
+      "to": "LAKE ALFRED ROAD"
+    },
+    {
+      "id": "4099",
+      "road": "LAKE MIRIAM DR",
+      "from": "SR 37 (FLORIDA AVENUE S)",
+      "to": "CR 37B (LAKELAND HIGHLANDS ROAD)"
+    },
+    {
+      "id": "8020",
+      "road": "LAKE MORTON DRIVE",
+      "from": "MASSACHUSETTS AVE",
+      "to": "MASSACHUSETTS AVE"
+    },
+    {
+      "id": "4106",
+      "road": "LAKE NED/LAKE DAISY RD",
+      "from": "CYPRESS GARDENS RD",
+      "to": "CR 550 (OVERLOOK DRIVE SE)"
+    },
+    {
+      "id": "8007",
+      "road": "LAKE PARKER DRIVE EAST",
+      "from": "IDLEWILD STREET",
+      "to": "OLD COMBEE ROAD"
+    },
+    {
+      "id": "8219",
+      "road": "LAKE REEDY BOULEVARD N",
+      "from": "CR 630",
+      "to": "LAKE ARBUCKLE RD"
+    },
+    {
+      "id": "8062",
+      "road": "LAKE SHIPP DR N/AVE N SW/AVE O SW",
+      "from": "SR 655",
+      "to": "7TH STREET SW"
+    },
+    {
+      "id": "8021",
+      "road": "LAKE SHORE DRIVE/WEST LAKE PARKER DRIVE",
+      "from": "PARKER STREET",
+      "to": "GRANADA STREET"
+    },
+    {
+      "id": "6801",
+      "road": "LAKE STELLA DR",
+      "from": "SHELBY ST",
+      "to": "MAIN STREET"
+    },
+    {
+      "id": "6802",
+      "road": "LAKE STELLA DR",
+      "from": "MAIN STREET",
+      "to": "SHELBY ST"
+    },
+    {
+      "id": "8215",
+      "road": "LAKE WILSON ROAD",
+      "from": "CR 54 (RONALD REAGAN PKWY)",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "8439",
+      "road": "LAKESHORE BOULEVARD",
+      "from": "ELEVENTH STREET SOUTH",
+      "to": "ELEVENTH STREET SOUTH"
+    },
+    {
+      "id": "8023",
+      "road": "LIME STREET",
+      "from": "LAKE BEULAH DRIVE",
+      "to": "SR 37 (FLORIDA AVENUE S)"
+    },
+    {
+      "id": "8024",
+      "road": "LIME STREET",
+      "from": "SR 37 (FLORIDA AVENUE S)",
+      "to": "INGRAHAM AVENUE S"
+    },
+    {
+      "id": "8025",
+      "road": "LIME STREET",
+      "from": "INGRAHAM AVENUE S",
+      "to": "US 98 (BARTOW RD)"
+    },
+    {
+      "id": "8026",
+      "road": "LINCOLN AVENUE S/OPPITZ LANE",
+      "from": "LAKE HUNTER DRIVE",
+      "to": "SR 37 (FLORIDA AVENUE S)"
+    },
+    {
+      "id": "8114",
+      "road": "LIVE OAK ROAD/LAKE SEWARD DRIVE",
+      "from": "CR 37B (LAKELAND HIGHLANDS RD)",
+      "to": "LAKE MARIAM DRIVE"
+    },
+    {
+      "id": "7306",
+      "road": "LOGISTICS PARKWAY",
+      "from": "SR 60",
+      "to": "OLD BARTOW LAKE WALES RD"
+    },
+    {
+      "id": "8421",
+      "road": "LOGISTICS PARKWAY",
+      "from": "OLD BARTOW LAKE WALES RD",
+      "to": "INTERMODAL DRIVE"
+    },
+    {
+      "id": "4108",
+      "road": "LONGFELLOW BLVD",
+      "from": "CRYSTAL LAKE DR N",
+      "to": "CR 542 (MAIN ST E)"
+    },
+    {
+      "id": "8318",
+      "road": "LUCERNE LOOP ROAD NE",
+      "from": "SR 544 (LUCERNE PARK ROAD)",
+      "to": "OLD LUCERNE PARK ROAD"
+    },
+    {
+      "id": "8027",
+      "road": "LUNN ROAD",
+      "from": "EWELL ROAD",
+      "to": "PIPKIN ROAD W"
+    },
+    {
+      "id": "8089",
+      "road": "LUNN ROAD",
+      "from": "SHEPHERD ROAD",
+      "to": "EWELL ROAD"
+    },
+    {
+      "id": "4109",
+      "road": "LYLE PKWY/E.F. GRIFFIN RD",
+      "from": "US 98",
+      "to": "US 98"
+    },
+    {
+      "id": "8090",
+      "road": "LYNCHBURG ROAD/MYERS LANE",
+      "from": "US 92",
+      "to": "LAKE ALFRED ROAD"
+    },
+    {
+      "id": "6901",
+      "road": "M.L. KING BLVD/TENTH STREET W",
+      "from": "US 92 (MEMORIAL BLVD W)",
+      "to": "US 98 (FLORIDA AVENUE N)"
+    },
+    {
+      "id": "6800",
+      "road": "MAIN STREET",
+      "from": "US 92",
+      "to": "LAKE STELLA DRIVE"
+    },
+    {
+      "id": "5314",
+      "road": "MAIN STREET E",
+      "from": "SR 548 (BARTOW ROAD)",
+      "to": "US 98 (LAKE PARKER AVE S)"
+    },
+    {
+      "id": "5905",
+      "road": "MAIN STREET E/FLAMINGO DRIVE E",
+      "from": "SR 60",
+      "to": "SR 60"
+    },
+    {
+      "id": "8046",
+      "road": "MAIN STREET W",
+      "from": "LAKE BEULAH DRIVE",
+      "to": "SR 33 (MASSACHUSETTES AVE)"
+    },
+    {
+      "id": "8319",
+      "road": "MAIN STREET/SECOND STREET/SMITH AVENUE",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "4110",
+      "road": "MAINE AVE",
+      "from": "SR 659 (COMBEE ROAD S)",
+      "to": "REYNOLDS RD"
+    },
+    {
+      "id": "8028",
+      "road": "MALL HILL DRIVE",
+      "from": "CR 582 (GRIFFIN ROAD)",
+      "to": "HAMPTON HILLS DRIVE"
+    },
+    {
+      "id": "8109",
+      "road": "MALL HILL DRIVE",
+      "from": "CR 35A (KATHLEEN ROAD)",
+      "to": "CR 582 (GRIFFIN ROAD)"
+    },
+    {
+      "id": "8320",
+      "road": "MALL HILL DRIVE",
+      "from": "HAMPTON HILLS DRIVE",
+      "to": "SLEEPY HILL ROAD"
+    },
+    {
+      "id": "4117",
+      "road": "MAMMOTH GROVE RD",
+      "from": "SR 60",
+      "to": "CAMP MACK RD"
+    },
+    {
+      "id": "4118",
+      "road": "MAMMOTH GROVE RD/CAMP MACK RD",
+      "from": "CR 17A (MASTERPIECE GARDENS ROAD)",
+      "to": "KISSIMMEE RIVER"
+    },
+    {
+      "id": "4111",
+      "road": "MARCUM RD/SOCRUM LOOP RD N",
+      "from": "OLD POLK CITY RD",
+      "to": "US 98"
+    },
+    {
+      "id": "8101",
+      "road": "MARIGOLD AVENUE",
+      "from": "PALMETTO STREET",
+      "to": "CR 580 (CYPRESS PARKWAY)"
+    },
+    {
+      "id": "8431",
+      "road": "MARIGOLD AVENUE",
+      "from": "POINCIANA PARKWAY",
+      "to": "PALMETTO STREET"
+    },
+    {
+      "id": "8029",
+      "road": "MASSACHUSETTS AVENUE",
+      "from": "LAKE MORTON DRIVE",
+      "to": "MAIN STREET E"
+    },
+    {
+      "id": "8030",
+      "road": "MCDONALD STREET",
+      "from": "SR 37 (FLORIDA AVENUE S)",
+      "to": "INGRAHAM AVENUE S"
+    },
+    {
+      "id": "4112",
+      "road": "MCKEAN ST",
+      "from": "SR 655 (RECKER HIGHWAY)",
+      "to": "BRIDGERS AVE W"
+    },
+    {
+      "id": "4114",
+      "road": "McNICHOLS AVE/KEYSTONE RD",
+      "from": "LAKE ARIANA BLVD",
+      "to": "LAKE ALFRED RD"
+    },
+    {
+      "id": "8105",
+      "road": "MEDULLA ROAD",
+      "from": "COUNTY LINE ROAD",
+      "to": "PIPKIN ROAD W"
+    },
+    {
+      "id": "4116",
+      "road": "MINEOLA DR",
+      "from": "SR 659 (COMBEE ROAD N)",
+      "to": "FISH HATCHERY RD"
+    },
+    {
+      "id": "8031",
+      "road": "MISSOURI AVENUE",
+      "from": "HIGHLAND STREET W",
+      "to": "PINE STREET E"
+    },
+    {
+      "id": "8091",
+      "road": "MOUNT OLIVE ROAD",
+      "from": "SR 33",
+      "to": "CR 655 (BERKELY ROAD)"
+    },
+    {
+      "id": "8200",
+      "road": "MOUNTAIN LAKE CUTOFF ROAD",
+      "from": "OLD BARTOW ROAD",
+      "to": "US 27"
+    },
+    {
+      "id": "8201",
+      "road": "MOUNTAIN LAKE CUTOFF ROAD",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "8032",
+      "road": "NEW JERSEY ROAD",
+      "from": "GLENDALE STREET",
+      "to": "US 98 (BARTOW RD)"
+    },
+    {
+      "id": "4120",
+      "road": "NICHOLS MINE RD/OLD NICHOLS RD",
+      "from": "NICHOLS PLANT",
+      "to": "CR 676 (NICHOLS ROAD)"
+    },
+    {
+      "id": "4121",
+      "road": "NINETY-ONE MINE RD",
+      "from": "SR 60",
+      "to": "US 17"
+    },
+    {
+      "id": "4008",
+      "road": "NINTH ST SE/AVE Z SE/LAKE ELOISE DR W/LAKE SUMMIT DR W",
+      "from": "SR 540 (CYPRESS GARDENS BLVD SE)",
+      "to": "SR 540 (CYPRESS GARDENS BLVD SE)"
+    },
+    {
+      "id": "8322",
+      "road": "NORTH BLVD",
+      "from": "US 27",
+      "to": "HOLLY HILL ROAD"
+    },
+    {
+      "id": "8323",
+      "road": "NORTH BLVD",
+      "from": "HOLLY HILL ROAD",
+      "to": "CR 547 N"
+    },
+    {
+      "id": "8419",
+      "road": "NORTH PARKWAY FRONTAGE ROAD",
+      "from": "WARING ROAD",
+      "to": "SR 563 (HARDEN BLVD)"
+    },
+    {
+      "id": "8420",
+      "road": "NORTH PARKWAY FRONTAGE ROAD",
+      "from": "SR 563 (HARDEN BLVD)",
+      "to": "SR 37 (S FLORIDA AVE)"
+    },
+    {
+      "id": "8429",
+      "road": "NORTH RIDGE TRAIL/NW ACCESS RD/WAVERLY BARN RD",
+      "from": "US 27",
+      "to": "US 27"
+    },
+    {
+      "id": "8324",
+      "road": "ODOM ROAD",
+      "from": "DAUGHTERY ROAD E",
+      "to": "MARCUM ROAD"
+    },
+    {
+      "id": "4125",
+      "road": "OLD BARTOW EAGLE LAKE RD/CRYSTAL BEACH RD",
+      "from": "US 98",
+      "to": "US 17"
+    },
+    {
+      "id": "8099",
+      "road": "OLD BARTOW ROAD/OLD BARTOW LAKE WALES ROAD",
+      "from": "SR 60",
+      "to": "CR 653 (RATTLESNAKE ROAD)"
+    },
+    {
+      "id": "8093",
+      "road": "OLD BERKLEY ROAD",
+      "from": "GAPWAY ROAD",
+      "to": "SR 559 (C FRED JONES BLVD)"
+    },
+    {
+      "id": "8033",
+      "road": "OLD COMBEE ROAD",
+      "from": "SR 33",
+      "to": "SR 659 (COMBEE RD N)"
+    },
+    {
+      "id": "8117",
+      "road": "OLD COMBEE ROAD",
+      "from": "CR 582 (SOCRUM LOOP ROAD N)",
+      "to": "SR 33"
+    },
+    {
+      "id": "8106",
+      "road": "OLD DADE CITY RD/ROCK RIDGE RD",
+      "from": "CR 35A (SOCRUM LOOP RD W)",
+      "to": "US 98"
+    },
+    {
+      "id": "8409",
+      "road": "OLD DADE CITY ROAD",
+      "from": "ROCK RIDGE ROAD",
+      "to": "US 98"
+    },
+    {
+      "id": "8402",
+      "road": "OLD GRADE ROAD",
+      "from": "INTERSTATE 4",
+      "to": "DEEN STILL ROAD"
+    },
+    {
+      "id": "8095",
+      "road": "OLD HAINES CITY LAKE ALFRED ROAD/KENTUCKY STREET",
+      "from": "US 17/92",
+      "to": "US 17/92"
+    },
+    {
+      "id": "4127",
+      "road": "OLD HIGHWAY 37",
+      "from": "SHEPHERD RD",
+      "to": "PIPKIN RD W"
+    },
+    {
+      "id": "4128",
+      "road": "OLD HIGHWAY 37",
+      "from": "CR 630",
+      "to": "CR 640"
+    },
+    {
+      "id": "8034",
+      "road": "OLD HIGHWAY 37",
+      "from": "PIPKIN ROAD W",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "4098",
+      "road": "OLD LAKE ALFRED RD",
+      "from": "LAKE ARIANA BLVD",
+      "to": "STADIUM RD/LAKE ALFRED RD"
+    },
+    {
+      "id": "8113",
+      "road": "OLD LAKE ALFRED ROAD",
+      "from": "CR 557",
+      "to": "CR 557A"
+    },
+    {
+      "id": "8096",
+      "road": "OLD LUCERNE PARK ROAD",
+      "from": "SR 544 (LUCERNE PARK ROAD)",
+      "to": "SR 544 (LUCERNE PARK ROAD)"
+    },
+    {
+      "id": "4115",
+      "road": "OLD MEDULLA ROAD",
+      "from": "PIPKIN ROAD W",
+      "to": "PIPKIN ROAD SOUTH"
+    },
+    {
+      "id": "4129",
+      "road": "OLD NINE FOOT RD/EAGLE DR/GILBERT STREET",
+      "from": "3RD ST N",
+      "to": "SR 540"
+    },
+    {
+      "id": "4130",
+      "road": "OLD POLK CITY RD",
+      "from": "WALT WILLIAMS RD",
+      "to": "SR 33"
+    },
+    {
+      "id": "4131",
+      "road": "OLD POLK CITY RD",
+      "from": "CR 582 (SOCRUM LOOP ROAD N)",
+      "to": "WALT WILLIAMS RD"
+    },
+    {
+      "id": "8035",
+      "road": "OLIVE STREET",
+      "from": "WABASH AVENUE S",
+      "to": "LAKE BEULAH DRIVE"
+    },
+    {
+      "id": "8036",
+      "road": "ORANGE STREET",
+      "from": "NEW YORK AVENUE S",
+      "to": "US 98 (LAKE PARKER AVE S)"
+    },
+    {
+      "id": "8325",
+      "road": "ORCHID DRIVE",
+      "from": "PATTERSON ROAD",
+      "to": "CR 547"
+    },
+    {
+      "id": "8326",
+      "road": "ORCHID DRIVE",
+      "from": "BATES ROAD",
+      "to": "PATTERSON ROAD"
+    },
+    {
+      "id": "6908",
+      "road": "PACE ROAD",
+      "from": "SR 570 (POLK PARKWAY)",
+      "to": "SR 655 (BERKELY ROAD)"
+    },
+    {
+      "id": "8037",
+      "road": "PALMETTO STREET",
+      "from": "LAKE MORTON DRIVE",
+      "to": "HOLLINGSWORTH ROAD"
+    },
+    {
+      "id": "8432",
+      "road": "PALMETTO STREET",
+      "from": "MARIGOLD AVENUE",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "4132",
+      "road": "PARK BYRD RD",
+      "from": "DUFF RD",
+      "to": "CR 35A (SOCRUM LOOP RD W)"
+    },
+    {
+      "id": "8038",
+      "road": "PARKER STREET",
+      "from": "SR 563 (MARTIN L KING JR AVENUE)",
+      "to": "US 98 (LAKE PARKER AVE N)"
+    },
+    {
+      "id": "8039",
+      "road": "PARKVIEW PLACE",
+      "from": "US 98 (FLORIDA AVENUE N)",
+      "to": "LAKE PARKER DRIVE W"
+    },
+    {
+      "id": "8327",
+      "road": "PATTERSON ROAD",
+      "from": "US 27",
+      "to": "10TH STREET N"
+    },
+    {
+      "id": "8328",
+      "road": "PATTERSON ROAD",
+      "from": "10TH STREET N",
+      "to": "BATES ROAD"
+    },
+    {
+      "id": "8329",
+      "road": "PEARCE RD",
+      "from": "DAUGHTERY RD W",
+      "to": "SOCRUM LOOP RD N/MARCUM ROAD"
+    },
+    {
+      "id": "8330",
+      "road": "PENINSULAR DRIVE",
+      "from": "US 17/92 (HINSON AVENUE)",
+      "to": "SR 544"
+    },
+    {
+      "id": "8040",
+      "road": "PINE STREET",
+      "from": "LAKE WIRE DRIVE",
+      "to": "MASSACHUSETTS AVENUE N"
+    },
+    {
+      "id": "6907",
+      "road": "PINE TREE TRAIL",
+      "from": "ERNIE CALDWELL ROAD",
+      "to": "CR 54"
+    },
+    {
+      "id": "4134",
+      "road": "PINELLAS ST/ROBIN RD",
+      "from": "SR 37 (FLORIDA AVENUE S)",
+      "to": "CLEVELAND HEIGHTS BLVD"
+    },
+    {
+      "id": "8045",
+      "road": "PIPKIN ROAD SOUTH",
+      "from": "PIPKIN ROAD WEST",
+      "to": "SR 572 (DRANE FIELD ROAD)"
+    },
+    {
+      "id": "8104",
+      "road": "PIPKIN ROAD WEST",
+      "from": "COUNTY LINE ROAD",
+      "to": "MEDULLA ROAD"
+    },
+    {
+      "id": "8118",
+      "road": "PIPKIN ROAD WEST",
+      "from": "MEDULLA ROAD",
+      "to": "PIPKIN ROAD SOUTH"
+    },
+    {
+      "id": "8338",
+      "road": "PIPKIN ROAD WEST",
+      "from": "PIPKIN RD SOUTH",
+      "to": "HARDEN BLVD"
+    },
+    {
+      "id": "8339",
+      "road": "PIPKIN ROAD WEST",
+      "from": "HARDEN BLVD",
+      "to": "SR 37 (FLORIDA AVENUE S)"
+    },
+    {
+      "id": "8100",
+      "road": "POINCIANA PARKWAY",
+      "from": "CR 542 (LAKE HATCHINEHA ROAD)",
+      "to": "MARIGOLD AVENUE"
+    },
+    {
+      "id": "8209",
+      "road": "POLK CITY ROAD/PALMETTO ROAD/FIFTH STREET",
+      "from": "US 27",
+      "to": "US 17/92 (HINSON AVENUE E)"
+    },
+    {
+      "id": "8097",
+      "road": "POWERLINE ROAD/SOUTH BLVD E",
+      "from": "CR 580 (JOHNSON AVENUE E)",
+      "to": "US 17/92"
+    },
+    {
+      "id": "8041",
+      "road": "PROVIDENCE ROAD",
+      "from": "SR 539 (KATHLEEN ROAD)",
+      "to": "CR 582 (GRIFFIN ROAD)"
+    },
+    {
+      "id": "8331",
+      "road": "RAMSGATE RD/PILAKLAKAHA AVE/BOBBY GREEN PLZ",
+      "from": "DIXIE HIGHWAY",
+      "to": "MAIN STREET"
+    },
+    {
+      "id": "6910",
+      "road": "RESEARCH WAY",
+      "from": "UNIVERSITY BLVD",
+      "to": "UNIVERSITY BLVD"
+    },
+    {
+      "id": "4139",
+      "road": "REYNOLDS RD",
+      "from": "SR 540 (WINTER LAKE ROAD)",
+      "to": "US 92"
+    },
+    {
+      "id": "4141",
+      "road": "ROBSON ST",
+      "from": "US 98",
+      "to": "CR 582 (FLORIDA AVENUE N)"
+    },
+    {
+      "id": "8410",
+      "road": "ROCK RIDGE RD/GREEN POND ROAD",
+      "from": "DEEN STILL ROAD",
+      "to": "SR 33"
+    },
+    {
+      "id": "8401",
+      "road": "ROCK RIDGE ROAD",
+      "from": "US 98",
+      "to": "DEEN STILL ROAD"
+    },
+    {
+      "id": "8042",
+      "road": "ROSE STREET E",
+      "from": "SR 600 (MAIN STREET E)",
+      "to": "GARY ROAD N"
+    },
+    {
+      "id": "8427",
+      "road": "SAND MINE ROAD",
+      "from": "CARIBBEAN DRIVE",
+      "to": "US 27"
+    },
+    {
+      "id": "8428",
+      "road": "SAND MINE ROAD",
+      "from": "US 27",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "8116",
+      "road": "SCHOOLHOUSE ROAD",
+      "from": "OLD HIGHWAY 37",
+      "to": "SR 37 (FLORIDA AVENUE S)"
+    },
+    {
+      "id": "4144",
+      "road": "SHEPHERD RD",
+      "from": "BAILEY RD",
+      "to": "SR 37"
+    },
+    {
+      "id": "4145",
+      "road": "SHEPHERD RD",
+      "from": "COUNTY LINE RD",
+      "to": "BAILEY RD"
+    },
+    {
+      "id": "8069",
+      "road": "SIXTH STREET SE",
+      "from": "SR 542 (CENTRAL AVE E)",
+      "to": "SR 540 (CYPRESS GARDENS BLVD SE)"
+    },
+    {
+      "id": "8070",
+      "road": "SIXTH STREET SW",
+      "from": "AVENUE K SW",
+      "to": "US 17"
+    },
+    {
+      "id": "4146",
+      "road": "SKYVIEW DR",
+      "from": "SR 659 (COMBEE ROAD S)",
+      "to": "REYNOLDS RD"
+    },
+    {
+      "id": "8043",
+      "road": "SLEEPY HILL ROAD",
+      "from": "CR 35A (KATHLEEN ROAD)",
+      "to": "US 98"
+    },
+    {
+      "id": "8447",
+      "road": "SMITH LANE",
+      "from": "E.F. GRIFFIN RD",
+      "to": "US 98"
+    },
+    {
+      "id": "4147",
+      "road": "SOCRUM LOOP RD N/SOCRUM LOOP RD W",
+      "from": "MARCUM RD",
+      "to": "US 98"
+    },
+    {
+      "id": "8044",
+      "road": "SOUTH BLVD",
+      "from": "BELMAR STREET",
+      "to": "LAKE MORTON DRIVE"
+    },
+    {
+      "id": "8416",
+      "road": "SOUTH FRONTAGE ROAD",
+      "from": "COUNTY LINE ROAD",
+      "to": "CR 542A"
+    },
+    {
+      "id": "8417",
+      "road": "SOUTH PARKWAY FRONTAGE ROAD",
+      "from": "SR 563 (HARDEN BLVD)",
+      "to": "OLD HIGHWAY 37"
+    },
+    {
+      "id": "8418",
+      "road": "SOUTH PARKWAY FRONTAGE ROAD",
+      "from": "UNDERPASS ROAD",
+      "to": "OLD HIGHWAY 37"
+    },
+    {
+      "id": "4149",
+      "road": "SPIRIT LAKE RD",
+      "from": "US 17",
+      "to": "SR 540"
+    },
+    {
+      "id": "4175",
+      "road": "SPIRIT LAKE RD",
+      "from": "SR 540",
+      "to": "CR 542 (AVENUE G NW)"
+    },
+    {
+      "id": "5200",
+      "road": "SR 17 (SCENIC HIGHWAY)",
+      "from": "US 27",
+      "to": "CR 630A (FORT MEADE ROAD)"
+    },
+    {
+      "id": "5201",
+      "road": "SR 17 (SCENIC HIGHWAY)",
+      "from": "CR 630A (FORT MEADE ROAD)",
+      "to": "CR 630"
+    },
+    {
+      "id": "5202",
+      "road": "SR 17 (SCENIC HIGHWAY)",
+      "from": "CR 630",
+      "to": "SEMINOLE AVE"
+    },
+    {
+      "id": "5203",
+      "road": "SR 17 (SCENIC HIGHWAY)",
+      "from": "SEMINOLE AVE",
+      "to": "PASSION PLAY RD"
+    },
+    {
+      "id": "5204",
+      "road": "SR 17 (SCENIC HIGHWAY)",
+      "from": "PASSION PLAY RD",
+      "to": "MOUNTAIN LAKE CUTOFF"
+    },
+    {
+      "id": "5205",
+      "road": "SR 17 (SCENIC HIGHWAY)",
+      "from": "MOUNTAIN LAKE CUTOFF",
+      "to": "WAVERLY RD"
+    },
+    {
+      "id": "5206",
+      "road": "SR 17 (SCENIC HIGHWAY)",
+      "from": "WAVERLY RD",
+      "to": "MAIN ST @ CENTER ST"
+    },
+    {
+      "id": "5207",
+      "road": "SR 17 (SCENIC HIGHWAY)",
+      "from": "MAIN ST @ CENTER ST",
+      "to": "SR 544"
+    },
+    {
+      "id": "5208",
+      "road": "SR 17 (TENTH STREET S)",
+      "from": "SR 544",
+      "to": "US 17/92 (HINSON AVENUE E)"
+    },
+    {
+      "id": "5602",
+      "road": "SR 33",
+      "from": "I-4 @ SOCRUM LOOP RD N",
+      "to": "I-4"
+    },
+    {
+      "id": "5603",
+      "road": "SR 33",
+      "from": "I-4",
+      "to": "OLD POLK CITY RD"
+    },
+    {
+      "id": "5604",
+      "road": "SR 33",
+      "from": "OLD POLK CITY ROAD",
+      "to": "SR 559 (BROADWAY BLVD SE)"
+    },
+    {
+      "id": "5605",
+      "road": "SR 33",
+      "from": "SR 559 (BROADWAY BLVD SE)",
+      "to": "LAKE COUNTY LINE"
+    },
+    {
+      "id": "5601",
+      "road": "SR 33 (LAKELAND HILLS BLVD)",
+      "from": "BELLA VISTA ST E",
+      "to": "I-4 @ SOCRUM LOOP RD N"
+    },
+    {
+      "id": "5600",
+      "road": "SR 33 (MASSACHUSETTS AVE)",
+      "from": "MAIN ST",
+      "to": "BELLA VISTA ST E"
+    },
+    {
+      "id": "5700",
+      "road": "SR 35 (BARTOW RD)",
+      "from": "LAKE PARKER AVE S",
+      "to": "MAIN ST E"
+    },
+    {
+      "id": "5701",
+      "road": "SR 35 (FLORIDA AVE N)",
+      "from": "MAIN ST E",
+      "to": "MEMORIAL BLVD E"
+    },
+    {
+      "id": "5800",
+      "road": "SR 37",
+      "from": "MANATEE COUNTY LINE",
+      "to": "SR 674"
+    },
+    {
+      "id": "5801",
+      "road": "SR 37",
+      "from": "SR 674",
+      "to": "CR 640"
+    },
+    {
+      "id": "5802",
+      "road": "SR 37",
+      "from": "CR 640",
+      "to": "ALAFIA RIVER (NORTH PRONG)"
+    },
+    {
+      "id": "5804",
+      "road": "SR 37 (CHURCH AVE N)",
+      "from": "SR 60 (CANAL STREET E)",
+      "to": "SHEPHERD RD"
+    },
+    {
+      "id": "5803",
+      "road": "SR 37 (CHURCH AVE S)",
+      "from": "ALAFIA RIVER (NORTH PRONG)",
+      "to": "SR 60 (CANAL STREET E)"
+    },
+    {
+      "id": "5805",
+      "road": "SR 37 (FLORIDA AVE S)",
+      "from": "SHEPHERD RD",
+      "to": "PIPKIN RD W"
+    },
+    {
+      "id": "5806",
+      "road": "SR 37 (FLORIDA AVE S)",
+      "from": "ALAMO DR W",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "5807",
+      "road": "SR 37 (FLORIDA AVE S)",
+      "from": "SR 570 (POLK PARKWAY)",
+      "to": "ARIANA ST"
+    },
+    {
+      "id": "5808",
+      "road": "SR 37 (FLORIDA AVE S)",
+      "from": "ARIANA ST",
+      "to": "MAIN ST E"
+    },
+    {
+      "id": "5809",
+      "road": "SR 37 (FLORIDA AVE S)",
+      "from": "PIPKIN RD W",
+      "to": "ALAMO DR W"
+    },
+    {
+      "id": "6100",
+      "road": "SR 471",
+      "from": "US 98",
+      "to": "SUMTER COUNTY LINE"
+    },
+    {
+      "id": "6200",
+      "road": "SR 539 (KATHLEEN RD)",
+      "from": "SR 563 (MARTIN L KING JR AVENUE)",
+      "to": "I-4"
+    },
+    {
+      "id": "6304",
+      "road": "SR 540 (CYPRESS GARDENS BLVD)",
+      "from": "US 17",
+      "to": "9TH ST SE"
+    },
+    {
+      "id": "6305",
+      "road": "SR 540 (CYPRESS GARDENS BLVD)",
+      "from": "9TH ST SE",
+      "to": "CR 550 (OVERLOOK DRIVE SE)"
+    },
+    {
+      "id": "6306",
+      "road": "SR 540 (CYPRESS GARDENS BLVD)",
+      "from": "CR 550 (OVERLOOK DRIVE SE)",
+      "to": "CYPRESS GARDENS ROAD"
+    },
+    {
+      "id": "6307",
+      "road": "SR 540 (CYPRESS GARDENS BLVD)",
+      "from": "CYPRESS GARDENS RD",
+      "to": "US 27"
+    },
+    {
+      "id": "6300",
+      "road": "SR 540 (WINTER-LAKE RD)",
+      "from": "US 98",
+      "to": "REYNOLDS RD"
+    },
+    {
+      "id": "6301",
+      "road": "SR 540 (WINTER-LAKE RD)",
+      "from": "REYNOLDS RD",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "6302",
+      "road": "SR 540 (WINTER-LAKE RD)",
+      "from": "SR 570 (POLK PARKWAY)",
+      "to": "SPIRIT LAKE RD"
+    },
+    {
+      "id": "6303",
+      "road": "SR 540 (WINTER-LAKE RD)",
+      "from": "SPIRIT LAKE RD",
+      "to": "US 17 (FIFTH STREET N)"
+    },
+    {
+      "id": "6400",
+      "road": "SR 542 (CENTRAL AVE E)",
+      "from": "SR 549 (FIRST STREET N)",
+      "to": "BUCKEYE LOOP RD"
+    },
+    {
+      "id": "6401",
+      "road": "SR 542 (DUNDEE ROAD)",
+      "from": "BUCKEYE LOOP RD",
+      "to": "CARL FLOYD RD"
+    },
+    {
+      "id": "6402",
+      "road": "SR 542 (DUNDEE ROAD)",
+      "from": "CARL FLOYD RD",
+      "to": "US 27"
+    },
+    {
+      "id": "6502",
+      "road": "SR 544 (AVE T NW)",
+      "from": "US 17 (LAKE ALFRED ROAD)",
+      "to": "1ST ST N"
+    },
+    {
+      "id": "6500",
+      "road": "SR 544 (HAVENDALE BLVD NW)",
+      "from": "US 92",
+      "to": "TWENTY SIXTH STREET NW"
+    },
+    {
+      "id": "6501",
+      "road": "SR 544 (HAVENDALE BLVD NW)",
+      "from": "TWENTY SIXTH STREET NW",
+      "to": "US 17 (LAKE ALFRED ROAD)"
+    },
+    {
+      "id": "6503",
+      "road": "SR 544 (LUCERNE PARK RD)",
+      "from": "1ST ST N",
+      "to": "US 27"
+    },
+    {
+      "id": "6504",
+      "road": "SR 544 (SCENIC HWY S)",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "6600",
+      "road": "SR 546 (MEMORIAL BLVD W)",
+      "from": "I-4",
+      "to": "WABASH AVE N"
+    },
+    {
+      "id": "5702",
+      "road": "SR 548 (BARTOW ROAD)",
+      "from": "SR 35 (FLORIDA AVE N)",
+      "to": "MAIN STREET E"
+    },
+    {
+      "id": "6700",
+      "road": "SR 549 (FIRST ST N)",
+      "from": "CENTRAL AVE E",
+      "to": "AVE T NE"
+    },
+    {
+      "id": "6805",
+      "road": "SR 559",
+      "from": "I-4",
+      "to": "SR 33"
+    },
+    {
+      "id": "8094",
+      "road": "SR 559 (C FRED JONES BLVD)",
+      "from": "SR 655 (BERKLEY ROAD)",
+      "to": "CR 559"
+    },
+    {
+      "id": "6799",
+      "road": "SR 559 (MAIN STREET)",
+      "from": "SR 655 (RECKER HIGHWAY)",
+      "to": "US 92 (MAGNOLIA AVENUE)"
+    },
+    {
+      "id": "6902",
+      "road": "SR 563 (HARDEN BLVD)",
+      "from": "SR 570 (POLK PARKWAY)",
+      "to": "ARIANA ST"
+    },
+    {
+      "id": "6900",
+      "road": "SR 563 (MARTIN L KING JR AVENUE)",
+      "from": "SR 539 (KATHLEEN ROAD)",
+      "to": "US 92 (MEMORIAL BLVD W)"
+    },
+    {
+      "id": "6903",
+      "road": "SR 563 (SIKES BLVD)",
+      "from": "ARIANA ST",
+      "to": "LIME ST"
+    },
+    {
+      "id": "6904",
+      "road": "SR 563 (SIKES BLVD)",
+      "from": "LIME ST",
+      "to": "SR 539 (KATHLEEN ROAD)"
+    },
+    {
+      "id": "7400",
+      "road": "SR 570 (POLK PARKWAY)",
+      "from": "I-4",
+      "to": "US 98"
+    },
+    {
+      "id": "7401",
+      "road": "SR 570 (POLK PARKWAY)",
+      "from": "US 98",
+      "to": "CR 546 (OLD DIXIE HIGHWAY)"
+    },
+    {
+      "id": "7402",
+      "road": "SR 570 (POLK PARKWAY)",
+      "from": "CR 546 (OLD DIXIE HIGHWAY)",
+      "to": "I-4"
+    },
+    {
+      "id": "7000",
+      "road": "SR 572 (AIRPORT RD)",
+      "from": "US 92 (NEW TAMPA HWY)",
+      "to": "DRANE FIELD RD"
+    },
+    {
+      "id": "7001",
+      "road": "SR 572 (DRANE FIELD RD)",
+      "from": "AIRPORT RD",
+      "to": "PIPKIN CREEK ROAD"
+    },
+    {
+      "id": "5900",
+      "road": "SR 60",
+      "from": "HILLSBOROUGH COUNTY LINE",
+      "to": "CR 676 (NICHOLS ROAD)"
+    },
+    {
+      "id": "5901",
+      "road": "SR 60",
+      "from": "CR 676 (NICHOLS ROAD)",
+      "to": "SR 37 (CHURCH AVENUE N)"
+    },
+    {
+      "id": "5902",
+      "road": "SR 60",
+      "from": "SR 37 (CHURCH AVENUE N)\\",
+      "to": "12TH AVE NE"
+    },
+    {
+      "id": "5903",
+      "road": "SR 60",
+      "from": "12TH AVE NE",
+      "to": "BONNIE MINE RD"
+    },
+    {
+      "id": "5904",
+      "road": "SR 60",
+      "from": "BONNIE MINE RD",
+      "to": "VAN FLEET DRIVE W"
+    },
+    {
+      "id": "5906",
+      "road": "SR 60",
+      "from": "SR 60 (FLAMINGO DRIVE E)",
+      "to": "CR 655 (RIFLE RANGE RD)"
+    },
+    {
+      "id": "5907",
+      "road": "SR 60",
+      "from": "CR 655 (RIFLE RANGE ROAD)",
+      "to": "US 27"
+    },
+    {
+      "id": "5908",
+      "road": "SR 60",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "5910",
+      "road": "SR 60",
+      "from": "STOKES RD",
+      "to": "CR 630"
+    },
+    {
+      "id": "5912",
+      "road": "SR 60",
+      "from": "CR 630",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "6003",
+      "road": "SR 60",
+      "from": "VAN FLEET DR E",
+      "to": "FLAMINGO DR E"
+    },
+    {
+      "id": "5909",
+      "road": "SR 60 (HESPERIDES RD)",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "STOKES RD"
+    },
+    {
+      "id": "6002",
+      "road": "SR 60 (VAN FLEET DR E)",
+      "from": "BROADWAY AVE",
+      "to": "US 17"
+    },
+    {
+      "id": "6000",
+      "road": "SR 60 (VAN FLEET DR W)",
+      "from": "MAIN STREET W",
+      "to": "BROADWAY AVE N"
+    },
+    {
+      "id": "5309",
+      "road": "SR 600 (GEORGE JENKINS BLVD)",
+      "from": "WABASH AVE N",
+      "to": "LAKE BEULAH DR"
+    },
+    {
+      "id": "5312",
+      "road": "SR 600 (MAIN ST)",
+      "from": "MASSACHUSETTS AVE N",
+      "to": "SR 548 (BARTOW ROAD)"
+    },
+    {
+      "id": "4072",
+      "road": "SR 655 (BERKLEY RD)",
+      "from": "US 92",
+      "to": "CR 546 (OLD DIXIE HWY)"
+    },
+    {
+      "id": "6905",
+      "road": "SR 655 (BERKLEY RD)",
+      "from": "PACE ROAD",
+      "to": "SR 559 (C FRED JONES BLVD)"
+    },
+    {
+      "id": "8119",
+      "road": "SR 655 (BERKLEY RD)",
+      "from": "CR 546 (OLD DIXIE HWY)",
+      "to": "PACE ROAD"
+    },
+    {
+      "id": "7100",
+      "road": "SR 655 (LAKE SHIPP DR)",
+      "from": "US 17",
+      "to": "SR 655 (RECKER HIGHWAY)"
+    },
+    {
+      "id": "7101",
+      "road": "SR 655 (RECKER HWY)",
+      "from": "SR 540",
+      "to": "ORANGEWOOD AVE SW"
+    },
+    {
+      "id": "7102",
+      "road": "SR 655 (RECKER HWY)",
+      "from": "CR 542 (AVENUE G NW)",
+      "to": "US 92"
+    },
+    {
+      "id": "7103",
+      "road": "SR 655 (RECKER HWY)",
+      "from": "ORANGEWOOD AVE SW",
+      "to": "CR 542 (AVENUE G NW)"
+    },
+    {
+      "id": "7300",
+      "road": "SR 659 (COMBEE RD)",
+      "from": "US 98",
+      "to": "US 92"
+    },
+    {
+      "id": "7301",
+      "road": "SR 659 (COMBEE RD)",
+      "from": "US 92",
+      "to": "CR 546 (SADDLE CREEK RD)"
+    },
+    {
+      "id": "7302",
+      "road": "SR 659 (COMBEE RD)",
+      "from": "CR 546 (SADDLE CREED RD)",
+      "to": "SR 33"
+    },
+    {
+      "id": "7200",
+      "road": "SR 674",
+      "from": "HILLSBOROUGH COUNTY LINE",
+      "to": "SR 37"
+    },
+    {
+      "id": "4150",
+      "road": "STADIUM RD/PIERCE ST/LAKE ALFRED RD",
+      "from": "MAIN STREET N",
+      "to": "US 17/92 (SHINN BLVD)"
+    },
+    {
+      "id": "8047",
+      "road": "SUCCESS AVENUE",
+      "from": "LAKE HOLLINGSWORTH DRIVE",
+      "to": "LAKE MORTON DRIVE"
+    },
+    {
+      "id": "8442",
+      "road": "SUNSET DRIVE",
+      "from": "LAKESHORE BOULEVARD",
+      "to": "CR 17B (BUCK MOORE RD)"
+    },
+    {
+      "id": "8443",
+      "road": "SUNSET/EVERGREEN DRIVE",
+      "from": "CR 17B (BUCK MOORE RD)",
+      "to": "STATE ROAD 60"
+    },
+    {
+      "id": "4153",
+      "road": "SWINDELL ROAD",
+      "from": "CR 542A (GALLOWAY ROAD N)",
+      "to": "SR 546 (MEMORIAL BLVD W)"
+    },
+    {
+      "id": "8413",
+      "road": "SWINDELL ROAD",
+      "from": "NORTH FRONTAGE ROAD",
+      "to": "CR 542A"
+    },
+    {
+      "id": "8048",
+      "road": "SYLVESTER ROAD",
+      "from": "NEW JERSEY ROAD",
+      "to": "US 98"
+    },
+    {
+      "id": "8220",
+      "road": "T.S. WILSON ROAD/LAKE REEDY BOULEVARD S",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "LAKE ARBUCKLE RD"
+    },
+    {
+      "id": "4000",
+      "road": "TENTH ST W",
+      "from": "CR 542A (GALLOWAY ROAD N)",
+      "to": "SR 539 (KATHLEEN ROAD)"
+    },
+    {
+      "id": "8049",
+      "road": "TENTH STREET",
+      "from": "SR 539 (KATHLEEN ROAD)",
+      "to": "SR 563 (MARTIN L KING JR AVENUE)"
+    },
+    {
+      "id": "8208",
+      "road": "TENTH STREET N",
+      "from": "BATES ROAD",
+      "to": "CR 547"
+    },
+    {
+      "id": "8332",
+      "road": "TENTH STREET N/LILY AVENUE E",
+      "from": "US 17/92 (HINSON AVE)",
+      "to": "12TH STREET"
+    },
+    {
+      "id": "4005",
+      "road": "THIRD ST SE/LAKE LULU DR N/SIXTH ST SE",
+      "from": "SR 540 (CYPRESS GARDENS BLVD SE)",
+      "to": "SR 540 (CYPRESS GARDENS BLVD SE)"
+    },
+    {
+      "id": "4006",
+      "road": "THIRD ST/OLD EAGLE LAKE-WINTER HAVEN RD/7TH ST SW/AVE M SW/6TH ST SW/AVE K SW",
+      "from": "CRYSTAL BEACH RD",
+      "to": "US 17 (THIRD STREET SW)"
+    },
+    {
+      "id": "8213",
+      "road": "THIRTIETH ST",
+      "from": "CR 544 (LAKE MARION ROAD)",
+      "to": "HINSON AVENUE E"
+    },
+    {
+      "id": "8223",
+      "road": "THIRTIETH ST N",
+      "from": "CR 580",
+      "to": "BAKER AVENUE E"
+    },
+    {
+      "id": "8300",
+      "road": "THIRTIETH ST N",
+      "from": "HINSON AVE E",
+      "to": "CR 580 (JOHNSON AVENUE E)"
+    },
+    {
+      "id": "4004",
+      "road": "THIRTY-FOURTH ST NW",
+      "from": "CR 542 (AVENUE G NW)",
+      "to": "SR 544 (HAVENDALE BLVD NW)"
+    },
+    {
+      "id": "4160",
+      "road": "THOMPSON NURSERY RD/ELOISE LOOP ROAD",
+      "from": "CR 653 (RATTLESNAKE RD)",
+      "to": "US 27"
+    },
+    {
+      "id": "4170",
+      "road": "THORNHILL ROAD",
+      "from": "SR 540",
+      "to": "SR 655 (RECKER HIGHWAY)"
+    },
+    {
+      "id": "8202",
+      "road": "TIMBERLANE ROAD",
+      "from": "CR 17A (MASTERPIECE ROAD)",
+      "to": "CANAL ROAD"
+    },
+    {
+      "id": "8108",
+      "road": "TOMKOW ROAD",
+      "from": "SR 33",
+      "to": "OLD POLK CITY ROAD"
+    },
+    {
+      "id": "8441",
+      "road": "TOWER BOULEVARD",
+      "from": "LAKESHORE BOULEVARD",
+      "to": "CR 17A (BURNS AVENUE)"
+    },
+    {
+      "id": "4001",
+      "road": "TWELFTH ST/LEE JACKSON HIGHWAY N",
+      "from": "STUART AVE",
+      "to": "US 17/92"
+    },
+    {
+      "id": "8066",
+      "road": "TWENTY FIRST STREET SW, LAKE HOWARD DRIVE",
+      "from": "SR 655 (RECKER HIGHWAY)",
+      "to": "CR 542 (AVE G NW)"
+    },
+    {
+      "id": "4002",
+      "road": "TWENTY-FIRST ST NW",
+      "from": "SR 544 (HAVENDALE BLVD NW)",
+      "to": "US 92"
+    },
+    {
+      "id": "4003",
+      "road": "TWENTY-THIRD ST NW/LAKE CANNON DR W/TWENTY-SIXTH ST NW",
+      "from": "CR 542 (AVENUE G NW)",
+      "to": "SR 544 (HAVENDALE BLVD NW)"
+    },
+    {
+      "id": "8333",
+      "road": "TYNER ROAD",
+      "from": "CR 542 (HATCHINEHA RD)",
+      "to": "CR 546"
+    },
+    {
+      "id": "6909",
+      "road": "UNIVERSITY BLVD",
+      "from": "SR 33",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "5000",
+      "road": "US 17",
+      "from": "SR 655 (LAKE SHIPP DRIVE S)",
+      "to": "SR 540 (CYPRESS GARDENS BLVD SW)"
+    },
+    {
+      "id": "5001",
+      "road": "US 17",
+      "from": "HARDEE COUNTY LINE",
+      "to": "9TH STREET SE"
+    },
+    {
+      "id": "5007",
+      "road": "US 17",
+      "from": "VAN FLEET DRIVE W",
+      "to": "SPIRIT LAKE RD"
+    },
+    {
+      "id": "5008",
+      "road": "US 17",
+      "from": "SPIRIT LAKE RD",
+      "to": "CRYSTAL BEACH RD"
+    },
+    {
+      "id": "5010",
+      "road": "US 17",
+      "from": "GILBERT ST",
+      "to": "SR 655 (LAKE SHIPP DRIVE S)"
+    },
+    {
+      "id": "5002",
+      "road": "US 17 (CHARLESTON AVE S)",
+      "from": "9TH STREET",
+      "to": "US 98 (BROADWAY STREET E)"
+    },
+    {
+      "id": "5014",
+      "road": "US 17 (EIGHTH ST NW)",
+      "from": "SR 544 (AVENUE T NW)",
+      "to": "US 92"
+    },
+    {
+      "id": "5009",
+      "road": "US 17 (FIFTH ST)",
+      "from": "CRYSTAL BEACH RD",
+      "to": "GILBERT ST"
+    },
+    {
+      "id": "5023",
+      "road": "US 17 (FOURTH ST)",
+      "from": "GILBERT ST",
+      "to": "CRYSTAL BEACH RD"
+    },
+    {
+      "id": "5013",
+      "road": "US 17 (SIXTH ST NW)",
+      "from": "AVE C SW",
+      "to": "SR 544 (AVENUE T NW)"
+    },
+    {
+      "id": "5011",
+      "road": "US 17 (THIRD ST SW)",
+      "from": "SR 540",
+      "to": "AVE C SW"
+    },
+    {
+      "id": "5017",
+      "road": "US 17/92",
+      "from": "POMELO ST",
+      "to": "US 27"
+    },
+    {
+      "id": "5021",
+      "road": "US 17/92",
+      "from": "CR 547",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "5018",
+      "road": "US 17/92 (HINSON AVE)",
+      "from": "US 27",
+      "to": "10TH ST N"
+    },
+    {
+      "id": "5019",
+      "road": "US 17/92 (HINSON AVE)",
+      "from": "10TH ST",
+      "to": "17TH ST S"
+    },
+    {
+      "id": "5016",
+      "road": "US 17/92 (LAKE SHORE WAY N)",
+      "from": "ECHO ST",
+      "to": "POMELO ST"
+    },
+    {
+      "id": "5015",
+      "road": "US 17/92 (LAKE SHORE WAY S)",
+      "from": "US 17",
+      "to": "ECHO ST"
+    },
+    {
+      "id": "5020",
+      "road": "US 17/92 (SEVENTEENTH ST)",
+      "from": "HINSON AVE",
+      "to": "CR 580 (JOHNSON AVENUE E)"
+    },
+    {
+      "id": "5022",
+      "road": "US 17/92 (SEVENTEENTH ST)",
+      "from": "CR 580 (JOHNSON AVENUE E)",
+      "to": "CR 547"
+    },
+    {
+      "id": "8224",
+      "road": "US 17/92 (SHINN BLVD)",
+      "from": "POMELO ST",
+      "to": "ECHO ST"
+    },
+    {
+      "id": "5004",
+      "road": "US 17/98",
+      "from": "CR 640 (HOMELAND GARFIELD ROAD)",
+      "to": "CLEAR SPRINGS MINE RD"
+    },
+    {
+      "id": "5005",
+      "road": "US 17/98",
+      "from": "CLEAR SPRINGS MINE RD",
+      "to": "MAIN ST"
+    },
+    {
+      "id": "5003",
+      "road": "US 17/98 (CHARLESTON AVE)",
+      "from": "US 17 @ US 98 (BROADWAY STREET E)",
+      "to": "CR 640"
+    },
+    {
+      "id": "5006",
+      "road": "US 17/98 (EAST AVE)",
+      "from": "MAIN STREET",
+      "to": "VAN FLEET DRIVE W"
+    },
+    {
+      "id": "5101",
+      "road": "US 27",
+      "from": "CR 630 (FORT MEADE ROAD)",
+      "to": "CR 640 (ALTURAS BABSON PARK CUTOFF ROAD)"
+    },
+    {
+      "id": "5102",
+      "road": "US 27",
+      "from": "CR 640 (ALTU9RAS BABSON PARK CUTOFF ROAD)",
+      "to": "SR 60"
+    },
+    {
+      "id": "5103",
+      "road": "US 27",
+      "from": "SR 60",
+      "to": "TOWERVIEW BLVD"
+    },
+    {
+      "id": "5104",
+      "road": "US 27",
+      "from": "TOWERVIEW BLVD",
+      "to": "SR 540 (CYPRESS GARDENS BLVD SE)"
+    },
+    {
+      "id": "5105",
+      "road": "US 27",
+      "from": "SR 540 (CYPRESS GARDENS BLVD SE)",
+      "to": "SR 542 (DUNDEE ROAD)"
+    },
+    {
+      "id": "5106",
+      "road": "US 27",
+      "from": "SR 542 (DUNDEE RD)",
+      "to": "SR 544"
+    },
+    {
+      "id": "5107",
+      "road": "US 27",
+      "from": "SR 544",
+      "to": "US 17/92"
+    },
+    {
+      "id": "5108",
+      "road": "US 27",
+      "from": "US 17/92",
+      "to": "CR 17 (POLK CITY ROAD)"
+    },
+    {
+      "id": "5109",
+      "road": "US 27",
+      "from": "CR 17 (POLK CITY ROAD)",
+      "to": "BATES ROAD"
+    },
+    {
+      "id": "5110",
+      "road": "US 27",
+      "from": "CR 547",
+      "to": "I-4"
+    },
+    {
+      "id": "5111",
+      "road": "US 27",
+      "from": "I-4",
+      "to": "CR 54 (RONALD REAGAN PARKWAY)"
+    },
+    {
+      "id": "5112",
+      "road": "US 27",
+      "from": "CR 54 (RONALD REAGAN PARKWAY)",
+      "to": "SAND MINE ROAD"
+    },
+    {
+      "id": "5113",
+      "road": "US 27",
+      "from": "SAND MINE ROAD",
+      "to": "US 192"
+    },
+    {
+      "id": "5114",
+      "road": "US 27",
+      "from": "BATES ROAD",
+      "to": "CR 547"
+    },
+    {
+      "id": "5100",
+      "road": "US 27/98",
+      "from": "HIGHLANDS COUNTY LINE",
+      "to": "CR 630 (FORT MEADE ROAD)"
+    },
+    {
+      "id": "5306",
+      "road": "US 92",
+      "from": "SR 659 (COMBEE ROAD N)",
+      "to": "SR 655 (RECKER HIGHWAY)"
+    },
+    {
+      "id": "5308",
+      "road": "US 92",
+      "from": "SR 544 (HAVENDALE BLVD NW)",
+      "to": "US 17 (LAKE ALFRED ROAD)"
+    },
+    {
+      "id": "5307",
+      "road": "US 92 (MAGNOLIA AVE)",
+      "from": "SR 655 (RECKER HIGHWAY)",
+      "to": "SR 544 (HAVENDALE BLVD NW)"
+    },
+    {
+      "id": "5303",
+      "road": "US 92 (MEMORIAL BLVD W)",
+      "from": "WABASH AVE N",
+      "to": "FLORIDA AVE N"
+    },
+    {
+      "id": "5300",
+      "road": "US 92 (NEW TAMPA HWY)",
+      "from": "COUNTY LINE ROAD",
+      "to": "SR 572 (AIRPORT ROAD)"
+    },
+    {
+      "id": "5301",
+      "road": "US 92 (NEW TAMPA HWY)",
+      "from": "SR 572 (AIRPORT ROAD)",
+      "to": "WABASH AVE N"
+    },
+    {
+      "id": "5302",
+      "road": "US 92 (WABASH AVE N)",
+      "from": "GEORGE JENKINS BLVD",
+      "to": "SR 546"
+    },
+    {
+      "id": "5304",
+      "road": "US 92/98 (MEMORIAL BLVD E)",
+      "from": "FLORIDA AVE N",
+      "to": "LAKE PARKER AVE N"
+    },
+    {
+      "id": "5305",
+      "road": "US 92/98 (MEMORIAL BLVD E)",
+      "from": "LAKE PARKER AVENUE N",
+      "to": "SR 659 (COMBEE RD N)"
+    },
+    {
+      "id": "5400",
+      "road": "US 98",
+      "from": "EDGEWOOD DR N",
+      "to": "US 17 (CHARLESTON AVENUE N)"
+    },
+    {
+      "id": "5401",
+      "road": "US 98",
+      "from": "AVON PARK CUTOFF ROAD",
+      "to": "EDGEWOOD DR N"
+    },
+    {
+      "id": "5402",
+      "road": "US 98",
+      "from": "US 27",
+      "to": "AVON PARK CUTOFF ROAD"
+    },
+    {
+      "id": "5405",
+      "road": "US 98",
+      "from": "LYLE PKWY",
+      "to": "CR 540A"
+    },
+    {
+      "id": "5406",
+      "road": "US 98",
+      "from": "CR 540A",
+      "to": "SR 540 (WINTER LAKE ROAD)"
+    },
+    {
+      "id": "5407",
+      "road": "US 98",
+      "from": "SR 540 (WINTER LAKE ROAD)",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "5408",
+      "road": "US 98",
+      "from": "EDGEWOOD DR E",
+      "to": "LAKE PARKER AVE S"
+    },
+    {
+      "id": "5410",
+      "road": "US 98",
+      "from": "MEMORIAL BLVD",
+      "to": "CR 582 (GRIFFIN ROAD)"
+    },
+    {
+      "id": "5411",
+      "road": "US 98",
+      "from": "I-4",
+      "to": "SLEEPY HILL RD"
+    },
+    {
+      "id": "5412",
+      "road": "US 98",
+      "from": "SLEEPY HILL RD",
+      "to": "DAUGHTERY RD W"
+    },
+    {
+      "id": "5414",
+      "road": "US 98",
+      "from": "ROCK RIDGE RD",
+      "to": "SR 471"
+    },
+    {
+      "id": "5415",
+      "road": "US 98",
+      "from": "SR 471",
+      "to": "PASCO COUNTY LINE"
+    },
+    {
+      "id": "5416",
+      "road": "US 98",
+      "from": "DAUGHTERY RD W",
+      "to": "SOCRUM LOOP RD W"
+    },
+    {
+      "id": "5417",
+      "road": "US 98",
+      "from": "CR 582 (GRIFFIN ROAD)",
+      "to": "I-4"
+    },
+    {
+      "id": "5418",
+      "road": "US 98",
+      "from": "SR 570 (POLK PARKWAY)",
+      "to": "EDGEWOOD DR E"
+    },
+    {
+      "id": "5419",
+      "road": "US 98",
+      "from": "SOCRUM LOOP RD W",
+      "to": "ROCK RIDGE RD"
+    },
+    {
+      "id": "5404",
+      "road": "US 98 (BROADWAY AVE N)",
+      "from": "SR 60 (VAN FLEET DRIVE W)",
+      "to": "LYLE PKWY"
+    },
+    {
+      "id": "5409",
+      "road": "US 98 (LAKE PARKER AVE S)",
+      "from": "BARTOW RD",
+      "to": "MEMORIAL BLVD E"
+    },
+    {
+      "id": "4155",
+      "road": "WABASH AVE N",
+      "from": "SR 546 (MEMORIAL BLVD W)",
+      "to": "TENTH ST W"
+    },
+    {
+      "id": "4156",
+      "road": "WABASH AVE S",
+      "from": "ARIANA ST",
+      "to": "US 92 (GEORGE JENKINS BLVD)"
+    },
+    {
+      "id": "8412",
+      "road": "WALKER ROAD",
+      "from": "SWINDELL ROAD",
+      "to": "CR 582 (KNIGHTS STATION RD)"
+    },
+    {
+      "id": "4157",
+      "road": "WALK-IN-WATER RD",
+      "from": "CR 630",
+      "to": "SR 60"
+    },
+    {
+      "id": "8102",
+      "road": "WALNUT STREET",
+      "from": "MARIGOLD AVENUE",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "8050",
+      "road": "WALT LOOP ROAD",
+      "from": "CR 582 (SOCRUM LOOP ROAD)",
+      "to": "OLD POLK CITY ROAD"
+    },
+    {
+      "id": "8051",
+      "road": "WALT WILLIAMS ROAD",
+      "from": "WALT LOOP ROAD",
+      "to": "OLD POLK CITY ROAD"
+    },
+    {
+      "id": "8052",
+      "road": "WARING ROAD",
+      "from": "OLD MEDULLA ROAD",
+      "to": "SR 570 (POLK PARKWAY)"
+    },
+    {
+      "id": "8400",
+      "road": "WARING ROAD",
+      "from": "PIPKIN ROAD WEST",
+      "to": "OLD MEDULLA ROAD"
+    },
+    {
+      "id": "8334",
+      "road": "WATER TANK ROAD",
+      "from": "SR 17 (SCENIC HIGHWAY)",
+      "to": "DETOUR ROAD"
+    },
+    {
+      "id": "8335",
+      "road": "WATER TANK ROAD",
+      "from": "DETOUR ROAD",
+      "to": "BICE GROVE ROAD"
+    },
+    {
+      "id": "8336",
+      "road": "WATER TANK ROAD",
+      "from": "BICE GROVE ROAD",
+      "to": "TYNER ROAD"
+    },
+    {
+      "id": "4174",
+      "road": "WAVERLY RD",
+      "from": "US 27",
+      "to": "SR 17 (SCENIC HIGHWAY)"
+    },
+    {
+      "id": "8405",
+      "road": "WEST EDGEWOOD DRIVE",
+      "from": "SR 563",
+      "to": "SR 37 (S FLORIDA AVE)"
+    },
+    {
+      "id": "8111",
+      "road": "WEST LAKE ELOISE DRIVE",
+      "from": "ELOISE LOOP ROAD",
+      "to": "SHELL ROAD"
+    },
+    {
+      "id": "8425",
+      "road": "WESTSIDE BLVD",
+      "from": "CR 54 (RONALD REAGAN PARKWAY)",
+      "to": "OSCEOLA COUNTY LINE"
+    },
+    {
+      "id": "8448",
+      "road": "WILSON AVENUE",
+      "from": "STATE ROAD 60 (VAN FLEET DRIVE)",
+      "to": "OLD BARTOW EAGLE LAKE ROAD"
+    },
+    {
+      "id": "8098",
+      "road": "YARBOROUGH LANE",
+      "from": "CR 540A",
+      "to": "CR 540 (CLUBHOUSE ROAD)"
+    },
+    {
+      "id": "8053",
+      "road": "YATES ROAD",
+      "from": "EWELL ROAD",
+      "to": "PIPKIN ROAD W"
+    }
+  ]
+}

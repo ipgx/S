@@ -1,0 +1,1550 @@
+{
+  "name": "Apopka",
+  "region": "Apopka, Orange County, FL",
+  "segments": [
+    {
+      "id": "1",
+      "road": "10th St",
+      "from": "Alabama Ave",
+      "to": "Sheeler Ave",
+      "lat": 28.66578,
+      "lon": -81.49576
+    },
+    {
+      "id": "2",
+      "road": "13th St",
+      "from": "Ocoee-Apopka Rd",
+      "to": "Park Ave",
+      "lat": 28.662029,
+      "lon": -81.514872
+    },
+    {
+      "id": "3",
+      "road": "13th St",
+      "from": "Park Ave",
+      "to": "Apopka Blvd",
+      "lat": 28.662083,
+      "lon": -81.500375
+    },
+    {
+      "id": "4",
+      "road": "2nd St (Monroe Ave)",
+      "from": "Central Ave",
+      "to": "Park Ave",
+      "lat": 28.675534,
+      "lon": -81.511075
+    },
+    {
+      "id": "5",
+      "road": "5th St",
+      "from": "Park Ave",
+      "to": "Highland Ave",
+      "lat": 28.671882,
+      "lon": -81.507758
+    },
+    {
+      "id": "6",
+      "road": "6th St",
+      "from": "Park Ave",
+      "to": "Alabama Ave",
+      "lat": 28.670699,
+      "lon": -81.506454
+    },
+    {
+      "id": "7",
+      "road": "6th St",
+      "from": "Alabama Ave",
+      "to": "US 441",
+      "lat": 28.67073,
+      "lon": -81.497702
+    },
+    {
+      "id": "8",
+      "road": "8th St",
+      "from": "Park Ave",
+      "to": "Highland Ave",
+      "lat": 28.668232,
+      "lon": -81.507051
+    },
+    {
+      "id": "9",
+      "road": "9th St",
+      "from": "Central Ave",
+      "to": "Park Ave",
+      "lat": 28.667006,
+      "lon": -81.510471
+    },
+    {
+      "id": "10",
+      "road": "Alabama Ave",
+      "from": "Monroe Ave",
+      "to": "US 441",
+      "lat": 28.674095,
+      "lon": -81.50183
+    },
+    {
+      "id": "11",
+      "road": "Appy Ln",
+      "from": "Plymouth-Sorrento Rd (CR 437)",
+      "to": "Jason Dwelley Pkwy",
+      "lat": 28.742714,
+      "lon": -81.550574
+    },
+    {
+      "id": "12",
+      "road": "Binion Rd/Orange Ave",
+      "from": "Lakeview Dr",
+      "to": "US 441",
+      "lat": 28.688916,
+      "lon": -81.554052
+    },
+    {
+      "id": "13",
+      "road": "Binion Rd/Orange Ave",
+      "from": "Boy Scout Rd",
+      "to": "Lakeview Dr",
+      "lat": 28.670248,
+      "lon": -81.550394
+    },
+    {
+      "id": "14",
+      "road": "Binion Rd/Orange Ave",
+      "from": "Ocoee-Apopka Rd",
+      "to": "Harmon Rd",
+      "lat": 28.635266,
+      "lon": -81.55007
+    },
+    {
+      "id": "15",
+      "road": "Binion Rd/Orange Ave",
+      "from": "Harmon Rd",
+      "to": "Boy Scout Rd",
+      "lat": 28.657139,
+      "lon": -81.550721
+    },
+    {
+      "id": "16",
+      "road": "Boy Scout Rd",
+      "from": "Binion Rd",
+      "to": "Ocoee-Apopka Rd",
+      "lat": 28.661952,
+      "lon": -81.538743
+    },
+    {
+      "id": "17",
+      "road": "Bradshaw Rd",
+      "from": "US 441",
+      "to": "Ocoee-Apopka Rd",
+      "lat": 28.673357,
+      "lon": -81.521741
+    },
+    {
+      "id": "18",
+      "road": "CR 424 (Alabama Ave/Apopka Blvd)",
+      "from": "Hiawassee Rd",
+      "to": "Overland Rd",
+      "lat": 28.64167,
+      "lon": -81.462885
+    },
+    {
+      "id": "19",
+      "road": "CR 424 (Alabama Ave/Apopka Blvd)",
+      "from": "8th St",
+      "to": "Sheeler Rd",
+      "lat": 28.664812,
+      "lon": -81.497702
+    },
+    {
+      "id": "20",
+      "road": "CR 424 (Alabama Ave/Apopka Blvd)",
+      "from": "Overland Rd",
+      "to": "US 441",
+      "lat": 28.635611,
+      "lon": -81.454984
+    },
+    {
+      "id": "21",
+      "road": "CR 424 (Alabama Ave/Apopka Blvd)",
+      "from": "Lakeville Rd",
+      "to": "Hiawassee Rd",
+      "lat": 28.651139,
+      "lon": -81.477106
+    },
+    {
+      "id": "22",
+      "road": "CR 424 (Alabama Ave/Apopka Blvd)",
+      "from": "Sheeler Rd",
+      "to": "Lakeville Rd",
+      "lat": 28.654673,
+      "lon": -81.486935
+    },
+    {
+      "id": "23",
+      "road": "CR 424 (Alabama Ave/Apopka Blvd)",
+      "from": "US 441",
+      "to": "8th St",
+      "lat": 28.671607,
+      "lon": -81.502026
+    },
+    {
+      "id": "24",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "Keene Rd",
+      "to": "McCormick Rd",
+      "lat": 28.632718,
+      "lon": -81.498788
+    },
+    {
+      "id": "25",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "M. Gladden Blvd",
+      "to": "Cleveland St",
+      "lat": 28.66513,
+      "lon": -81.50937
+    },
+    {
+      "id": "26",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "Votaw Rd",
+      "to": "Orange St",
+      "lat": 28.6809,
+      "lon": -81.5095
+    },
+    {
+      "id": "27",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "Welch Rd",
+      "to": "Sandpiper Rd",
+      "lat": 28.6985,
+      "lon": -81.5092
+    },
+    {
+      "id": "28",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "Ponkan Rd",
+      "to": "Welch Rd",
+      "lat": 28.7145,
+      "lon": -81.509
+    },
+    {
+      "id": "29",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "McCormick Rd",
+      "to": "Clarcona-Ocoee Rd",
+      "lat": 28.618562,
+      "lon": -81.499335
+    },
+    {
+      "id": "30",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "Sandpiper Rd",
+      "to": "Votaw Rd",
+      "lat": 28.690042,
+      "lon": -81.509411
+    },
+    {
+      "id": "31",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "US 441",
+      "to": "M. Gladden Blvd",
+      "lat": 28.670468,
+      "lon": -81.509453
+    },
+    {
+      "id": "32",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "Orange St",
+      "to": "US 441",
+      "lat": 28.675129,
+      "lon": -81.509426
+    },
+    {
+      "id": "33",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "Cleveland St",
+      "to": "Keene Rd",
+      "lat": 28.648251,
+      "lon": -81.505598
+    },
+    {
+      "id": "34",
+      "road": "CR 435 (Rock Spring Rd/Park Ave/Clarcona Rd)",
+      "from": "Kelly Park Rd",
+      "to": "Ponkan Rd",
+      "lat": 28.7367,
+      "lon": -81.509
+    },
+    {
+      "id": "35",
+      "road": "CR 437A (Ocoee-Apopka Rd/Michael Gladden Blvd/Central Ave)",
+      "from": "Harmon Rd",
+      "to": "Bradshaw Rd",
+      "lat": 28.66438,
+      "lon": -81.522
+    },
+    {
+      "id": "36",
+      "road": "CR 437A (Ocoee-Apopka Rd/Michael Gladden Blvd/Central Ave)",
+      "from": "Bradshaw Rd",
+      "to": "Park Ave",
+      "lat": 28.66641,
+      "lon": -81.51956
+    },
+    {
+      "id": "37",
+      "road": "CR 437A (Ocoee-Apopka Rd/Michael Gladden Blvd/Central Ave)",
+      "from": "Alston Bay Blvd",
+      "to": "Harmon Rd",
+      "lat": 28.647932,
+      "lon": -81.538075
+    },
+    {
+      "id": "38",
+      "road": "CR 437A (Ocoee-Apopka Rd/Michael Gladden Blvd/Central Ave)",
+      "from": "Keene Rd",
+      "to": "Alston Bay Blvd",
+      "lat": 28.64353,
+      "lon": -81.53885
+    },
+    {
+      "id": "39",
+      "road": "CR 437A (Ocoee-Apopka Rd/Michael Gladden Blvd/Central Ave)",
+      "from": "Binion Rd",
+      "to": "Keene Rd",
+      "lat": 28.638486,
+      "lon": -81.540218
+    },
+    {
+      "id": "40",
+      "road": "Christiana Ave",
+      "from": "Monroe Ave",
+      "to": "Votaw Rd",
+      "lat": 28.680765,
+      "lon": -81.496916
+    },
+    {
+      "id": "41",
+      "road": "Cleveland St",
+      "from": "Park Ave",
+      "to": "Sheeler Rd",
+      "lat": 28.654755,
+      "lon": -81.500445
+    },
+    {
+      "id": "42",
+      "road": "E 5th Street",
+      "from": "S Central Ave",
+      "to": "Park Avenue",
+      "lat": 28.671878,
+      "lon": -81.510431
+    },
+    {
+      "id": "43",
+      "road": "Edgewood Dr",
+      "from": "Monroe Ave",
+      "to": "US 441",
+      "lat": 28.674527,
+      "lon": -81.504032
+    },
+    {
+      "id": "44",
+      "road": "Errol Pkwy",
+      "from": "Lake Francis Dr",
+      "to": "Lake Alden Dr",
+      "lat": 28.702969,
+      "lon": -81.537385
+    },
+    {
+      "id": "45",
+      "road": "Errol Pkwy",
+      "from": "Lake Alden Dr",
+      "to": "Old Dixie Hwy",
+      "lat": 28.693377,
+      "lon": -81.53997
+    },
+    {
+      "id": "46",
+      "road": "Errol Pkwy",
+      "from": "Old Dixie Hwy",
+      "to": "US 441",
+      "lat": 28.687534,
+      "lon": -81.535746
+    },
+    {
+      "id": "47",
+      "road": "General Electric Rd",
+      "from": "Hermit Smith Rd",
+      "to": "Orange Ave",
+      "lat": 28.690962,
+      "lon": -81.560995
+    },
+    {
+      "id": "48",
+      "road": "Golden Gem Rd",
+      "from": "Kelly Park Rd",
+      "to": "Sadler Rd",
+      "lat": 28.75326,
+      "lon": -81.576526
+    },
+    {
+      "id": "49",
+      "road": "Golden Gem Rd",
+      "from": "Sadler Rd",
+      "to": "Ponkan Rd",
+      "lat": 28.74228,
+      "lon": -81.576496
+    },
+    {
+      "id": "50",
+      "road": "Greenacre Rd",
+      "from": "Piedmont-Wekiwa Rd",
+      "to": "Neil Rd",
+      "lat": 28.655757,
+      "lon": -81.468117
+    },
+    {
+      "id": "51",
+      "road": "Haas Rd",
+      "from": "Plymouth-Sorrento Rd (CR 437)",
+      "to": "Mt Plymouth Rd",
+      "lat": 28.772011,
+      "lon": -81.538826
+    },
+    {
+      "id": "52",
+      "road": "Harmon Rd",
+      "from": "Binion Rd",
+      "to": "Ocoee-Apopka Rd",
+      "lat": 28.650962,
+      "lon": -81.544538
+    },
+    {
+      "id": "53",
+      "road": "Harmon Road",
+      "from": "Ocoee Apopka Road",
+      "to": "Marden Road",
+      "lat": 28.651131,
+      "lon": -81.533072
+    },
+    {
+      "id": "54",
+      "road": "Hawthorne Ave",
+      "from": "Ocoee-Apopka Rd",
+      "to": "13th St",
+      "lat": 28.666087,
+      "lon": -81.517743
+    },
+    {
+      "id": "55",
+      "road": "Hawthorne Ave",
+      "from": "US 441",
+      "to": "Ocoee-Apopka Rd",
+      "lat": 28.670964,
+      "lon": -81.517774
+    },
+    {
+      "id": "56",
+      "road": "Hermit Smith Rd",
+      "from": "US 441",
+      "to": "General Electric Rd",
+      "lat": 28.695695,
+      "lon": -81.566961
+    },
+    {
+      "id": "57",
+      "road": "Hermit Smith Rd",
+      "from": "Plymouth-Sorrento Rd (CR 437)",
+      "to": "US 441",
+      "lat": 28.705297,
+      "lon": -81.567431
+    },
+    {
+      "id": "58",
+      "road": "Hermit Smith Rd",
+      "from": "General Electric Rd",
+      "to": "US 441",
+      "lat": 28.68888,
+      "lon": -81.566982
+    },
+    {
+      "id": "59",
+      "road": "Highland Ave",
+      "from": "US 441",
+      "to": "6th St",
+      "lat": 28.671556,
+      "lon": -81.505338
+    },
+    {
+      "id": "60",
+      "road": "Highland Ave",
+      "from": "Monroe Ave",
+      "to": "US 441",
+      "lat": 28.674632,
+      "lon": -81.505342
+    },
+    {
+      "id": "61",
+      "road": "Hogshead Rd",
+      "from": "Hermit Smith Rd",
+      "to": "Conrad Rd",
+      "lat": 28.69455,
+      "lon": -81.569089
+    },
+    {
+      "id": "62",
+      "road": "Jason Dwelley Pkwy",
+      "from": "Kelly Park Rd",
+      "to": "Spinfisher Dr",
+      "lat": 28.755867,
+      "lon": -81.542242
+    },
+    {
+      "id": "63",
+      "road": "Jason Dwelley Pkwy",
+      "from": "Spinfisher Dr",
+      "to": "White Dahlia Dr",
+      "lat": 28.750786,
+      "lon": -81.542183
+    },
+    {
+      "id": "64",
+      "road": "Jason Dwelley Pkwy",
+      "from": "White Dahlia Dr",
+      "to": "Ponkan Rd",
+      "lat": 28.743456,
+      "lon": -81.542192
+    },
+    {
+      "id": "65",
+      "road": "Keene Rd",
+      "from": "Clarcona Rd",
+      "to": "Sheeler Rd",
+      "lat": 28.640278,
+      "lon": -81.498606
+    },
+    {
+      "id": "66",
+      "road": "Keene Rd",
+      "from": "Ocoee-Apopka Rd",
+      "to": "Marden Rd",
+      "lat": 28.640225,
+      "lon": -81.532039
+    },
+    {
+      "id": "67",
+      "road": "Keene Rd",
+      "from": "Marden Rd",
+      "to": "Clarcona Rd",
+      "lat": 28.640271,
+      "lon": -81.509992
+    },
+    {
+      "id": "68",
+      "road": "Kelly Park Rd",
+      "from": "Mt. Plymouth Rd",
+      "to": "Rock Springs Rd",
+      "lat": 28.757374,
+      "lon": -81.5135
+    },
+    {
+      "id": "69",
+      "road": "Kelly Park Rd",
+      "from": "SR 429",
+      "to": "Plymouth-Sorrento Rd (CR 437)",
+      "lat": 28.756804,
+      "lon": -81.56196
+    },
+    {
+      "id": "70",
+      "road": "Kelly Park Rd",
+      "from": "Jason Dwelley Pkwy",
+      "to": "Mt. Plymouth Rd",
+      "lat": 28.757351,
+      "lon": -81.525135
+    },
+    {
+      "id": "71",
+      "road": "Kelly Park Rd",
+      "from": "Round Lake Rd",
+      "to": "SR 429",
+      "lat": 28.756476,
+      "lon": -81.57719
+    },
+    {
+      "id": "72",
+      "road": "Kelly Park Rd",
+      "from": "Plymouth-Sorrento Rd (CR 437)",
+      "to": "Jason Dwelley Pkwy",
+      "lat": 28.757129,
+      "lon": -81.550858
+    },
+    {
+      "id": "73",
+      "road": "Kelly Park Road",
+      "from": "SR 429",
+      "to": "Plymouth Sorrento Road",
+      "lat": 28.756811,
+      "lon": -81.561733
+    },
+    {
+      "id": "74",
+      "road": "Kelly Park Road",
+      "from": "Round Lake Road",
+      "to": "Waypointe Blvd",
+      "lat": 28.756364,
+      "lon": -81.585686
+    },
+    {
+      "id": "75",
+      "road": "King St",
+      "from": "Peterson Rd",
+      "to": "Orange Ave",
+      "lat": 28.685603,
+      "lon": -81.550456
+    },
+    {
+      "id": "76",
+      "road": "Lake Ave/Marvin C Zanders Ave",
+      "from": "US 441",
+      "to": "4th St",
+      "lat": 28.673413,
+      "lon": -81.513607
+    },
+    {
+      "id": "77",
+      "road": "Lake Ave/Marvin C Zanders Ave",
+      "from": "Martin St",
+      "to": "Orange St",
+      "lat": 28.684532,
+      "lon": -81.513418
+    },
+    {
+      "id": "78",
+      "road": "Lake Ave/Marvin C Zanders Ave",
+      "from": "Orange St",
+      "to": "US 441",
+      "lat": 28.675935,
+      "lon": -81.513618
+    },
+    {
+      "id": "79",
+      "road": "Lake Cortez Dr",
+      "from": "SR 436",
+      "to": "Evelyn Dr",
+      "lat": 28.673876,
+      "lon": -81.461467
+    },
+    {
+      "id": "80",
+      "road": "Lake Doe Blvd",
+      "from": "US 441",
+      "to": "Dunn Cove Dr",
+      "lat": 28.684591,
+      "lon": -81.53407
+    },
+    {
+      "id": "81",
+      "road": "Lake Francis Dr",
+      "from": "Errol Pkwy",
+      "to": "Vick Rd",
+      "lat": 28.710596,
+      "lon": -81.52888
+    },
+    {
+      "id": "82",
+      "road": "Lake Francis Dr",
+      "from": "Schopke Lester Rd",
+      "to": "Errol Pkwy",
+      "lat": 28.707944,
+      "lon": -81.538704
+    },
+    {
+      "id": "83",
+      "road": "Lakeville Rd",
+      "from": "Beggs Rd",
+      "to": "Clarcona Ocoee Rd",
+      "lat": 28.618316,
+      "lon": -81.480383
+    },
+    {
+      "id": "84",
+      "road": "Lakeville Rd",
+      "from": "Apopka Blvd",
+      "to": "Wildwood St",
+      "lat": 28.649221,
+      "lon": -81.480456
+    },
+    {
+      "id": "85",
+      "road": "Lakeville Rd",
+      "from": "Wildwood St",
+      "to": "Beggs Rd",
+      "lat": 28.637006,
+      "lon": -81.480452
+    },
+    {
+      "id": "86",
+      "road": "Lester Rd",
+      "from": "Schopke Lester Rd",
+      "to": "Plymouth-Sorrento Rd (CR 437)",
+      "lat": 28.713191,
+      "lon": -81.551688
+    },
+    {
+      "id": "87",
+      "road": "Lester Rd",
+      "from": "Vick Rd",
+      "to": "Schopke Lester Rd",
+      "lat": 28.713611,
+      "lon": -81.535033
+    },
+    {
+      "id": "88",
+      "road": "Lester Rd",
+      "from": "Rock Springs Rd",
+      "to": "Vick Rd",
+      "lat": 28.713597,
+      "lon": -81.524836
+    },
+    {
+      "id": "89",
+      "road": "Lust Rd",
+      "from": "Binion Rd",
+      "to": "Avian Pointe Blvd",
+      "lat": 28.669164,
+      "lon": -81.551367
+    },
+    {
+      "id": "90",
+      "road": "Magee Avenue",
+      "from": "US 441",
+      "to": "E 6th Street",
+      "lat": 28.671358,
+      "lon": -81.500556
+    },
+    {
+      "id": "91",
+      "road": "Magee Avenue",
+      "from": "Monroe Ave",
+      "to": "US 441",
+      "lat": 28.673639,
+      "lon": -81.500594
+    },
+    {
+      "id": "92",
+      "road": "Marden Rd",
+      "from": "SR 414",
+      "to": "Keene Rd",
+      "lat": 28.645976,
+      "lon": -81.525875
+    },
+    {
+      "id": "93",
+      "road": "Marden Rd",
+      "from": "Marden Ridge Lp",
+      "to": "SR 414",
+      "lat": 28.653762,
+      "lon": -81.525762
+    },
+    {
+      "id": "94",
+      "road": "Marden Rd",
+      "from": "Ocoee-Apopka Rd",
+      "to": "Marden Ridge Lp",
+      "lat": 28.659432,
+      "lon": -81.525874
+    },
+    {
+      "id": "95",
+      "road": "Marshall Lake Rd",
+      "from": "SR 451",
+      "to": "Bradshaw Rd",
+      "lat": 28.676753,
+      "lon": -81.523869
+    },
+    {
+      "id": "96",
+      "road": "Martin St",
+      "from": "Park Ave",
+      "to": "Lake Ave",
+      "lat": 28.691231,
+      "lon": -81.51093
+    },
+    {
+      "id": "97",
+      "road": "Martin St",
+      "from": "Maine Ave",
+      "to": "Vick Rd",
+      "lat": 28.691524,
+      "lon": -81.522007
+    },
+    {
+      "id": "98",
+      "road": "Midland Ave",
+      "from": "US 441",
+      "to": "6th St",
+      "lat": 28.67175,
+      "lon": -81.504194
+    },
+    {
+      "id": "99",
+      "road": "Monroe Ave",
+      "from": "Park Ave",
+      "to": "Alabama Ave",
+      "lat": 28.675544,
+      "lon": -81.505535
+    },
+    {
+      "id": "100",
+      "road": "Monroe Ave",
+      "from": "Alabama Ave",
+      "to": "Sheeler Rd",
+      "lat": 28.674932,
+      "lon": -81.497225
+    },
+    {
+      "id": "101",
+      "road": "Mt. Plymouth Rd",
+      "from": "Kelly Park Rd",
+      "to": "Haas Rd",
+      "lat": 28.76346,
+      "lon": -81.52036
+    },
+    {
+      "id": "102",
+      "road": "Mt. Plymouth Rd",
+      "from": "Haas Rd",
+      "to": "Lake County Line",
+      "lat": 28.776078,
+      "lon": -81.526318
+    },
+    {
+      "id": "103",
+      "road": "North Maine Ave",
+      "from": "Martin St",
+      "to": "Old Dixie Hwy",
+      "lat": 28.685063,
+      "lon": -81.520552
+    },
+    {
+      "id": "104",
+      "road": "Old Dixie Hwy/West Highland Ave/Orange St",
+      "from": "Vick Rd",
+      "to": "Bradshaw Rd",
+      "lat": 28.681452,
+      "lon": -81.522817
+    },
+    {
+      "id": "105",
+      "road": "Old Dixie Hwy/West Highland Ave/Orange St",
+      "from": "Boy Scout Blvd",
+      "to": "Errol Pkwy",
+      "lat": 28.690886,
+      "lon": -81.541588
+    },
+    {
+      "id": "106",
+      "road": "Old Dixie Hwy/West Highland Ave/Orange St",
+      "from": "Errol Pkwy",
+      "to": "Vick Rd",
+      "lat": 28.686122,
+      "lon": -81.530771
+    },
+    {
+      "id": "107",
+      "road": "Old Dixie Hwy/West Highland Ave/Orange St",
+      "from": "Hawthorne Ave",
+      "to": "Park Ave",
+      "lat": 28.677949,
+      "lon": -81.514544
+    },
+    {
+      "id": "108",
+      "road": "Old Dixie Hwy/West Highland Ave/Orange St",
+      "from": "Bradshaw Rd",
+      "to": "Hawthorne Ave",
+      "lat": 28.679122,
+      "lon": -81.519422
+    },
+    {
+      "id": "109",
+      "road": "Old Dixie Hwy/West Highland Ave/Orange St",
+      "from": "Plymouth-Sorrento Rd (CR 437)",
+      "to": "Boy Scout Blvd",
+      "lat": 28.693738,
+      "lon": -81.551315
+    },
+    {
+      "id": "110",
+      "road": "Ondich Rd",
+      "from": "Effie Dr",
+      "to": "Plymouth-Sorrento Rd (CR 437)",
+      "lat": 28.77131,
+      "lon": -81.56361
+    },
+    {
+      "id": "111",
+      "road": "Ondich Rd",
+      "from": "Round Lake Rd",
+      "to": "Effie Dr",
+      "lat": 28.771093,
+      "lon": -81.576296
+    },
+    {
+      "id": "112",
+      "road": "Overland Rd",
+      "from": "Apopka Rd",
+      "to": "Beggs Rd",
+      "lat": 28.631368,
+      "lon": -81.459826
+    },
+    {
+      "id": "113",
+      "road": "Peterson Rd",
+      "from": "Grand Avian Pkwy",
+      "to": "King St",
+      "lat": 28.631368,
+      "lon": -81.459826
+    },
+    {
+      "id": "114",
+      "road": "Plymouth-Sorrento Rd",
+      "from": "Appy Ln",
+      "to": "Ponkan Rd",
+      "lat": 28.72894,
+      "lon": -81.5597
+    },
+    {
+      "id": "115",
+      "road": "Plymouth-Sorrento Rd",
+      "from": "County Line",
+      "to": "Kelly Park Rd",
+      "lat": 28.7586,
+      "lon": -81.5598
+    },
+    {
+      "id": "116",
+      "road": "Plymouth-Sorrento Rd",
+      "from": "Lester Rd/Yothers Rd",
+      "to": "SR 429 Connector Rd",
+      "lat": 28.711013,
+      "lon": -81.557428
+    },
+    {
+      "id": "117",
+      "road": "Plymouth-Sorrento Rd",
+      "from": "SR 429 Connector Rd",
+      "to": "US 441",
+      "lat": 28.69613,
+      "lon": -81.556646
+    },
+    {
+      "id": "118",
+      "road": "Plymouth-Sorrento Rd",
+      "from": "Kelly Park Rd",
+      "to": "Appy Ln",
+      "lat": 28.752387,
+      "lon": -81.559812
+    },
+    {
+      "id": "119",
+      "road": "Plymouth-Sorrento Rd",
+      "from": "Ponkan Rd",
+      "to": "Lester Rd/Yothers Rd",
+      "lat": 28.7262,
+      "lon": -81.558
+    },
+    {
+      "id": "120",
+      "road": "Ponkan Rd",
+      "from": "Plymouth-Sorrento Rd (CR 437)",
+      "to": "Vick Rd",
+      "lat": 28.72818,
+      "lon": -81.54287
+    },
+    {
+      "id": "121",
+      "road": "Ponkan Rd",
+      "from": "Round Lake Rd",
+      "to": "Plymouth-Sorrento Rd (CR 437)",
+      "lat": 28.7275,
+      "lon": -81.5602
+    },
+    {
+      "id": "122",
+      "road": "Ponkan Rd",
+      "from": "Vick Rd",
+      "to": "Rock Springs Rd",
+      "lat": 28.7282,
+      "lon": -81.5114
+    },
+    {
+      "id": "123",
+      "road": "Rock Ridge Blvd",
+      "from": "Rock Springs Rd",
+      "to": "Haddington Ct",
+      "lat": 28.738984,
+      "lon": -81.510805
+    },
+    {
+      "id": "124",
+      "road": "Roger Williams Rd",
+      "from": "US 441",
+      "to": "SR 436",
+      "lat": 28.668768,
+      "lon": -81.484694
+    },
+    {
+      "id": "125",
+      "road": "Rogers Rd",
+      "from": "Lester Rd",
+      "to": "Gray Stone",
+      "lat": 28.715044,
+      "lon": -81.542323
+    },
+    {
+      "id": "126",
+      "road": "Round Lake Rd",
+      "from": "Sadler Ave",
+      "to": "Kelly Park Rd",
+      "lat": 28.7554,
+      "lon": -81.5932
+    },
+    {
+      "id": "127",
+      "road": "Round Lake Rd",
+      "from": "Ponkan Rd",
+      "to": "Sadler Ave",
+      "lat": 28.73717,
+      "lon": -81.59304
+    },
+    {
+      "id": "128",
+      "road": "Round Lake Rd",
+      "from": "Ondich Rd",
+      "to": "Lake County Line",
+      "lat": 28.7571,
+      "lon": -81.5932
+    },
+    {
+      "id": "129",
+      "road": "Round Lake Rd",
+      "from": "Kelly Park Rd",
+      "to": "Ondich Rd",
+      "lat": 28.7571,
+      "lon": -81.5932
+    },
+    {
+      "id": "130",
+      "road": "SR 429 Connector",
+      "from": "US 441",
+      "to": "Plymouth-Sorrento Rd (CR 437)",
+      "lat": 28.650791,
+      "lon": -81.491611
+    },
+    {
+      "id": "131",
+      "road": "SR 429 Connector Road",
+      "from": "US 441",
+      "to": "Plymouth Sorrento Road",
+      "lat": 28.697978,
+      "lon": -81.560531
+    },
+    {
+      "id": "132",
+      "road": "SR 436 (Semoran Blvd)",
+      "from": "Thompson Rd",
+      "to": "Roger Williams Rd",
+      "lat": 28.673045,
+      "lon": -81.486683
+    },
+    {
+      "id": "133",
+      "road": "SR 436 (Semoran Blvd)",
+      "from": "US 441",
+      "to": "Sheeler Rd",
+      "lat": 28.673035,
+      "lon": -81.494209
+    },
+    {
+      "id": "134",
+      "road": "SR 436 (Semoran Blvd)",
+      "from": "Sheeler Rd",
+      "to": "Thompson Rd",
+      "lat": 28.673035,
+      "lon": -81.490389
+    },
+    {
+      "id": "135",
+      "road": "SR 436 (Semoran Blvd)",
+      "from": "Roger Williams Rd",
+      "to": "Piedmont-Wekiva Rd",
+      "lat": 28.67302,
+      "lon": -81.47462
+    },
+    {
+      "id": "136",
+      "road": "SR 436 (Semoran Blvd)",
+      "from": "Piedmont-Wekiva Rd",
+      "to": "Seminole County Ln",
+      "lat": 28.67288,
+      "lon": -81.46357
+    },
+    {
+      "id": "137",
+      "road": "Sandpiper Rd",
+      "from": "Ustler Rd",
+      "to": "Thompson Rd",
+      "lat": 28.694793,
+      "lon": -81.494719
+    },
+    {
+      "id": "138",
+      "road": "Sandpiper Rd",
+      "from": "Park Ave",
+      "to": "Ustler Rd",
+      "lat": 28.694828,
+      "lon": -81.505093
+    },
+    {
+      "id": "139",
+      "road": "Schopke-Lester Rd",
+      "from": "Lester Rd",
+      "to": "Old Dixie Hwy",
+      "lat": 28.701846,
+      "lon": -81.546392
+    },
+    {
+      "id": "140",
+      "road": "Sheeler Oaks Dr",
+      "from": "Sheeler Rd",
+      "to": "Saddleback Ridge",
+      "lat": 28.650791,
+      "lon": -81.491611
+    },
+    {
+      "id": "141",
+      "road": "Sheeler Rd",
+      "from": "Cleveland St",
+      "to": "Keene Rd",
+      "lat": 28.648875,
+      "lon": -81.492849
+    },
+    {
+      "id": "142",
+      "road": "Sheeler Rd",
+      "from": "US 441",
+      "to": "Apopka Blvd",
+      "lat": 28.6653,
+      "lon": -81.49285
+    },
+    {
+      "id": "143",
+      "road": "Sheeler Rd",
+      "from": "SR 436",
+      "to": "US 441",
+      "lat": 28.671674,
+      "lon": -81.492844
+    },
+    {
+      "id": "144",
+      "road": "Sheeler Rd",
+      "from": "Apopka Blvd",
+      "to": "Cleveland St",
+      "lat": 28.6554,
+      "lon": -81.4929
+    },
+    {
+      "id": "145",
+      "road": "Summit St",
+      "from": "Rock Springs Rd",
+      "to": "Lake Ave",
+      "lat": 28.687609,
+      "lon": -81.511615
+    },
+    {
+      "id": "146",
+      "road": "Tanglewild St",
+      "from": "Rock Springs Rd",
+      "to": "Ulster Rd",
+      "lat": 28.691244,
+      "lon": -81.507973
+    },
+    {
+      "id": "147",
+      "road": "Thompson Rd",
+      "from": "Votaw Rd",
+      "to": "SR 436",
+      "lat": 28.675,
+      "lon": -81.4887
+    },
+    {
+      "id": "148",
+      "road": "Thompson Rd",
+      "from": "Welch Rd",
+      "to": "Votaw Rd",
+      "lat": 28.6876,
+      "lon": -81.4886
+    },
+    {
+      "id": "149",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Bradshaw Rd",
+      "to": "Hawthorne Ave",
+      "lat": 28.677953,
+      "lon": -81.519496
+    },
+    {
+      "id": "150",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Boy Scout Blvd",
+      "to": "Errol Pkwy",
+      "lat": 28.68911,
+      "lon": -81.54333
+    },
+    {
+      "id": "151",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "SR 436",
+      "to": "Sheeler Rd",
+      "lat": 28.670839,
+      "lon": -81.493902
+    },
+    {
+      "id": "152",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Church Dr/Yothers Rd",
+      "to": "SR 429 Connector Rd",
+      "lat": 28.699877,
+      "lon": -81.573506
+    },
+    {
+      "id": "153",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Highland Ave",
+      "to": "Alabama Ave",
+      "lat": 28.673094,
+      "lon": -81.503468
+    },
+    {
+      "id": "154",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Ponkan Rd",
+      "to": "Church Dr/Yothers Rd",
+      "lat": 28.72552,
+      "lon": -81.59981
+    },
+    {
+      "id": "155",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "SR 429 Connector Rd",
+      "to": "Plymouth Sorrento Rd (CR 437)",
+      "lat": 28.695148,
+      "lon": -81.559981
+    },
+    {
+      "id": "156",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "SR 451",
+      "to": "Bradshaw Rd",
+      "lat": 28.680323,
+      "lon": -81.522827
+    },
+    {
+      "id": "157",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Errol Pkwy",
+      "to": "SR 451",
+      "lat": 28.685048,
+      "lon": -81.532719
+    },
+    {
+      "id": "158",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Central Ave",
+      "to": "Park Ave",
+      "lat": 28.673113,
+      "lon": -81.510488
+    },
+    {
+      "id": "159",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Hawthorne Ave",
+      "to": "Central Ave",
+      "lat": 28.675776,
+      "lon": -81.516276
+    },
+    {
+      "id": "160",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Piedmont-Wekiva Rd",
+      "to": "Seminole County Ln",
+      "lat": 28.644516,
+      "lon": -81.459745
+    },
+    {
+      "id": "161",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Roger Williams Rd",
+      "to": "Piedmont-Wekiva Rd",
+      "lat": 28.65724,
+      "lon": -81.47368
+    },
+    {
+      "id": "162",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Plymouth Sorrento Rd (CR 437)",
+      "to": "Boy Scout Blvd",
+      "lat": 28.691622,
+      "lon": -81.551488
+    },
+    {
+      "id": "163",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Alabama Ave",
+      "to": "SR 436",
+      "lat": 28.673139,
+      "lon": -81.499675
+    },
+    {
+      "id": "164",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Park Ave",
+      "to": "Highland Ave",
+      "lat": 28.673114,
+      "lon": -81.508021
+    },
+    {
+      "id": "165",
+      "road": "US 441 (Orange Blossom Tr)",
+      "from": "Sheeler Rd",
+      "to": "Roger Williams Rd",
+      "lat": 28.66746,
+      "lon": -81.48802
+    },
+    {
+      "id": "166",
+      "road": "Ustler Rd",
+      "from": "Welch Rd",
+      "to": "Sandpiper Rd",
+      "lat": 28.698481,
+      "lon": -81.500913
+    },
+    {
+      "id": "167",
+      "road": "Ustler Rd",
+      "from": "Sandpiper Rd",
+      "to": "Tanglewild St",
+      "lat": 28.692569,
+      "lon": -81.500943
+    },
+    {
+      "id": "168",
+      "road": "Vick Rd",
+      "from": "Martin St",
+      "to": "Welch Rd",
+      "lat": 28.701483,
+      "lon": -81.525636
+    },
+    {
+      "id": "169",
+      "road": "Vick Rd",
+      "from": "Old Dixie Hwy",
+      "to": "Ashworth Overlook Dr",
+      "lat": 28.690322,
+      "lon": -81.525853
+    },
+    {
+      "id": "170",
+      "road": "Vick Rd",
+      "from": "Lester Rd",
+      "to": "Ponkan Rd",
+      "lat": 28.719295,
+      "lon": -81.525531
+    },
+    {
+      "id": "171",
+      "road": "Vick Rd",
+      "from": "Welch Rd",
+      "to": "Lake Francis Dr",
+      "lat": 28.707993,
+      "lon": -81.525826
+    },
+    {
+      "id": "172",
+      "road": "Vick Rd",
+      "from": "Ashworth Overlook Dr",
+      "to": "Martin St",
+      "lat": 28.690322,
+      "lon": -81.525853
+    },
+    {
+      "id": "173",
+      "road": "Vick Rd",
+      "from": "Lake Francis Dr",
+      "to": "Lester Rd",
+      "lat": 28.712257,
+      "lon": -81.525497
+    },
+    {
+      "id": "174",
+      "road": "Vick Rd",
+      "from": "US 441",
+      "to": "Old Dixie Hwy",
+      "lat": 28.683391,
+      "lon": -81.526647
+    },
+    {
+      "id": "175",
+      "road": "Vick Road",
+      "from": "Ponkan Road",
+      "to": "Lester Road",
+      "lat": 28.72145,
+      "lon": -81.525714
+    },
+    {
+      "id": "176",
+      "road": "Votaw Rd",
+      "from": "Thompson Rd",
+      "to": "Wekiva Springs Rd",
+      "lat": 28.6838,
+      "lon": -81.474837
+    },
+    {
+      "id": "177",
+      "road": "Votaw Rd",
+      "from": "Christiana Ave",
+      "to": "Thompson Rd",
+      "lat": 28.683874,
+      "lon": -81.493854
+    },
+    {
+      "id": "178",
+      "road": "Votaw Rd",
+      "from": "Park Ave",
+      "to": "Christiana Ave",
+      "lat": 28.683904,
+      "lon": -81.501126
+    },
+    {
+      "id": "179",
+      "road": "Wekiwa Springs Rd/Piedmont-Wekiwa Rd/Hiawassee Rd",
+      "from": "Piedmont Lakes Blvd",
+      "to": "US 441",
+      "lat": 28.66001,
+      "lon": -81.470015
+    },
+    {
+      "id": "180",
+      "road": "Wekiwa Springs Rd/Piedmont-Wekiwa Rd/Hiawassee Rd",
+      "from": "Welch Rd",
+      "to": "Votaw Rd",
+      "lat": 28.70575,
+      "lon": -81.4677
+    },
+    {
+      "id": "181",
+      "road": "Wekiwa Springs Rd/Piedmont-Wekiwa Rd/Hiawassee Rd",
+      "from": "Votaw Rd",
+      "to": "SR 436",
+      "lat": 28.68072,
+      "lon": -81.46817
+    },
+    {
+      "id": "182",
+      "road": "Wekiwa Springs Rd/Piedmont-Wekiwa Rd/Hiawassee Rd",
+      "from": "SR 436",
+      "to": "Piedmont Lakes Blvd",
+      "lat": 28.6688,
+      "lon": -81.4679
+    },
+    {
+      "id": "183",
+      "road": "Wekiwa Springs Rd/Piedmont-Wekiwa Rd/Hiawassee Rd",
+      "from": "US 441",
+      "to": "CR 424 (Apopka Blvd)",
+      "lat": 28.649848,
+      "lon": -81.470854
+    },
+    {
+      "id": "184",
+      "road": "Wekiwa Springs Rd/Piedmont-Wekiwa Rd/Hiawassee Rd",
+      "from": "CR 424 (Apopka Blvd)",
+      "to": "SR 414",
+      "lat": 28.639026,
+      "lon": -81.474743
+    },
+    {
+      "id": "185",
+      "road": "Wekiwa Springs Rd/Piedmont-Wekiwa Rd/Hiawassee Rd",
+      "from": "Beggs Rd",
+      "to": "Clarcona-Ocoee Rd",
+      "lat": 28.619543,
+      "lon": -81.476222
+    },
+    {
+      "id": "186",
+      "road": "Wekiwa Springs Rd/Piedmont-Wekiwa Rd/Hiawassee Rd",
+      "from": "SR 414",
+      "to": "Beggs Rd",
+      "lat": 28.629558,
+      "lon": -81.476452
+    },
+    {
+      "id": "187",
+      "road": "Welch Rd",
+      "from": "Ustler Road",
+      "to": "Thompson Rd",
+      "lat": 28.70598,
+      "lon": -81.4989
+    },
+    {
+      "id": "188",
+      "road": "Welch Rd",
+      "from": "Vick Rd",
+      "to": "Rock Springs Rd",
+      "lat": 28.70599,
+      "lon": -81.51524
+    },
+    {
+      "id": "189",
+      "road": "Welch Rd",
+      "from": "Thompson Rd",
+      "to": "Wekiva Springs Rd",
+      "lat": 28.70567,
+      "lon": -81.48622
+    },
+    {
+      "id": "190",
+      "road": "Welch Rd",
+      "from": "Rock Springs Rd",
+      "to": "Ustler Road",
+      "lat": 28.675534,
+      "lon": -81.511075
+    },
+    {
+      "id": "191",
+      "road": "Woodfield Oaks Dr",
+      "from": "Arbor Way",
+      "to": "Regal St",
+      "lat": 28.644291,
+      "lon": -81.484661
+    },
+    {
+      "id": "192",
+      "road": "Yothers Rd",
+      "from": "Hermit Smith Rd",
+      "to": "Plymouth-Sorrento Rd (CR 437)",
+      "lat": 28.71287,
+      "lon": -81.55844
+    },
+    {
+      "id": "193",
+      "road": "Yothers Rd",
+      "from": "US 441",
+      "to": "Hermit Smith Rd",
+      "lat": 28.712693,
+      "lon": -81.574135
+    }
+  ]
+}

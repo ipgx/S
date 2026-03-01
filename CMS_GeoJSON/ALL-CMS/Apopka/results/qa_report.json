@@ -1,0 +1,19 @@
+{
+  "name": "Apopka",
+  "region": "Apopka, Orange County, FL",
+  "total_input": 193,
+  "geocoded": 193,
+  "geocode_failed": 0,
+  "routed": 190,
+  "route_failed": 3,
+  "clipped": 3,
+  "total_route_points": 7295,
+  "oob_points": 4,
+  "oob_pct": 0.0548,
+  "statuses": {
+    "OK": 186,
+    "STRAIGHT_LINE": 3,
+    "CLIPPED": 3,
+    "HIGH_DETOUR:5.2x": 1
+  }
+}

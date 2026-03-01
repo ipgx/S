@@ -1,0 +1,52 @@
+{
+  "stats": {
+    "total": 452,
+    "routed_ok": 452,
+    "route_failed": 0,
+    "high_detour": 1,
+    "out_of_bounds": 0,
+    "very_short": 0
+  },
+  "issues": [
+    {
+      "id": "830",
+      "road": "CR 452",
+      "issue": "MODERATE_DETOUR:3.1x",
+      "route_km": 29.41,
+      "straight_km": 9.4,
+      "detour": 3.13
+    },
+    {
+      "id": "990",
+      "road": "CR 455",
+      "issue": "HIGH_DETOUR:7.7x",
+      "route_km": 1.43,
+      "straight_km": 0.19,
+      "detour": 7.7
+    },
+    {
+      "id": "1155",
+      "road": "CR 470",
+      "issue": "MODERATE_DETOUR:4.4x",
+      "route_km": 15.08,
+      "straight_km": 3.4,
+      "detour": 4.43
+    },
+    {
+      "id": "3260",
+      "road": "SR 44  (DIXIE AVE)",
+      "issue": "MODERATE_DETOUR:3.4x",
+      "route_km": 0.57,
+      "straight_km": 0.17,
+      "detour": 3.4
+    },
+    {
+      "id": "4120",
+      "road": "VISTA DEL LAGO BLVD",
+      "issue": "MODERATE_DETOUR:3.1x",
+      "route_km": 3.36,
+      "straight_km": 1.08,
+      "detour": 3.13
+    }
+  ]
+}

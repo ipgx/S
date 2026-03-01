@@ -1,0 +1,19 @@
+{
+  "name": "PalmBeach",
+  "region": "Palm Beach County, FL",
+  "total_input": 293,
+  "geocoded": 293,
+  "geocode_failed": 0,
+  "routed": 288,
+  "route_failed": 5,
+  "clipped": 0,
+  "total_route_points": 17412,
+  "oob_points": 1,
+  "oob_pct": 0.0057,
+  "statuses": {
+    "OK": 286,
+    "STRAIGHT_LINE": 5,
+    "HIGH_DETOUR:18.2x": 1,
+    "HIGH_DETOUR:7.3x": 1
+  }
+}

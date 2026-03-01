@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "combined-map",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["ALL-CMS/combined_server.py"],
+      "port": 8091
+    }
+  ]
+}

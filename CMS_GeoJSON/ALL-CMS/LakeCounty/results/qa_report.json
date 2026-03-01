@@ -1,0 +1,177 @@
+{
+  "total_segments": 452,
+  "included": 452,
+  "skipped": 0,
+  "failed_from": [],
+  "failed_to": [],
+  "out_of_bounds": [],
+  "low_score_points": [
+    "1480_TO:79.2",
+    "1080_TO:78.82",
+    "1090_FROM:78.82",
+    "1090_TO:76.74",
+    "2110_TO:77.82",
+    "2530_TO:79.2",
+    "3340_TO:78.49",
+    "3568_TO:78.84",
+    "4140_FROM:79.43",
+    "4190_FROM:79.71"
+  ],
+  "segment_flags": [
+    {
+      "id": "1480",
+      "road": "8TH ST/OSCEOLA ST/4TH ST/CARROL ST/3R",
+      "qa_flag": "TO_LOW_SCORE:79"
+    },
+    {
+      "id": "50",
+      "road": "AUSTIN MERRITT RD",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "110",
+      "road": "BRIDGES RD",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "560",
+      "road": "CR 445",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "870",
+      "road": "CR 452 (EUSTIS)",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "940",
+      "road": "CR 452 (LAKESHORE DR)",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "1080",
+      "road": "CR 466A (PICCIOLA RD)",
+      "qa_flag": "TO_LOW_SCORE:79"
+    },
+    {
+      "id": "1090",
+      "road": "CR 466A (PICCIOLA RD)",
+      "qa_flag": "FROM_LOW_SCORE:79; TO_LOW_SCORE:77"
+    },
+    {
+      "id": "1380",
+      "road": "CR 500A (HIGHLAND ST)",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "2110",
+      "road": "HARTWOOD MARSH RD",
+      "qa_flag": "TO_LOW_SCORE:78"
+    },
+    {
+      "id": "2490",
+      "road": "MAIN ST (LEESBURG)",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "2530",
+      "road": "MAIN ST (LEESBURG)",
+      "qa_flag": "TO_LOW_SCORE:79"
+    },
+    {
+      "id": "2056",
+      "road": "N. HANCOCK RD",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "2850",
+      "road": "SR 19",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "2890",
+      "road": "SR 19",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "270",
+      "road": "SR 33 / SR 48 / CR 33 / CR 48",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3340",
+      "road": "SR 44",
+      "qa_flag": "TO_LOW_SCORE:78"
+    },
+    {
+      "id": "3380",
+      "road": "SR 46",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3520",
+      "road": "SR 50",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3568",
+      "road": "SR 91 (FLORIDA TURNPIKE)",
+      "qa_flag": "TO_LOW_SCORE:79"
+    },
+    {
+      "id": "3840",
+      "road": "US 27/SR 25",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3850",
+      "road": "US 27/SR 25",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3670",
+      "road": "US 27/US441",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3680",
+      "road": "US 27/US441",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3690",
+      "road": "US 27/US441",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3720",
+      "road": "US 27/US441",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3730",
+      "road": "US 27/US441",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3740",
+      "road": "US 27/US441",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "3750",
+      "road": "US 27/US441",
+      "qa_flag": "ZERO_LENGTH"
+    },
+    {
+      "id": "4140",
+      "road": "WAYCROSS AVE",
+      "qa_flag": "FROM_LOW_SCORE:79"
+    },
+    {
+      "id": "4190",
+      "road": "YOUTH CAMP RD",
+      "qa_flag": "FROM_LOW_SCORE:80"
+    }
+  ]
+}

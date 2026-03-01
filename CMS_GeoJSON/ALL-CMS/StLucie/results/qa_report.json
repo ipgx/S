@@ -1,0 +1,28 @@
+{
+  "name": "StLucie",
+  "region": "St. Lucie County, FL",
+  "total_input": 497,
+  "geocoded": 497,
+  "geocode_failed": 0,
+  "routed": 484,
+  "route_failed": 13,
+  "clipped": 6,
+  "total_route_points": 22467,
+  "oob_points": 3,
+  "oob_pct": 0.0134,
+  "statuses": {
+    "OK": 467,
+    "STRAIGHT_LINE": 13,
+    "HIGH_DETOUR:11.6x": 2,
+    "CLIPPED": 6,
+    "HIGH_DETOUR:18.4x": 1,
+    "HIGH_DETOUR:19.6x": 1,
+    "HIGH_DETOUR:5.2x": 1,
+    "HIGH_DETOUR:5.6x": 1,
+    "HIGH_DETOUR:11.1x": 1,
+    "HIGH_DETOUR:19.3x": 1,
+    "HIGH_DETOUR:7.2x": 1,
+    "HIGH_DETOUR:62.5x": 1,
+    "HIGH_DETOUR:12.6x": 1
+  }
+}

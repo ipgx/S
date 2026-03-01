@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Florida CMS — All Regions Combined Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;font-family:'Segoe UI',system-ui,sans-serif}
+#map{height:100%;width:100%}
+.legend{background:#fff;padding:12px 16px;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.25);line-height:1.8;max-height:90vh;overflow-y:auto}
+.legend h3{margin:0 0 8px;font-size:14px;color:#333}
+.legend-item{display:flex;align-items:center;gap:8px;cursor:pointer;padding:2px 0;user-select:none}
+.legend-item:hover{background:#f0f0f0;border-radius:4px}
+.legend-item.disabled{opacity:0.35}
+.legend-swatch{width:16px;height:16px;border-radius:3px;border:1px solid rgba(0,0,0,.2);flex-shrink:0}
+.legend-label{font-size:12px;color:#333}
+.legend-count{font-size:11px;color:#888;margin-left:auto;padding-left:8px}
+.legend hr{margin:6px 0;border:none;border-top:1px solid #e0e0e0}
+.info-panel{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:1000;background:rgba(255,255,255,0.95);padding:10px 20px;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.2);font-size:13px;text-align:center;pointer-events:none}
+.info-panel h2{font-size:16px;margin:0 0 4px;color:#1a1a2e}
+.info-panel span{color:#555}
+.search-box{position:absolute;top:10px;right:10px;z-index:1000}
+.search-box input{width:260px;padding:8px 12px;border:2px solid #ccc;border-radius:6px;font-size:13px;outline:none;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.search-box input:focus{border-color:#4a90d9}
+.tooltip-rich{font-size:12px;background:rgba(255,255,255,0.96);color:#222;border:none;border-radius:6px;padding:8px 12px;box-shadow:0 3px 12px rgba(0,0,0,.3);line-height:1.5;max-width:320px}
+.tooltip-rich b{color:#1a1a2e}
+.tooltip-rich .tt-region{font-size:11px;font-weight:700;margin-bottom:2px}
+.tooltip-rich .tt-road{font-size:13px;font-weight:700}
+.tooltip-rich .tt-seg{font-size:10px;color:#777}
+.tooltip-rich .tt-fromto{font-size:11px;color:#444;margin-top:3px}
+.tooltip-rich .tt-status{font-size:10px;margin-top:3px;padding:1px 6px;border-radius:3px;display:inline-block}
+.node-label{background:none;border:none;font-size:11px;font-weight:700;white-space:nowrap;text-shadow:-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff,0 -1px 0 #fff,0 1px 0 #fff,-1px 0 0 #fff,1px 0 0 #fff}
+.tooltip-rich-wrapper{background:none!important;border:none!important;box-shadow:none!important;padding:0!important}
+.tooltip-rich-wrapper::before{display:none!important}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="info-panel">
+  <h2>Florida CMS — All Regions</h2>
+  <span id="total-info">Loading...</span>
+</div>
+<div class="search-box">
+  <input id="search" type="text" placeholder="Search road name, segment ID..."/>
+</div>
+
+<script>
+const DATASETS = [
+  {name:'Lake County',     file:'Lake_County_CMS_routed', path:'LakeCounty/Lake_County_CMS_routed.geojson', boundary:'LakeCounty/Lake_County_Boundary.geojson', color:'#2196F3'},
+  {name:'Apopka',          file:'Apopka_CMS_routed',      path:'Apopka/Apopka_CMS_routed.geojson', boundary:'Apopka/boundary.geojson',         color:'#E91E63'},
+  {name:'Hillsborough',    file:'Hillsborough_CMS_routed',path:'Hillsborough/Hillsborough_CMS_routed.geojson', boundary:'Hillsborough/boundary.geojson', color:'#FF9800'},
+  {name:'Osceola',         file:'Osceola_CMS_routed',     path:'Osceola/Osceola_CMS_routed.geojson', boundary:'Osceola/boundary.geojson',       color:'#4CAF50'},
+  {name:'Palm Beach',      file:'PalmBeach_CMS_routed',   path:'PalmBeach/PalmBeach_CMS_routed.geojson', boundary:'PalmBeach/boundary.geojson', color:'#9C27B0'},
+  {name:'Polk',            file:'Polk_CMS_routed',        path:'Polk/Polk_CMS_routed.geojson', boundary:'Polk/boundary.geojson',               color:'#00BCD4'},
+  {name:'Seminole',        file:'Seminole_CMS_routed',    path:'Seminole/Seminole_CMS_routed.geojson', boundary:'Seminole/boundary.geojson',   color:'#FF5722'},
+  {name:'St. Lucie',       file:'StLucie_CMS_routed',     path:'StLucie/StLucie_CMS_routed.geojson', boundary:'StLucie/boundary.geojson',     color:'#795548'}
+];
+
+const map = L.map('map',{zoomControl:true}).setView([27.8,-81.3],7);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+  maxZoom:19,
+  attribution:'&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+const layers = {};
+const boundaryLayers = {};
+let totalSegments = 0;
+let loadedCount = 0;
+const allPolylines = [];
+
+// Hover node markers + labels group
+const hoverGroup = L.layerGroup().addTo(map);
+
+function getEndpoints(feature) {
+  const geom = feature.geometry;
+  if (!geom || !geom.coordinates || geom.coordinates.length === 0) return null;
+  const coords = geom.coordinates;
+  if (geom.type === 'MultiLineString') {
+    const firstLine = coords[0];
+    const lastLine = coords[coords.length - 1];
+    if (!firstLine || !lastLine || firstLine.length === 0 || lastLine.length === 0) return null;
+    return {
+      from: [firstLine[0][1], firstLine[0][0]],       // [lat, lng]
+      to:   [lastLine[lastLine.length-1][1], lastLine[lastLine.length-1][0]]
+    };
+  } else if (geom.type === 'LineString') {
+    return {
+      from: [coords[0][1], coords[0][0]],
+      to:   [coords[coords.length-1][1], coords[coords.length-1][0]]
+    };
+  }
+  return null;
+}
+
+function statusColor(status) {
+  if (status.startsWith('HIGH_DETOUR')) return '#d32f2f';
+  if (status === 'CLIPPED') return '#7b1fa2';
+  if (status === 'STRAIGHT_LINE') return '#e65100';
+  return '#2e7d32';
+}
+
+function showHoverNodes(layer) {
+  hoverGroup.clearLayers();
+  const info = layer._info;
+  const eps = layer._endpoints;
+  if (!eps) return;
+
+  // FROM node: green circle + label
+  const fromMarker = L.circleMarker(eps.from, {
+    radius: 7, color: '#fff', weight: 2, fillColor: '#4CAF50', fillOpacity: 1, pane: 'markerPane'
+  });
+  const fromLabel = L.marker(eps.from, {
+    icon: L.divIcon({
+      className: 'node-label',
+      html: `<span style="color:#2e7d32">FROM: ${info.from}</span>`,
+      iconSize: [200, 20],
+      iconAnchor: [-10, 10]
+    }),
+    interactive: false
+  });
+
+  // TO node: red circle + label
+  const toMarker = L.circleMarker(eps.to, {
+    radius: 7, color: '#fff', weight: 2, fillColor: '#E91E63', fillOpacity: 1, pane: 'markerPane'
+  });
+  const toLabel = L.marker(eps.to, {
+    icon: L.divIcon({
+      className: 'node-label',
+      html: `<span style="color:#c62828">TO: ${info.to}</span>`,
+      iconSize: [200, 20],
+      iconAnchor: [-10, 10]
+    }),
+    interactive: false
+  });
+
+  hoverGroup.addLayer(fromMarker);
+  hoverGroup.addLayer(fromLabel);
+  hoverGroup.addLayer(toMarker);
+  hoverGroup.addLayer(toLabel);
+}
+
+async function loadDataset(ds) {
+  try {
+    const [segResp, bndResp] = await Promise.all([
+      fetch(ds.path),
+      fetch(ds.boundary)
+    ]);
+    const segData = await segResp.json();
+    const bndData = await bndResp.json();
+    const count = segData.features.length;
+    totalSegments += count;
+
+    // Boundary layer
+    const bndLayer = L.geoJSON(bndData, {
+      style: {color: ds.color, weight: 2, fillColor: ds.color, fillOpacity: 0.05, dashArray: '6,4'}
+    });
+    boundaryLayers[ds.name] = bndLayer;
+    bndLayer.addTo(map);
+
+    // Segments layer
+    const segLayer = L.geoJSON(segData, {
+      style: {color: ds.color, weight: 2.5, opacity: 0.8},
+      onEachFeature: function(feature, layer) {
+        const p = feature.properties || {};
+        const name = p.RoadName || p.road_name || p.roadName || p.ROAD || '';
+        const segId = p.SEGMENT_ID || p.segment_id || p.segmentId || p.SEG_ID || p.link_id || '';
+        const from = p.From || p.from_road || p.fromRoad || p.FROM || '';
+        const to = p.To || p.to_road || p.toRoad || p.TO || '';
+        const status = p.Route_Status || p.route_status || p.routeStatus || 'OK';
+        const dist = p.Route_Distance_km || p.route_distance_km || '';
+        const pts = p.Route_Points || p.route_points || '';
+
+        layer._searchText = `${name} ${segId} ${from} ${to} ${status} ${ds.name}`.toLowerCase();
+        layer._dsName = ds.name;
+        layer._dsColor = ds.color;
+        layer._info = {name, segId, from, to, status, region: ds.name, dist, pts};
+        layer._endpoints = getEndpoints(feature);
+
+        // Rich tooltip with all labels
+        const statusBg = statusColor(status);
+        const ttHtml = `<div class="tooltip-rich">
+          <div class="tt-region" style="color:${ds.color}">${ds.name}</div>
+          <div class="tt-road">${name || 'Unknown Road'}</div>
+          <div class="tt-seg">Segment ${segId}${dist ? ' | '+dist+' km' : ''}${pts ? ' | '+pts+' pts' : ''}</div>
+          <div class="tt-fromto">
+            <span style="color:#2e7d32;font-weight:600">FROM:</span> ${from}<br>
+            <span style="color:#c62828;font-weight:600">TO:</span> ${to}
+          </div>
+          <div style="margin-top:4px"><span class="tt-status" style="background:${statusBg};color:#fff">${status}</span></div>
+        </div>`;
+        layer.bindTooltip(ttHtml, {className:'tooltip-rich-wrapper', sticky:true, direction:'top', offset:[0,-10]});
+
+        layer.on('mouseover', function(){
+          this.setStyle({color:'#8b0000', weight:5, opacity:1});
+          this.bringToFront();
+          showHoverNodes(this);
+        });
+        layer.on('mouseout', function(){
+          this.setStyle({color: this._dsColor, weight:2.5, opacity:0.8});
+          hoverGroup.clearLayers();
+        });
+        layer.on('click', function(){
+          const i = this._info;
+          const html = `<div style="font-size:13px;line-height:1.6">
+            <b style="color:${ds.color}">${i.region}</b><br>
+            <b>${i.name}</b> (Seg ${i.segId})<br>
+            <span style="color:#2e7d32;font-weight:600">FROM:</span> ${i.from}<br>
+            <span style="color:#c62828;font-weight:600">TO:</span> ${i.to}<br>
+            ${i.dist ? 'Distance: '+i.dist+' km<br>' : ''}
+            Status: <span style="background:${statusColor(i.status)};color:#fff;padding:1px 6px;border-radius:3px;font-size:11px">${i.status}</span>
+          </div>`;
+          L.popup().setLatLng(this.getBounds().getCenter()).setContent(html).openOn(map);
+          // Keep nodes visible on click
+          showHoverNodes(this);
+        });
+
+        allPolylines.push(layer);
+      }
+    });
+    layers[ds.name] = segLayer;
+    segLayer.addTo(map);
+
+    loadedCount++;
+    document.getElementById('total-info').textContent =
+      loadedCount < DATASETS.length
+        ? `Loading... ${loadedCount}/${DATASETS.length} datasets (${totalSegments} segments)`
+        : `8 regions | ${totalSegments.toLocaleString()} segments | ${allPolylines.length.toLocaleString()} polylines`;
+
+    return {name: ds.name, count, color: ds.color};
+  } catch(e) {
+    console.error(`Failed to load ${ds.name}:`, e);
+    loadedCount++;
+    return {name: ds.name, count: 0, color: ds.color, error: true};
+  }
+}
+
+// Search
+const searchInput = document.getElementById('search');
+searchInput.addEventListener('input', function() {
+  const q = this.value.toLowerCase().trim();
+  allPolylines.forEach(pl => {
+    if (!q || pl._searchText.includes(q)) {
+      pl.setStyle({opacity: 0.8, weight: 2.5});
+    } else {
+      pl.setStyle({opacity: 0.05, weight: 1});
+    }
+  });
+});
+
+// Load all
+Promise.all(DATASETS.map(loadDataset)).then(results => {
+  // Build legend
+  const legend = L.control({position:'bottomleft'});
+  legend.onAdd = function() {
+    const div = L.DomUtil.create('div','legend');
+    div.innerHTML = '<h3>CMS Regions</h3>';
+
+    results.forEach(r => {
+      if (r.error) return;
+      const item = document.createElement('div');
+      item.className = 'legend-item';
+      item.innerHTML = `
+        <div class="legend-swatch" style="background:${r.color}"></div>
+        <span class="legend-label">${r.name}</span>
+        <span class="legend-count">${r.count}</span>
+      `;
+      item.dataset.name = r.name;
+      item.addEventListener('click', function(){
+        const name = this.dataset.name;
+        if (map.hasLayer(layers[name])) {
+          map.removeLayer(layers[name]);
+          map.removeLayer(boundaryLayers[name]);
+          this.classList.add('disabled');
+        } else {
+          map.addLayer(layers[name]);
+          map.addLayer(boundaryLayers[name]);
+          this.classList.remove('disabled');
+        }
+      });
+      item.addEventListener('dblclick', function(e){
+        e.stopPropagation();
+        const name = this.dataset.name;
+        if (layers[name]) {
+          map.fitBounds(layers[name].getBounds(), {padding:[40,40]});
+        }
+      });
+      div.appendChild(item);
+    });
+
+    div.innerHTML += '<hr>';
+    const totalDiv = document.createElement('div');
+    totalDiv.style.cssText = 'font-size:11px;color:#666;text-align:center;padding-top:4px';
+    totalDiv.textContent = `Total: ${totalSegments.toLocaleString()} segments`;
+    div.appendChild(totalDiv);
+
+    const hint = document.createElement('div');
+    hint.style.cssText = 'font-size:10px;color:#999;text-align:center;padding-top:4px';
+    hint.textContent = 'Click to toggle · Double-click to zoom';
+    div.appendChild(hint);
+
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+  };
+  legend.addTo(map);
+
+  // Fit bounds to all
+  const allBounds = L.latLngBounds([]);
+  results.forEach(r => {
+    if (!r.error && layers[r.name]) {
+      allBounds.extend(layers[r.name].getBounds());
+    }
+  });
+  if (allBounds.isValid()) {
+    map.fitBounds(allBounds, {padding:[30,30]});
+  }
+});
+</script>
+</body>
+</html>
